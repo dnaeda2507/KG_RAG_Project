@@ -1,0 +1,159 @@
+[
+  {
+    "entity_id": "Q3590479",
+    "description": "turkey national under-17 football team",
+    "degree": 241,
+    "player_count": 238,
+    "relations": [
+      "COUNTRY",
+      "INSTANCE_OF",
+      "SPORT"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q7855168",
+    "description": "Turkey national under-20 football team",
+    "degree": 168,
+    "player_count": 165,
+    "relations": [
+      "COUNTRY",
+      "INSTANCE_OF",
+      "SPORT"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q7855039",
+    "description": "turkey national under-23 football team",
+    "degree": 138,
+    "player_count": 136,
+    "relations": [
+      "COUNTRY",
+      "SPORT"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q857938",
+    "description": "i̇stanbul büyükşehir belediyespor (football team)",
+    "degree": 130,
+    "player_count": 120,
+    "relations": [
+      "COUNTRY",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "HOME_VENUE",
+      "LEAGUE",
+      "SPORT"
+    ],
+    "stadium": "atatuerk olimpiyat stadi",
+    "coach": "Abullah Avcı",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q2304830",
+    "description": "vb addu football club",
+    "degree": 33,
+    "player_count": 28,
+    "relations": [
+      "COUNTRY",
+      "HEADQUARTERS_LOCATION",
+      "HOME_VENUE",
+      "LEAGUE",
+      "SPORT"
+    ],
+    "stadium": "Maldives National Stadium",
+    "coach": null,
+    "league": "Dhivehi Leegue"
+  },
+  {
+    "entity_id": "Q2927417",
+    "description": "Bucaspor Ladies Football Team",
+    "degree": 11,
+    "player_count": 7,
+    "relations": [
+      "COUNTRY",
+      "HOME_VENUE",
+      "LEAGUE",
+      "SPORT"
+    ],
+    "stadium": "Buca Arena",
+    "coach": null,
+    "league": "turkish women's first football league"
+  },
+  {
+    "entity_id": "Q18164861",
+    "description": "Gazikentspor Women's Football Club",
+    "degree": 7,
+    "player_count": 5,
+    "relations": [
+      "COUNTRY",
+      "SPORT"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q6600727",
+    "description": "List of Turkey national football team managers",
+    "degree": 3,
+    "player_count": 0,
+    "relations": [
+      "COUNTRY",
+      "INSTANCE_OF",
+      "IS_A_LIST_OF"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q7855349",
+    "description": "Turkish football clubs in European competitions 1990-99",
+    "degree": 3,
+    "player_count": 0,
+    "relations": [
+      "COUNTRY",
+      "INSTANCE_OF",
+      "SUBCLASS_OF"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q2060814",
+    "description": "List of football clubs in Turkey",
+    "degree": 3,
+    "player_count": 0,
+    "relations": [
+      "COUNTRY",
+      "INSTANCE_OF",
+      "IS_A_LIST_OF"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q7855163",
+    "description": "turkey national amputee football team",
+    "degree": 2,
+    "player_count": 0,
+    "relations": [
+      "COUNTRY",
+      "SPORT"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  }
+]

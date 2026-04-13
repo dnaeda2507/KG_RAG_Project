@@ -1,0 +1,431 @@
+[
+  {
+    "entity_id": "Q654493",
+    "description": "Turkish Cuisine",
+    "degree": 171,
+    "relations": [
+      "COUNTRY_OF_ORIGIN"
+    ],
+    "directors": [],
+    "actor_count": 0,
+    "award_count": 0,
+    "genre": null
+  },
+  {
+    "entity_id": "Q17512617",
+    "description": "the cut (2014 film)",
+    "degree": 32,
+    "relations": [
+      "CAST_MEMBER",
+      "COMPOSER",
+      "COUNTRY_OF_ORIGIN",
+      "DIFFERENT_FROM",
+      "FILM_EDITOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "PRODUCER",
+      "SCREENWRITER"
+    ],
+    "directors": [],
+    "actor_count": 13,
+    "award_count": 0,
+    "genre": "drama movie"
+  },
+  {
+    "entity_id": "Q325648",
+    "description": "Duvara karşı",
+    "degree": 31,
+    "relations": [
+      "AWARD_RECEIVED",
+      "CAST_MEMBER",
+      "COMPOSER",
+      "COUNTRY_OF_ORIGIN",
+      "FILMING_LOCATION",
+      "FILM_EDITOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "NARRATIVE_LOCATION",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "PRODUCER",
+      "PRODUCTION_COMPANY"
+    ],
+    "directors": [],
+    "actor_count": 14,
+    "award_count": 1,
+    "genre": "Romantic movie"
+  },
+  {
+    "entity_id": "Q3472837",
+    "description": "istanbul tales",
+    "degree": 23,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "FILMING_LOCATION",
+      "GENRE",
+      "INSTANCE_OF",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW"
+    ],
+    "directors": [
+      {
+        "id": "Q256280",
+        "desc": "ümit ünal"
+      }
+    ],
+    "actor_count": 17,
+    "award_count": 0,
+    "genre": "drama movie"
+  },
+  {
+    "entity_id": "Q494719",
+    "description": "im juli",
+    "degree": 22,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "FILM_EDITOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "NARRATIVE_LOCATION",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW"
+    ],
+    "directors": [],
+    "actor_count": 12,
+    "award_count": 0,
+    "genre": "Road-movie"
+  },
+  {
+    "entity_id": "Q20065085",
+    "description": "do not forget me istanbul",
+    "degree": 22,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "NARRATIVE_LOCATION",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW"
+    ],
+    "directors": [
+      {
+        "id": "Q2335956",
+        "desc": "Stefan Arsenijevic"
+      },
+      {
+        "id": "Q727108",
+        "desc": "Hany Abu-Assad"
+      }
+    ],
+    "actor_count": 12,
+    "award_count": 0,
+    "genre": "drama movie"
+  },
+  {
+    "entity_id": "Q573156",
+    "description": "Crossing the Bridge: The Sound of Istanbul",
+    "degree": 22,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "FILMING_LOCATION",
+      "FILM_EDITOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "PRODUCER"
+    ],
+    "directors": [],
+    "actor_count": 12,
+    "award_count": 0,
+    "genre": "Documentary series"
+  },
+  {
+    "entity_id": "Q176615",
+    "description": "muhteşem yüzyıl",
+    "degree": 21,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "GENRE",
+      "INSTANCE_OF",
+      "LIST_OF_EPISODES",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "ORIGINAL_NETWORK",
+      "SCREENWRITER"
+    ],
+    "directors": [],
+    "actor_count": 14,
+    "award_count": 0,
+    "genre": "Soap writer"
+  },
+  {
+    "entity_id": "Q1307030",
+    "description": "yor, the hunter from the future",
+    "degree": 20,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "DISTRIBUTOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "MAIN_SUBJECT",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "PRODUCTION_COMPANY",
+      "SCREENWRITER"
+    ],
+    "directors": [
+      {
+        "id": "Q603216",
+        "desc": "anthony m. dawson"
+      }
+    ],
+    "actor_count": 7,
+    "award_count": 0,
+    "genre": "science-fiction movies"
+  },
+  {
+    "entity_id": "Q4808148",
+    "description": "ask tesadüfleri sever",
+    "degree": 19,
+    "relations": [
+      "CAST_MEMBER",
+      "COMPOSER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "DISTRIBUTOR",
+      "FILMING_LOCATION",
+      "GENRE",
+      "INSTANCE_OF",
+      "NARRATIVE_LOCATION",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW"
+    ],
+    "directors": [
+      {
+        "id": "Q6047481",
+        "desc": "ömer faruk sorak"
+      }
+    ],
+    "actor_count": 9,
+    "award_count": 0,
+    "genre": "Romantic movie"
+  },
+  {
+    "entity_id": "Q262796",
+    "description": "Kürze mantı",
+    "degree": 19,
+    "relations": [
+      "COUNTRY_OF_ORIGIN",
+      "LOCATION",
+      "PART_OF",
+      "SAID_TO_BE_THE_SAME_AS",
+      "SUBCLASS_OF",
+      "USES"
+    ],
+    "directors": [],
+    "actor_count": 0,
+    "award_count": 0,
+    "genre": null
+  },
+  {
+    "entity_id": "Q7311526",
+    "description": "remake (2003 film)",
+    "degree": 19,
+    "relations": [
+      "CAST_MEMBER",
+      "COMPOSER",
+      "COUNTRY_OF_ORIGIN",
+      "INSTANCE_OF",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "SCREENWRITER"
+    ],
+    "directors": [],
+    "actor_count": 10,
+    "award_count": 0,
+    "genre": null
+  },
+  {
+    "entity_id": "Q1218525",
+    "description": "Le Grand Voyage",
+    "degree": 18,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "FILMING_LOCATION",
+      "GENRE",
+      "INSTANCE_OF",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "PRODUCER",
+      "SCREENWRITER"
+    ],
+    "directors": [],
+    "actor_count": 4,
+    "award_count": 0,
+    "genre": "coming-of-age story"
+  },
+  {
+    "entity_id": "Q3145038",
+    "description": "The Inheritance (2012 film)",
+    "degree": 18,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "GENRE",
+      "INSTANCE_OF",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW"
+    ],
+    "directors": [],
+    "actor_count": 11,
+    "award_count": 0,
+    "genre": "drama movie"
+  },
+  {
+    "entity_id": "Q6070309",
+    "description": "dedemin i̇nsanları",
+    "degree": 18,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "DIRECTOR_OF_PHOTOGRAPHY",
+      "GENRE",
+      "INSTANCE_OF",
+      "MAIN_SUBJECT",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW"
+    ],
+    "directors": [
+      {
+        "id": "Q272718",
+        "desc": "Çagan Irmak"
+      }
+    ],
+    "actor_count": 8,
+    "award_count": 0,
+    "genre": "service comedy"
+  },
+  {
+    "entity_id": "Q567579",
+    "description": "Kebab Connection",
+    "degree": 18,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "DISTRIBUTOR",
+      "INSTANCE_OF",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "SCREENWRITER"
+    ],
+    "directors": [
+      {
+        "id": "Q567269",
+        "desc": "Anno Saul"
+      }
+    ],
+    "actor_count": 10,
+    "award_count": 0,
+    "genre": null
+  },
+  {
+    "entity_id": "Q27184760",
+    "description": "İçerde",
+    "degree": 17,
+    "relations": [
+      "CAST_MEMBER",
+      "COMPOSER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "ORIGINAL_NETWORK",
+      "PRODUCER"
+    ],
+    "directors": [
+      {
+        "id": "Q12812374",
+        "desc": "Uluç bayraktar"
+      }
+    ],
+    "actor_count": 7,
+    "award_count": 0,
+    "genre": "dramatic arts"
+  },
+  {
+    "entity_id": "Q19824796",
+    "description": "mustang (film)",
+    "degree": 17,
+    "relations": [
+      "AWARD_RECEIVED",
+      "CAST_MEMBER",
+      "COMPOSER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "NOMINATED_FOR",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "PRODUCER",
+      "SCREENWRITER"
+    ],
+    "directors": [
+      {
+        "id": "Q20730476",
+        "desc": "deniz gamze erguven"
+      }
+    ],
+    "actor_count": 2,
+    "award_count": 1,
+    "genre": "no-budget filmmakers"
+  },
+  {
+    "entity_id": "Q934718",
+    "description": "G O R A",
+    "degree": 16,
+    "relations": [
+      "CAST_MEMBER",
+      "COMPOSER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW"
+    ],
+    "directors": [
+      {
+        "id": "Q6047481",
+        "desc": "ömer faruk sorak"
+      }
+    ],
+    "actor_count": 8,
+    "award_count": 0,
+    "genre": "science-fiction movies"
+  },
+  {
+    "entity_id": "Q797577",
+    "description": "babam and oğlum",
+    "degree": 16,
+    "relations": [
+      "CAST_MEMBER",
+      "COUNTRY_OF_ORIGIN",
+      "DIRECTOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "MAIN_SUBJECT",
+      "NARRATIVE_LOCATION",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW"
+    ],
+    "directors": [
+      {
+        "id": "Q272718",
+        "desc": "Çagan Irmak"
+      }
+    ],
+    "actor_count": 9,
+    "award_count": 0,
+    "genre": "drama movie"
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "seed_entities": [
+    {
+      "id": "Q4412791",
+      "desc": "Polyteknikkojen urheiluseura",
+      "similarity": 0.5585594773292542
+    },
+    {
+      "id": "Q8080256",
+      "desc": "Izmir Ataturk Anadolu Teknik Lisesi",
+      "similarity": 0.5501447916030884
+    },
+    {
+      "id": "Q474543",
+      "desc": "Polyteknikkojen Ilmailukerho",
+      "similarity": 0.5252484083175659
+    }
+  ],
+  "activated_triples": [
+    {
+      "source_id": "Q8080256",
+      "source_desc": "Izmir Ataturk Anadolu Teknik Lisesi",
+      "relation": "COUNTRY",
+      "target_id": "Q43",
+      "target_desc": "turkiye",
+      "round": 1
+    },
+    {
+      "source_id": "Q43",
+      "source_desc": "turkiye",
+      "relation": "CAPITAL",
+      "target_id": "Q3640",
+      "target_desc": "Angora, Turkey",
+      "round": 2
+    },
+    {
+      "source_id": "Q3640",
+      "source_desc": "Angora, Turkey",
+      "relation": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "target_id": "Q1249412",
+      "target_desc": "Galatia Salutaris",
+      "round": 3
+    },
+    {
+      "source_id": "Q3640",
+      "source_desc": "Angora, Turkey",
+      "relation": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "target_id": "Q2297724",
+      "target_desc": "Ankara Province",
+      "round": 3
+    },
+    {
+      "source_id": "Q1249412",
+      "source_desc": "Galatia Salutaris",
+      "relation": "COUNTRY",
+      "target_id": "Q2277",
+      "target_desc": "Imperial Roman",
+      "round": 4
+    },
+    {
+      "source_id": "Q2297724",
+      "source_desc": "Ankara Province",
+      "relation": "COUNTRY",
+      "target_id": "Q43",
+      "target_desc": "turkiye",
+      "round": 4
+    }
+  ],
+  "kg_summary": "Galatasaray'ın teknik direktörünün doğum yeri ile ilgili bilgi bulunamadı. Ancak, Galatasaray'ın isminin kökeni, modern Türkiye'nin eski adı olan Galatia Salutaris'ten gelmektedir.",
+  "visited_entities": [
+    "Q3640",
+    "Q2297724",
+    "Q474543",
+    "Q1249412",
+    "Q4412791",
+    "Q43",
+    "Q2277",
+    "Q8080256"
+  ],
+  "rounds_completed": 6
+}

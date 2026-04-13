@@ -1,0 +1,122 @@
+[
+  {
+    "city_id": "Q406",
+    "description": "istanbul (turkey)",
+    "total_connections": 3278,
+    "people_born_here": 1514
+  },
+  {
+    "city_id": "Q3640",
+    "description": "Angora, Turkey",
+    "total_connections": 922,
+    "people_born_here": 417
+  },
+  {
+    "city_id": "Q35997",
+    "description": "ismir, turkey",
+    "total_connections": 480,
+    "people_born_here": 302
+  },
+  {
+    "city_id": "Q483856",
+    "description": "Türkiye millî futbol takımı",
+    "total_connections": 412,
+    "people_born_here": 0
+  },
+  {
+    "city_id": "Q40738",
+    "description": "Bursa, Turkey",
+    "total_connections": 245,
+    "people_born_here": 121
+  },
+  {
+    "city_id": "Q3590479",
+    "description": "turkey national under-17 football team",
+    "total_connections": 241,
+    "people_born_here": 0
+  },
+  {
+    "city_id": "Q7855168",
+    "description": "Turkey national under-20 football team",
+    "total_connections": 168,
+    "people_born_here": 0
+  },
+  {
+    "city_id": "Q7855039",
+    "description": "turkey national under-23 football team",
+    "total_connections": 138,
+    "people_born_here": 0
+  },
+  {
+    "city_id": "Q1020663",
+    "description": "kızılcahamam district",
+    "total_connections": 109,
+    "people_born_here": 0
+  },
+  {
+    "city_id": "Q134291",
+    "description": "mersin, turkey",
+    "total_connections": 90,
+    "people_born_here": 50
+  },
+  {
+    "city_id": "Q79846",
+    "description": "Aydın İli Province, Turkey",
+    "total_connections": 89,
+    "people_born_here": 8
+  },
+  {
+    "city_id": "Q48336",
+    "description": "turkish provinces",
+    "total_connections": 84,
+    "people_born_here": 0
+  },
+  {
+    "city_id": "Q94637",
+    "description": "mut, turkey",
+    "total_connections": 83,
+    "people_born_here": 2
+  },
+  {
+    "city_id": "Q388995",
+    "description": "Trabzon Province",
+    "total_connections": 83,
+    "people_born_here": 47
+  },
+  {
+    "city_id": "Q1947523",
+    "description": "Nallıhan District",
+    "total_connections": 83,
+    "people_born_here": 1
+  },
+  {
+    "city_id": "Q187895",
+    "description": "zonguldak, turkey",
+    "total_connections": 76,
+    "people_born_here": 20
+  },
+  {
+    "city_id": "Q160450",
+    "description": "samsun, turkey",
+    "total_connections": 76,
+    "people_born_here": 47
+  },
+  {
+    "city_id": "Q2901109",
+    "description": "goeynuek, turkey",
+    "total_connections": 70,
+    "people_born_here": 0
+  },
+  {
+    "city_id": "Q933815",
+    "description": "Dinar, Turkey",
+    "total_connections": 69,
+    "people_born_here": 1
+  },
+  {
+    "city_id": "Q937678",
+    "description": "türkiye kadın millî futbol takımı",
+    "total_connections": 69,
+    "people_born_here": 0
+  }
+]

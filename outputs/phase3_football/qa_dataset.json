@@ -1,0 +1,876 @@
+[
+  {
+    "question_id": "TR_FB_001",
+    "question_text": "Salih Uçan, turkey national under-17 football team takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "Salih Uçan",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "Salih Uçan",
+      "PLACE_OF_BIRTH",
+      "marmorice bay"
+    ],
+    "gold_answer": "marmorice bay",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_002",
+    "question_text": "manuel da costa (footballer), i̇stanbul büyükşehir belediyespor (football team) takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "manuel da costa (footballer)",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "←",
+      "manuel da costa (footballer)",
+      "PLACE_OF_BIRTH",
+      "saint-max"
+    ],
+    "gold_answer": "saint-max",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_003",
+    "question_text": "Murat Onur, turkey national under-17 football team takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "Murat Onur",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "Murat Onur",
+      "PLACE_OF_BIRTH",
+      "Afsin"
+    ],
+    "gold_answer": "Afsin",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_004",
+    "question_text": "ismail gulduren, turkey national under-17 football team takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "ismail gulduren",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "ismail gulduren",
+      "PLACE_OF_BIRTH",
+      "İnegöl"
+    ],
+    "gold_answer": "İnegöl",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_005",
+    "question_text": "metin depe, i̇stanbul büyükşehir belediyespor (football team) takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "metin depe",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "←",
+      "metin depe",
+      "PLACE_OF_BIRTH",
+      "samsun, turkey"
+    ],
+    "gold_answer": "samsun, turkey",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_006",
+    "question_text": "berk yıldız, turkey national under-17 football team takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "berk yıldız",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "berk yıldız",
+      "PLACE_OF_BIRTH",
+      "konak, izmir"
+    ],
+    "gold_answer": "konak, izmir",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_007",
+    "question_text": "Mehmet Akgun, turkey national under-17 football team takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "Mehmet Akgun",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "Mehmet Akgun",
+      "PLACE_OF_BIRTH",
+      "UN/LOCODE:DEBFE"
+    ],
+    "gold_answer": "UN/LOCODE:DEBFE",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_008",
+    "question_text": "taskin calis, turkey national under-17 football team takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "taskin calis",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "taskin calis",
+      "PLACE_OF_BIRTH",
+      "wetzlar, germany"
+    ],
+    "gold_answer": "wetzlar, germany",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_009",
+    "question_text": "uygar zeybek, turkey national under-17 football team takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "uygar zeybek",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "uygar zeybek",
+      "PLACE_OF_BIRTH",
+      "Bursa, Turkey"
+    ],
+    "gold_answer": "Bursa, Turkey",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_010",
+    "question_text": "birol aksancak, i̇stanbul büyükşehir belediyespor (football team) takımında oynarken nerede doğmuştur?",
+    "reasoning_path": [
+      "birol aksancak",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "←",
+      "birol aksancak",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey"
+    ],
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_011",
+    "question_text": "vb addu football club takımının ev sahibi olduğu stadyum hangisidir?",
+    "reasoning_path": [
+      "vb addu football club",
+      "HOME_VENUE",
+      "Maldives National Stadium"
+    ],
+    "gold_answer": "Maldives National Stadium",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club → HOME_VENUE → Stadium",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_012",
+    "question_text": "i̇stanbul büyükşehir belediyespor (football team) takımının ev sahibi olduğu stadyum hangisidir?",
+    "reasoning_path": [
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "basaksehir fatih terim stadium"
+    ],
+    "gold_answer": "basaksehir fatih terim stadium",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club → HOME_VENUE → Stadium",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_013",
+    "question_text": "i̇stanbul büyükşehir belediyespor (football team) takımının ev sahibi olduğu stadyum hangisidir?",
+    "reasoning_path": [
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "atatuerk olimpiyat stadi"
+    ],
+    "gold_answer": "atatuerk olimpiyat stadi",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club → HOME_VENUE → Stadium",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_014",
+    "question_text": "Bucaspor Ladies Football Team takımının ev sahibi olduğu stadyum hangisidir?",
+    "reasoning_path": [
+      "Bucaspor Ladies Football Team",
+      "HOME_VENUE",
+      "Buca Arena"
+    ],
+    "gold_answer": "Buca Arena",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club → HOME_VENUE → Stadium",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_015",
+    "question_text": "Nurettin Kayaoğlu'nin oynadığı turkey national under-17 football team takımı hangi ülkeye aittir?",
+    "reasoning_path": [
+      "Nurettin Kayaoğlu",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club → COUNTRY → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_016",
+    "question_text": "ekrem ekşioğlu'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımı hangi ülkeye aittir?",
+    "reasoning_path": [
+      "ekrem ekşioğlu",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club → COUNTRY → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_017",
+    "question_text": "dan barlaser'nin oynadığı turkey national under-17 football team takımı hangi ülkeye aittir?",
+    "reasoning_path": [
+      "dan barlaser",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club → COUNTRY → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_018",
+    "question_text": "Joseph Larweh Attamah'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımı hangi ülkeye aittir?",
+    "reasoning_path": [
+      "Joseph Larweh Attamah",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club → COUNTRY → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_019",
+    "question_text": "gokdeniz karadeniz'nin oynadığı turkey national under-17 football team takımı hangi ülkeye aittir?",
+    "reasoning_path": [
+      "gokdeniz karadeniz",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club → COUNTRY → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_020",
+    "question_text": "Adriano Padilha Nascimento'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımı hangi ülkeye aittir?",
+    "reasoning_path": [
+      "Adriano Padilha Nascimento",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → MEMBER_OF_SPORTS_TEAM → Club → COUNTRY → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_021",
+    "question_text": "Sokol Cikalleshi'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımı hangi ligde mücadele etmektedir?",
+    "reasoning_path": [
+      "Sokol Cikalleshi",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club → LEAGUE",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_022",
+    "question_text": "Achille Webo'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımı hangi ligde mücadele etmektedir?",
+    "reasoning_path": [
+      "Achille Webo",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club → LEAGUE",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_023",
+    "question_text": "Eren Aydin'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımı hangi ligde mücadele etmektedir?",
+    "reasoning_path": [
+      "Eren Aydin",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club → LEAGUE",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_024",
+    "question_text": "hüseyin cengiz'nin oynadığı vb addu football club takımı hangi ligde mücadele etmektedir?",
+    "reasoning_path": [
+      "hüseyin cengiz",
+      "MEMBER_OF_SPORTS_TEAM",
+      "vb addu football club",
+      "LEAGUE",
+      "Dhivehi Leegue"
+    ],
+    "gold_answer": "Dhivehi Leegue",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club → LEAGUE",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_025",
+    "question_text": "Metin Akan'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımı hangi ligde mücadele etmektedir?",
+    "reasoning_path": [
+      "Metin Akan",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club → LEAGUE",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_026",
+    "question_text": "irtegun bekir'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımı hangi ligde mücadele etmektedir?",
+    "reasoning_path": [
+      "irtegun bekir",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club → LEAGUE",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_027",
+    "question_text": "Veysel Aksu'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımının stadyumu olan atatuerk olimpiyat stadi nerede konuşlanmıştır?",
+    "reasoning_path": [
+      "Veysel Aksu",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "atatuerk olimpiyat stadi",
+      "LOCATED_IN",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club → Stadium → Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_028",
+    "question_text": "semih sentürk'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımının stadyumu olan atatuerk olimpiyat stadi nerede konuşlanmıştır?",
+    "reasoning_path": [
+      "semih sentürk",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "atatuerk olimpiyat stadi",
+      "LOCATED_IN",
+      "Basaksehir"
+    ],
+    "gold_answer": "Basaksehir",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club → Stadium → Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_029",
+    "question_text": "erman kılıç'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımının stadyumu olan atatuerk olimpiyat stadi nerede konuşlanmıştır?",
+    "reasoning_path": [
+      "erman kılıç",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "atatuerk olimpiyat stadi",
+      "LOCATED_IN",
+      "Basaksehir"
+    ],
+    "gold_answer": "Basaksehir",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club → Stadium → Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_030",
+    "question_text": "Marcus Vinícius Cesário'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımının stadyumu olan atatuerk olimpiyat stadi nerede konuşlanmıştır?",
+    "reasoning_path": [
+      "Marcus Vinícius Cesário",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "atatuerk olimpiyat stadi",
+      "LOCATED_IN",
+      "Basaksehir"
+    ],
+    "gold_answer": "Basaksehir",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club → Stadium → Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_031",
+    "question_text": "sezer öztürk'nin oynadığı i̇stanbul büyükşehir belediyespor (football team) takımının stadyumu olan atatuerk olimpiyat stadi nerede konuşlanmıştır?",
+    "reasoning_path": [
+      "sezer öztürk",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "atatuerk olimpiyat stadi",
+      "LOCATED_IN",
+      "Basaksehir"
+    ],
+    "gold_answer": "Basaksehir",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club → Stadium → Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_032",
+    "question_text": "turkey national under-17 football team takımında oynayan gokhan tore'nin doğduğu augusta ubiorum şehri hangi ülkededir?",
+    "reasoning_path": [
+      "gokhan tore",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "gokhan tore",
+      "PLACE_OF_BIRTH",
+      "augusta ubiorum",
+      "COUNTRY",
+      "east frankish"
+    ],
+    "gold_answer": "east frankish",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club + City → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_033",
+    "question_text": "turkey national under-17 football team takımında oynayan emre gungor (turkish footballer)'nin doğduğu istanbul (turkey) şehri hangi ülkededir?",
+    "reasoning_path": [
+      "emre gungor (turkish footballer)",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "emre gungor (turkish footballer)",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club + City → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_034",
+    "question_text": "i̇stanbul büyükşehir belediyespor (football team) takımında oynayan gustave bebbe'nin doğduğu yaoundé, cameroon şehri hangi ülkededir?",
+    "reasoning_path": [
+      "gustave bebbe",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "←",
+      "gustave bebbe",
+      "PLACE_OF_BIRTH",
+      "yaoundé, cameroon",
+      "COUNTRY",
+      "art of cameroon"
+    ],
+    "gold_answer": "art of cameroon",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club + City → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_035",
+    "question_text": "i̇stanbul büyükşehir belediyespor (football team) takımında oynayan Mehmet Batdal'nin doğduğu ismir, turkey şehri hangi ülkededir?",
+    "reasoning_path": [
+      "Mehmet Batdal",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "←",
+      "Mehmet Batdal",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club + City → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_036",
+    "question_text": "turkey national under-17 football team takımında oynayan oğuz dağlaroğlu'nin doğduğu istanbul (turkey) şehri hangi ülkededir?",
+    "reasoning_path": [
+      "oğuz dağlaroğlu",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "oğuz dağlaroğlu",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club + City → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_037",
+    "question_text": "Eren Aydin'nin oynadığı i̇stanbul büyükşehir belediyespor (football team)'nin katıldığı turkish super league ligi hangi ülkeye aittir?",
+    "reasoning_path": [
+      "Eren Aydin",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "LEAGUE",
+      "turkish super league",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club → League → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_038",
+    "question_text": "arat can'nin oynadığı i̇stanbul büyükşehir belediyespor (football team)'nin katıldığı turkish super league ligi hangi ülkeye aittir?",
+    "reasoning_path": [
+      "arat can",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "LEAGUE",
+      "turkish super league",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player → Club → League → Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_039",
+    "question_text": "vb addu football club (ev: Maldives National Stadium) ile i̇stanbul büyükşehir belediyespor (football team) (ev: basaksehir fatih terim stadium) takımlarından hangisinin stadyumu daha büyüktür?",
+    "reasoning_path": [
+      "vb addu football club",
+      "HOME_VENUE",
+      "Maldives National Stadium",
+      "vs",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "basaksehir fatih terim stadium"
+    ],
+    "gold_answer": "Karşılaştırma: vb addu football club→Maldives National Stadium / i̇stanbul büyükşehir belediyespor (football team)→basaksehir fatih terim stadium",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Club1.HOME_VENUE vs Club2.HOME_VENUE",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_040",
+    "question_text": "Bucaspor Ladies Football Team (ev: Buca Arena) ile i̇stanbul büyükşehir belediyespor (football team) (ev: atatuerk olimpiyat stadi) takımlarından hangisinin stadyumu daha büyüktür?",
+    "reasoning_path": [
+      "Bucaspor Ladies Football Team",
+      "HOME_VENUE",
+      "Buca Arena",
+      "vs",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "atatuerk olimpiyat stadi"
+    ],
+    "gold_answer": "Karşılaştırma: Bucaspor Ladies Football Team→Buca Arena / i̇stanbul büyükşehir belediyespor (football team)→atatuerk olimpiyat stadi",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Club1.HOME_VENUE vs Club2.HOME_VENUE",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_041",
+    "question_text": "vb addu football club (ev: Maldives National Stadium) ile i̇stanbul büyükşehir belediyespor (football team) (ev: atatuerk olimpiyat stadi) takımlarından hangisinin stadyumu daha büyüktür?",
+    "reasoning_path": [
+      "vb addu football club",
+      "HOME_VENUE",
+      "Maldives National Stadium",
+      "vs",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "atatuerk olimpiyat stadi"
+    ],
+    "gold_answer": "Karşılaştırma: vb addu football club→Maldives National Stadium / i̇stanbul büyükşehir belediyespor (football team)→atatuerk olimpiyat stadi",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Club1.HOME_VENUE vs Club2.HOME_VENUE",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_042",
+    "question_text": "i̇stanbul büyükşehir belediyespor (football team) takımında oynayan tolga özgen mı (Angora, Turkey) yoksa i̇brahim akdağ mi (istanbul (turkey)) daha büyük bir şehirde doğmuştur?",
+    "reasoning_path": [
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HAS_PLAYER",
+      "tolga özgen",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey",
+      "vs",
+      "i̇brahim akdağ",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "Karşılaştırma: tolga özgen→Angora, Turkey / i̇brahim akdağ→istanbul (turkey)",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Club.Player1.City vs Club.Player2.City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_043",
+    "question_text": "i̇stanbul büyükşehir belediyespor (football team) takımında oynayan sheyi adebayor mı (Lomé) yoksa i̇brahim akdağ mi (istanbul (turkey)) daha büyük bir şehirde doğmuştur?",
+    "reasoning_path": [
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HAS_PLAYER",
+      "sheyi adebayor",
+      "PLACE_OF_BIRTH",
+      "Lomé",
+      "vs",
+      "i̇brahim akdağ",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "Karşılaştırma: sheyi adebayor→Lomé / i̇brahim akdağ→istanbul (turkey)",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Club.Player1.City vs Club.Player2.City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_044",
+    "question_text": "turkey national under-17 football team takımında forma giyen erten ersu nerede doğmuştur?",
+    "reasoning_path": [
+      "erten ersu",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "erten ersu",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club & Player → PLACE_OF_BIRTH (extra)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_045",
+    "question_text": "turkey national under-17 football team takımında forma giyen Ozan Evrim Özenc nerede doğmuştur?",
+    "reasoning_path": [
+      "Ozan Evrim Özenc",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "Ozan Evrim Özenc",
+      "PLACE_OF_BIRTH",
+      "konak, izmir"
+    ],
+    "gold_answer": "konak, izmir",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club & Player → PLACE_OF_BIRTH (extra)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_046",
+    "question_text": "i̇stanbul büyükşehir belediyespor (football team) takımında forma giyen Tayfun Seven nerede doğmuştur?",
+    "reasoning_path": [
+      "Tayfun Seven",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "←",
+      "Tayfun Seven",
+      "PLACE_OF_BIRTH",
+      "Üsküdar"
+    ],
+    "gold_answer": "Üsküdar",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club & Player → PLACE_OF_BIRTH (extra)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_047",
+    "question_text": "turkey national under-23 football team takımında forma giyen Cem Karacan nerede doğmuştur?",
+    "reasoning_path": [
+      "Cem Karacan",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-23 football team",
+      "←",
+      "Cem Karacan",
+      "PLACE_OF_BIRTH",
+      "united kingdom/london"
+    ],
+    "gold_answer": "united kingdom/london",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club & Player → PLACE_OF_BIRTH (extra)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_048",
+    "question_text": "i̇stanbul büyükşehir belediyespor (football team) takımında forma giyen murat akin nerede doğmuştur?",
+    "reasoning_path": [
+      "murat akin",
+      "MEMBER_OF_SPORTS_TEAM",
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "←",
+      "murat akin",
+      "PLACE_OF_BIRTH",
+      "Saint-Nicolas, East Flanders"
+    ],
+    "gold_answer": "Saint-Nicolas, East Flanders",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club & Player → PLACE_OF_BIRTH (extra)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_049",
+    "question_text": "turkey national under-23 football team takımında forma giyen Ümit Kurt nerede doğmuştur?",
+    "reasoning_path": [
+      "Ümit Kurt",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-23 football team",
+      "←",
+      "Ümit Kurt",
+      "PLACE_OF_BIRTH",
+      "osmaniye"
+    ],
+    "gold_answer": "osmaniye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club & Player → PLACE_OF_BIRTH (extra)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_FB_050",
+    "question_text": "turkey national under-17 football team takımında forma giyen emrah eren nerede doğmuştur?",
+    "reasoning_path": [
+      "emrah eren",
+      "MEMBER_OF_SPORTS_TEAM",
+      "turkey national under-17 football team",
+      "←",
+      "emrah eren",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player → Club & Player → PLACE_OF_BIRTH (extra)",
+    "verified": true
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "total_questions": 50,
+  "by_difficulty": {
+    "2-hop": 30,
+    "3-hop": 15,
+    "comparison": 5
+  },
+  "domain": "cinema",
+  "criteria_met": {
+    "2hop_ok": true,
+    "3hop_ok": true,
+    "comp_ok": true,
+    "total_ok": true
+  }
+}

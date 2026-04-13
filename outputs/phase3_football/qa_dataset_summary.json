@@ -1,0 +1,27 @@
+{
+  "total_questions": 50,
+  "by_difficulty": {
+    "2-hop": 33,
+    "3-hop": 12,
+    "comparison": 5
+  },
+  "domain": "football",
+  "criteria_met": {
+    "2hop_ok": true,
+    "3hop_ok": false,
+    "comp_ok": true,
+    "total_ok": true
+  },
+  "templates_used": [
+    "Player → Club → League → Country",
+    "Player → Club & Player → PLACE_OF_BIRTH (extra)",
+    "Player → MEMBER_OF_SPORTS_TEAM → Club → COUNTRY → Country",
+    "Player → Club → Stadium → Place",
+    "Club1.HOME_VENUE vs Club2.HOME_VENUE",
+    "Club.Player1.City vs Club.Player2.City",
+    "Player → Club + City → Country",
+    "Player → Club → LEAGUE",
+    "Club → HOME_VENUE → Stadium",
+    "Player → MEMBER_OF_SPORTS_TEAM → Club & Player → PLACE_OF_BIRTH → City"
+  ]
+}
