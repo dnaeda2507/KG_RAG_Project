@@ -1,0 +1,11 @@
+{
+  "passage_note": "Okan Buruk, Galatasaray'ın teknik direktörü, 19 Ekim 1973'te İstanbul'da doğdu. Galatasaray F.C.'nin teknik direktörü olarak, takımın Süper Lig şampiyonluğuna liderlik etti.",
+  "fact_enhanced_note": "Galatasaray'ın teknik direktörü Okan Buruk, 19 Ekim 1973'te İstanbul'da doğdu. Okan Buruk, Galatasaray F.C.'nin teknik direktörü olarak görev yaptı ve takımın Süper Lig şampiyonluğuna liderlik etti. Galatasaray F.C., Türkiye'de yerleşik bir futbol kulübüdür ve İstanbul'da kurulmuştur. Okan Buruk'un teknik direktörlüğü sırasında takımın şampiyonluğu, Galatasaray F.C.'nin Süper Lig şampiyonluğu olarak kaydedilmiştir.",
+  "final_answer": "Okan Buruk'un doğum yeri İstanbul'dur.",
+  "reasoning_chain": [
+    "Step 1: Retrieved relevant passages from Wikipedia",
+    "Step 2: Built passage note focusing on query-relevant facts",
+    "Step 3: Augmented passage note with KG structured facts",
+    "Step 4: Generated answer: Okan Buruk'un doğum yeri İstanbul'dur...."
+  ]
+}

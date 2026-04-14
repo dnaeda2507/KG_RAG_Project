@@ -5,9 +5,10 @@
     "degree": 241,
     "player_count": 238,
     "relations": [
-      "COUNTRY",
       "INSTANCE_OF",
-      "SPORT"
+      "COUNTRY",
+      "SPORT",
+      "MEMBER_OF_SPORTS_TEAM"
     ],
     "stadium": null,
     "coach": null,
@@ -19,9 +20,10 @@
     "degree": 168,
     "player_count": 165,
     "relations": [
-      "COUNTRY",
       "INSTANCE_OF",
-      "SPORT"
+      "COUNTRY",
+      "SPORT",
+      "MEMBER_OF_SPORTS_TEAM"
     ],
     "stadium": null,
     "coach": null,
@@ -34,7 +36,8 @@
     "player_count": 136,
     "relations": [
       "COUNTRY",
-      "SPORT"
+      "SPORT",
+      "MEMBER_OF_SPORTS_TEAM"
     ],
     "stadium": null,
     "coach": null,
@@ -47,11 +50,14 @@
     "player_count": 120,
     "relations": [
       "COUNTRY",
-      "HEADQUARTERS_LOCATION",
-      "HEAD_COACH",
+      "SPORT",
       "HOME_VENUE",
+      "HEADQUARTERS_LOCATION",
       "LEAGUE",
-      "SPORT"
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
     ],
     "stadium": "atatuerk olimpiyat stadi",
     "coach": "Abullah Avcı",
@@ -64,10 +70,11 @@
     "player_count": 28,
     "relations": [
       "COUNTRY",
-      "HEADQUARTERS_LOCATION",
+      "SPORT",
       "HOME_VENUE",
+      "HEADQUARTERS_LOCATION",
       "LEAGUE",
-      "SPORT"
+      "MEMBER_OF_SPORTS_TEAM"
     ],
     "stadium": "Maldives National Stadium",
     "coach": null,
@@ -80,9 +87,10 @@
     "player_count": 7,
     "relations": [
       "COUNTRY",
+      "SPORT",
       "HOME_VENUE",
       "LEAGUE",
-      "SPORT"
+      "MEMBER_OF_SPORTS_TEAM"
     ],
     "stadium": "Buca Arena",
     "coach": null,
@@ -95,7 +103,8 @@
     "player_count": 5,
     "relations": [
       "COUNTRY",
-      "SPORT"
+      "SPORT",
+      "MEMBER_OF_SPORTS_TEAM"
     ],
     "stadium": null,
     "coach": null,
@@ -107,8 +116,8 @@
     "degree": 3,
     "player_count": 0,
     "relations": [
-      "COUNTRY",
       "INSTANCE_OF",
+      "COUNTRY",
       "IS_A_LIST_OF"
     ],
     "stadium": null,
@@ -121,8 +130,8 @@
     "degree": 3,
     "player_count": 0,
     "relations": [
-      "COUNTRY",
       "INSTANCE_OF",
+      "COUNTRY",
       "SUBCLASS_OF"
     ],
     "stadium": null,
@@ -135,8 +144,8 @@
     "degree": 3,
     "player_count": 0,
     "relations": [
-      "COUNTRY",
       "INSTANCE_OF",
+      "COUNTRY",
       "IS_A_LIST_OF"
     ],
     "stadium": null,

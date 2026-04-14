@@ -1,15 +1,15 @@
 [
   {
     "question_id": "TR_001",
-    "question_text": "\"kibar feyzo\" filminin yönetmeni nerede doğmuştur?",
+    "question_text": "\"Telling Tales (film)\" filminin yönetmeni nerede doğmuştur?",
     "reasoning_path": [
-      "kibar feyzo",
+      "Telling Tales (film)",
       "DIRECTOR",
-      "Atıf Yılmaz Batıbeki",
+      "burak aksak",
       "PLACE_OF_BIRTH",
-      "mersin, turkey"
+      "istanbul (turkey)"
     ],
-    "gold_answer": "mersin, turkey",
+    "gold_answer": "istanbul (turkey)",
     "difficulty": "2-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → PLACE_OF_BIRTH",
@@ -17,9 +17,25 @@
   },
   {
     "question_id": "TR_002",
-    "question_text": "\"gurbet kuslari\" filminin yönetmeni nerede doğmuştur?",
+    "question_text": "\"Piano Piano Bacaksız\" filminin yönetmeni nerede doğmuştur?",
     "reasoning_path": [
-      "gurbet kuslari",
+      "Piano Piano Bacaksız",
+      "DIRECTOR",
+      "Tunç Basaran",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → DIRECTOR → PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_003",
+    "question_text": "\"Sultan Gelin\" filminin yönetmeni nerede doğmuştur?",
+    "reasoning_path": [
+      "Sultan Gelin",
       "DIRECTOR",
       "halit refiğ",
       "PLACE_OF_BIRTH",
@@ -32,10 +48,10 @@
     "verified": true
   },
   {
-    "question_id": "TR_003",
-    "question_text": "\"Çekirdek ve Makara (Film, 2015)\" filminin yönetmeni nerede doğmuştur?",
+    "question_id": "TR_004",
+    "question_text": "\"Çırak (Film, 2014)\" filminin yönetmeni nerede doğmuştur?",
     "reasoning_path": [
-      "Çekirdek ve Makara (Film, 2015)",
+      "Çırak (Film, 2014)",
       "DIRECTOR",
       "Tayfun Belet",
       "PLACE_OF_BIRTH",
@@ -48,32 +64,16 @@
     "verified": true
   },
   {
-    "question_id": "TR_004",
-    "question_text": "\"do not forget me istanbul\" filminin yönetmeni nerede doğmuştur?",
-    "reasoning_path": [
-      "do not forget me istanbul",
-      "DIRECTOR",
-      "Stefan Arsenijevic",
-      "PLACE_OF_BIRTH",
-      "Belgrado"
-    ],
-    "gold_answer": "Belgrado",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → DIRECTOR → PLACE_OF_BIRTH",
-    "verified": true
-  },
-  {
     "question_id": "TR_005",
-    "question_text": "\"Kızımın Kanı\" filminin yönetmeni nerede doğmuştur?",
+    "question_text": "\"The Unforgettable Director of Love Movies\" filminin yönetmeni nerede doğmuştur?",
     "reasoning_path": [
-      "Kızımın Kanı",
+      "The Unforgettable Director of Love Movies",
       "DIRECTOR",
-      "halit refiğ",
+      "yavuz turgul",
       "PLACE_OF_BIRTH",
-      "ismir, turkey"
+      "istanbul (turkey)"
     ],
-    "gold_answer": "ismir, turkey",
+    "gold_answer": "istanbul (turkey)",
     "difficulty": "2-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → PLACE_OF_BIRTH",
@@ -81,15 +81,15 @@
   },
   {
     "question_id": "TR_006",
-    "question_text": "\"yasamak ne guzel sey\" filminin yönetmeni nerede doğmuştur?",
+    "question_text": "\"dedemin i̇nsanları\" filminin yönetmeni nerede doğmuştur?",
     "reasoning_path": [
-      "yasamak ne guzel sey",
+      "dedemin i̇nsanları",
       "DIRECTOR",
-      "halit refiğ",
+      "Çagan Irmak",
       "PLACE_OF_BIRTH",
-      "ismir, turkey"
+      "sığacık"
     ],
-    "gold_answer": "ismir, turkey",
+    "gold_answer": "sığacık",
     "difficulty": "2-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → PLACE_OF_BIRTH",
@@ -97,41 +97,9 @@
   },
   {
     "question_id": "TR_007",
-    "question_text": "\"Coming Soon (2014 film)\" filminin yönetmeni nerede doğmuştur?",
+    "question_text": "\"Şehirdeki Yabancı\" filminin yönetmeni nerede doğmuştur?",
     "reasoning_path": [
-      "Coming Soon (2014 film)",
-      "DIRECTOR",
-      "cem yilmaz",
-      "PLACE_OF_BIRTH",
-      "istanbul (turkey)"
-    ],
-    "gold_answer": "istanbul (turkey)",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → DIRECTOR → PLACE_OF_BIRTH",
-    "verified": true
-  },
-  {
-    "question_id": "TR_008",
-    "question_text": "\"Gallipoli (2005)\" filminin yönetmeni nerede doğmuştur?",
-    "reasoning_path": [
-      "Gallipoli (2005)",
-      "DIRECTOR",
-      "tolga örnek",
-      "PLACE_OF_BIRTH",
-      "turkiye"
-    ],
-    "gold_answer": "turkiye",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → DIRECTOR → PLACE_OF_BIRTH",
-    "verified": true
-  },
-  {
-    "question_id": "TR_009",
-    "question_text": "\"Teyzem\" filminin yönetmeni nerede doğmuştur?",
-    "reasoning_path": [
-      "Teyzem",
+      "Şehirdeki Yabancı",
       "DIRECTOR",
       "halit refiğ",
       "PLACE_OF_BIRTH",
@@ -144,55 +112,55 @@
     "verified": true
   },
   {
-    "question_id": "TR_010",
-    "question_text": "\"Beauty from Peran\" filminin yönetmeni nerede doğmuştur?",
+    "question_id": "TR_008",
+    "question_text": "\"zubuk\" filminin yönetmeni nerede doğmuştur?",
     "reasoning_path": [
-      "Beauty from Peran",
+      "zubuk",
       "DIRECTOR",
-      "vedat örfi bengü",
+      "kartal tibet",
       "PLACE_OF_BIRTH",
-      "istanbul (turkey)"
+      "Angora, Turkey"
     ],
-    "gold_answer": "istanbul (turkey)",
+    "gold_answer": "Angora, Turkey",
     "difficulty": "2-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → PLACE_OF_BIRTH",
     "verified": true
   },
   {
+    "question_id": "TR_009",
+    "question_text": "\"the redheaded corpse\" filminde oynayan Enrica Bianchi Colombatto nerede doğmuştur?",
+    "reasoning_path": [
+      "the redheaded corpse",
+      "CAST_MEMBER",
+      "Enrica Bianchi Colombatto",
+      "PLACE_OF_BIRTH",
+      "Buffalora"
+    ],
+    "gold_answer": "Buffalora",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_010",
+    "question_text": "\"Piano Piano Bacaksız\" filminde oynayan yaman okay nerede doğmuştur?",
+    "reasoning_path": [
+      "Piano Piano Bacaksız",
+      "CAST_MEMBER",
+      "yaman okay",
+      "PLACE_OF_BIRTH",
+      "Kerasous"
+    ],
+    "gold_answer": "Kerasous",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
     "question_id": "TR_011",
-    "question_text": "\"Zugurt Aga\" filminde oynayan erdal özyağcılar nerede doğmuştur?",
-    "reasoning_path": [
-      "Zugurt Aga",
-      "CAST_MEMBER",
-      "erdal özyağcılar",
-      "PLACE_OF_BIRTH",
-      "Bursa, Turkey"
-    ],
-    "gold_answer": "Bursa, Turkey",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH",
-    "verified": true
-  },
-  {
-    "question_id": "TR_012",
-    "question_text": "\"Köyden İndim Şehire\" filminde oynayan metin akpınar nerede doğmuştur?",
-    "reasoning_path": [
-      "Köyden İndim Şehire",
-      "CAST_MEMBER",
-      "metin akpınar",
-      "PLACE_OF_BIRTH",
-      "istanbul (turkey)"
-    ],
-    "gold_answer": "istanbul (turkey)",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH",
-    "verified": true
-  },
-  {
-    "question_id": "TR_013",
     "question_text": "\"muhteşem yüzyıl\" filminde oynayan Meltem Cumbul nerede doğmuştur?",
     "reasoning_path": [
       "muhteşem yüzyıl",
@@ -208,12 +176,44 @@
     "verified": true
   },
   {
-    "question_id": "TR_014",
-    "question_text": "\"Suçlu benim\" filminde oynayan Sadri Alışık nerede doğmuştur?",
+    "question_id": "TR_012",
+    "question_text": "\"Coming Soon (2014 film)\" filminde oynayan aysen gruda nerede doğmuştur?",
     "reasoning_path": [
-      "Suçlu benim",
+      "Coming Soon (2014 film)",
       "CAST_MEMBER",
-      "Sadri Alışık",
+      "aysen gruda",
+      "PLACE_OF_BIRTH",
+      "Yesilköy"
+    ],
+    "gold_answer": "Yesilköy",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_013",
+    "question_text": "\"muhteşem yüzyıl\" filminde oynayan okan yalabik nerede doğmuştur?",
+    "reasoning_path": [
+      "muhteşem yüzyıl",
+      "CAST_MEMBER",
+      "okan yalabik",
+      "PLACE_OF_BIRTH",
+      "Bigadic"
+    ],
+    "gold_answer": "Bigadic",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_014",
+    "question_text": "\"babam and oğlum\" filminde oynayan Özge Özberk nerede doğmuştur?",
+    "reasoning_path": [
+      "babam and oğlum",
+      "CAST_MEMBER",
+      "Özge Özberk",
       "PLACE_OF_BIRTH",
       "istanbul (turkey)"
     ],
@@ -225,15 +225,15 @@
   },
   {
     "question_id": "TR_015",
-    "question_text": "\"Kelebegin Ruyası\" filminde oynayan Ahmet Mümtaz Taylan nerede doğmuştur?",
+    "question_text": "\"Kelebegin Ruyası\" filminde oynayan Baris Çakmak nerede doğmuştur?",
     "reasoning_path": [
       "Kelebegin Ruyası",
       "CAST_MEMBER",
-      "Ahmet Mümtaz Taylan",
+      "Baris Çakmak",
       "PLACE_OF_BIRTH",
-      "Angora, Turkey"
+      "thracian chersonesus"
     ],
-    "gold_answer": "Angora, Turkey",
+    "gold_answer": "thracian chersonesus",
     "difficulty": "2-hop",
     "domain": "cinema",
     "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH",
@@ -241,43 +241,11 @@
   },
   {
     "question_id": "TR_016",
-    "question_text": "\"For Love and Honor\" filminde oynayan i̇smail hacıoğlu nerede doğmuştur?",
-    "reasoning_path": [
-      "For Love and Honor",
-      "CAST_MEMBER",
-      "i̇smail hacıoğlu",
-      "PLACE_OF_BIRTH",
-      "istanbul (turkey)"
-    ],
-    "gold_answer": "istanbul (turkey)",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH",
-    "verified": true
-  },
-  {
-    "question_id": "TR_017",
-    "question_text": "\"muhteşem yüzyıl\" filminde oynayan Engin Öztürk nerede doğmuştur?",
+    "question_text": "\"muhteşem yüzyıl\" filminde oynayan Deniz Cakir nerede doğmuştur?",
     "reasoning_path": [
       "muhteşem yüzyıl",
       "CAST_MEMBER",
-      "Engin Öztürk",
-      "PLACE_OF_BIRTH",
-      "Eski-Shehr"
-    ],
-    "gold_answer": "Eski-Shehr",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH",
-    "verified": true
-  },
-  {
-    "question_id": "TR_018",
-    "question_text": "\"bal (film\" filminde oynayan erdal beşikçioğlu nerede doğmuştur?",
-    "reasoning_path": [
-      "bal (film",
-      "CAST_MEMBER",
-      "erdal beşikçioğlu",
+      "Deniz Cakir",
       "PLACE_OF_BIRTH",
       "Angora, Turkey"
     ],
@@ -288,10 +256,58 @@
     "verified": true
   },
   {
-    "question_id": "TR_019",
-    "question_text": "\"a handful of soil\" filminin yönetmeni Osman Fahir Seden hangi ödülü almıştır?",
+    "question_id": "TR_017",
+    "question_text": "\"Beyond the Hill\" filminin yönetmeni Emin Alper hangi ödülü almıştır?",
     "reasoning_path": [
-      "a handful of soil",
+      "Beyond the Hill",
+      "DIRECTOR",
+      "Emin Alper",
+      "AWARD_RECEIVED",
+      "Berliner Kunstpreis"
+    ],
+    "gold_answer": "Berliner Kunstpreis",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → DIRECTOR → AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_018",
+    "question_text": "\"frenzy (2015 film)\" filminin yönetmeni Emin Alper hangi ödülü almıştır?",
+    "reasoning_path": [
+      "frenzy (2015 film)",
+      "DIRECTOR",
+      "Emin Alper",
+      "AWARD_RECEIVED",
+      "Berliner Kunstpreis"
+    ],
+    "gold_answer": "Berliner Kunstpreis",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → DIRECTOR → AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_019",
+    "question_text": "\"Kanun namina\" filminin yönetmeni lütfi akad hangi ödülü almıştır?",
+    "reasoning_path": [
+      "Kanun namina",
+      "DIRECTOR",
+      "lütfi akad",
+      "AWARD_RECEIVED",
+      "Presidential Culture and Arts Grand Awards"
+    ],
+    "gold_answer": "Presidential Culture and Arts Grand Awards",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → DIRECTOR → AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_020",
+    "question_text": "\"şaka ile karışık\" filminin yönetmeni Osman Fahir Seden hangi ödülü almıştır?",
+    "reasoning_path": [
+      "şaka ile karışık",
       "DIRECTOR",
       "Osman Fahir Seden",
       "AWARD_RECEIVED",
@@ -304,32 +320,16 @@
     "verified": true
   },
   {
-    "question_id": "TR_020",
-    "question_text": "\"Six Are Dead\" filminin yönetmeni lütfi akad hangi ödülü almıştır?",
-    "reasoning_path": [
-      "Six Are Dead",
-      "DIRECTOR",
-      "lütfi akad",
-      "AWARD_RECEIVED",
-      "Presidential Culture and Arts Grand Awards"
-    ],
-    "gold_answer": "Presidential Culture and Arts Grand Awards",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → DIRECTOR → AWARD_RECEIVED",
-    "verified": true
-  },
-  {
     "question_id": "TR_021",
-    "question_text": "\"Çöpçüler krali\" filminin yönetmeni Zeki Okten hangi ödülü almıştır?",
+    "question_text": "\"kanlarıyla ödediler\" filminin yönetmeni Osman Fahir Seden hangi ödülü almıştır?",
     "reasoning_path": [
-      "Çöpçüler krali",
+      "kanlarıyla ödediler",
       "DIRECTOR",
-      "Zeki Okten",
+      "Osman Fahir Seden",
       "AWARD_RECEIVED",
-      "Sutherland Award"
+      "state artist"
     ],
-    "gold_answer": "Sutherland Award",
+    "gold_answer": "state artist",
     "difficulty": "2-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → AWARD_RECEIVED",
@@ -337,70 +337,38 @@
   },
   {
     "question_id": "TR_022",
-    "question_text": "\"murderous city\" filminin yönetmeni lütfi akad hangi ödülü almıştır?",
+    "question_text": "\"muhteşem yüzyıl\" filminde oynayan Deniz Cakir hangi ülkenin vatandaşıdır?",
     "reasoning_path": [
-      "murderous city",
-      "DIRECTOR",
-      "lütfi akad",
-      "AWARD_RECEIVED",
-      "Presidential Culture and Arts Grand Awards"
+      "muhteşem yüzyıl",
+      "CAST_MEMBER",
+      "Deniz Cakir",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
     ],
-    "gold_answer": "Presidential Culture and Arts Grand Awards",
+    "gold_answer": "turkiye",
     "difficulty": "2-hop",
     "domain": "cinema",
-    "template": "Film → DIRECTOR → AWARD_RECEIVED",
+    "template": "Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP",
     "verified": true
   },
   {
     "question_id": "TR_023",
-    "question_text": "\"The Unforgettable Director of Love Movies\" filminin yönetmeni yavuz turgul hangi ödülü almıştır?",
+    "question_text": "\"Telling Tales (film)\" filminde oynayan Ercan Yazgan hangi ülkenin vatandaşıdır?",
     "reasoning_path": [
-      "The Unforgettable Director of Love Movies",
-      "DIRECTOR",
-      "yavuz turgul",
-      "AWARD_RECEIVED",
-      "Presidential Culture and Arts Grand Awards"
+      "Telling Tales (film)",
+      "CAST_MEMBER",
+      "Ercan Yazgan",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
     ],
-    "gold_answer": "Presidential Culture and Arts Grand Awards",
+    "gold_answer": "turkiye",
     "difficulty": "2-hop",
     "domain": "cinema",
-    "template": "Film → DIRECTOR → AWARD_RECEIVED",
+    "template": "Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP",
     "verified": true
   },
   {
     "question_id": "TR_024",
-    "question_text": "\"whisper if i forget\" filminde oynayan kerem bursin love yaqin hangi ülkenin vatandaşıdır?",
-    "reasoning_path": [
-      "whisper if i forget",
-      "CAST_MEMBER",
-      "kerem bursin love yaqin",
-      "COUNTRY_OF_CITIZENSHIP",
-      "turkiye"
-    ],
-    "gold_answer": "turkiye",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP",
-    "verified": true
-  },
-  {
-    "question_id": "TR_025",
-    "question_text": "\"worst movie death scene ever\" filminde oynayan hayati hamzaoglu hangi ülkenin vatandaşıdır?",
-    "reasoning_path": [
-      "worst movie death scene ever",
-      "CAST_MEMBER",
-      "hayati hamzaoglu",
-      "COUNTRY_OF_CITIZENSHIP",
-      "turkiye"
-    ],
-    "gold_answer": "turkiye",
-    "difficulty": "2-hop",
-    "domain": "cinema",
-    "template": "Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP",
-    "verified": true
-  },
-  {
-    "question_id": "TR_026",
     "question_text": "\"The Inheritance (2012 film)\" filminde oynayan abbass, hiam hangi ülkenin vatandaşıdır?",
     "reasoning_path": [
       "The Inheritance (2012 film)",
@@ -416,12 +384,12 @@
     "verified": true
   },
   {
-    "question_id": "TR_027",
-    "question_text": "\"muhteşem yüzyıl\" filminde oynayan Selma Ergeç hangi ülkenin vatandaşıdır?",
+    "question_id": "TR_025",
+    "question_text": "\"muhteşem yüzyıl\" filminde oynayan Engin Öztürk hangi ülkenin vatandaşıdır?",
     "reasoning_path": [
       "muhteşem yüzyıl",
       "CAST_MEMBER",
-      "Selma Ergeç",
+      "Engin Öztürk",
       "COUNTRY_OF_CITIZENSHIP",
       "turkiye"
     ],
@@ -429,35 +397,67 @@
     "difficulty": "2-hop",
     "domain": "cinema",
     "template": "Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP",
+    "verified": true
+  },
+  {
+    "question_id": "TR_026",
+    "question_text": "\"Kelebegin Ruyası\" filminde oynayan taner birsel hangi ülkenin vatandaşıdır?",
+    "reasoning_path": [
+      "Kelebegin Ruyası",
+      "CAST_MEMBER",
+      "taner birsel",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP",
+    "verified": true
+  },
+  {
+    "question_id": "TR_027",
+    "question_text": "\"Shadows and Faces\" filminin yönetmeni derviş zaim hangi kurumda eğitim görmüştür?",
+    "reasoning_path": [
+      "Shadows and Faces",
+      "DIRECTOR",
+      "derviş zaim",
+      "EDUCATED_AT",
+      "List of notable Warwick students"
+    ],
+    "gold_answer": "List of notable Warwick students",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film → DIRECTOR → EDUCATED_AT",
     "verified": true
   },
   {
     "question_id": "TR_028",
-    "question_text": "\"Kanun namina\" filminde oynayan muzaffer tema hangi ülkenin vatandaşıdır?",
+    "question_text": "\"Kaybedenler Kulübü\" filminin yönetmeni tolga örnek hangi kurumda eğitim görmüştür?",
     "reasoning_path": [
-      "Kanun namina",
-      "CAST_MEMBER",
-      "muzaffer tema",
-      "COUNTRY_OF_CITIZENSHIP",
-      "turkiye"
+      "Kaybedenler Kulübü",
+      "DIRECTOR",
+      "tolga örnek",
+      "EDUCATED_AT",
+      "amerikan robert lisesi"
     ],
-    "gold_answer": "turkiye",
+    "gold_answer": "amerikan robert lisesi",
     "difficulty": "2-hop",
     "domain": "cinema",
-    "template": "Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP",
+    "template": "Film → DIRECTOR → EDUCATED_AT",
     "verified": true
   },
   {
     "question_id": "TR_029",
-    "question_text": "\"greatest ears in town: the arif mardin story\" filminin yönetmeni Joe Mardin hangi kurumda eğitim görmüştür?",
+    "question_text": "\"dark world\" filminin yönetmeni metin erksan hangi kurumda eğitim görmüştür?",
     "reasoning_path": [
-      "greatest ears in town: the arif mardin story",
+      "dark world",
       "DIRECTOR",
-      "Joe Mardin",
+      "metin erksan",
       "EDUCATED_AT",
-      "berkley school of music"
+      "Daruelfuenun"
     ],
-    "gold_answer": "berkley school of music",
+    "gold_answer": "Daruelfuenun",
     "difficulty": "2-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → EDUCATED_AT",
@@ -465,9 +465,9 @@
   },
   {
     "question_id": "TR_030",
-    "question_text": "\"ölmüs bir kadinin evraki metrukesi\" filminin yönetmeni metin erksan hangi kurumda eğitim görmüştür?",
+    "question_text": "\"dokuz dagin efesi: çakici geliyor\" filminin yönetmeni metin erksan hangi kurumda eğitim görmüştür?",
     "reasoning_path": [
-      "ölmüs bir kadinin evraki metrukesi",
+      "dokuz dagin efesi: çakici geliyor",
       "DIRECTOR",
       "metin erksan",
       "EDUCATED_AT",
@@ -481,17 +481,17 @@
   },
   {
     "question_id": "TR_031",
-    "question_text": "\"İstanbul Kırmızısı (film)\" filminin yönetmeni Ferzan Özpetek'nin doğduğu şehrin ülkesi neresidir?",
+    "question_text": "\"Anadolu Kartalları\" filminin yönetmeni Ömer Vargı'nin doğduğu şehrin ülkesi neresidir?",
     "reasoning_path": [
-      "İstanbul Kırmızısı (film)",
+      "Anadolu Kartalları",
       "DIRECTOR",
-      "Ferzan Özpetek",
+      "Ömer Vargı",
       "PLACE_OF_BIRTH",
       "istanbul (turkey)",
       "COUNTRY",
-      "byzantine (eastern roman) empire"
+      "turkiye"
     ],
-    "gold_answer": "byzantine (eastern roman) empire",
+    "gold_answer": "turkiye",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → PLACE_OF_BIRTH → COUNTRY",
@@ -499,17 +499,17 @@
   },
   {
     "question_id": "TR_032",
-    "question_text": "\"Çekirdek ve Makara (Film, 2015)\" filminin yönetmeni Tayfun Belet'nin doğduğu şehrin ülkesi neresidir?",
+    "question_text": "\"Dag II\" filminin yönetmeni alper chaglar'nin doğduğu şehrin ülkesi neresidir?",
     "reasoning_path": [
-      "Çekirdek ve Makara (Film, 2015)",
+      "Dag II",
       "DIRECTOR",
-      "Tayfun Belet",
+      "alper chaglar",
       "PLACE_OF_BIRTH",
-      "ismir, turkey",
+      "Angora, Turkey",
       "COUNTRY",
-      "Ottoman empire"
+      "turkiye"
     ],
-    "gold_answer": "Ottoman empire",
+    "gold_answer": "turkiye",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → PLACE_OF_BIRTH → COUNTRY",
@@ -517,17 +517,17 @@
   },
   {
     "question_id": "TR_033",
-    "question_text": "\"Beauty from Peran\" filminin yönetmeni vedat örfi bengü'nin doğduğu şehrin ülkesi neresidir?",
+    "question_text": "\"For Love and Honor\" filminin yönetmeni Ömer Vargı'nin doğduğu şehrin ülkesi neresidir?",
     "reasoning_path": [
-      "Beauty from Peran",
+      "For Love and Honor",
       "DIRECTOR",
-      "vedat örfi bengü",
+      "Ömer Vargı",
       "PLACE_OF_BIRTH",
       "istanbul (turkey)",
       "COUNTRY",
-      "byzantine (eastern roman) empire"
+      "turkiye"
     ],
-    "gold_answer": "byzantine (eastern roman) empire",
+    "gold_answer": "turkiye",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → PLACE_OF_BIRTH → COUNTRY",
@@ -535,13 +535,13 @@
   },
   {
     "question_id": "TR_034",
-    "question_text": "\"dark world\" filminin yönetmeni metin erksan'nin doğduğu şehrin ülkesi neresidir?",
+    "question_text": "\"asmali konak\" filminin yönetmeni Çagan Irmak'nin doğduğu şehrin ülkesi neresidir?",
     "reasoning_path": [
-      "dark world",
+      "asmali konak",
       "DIRECTOR",
-      "metin erksan",
+      "Çagan Irmak",
       "PLACE_OF_BIRTH",
-      "Çanakkale Province",
+      "sığacık",
       "COUNTRY",
       "turkiye"
     ],
@@ -553,17 +553,17 @@
   },
   {
     "question_id": "TR_035",
-    "question_text": "\"SeMazen\" filminin yönetmeni Genco Gulan'nin doğduğu şehrin ülkesi neresidir?",
+    "question_text": "\"killing in istanbul\" filminin yönetmeni yılmaz atadeniz'nin doğduğu şehrin ülkesi neresidir?",
     "reasoning_path": [
-      "SeMazen",
+      "killing in istanbul",
       "DIRECTOR",
-      "Genco Gulan",
+      "yılmaz atadeniz",
       "PLACE_OF_BIRTH",
       "istanbul (turkey)",
       "COUNTRY",
-      "byzantine (eastern roman) empire"
+      "turkiye"
     ],
-    "gold_answer": "byzantine (eastern roman) empire",
+    "gold_answer": "turkiye",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → PLACE_OF_BIRTH → COUNTRY",
@@ -571,17 +571,17 @@
   },
   {
     "question_id": "TR_036",
-    "question_text": "\"whisper if i forget\" filminde oynayan Mehmet Gunsur'nin doğduğu şehrin ülkesi nedir?",
+    "question_text": "\"Kelebegin Ruyası\" filminde oynayan Tatlıtuğ'nin doğduğu şehrin ülkesi nedir?",
     "reasoning_path": [
-      "whisper if i forget",
+      "Kelebegin Ruyası",
       "CAST_MEMBER",
-      "Mehmet Gunsur",
+      "Tatlıtuğ",
       "PLACE_OF_BIRTH",
       "istanbul (turkey)",
       "COUNTRY",
-      "Ottoman empire"
+      "turkiye"
     ],
-    "gold_answer": "Ottoman empire",
+    "gold_answer": "turkiye",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH → COUNTRY",
@@ -589,13 +589,13 @@
   },
   {
     "question_id": "TR_037",
-    "question_text": "\"balikçi güzeli\" filminde oynayan Münir Özkul'nin doğduğu şehrin ülkesi nedir?",
+    "question_text": "\"manisa tarzanı\" filminde oynayan nihat nikerel'nin doğduğu şehrin ülkesi nedir?",
     "reasoning_path": [
-      "balikçi güzeli",
+      "manisa tarzanı",
       "CAST_MEMBER",
-      "Münir Özkul",
+      "nihat nikerel",
       "PLACE_OF_BIRTH",
-      "istanbul (turkey)",
+      "Corum, turkey",
       "COUNTRY",
       "turkiye"
     ],
@@ -607,17 +607,17 @@
   },
   {
     "question_id": "TR_038",
-    "question_text": "\"Zugurt Aga\" filminde oynayan ayla arslancan'nin doğduğu şehrin ülkesi nedir?",
+    "question_text": "\"Coming Soon (2014 film)\" filminde oynayan ozan guven'nin doğduğu şehrin ülkesi nedir?",
     "reasoning_path": [
-      "Zugurt Aga",
+      "Coming Soon (2014 film)",
       "CAST_MEMBER",
-      "ayla arslancan",
+      "ozan guven",
       "PLACE_OF_BIRTH",
-      "istanbul (turkey)",
+      "fischbach unrra displaced persons camp",
       "COUNTRY",
-      "Ottoman empire"
+      "queens of bavaria"
     ],
-    "gold_answer": "Ottoman empire",
+    "gold_answer": "queens of bavaria",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH → COUNTRY",
@@ -625,17 +625,17 @@
   },
   {
     "question_id": "TR_039",
-    "question_text": "\"kız kolunda damga var\" filminde oynayan Fatma Girik'nin doğduğu şehrin ülkesi nedir?",
+    "question_text": "\"G O R A\" filminde oynayan ozan guven'nin doğduğu şehrin ülkesi nedir?",
     "reasoning_path": [
-      "kız kolunda damga var",
+      "G O R A",
       "CAST_MEMBER",
-      "Fatma Girik",
+      "ozan guven",
       "PLACE_OF_BIRTH",
-      "istanbul (turkey)",
+      "fischbach unrra displaced persons camp",
       "COUNTRY",
-      "turkiye"
+      "History of West Germany"
     ],
-    "gold_answer": "turkiye",
+    "gold_answer": "History of West Germany",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → CAST_MEMBER → PLACE_OF_BIRTH → COUNTRY",
@@ -643,13 +643,13 @@
   },
   {
     "question_id": "TR_040",
-    "question_text": "\"worst movie death scene ever\" filminde oynayan hayati hamzaoglu'nin doğduğu şehrin ülkesi nedir?",
+    "question_text": "\"zubuk\" filminde oynayan Ali Sen'nin doğduğu şehrin ülkesi nedir?",
     "reasoning_path": [
-      "worst movie death scene ever",
+      "zubuk",
       "CAST_MEMBER",
-      "hayati hamzaoglu",
+      "Ali Sen",
       "PLACE_OF_BIRTH",
-      "history of trabzon",
+      "adanija",
       "COUNTRY",
       "turkiye"
     ],
@@ -661,17 +661,17 @@
   },
   {
     "question_id": "TR_041",
-    "question_text": "\"greatest ears in town: the arif mardin story\" yönetmeni Joe Mardin'nin mezun olduğu okulun bulunduğu ülke neresidir?",
+    "question_text": "\"the wound of separation\" yönetmeni metin erksan'nin mezun olduğu okulun bulunduğu ülke neresidir?",
     "reasoning_path": [
-      "greatest ears in town: the arif mardin story",
+      "the wound of separation",
       "DIRECTOR",
-      "Joe Mardin",
+      "metin erksan",
       "EDUCATED_AT",
-      "berkley school of music",
+      "Daruelfuenun",
       "COUNTRY",
-      "united stated"
+      "turkiye"
     ],
-    "gold_answer": "united stated",
+    "gold_answer": "turkiye",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → DIRECTOR → EDUCATED_AT → COUNTRY",
@@ -679,6 +679,24 @@
   },
   {
     "question_id": "TR_042",
+    "question_text": "\"murder in yolpalas\" yönetmeni metin erksan'nin mezun olduğu okulun bulunduğu ülke neresidir?",
+    "reasoning_path": [
+      "murder in yolpalas",
+      "DIRECTOR",
+      "metin erksan",
+      "EDUCATED_AT",
+      "Daruelfuenun",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film → DIRECTOR → EDUCATED_AT → COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_043",
     "question_text": "\"grain (film)\" yönetmeni Semih Kaplanoğlu'nin mezun olduğu okulun bulunduğu ülke neresidir?",
     "reasoning_path": [
       "grain (film)",
@@ -696,34 +714,16 @@
     "verified": true
   },
   {
-    "question_id": "TR_043",
-    "question_text": "\"murderous city\" yönetmeni lütfi akad'nin mezun olduğu okulun bulunduğu ülke neresidir?",
-    "reasoning_path": [
-      "murderous city",
-      "DIRECTOR",
-      "lütfi akad",
-      "EDUCATED_AT",
-      "Galatasaray Lyceum",
-      "COUNTRY",
-      "turkiye"
-    ],
-    "gold_answer": "turkiye",
-    "difficulty": "3-hop",
-    "domain": "cinema",
-    "template": "Film → DIRECTOR → EDUCATED_AT → COUNTRY",
-    "verified": true
-  },
-  {
     "question_id": "TR_044",
-    "question_text": "\"Sultan Gelin\" filminde yer alan oyuncu turkan soray hangi ödülü kazanmıştır?",
+    "question_text": "\"Crossing the Bridge: The Sound of Istanbul\" filminde yer alan oyuncu Orhan Gencebay hangi ödülü kazanmıştır?",
     "reasoning_path": [
-      "Sultan Gelin",
+      "Crossing the Bridge: The Sound of Istanbul",
       "CAST_MEMBER",
-      "turkan soray",
+      "Orhan Gencebay",
       "AWARD_RECEIVED",
-      "state artist"
+      "Presidential Culture and Arts Grand Awards"
     ],
-    "gold_answer": "state artist",
+    "gold_answer": "Presidential Culture and Arts Grand Awards",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → CAST_MEMBER → AWARD_RECEIVED",
@@ -731,15 +731,15 @@
   },
   {
     "question_id": "TR_045",
-    "question_text": "\"lovelorn (film)\" filminde yer alan oyuncu sener sen hangi ödülü kazanmıştır?",
+    "question_text": "\"im juli\" filminde yer alan oyuncu Moritz Johann Bleibtreu hangi ödülü kazanmıştır?",
     "reasoning_path": [
-      "lovelorn (film)",
+      "im juli",
       "CAST_MEMBER",
-      "sener sen",
+      "Moritz Johann Bleibtreu",
       "AWARD_RECEIVED",
-      "state artist"
+      "Silver Bear for Best Actor"
     ],
-    "gold_answer": "state artist",
+    "gold_answer": "Silver Bear for Best Actor",
     "difficulty": "3-hop",
     "domain": "cinema",
     "template": "Film → CAST_MEMBER → AWARD_RECEIVED",
@@ -747,17 +747,17 @@
   },
   {
     "question_id": "TR_046",
-    "question_text": "\"whisper if i forget\" ve \"dark world\" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: Çagan Irmak mı yoksa metin erksan mi?",
+    "question_text": "\"whisper if i forget\" ve \"celal and ceren\" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: Çagan Irmak mı yoksa Togan Gokbakar mi?",
     "reasoning_path": [
       "whisper if i forget",
       "DIRECTOR",
       "Çagan Irmak",
       "vs",
-      "dark world",
+      "celal and ceren",
       "DIRECTOR",
-      "metin erksan"
+      "Togan Gokbakar"
     ],
-    "gold_answer": "Karşılaştırma sorusu - her iki yönetmenin ödülleri kontrol edilmeli: Çagan Irmak / metin erksan",
+    "gold_answer": "COMPARISON::Çagan Irmak::Togan Gokbakar",
     "difficulty": "comparison",
     "domain": "cinema",
     "template": "Film1.DIRECTOR vs Film2.DIRECTOR (award comparison)",
@@ -765,17 +765,17 @@
   },
   {
     "question_id": "TR_047",
-    "question_text": "\"whisper if i forget\" ve \"Yasak Aşk\" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: Çagan Irmak mı yoksa halit refiğ mi?",
+    "question_text": "\"Yasak Aşk\" ve \"Kanun namina\" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: halit refiğ mı yoksa lütfi akad mi?",
     "reasoning_path": [
-      "whisper if i forget",
-      "DIRECTOR",
-      "Çagan Irmak",
-      "vs",
       "Yasak Aşk",
       "DIRECTOR",
-      "halit refiğ"
+      "halit refiğ",
+      "vs",
+      "Kanun namina",
+      "DIRECTOR",
+      "lütfi akad"
     ],
-    "gold_answer": "Karşılaştırma sorusu - her iki yönetmenin ödülleri kontrol edilmeli: Çagan Irmak / halit refiğ",
+    "gold_answer": "COMPARISON::halit refiğ::lütfi akad",
     "difficulty": "comparison",
     "domain": "cinema",
     "template": "Film1.DIRECTOR vs Film2.DIRECTOR (award comparison)",
@@ -783,17 +783,17 @@
   },
   {
     "question_id": "TR_048",
-    "question_text": "\"whisper if i forget\" ve \"yarın ağlayacağım\" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: Çagan Irmak mı yoksa halit refiğ mi?",
+    "question_text": "\"whisper if i forget\" ve \"The Shadow Play\" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: Çagan Irmak mı yoksa yavuz turgul mi?",
     "reasoning_path": [
       "whisper if i forget",
       "DIRECTOR",
       "Çagan Irmak",
       "vs",
-      "yarın ağlayacağım",
+      "The Shadow Play",
       "DIRECTOR",
-      "halit refiğ"
+      "yavuz turgul"
     ],
-    "gold_answer": "Karşılaştırma sorusu - her iki yönetmenin ödülleri kontrol edilmeli: Çagan Irmak / halit refiğ",
+    "gold_answer": "COMPARISON::Çagan Irmak::yavuz turgul",
     "difficulty": "comparison",
     "domain": "cinema",
     "template": "Film1.DIRECTOR vs Film2.DIRECTOR (award comparison)",
@@ -801,19 +801,19 @@
   },
   {
     "question_id": "TR_049",
-    "question_text": "\"whisper if i forget\" filminde oynayan farah zeynep abdullah mı yoksa Işıl Yücesoy mi daha büyük bir şehirde doğmuştur?",
+    "question_text": "\"Telling Tales (film)\" filminde oynayan Ercan Yazgan mı yoksa Yilmaz erdogan mi daha büyük bir şehirde doğmuştur?",
     "reasoning_path": [
-      "whisper if i forget",
+      "Telling Tales (film)",
       "CAST_MEMBER",
-      "farah zeynep abdullah",
+      "Ercan Yazgan",
       "PLACE_OF_BIRTH",
-      "istanbul (turkey)",
+      "Sinope (Paphlagonia)",
       "vs",
-      "Işıl Yücesoy",
+      "Yilmaz erdogan",
       "PLACE_OF_BIRTH",
-      "lozengrad"
+      "Hakkari Turkey"
     ],
-    "gold_answer": "Karşılaştırma: farah zeynep abdullah → istanbul (turkey) / Işıl Yücesoy → lozengrad",
+    "gold_answer": "COMPARISON::Ercan Yazgan(Sinope (Paphlagonia))::Yilmaz erdogan(Hakkari Turkey)",
     "difficulty": "comparison",
     "domain": "cinema",
     "template": "Film.CAST_MEMBER1.PLACE_OF_BIRTH vs CAST_MEMBER2.PLACE_OF_BIRTH",
@@ -821,19 +821,19 @@
   },
   {
     "question_id": "TR_050",
-    "question_text": "\"Kelebegin Ruyası\" filminde oynayan Tatlıtuğ mı yoksa Baris Çakmak mi daha büyük bir şehirde doğmuştur?",
+    "question_text": "\"Le Grand Voyage\" filminde oynayan Nicolas Cazalé mı yoksa nihat nikerel mi daha büyük bir şehirde doğmuştur?",
     "reasoning_path": [
-      "Kelebegin Ruyası",
+      "Le Grand Voyage",
       "CAST_MEMBER",
-      "Tatlıtuğ",
+      "Nicolas Cazalé",
       "PLACE_OF_BIRTH",
-      "istanbul (turkey)",
+      "pau, pyrenees-atlantiques",
       "vs",
-      "Baris Çakmak",
+      "nihat nikerel",
       "PLACE_OF_BIRTH",
-      "thracian chersonesus"
+      "Corum, turkey"
     ],
-    "gold_answer": "Karşılaştırma: Tatlıtuğ → istanbul (turkey) / Baris Çakmak → thracian chersonesus",
+    "gold_answer": "COMPARISON::Nicolas Cazalé(pau, pyrenees-atlantiques)::nihat nikerel(Corum, turkey)",
     "difficulty": "comparison",
     "domain": "cinema",
     "template": "Film.CAST_MEMBER1.PLACE_OF_BIRTH vs CAST_MEMBER2.PLACE_OF_BIRTH",

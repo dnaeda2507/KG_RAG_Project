@@ -24,17 +24,13 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import networkx as nx
 from neo4j import GraphDatabase
-from dotenv import load_dotenv
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, TURKEY_ID, OUTPUT_PHASE2_FOOTBALL
 
 # ── Bağlantı ──────────────────────────────────────────────────────────────────
-load_dotenv()
-URI       = os.getenv("NEO4J_URI",      "neo4j://127.0.0.1:7687")
-USER      = os.getenv("NEO4J_USER",     "neo4j")
-PASSWORD  = os.getenv("NEO4J_PASSWORD", "neo4j")
-TURKEY_ID = "Q43"
-
-driver     = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
-OUTPUT_DIR = "outputs/football"
+driver     = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
+OUTPUT_DIR = OUTPUT_PHASE2_FOOTBALL
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
@@ -94,12 +90,19 @@ entity_rel_counts = []
 
 for club in seed_entities:
     cid = club['id']
+    # Her iki yön: kulüpten çıkan (HOME_VENUE, LEAGUE vs.) +
+    # kulübe gelen (MEMBER_OF_SPORTS_TEAM, HEAD_COACH vs.)
     neighbors = run("""
         MATCH (e:Entity {entityId: $cid})-[r]->(target:Entity)
         RETURN type(r) AS relation,
                target.entityId   AS target_id,
                target.description AS target_desc
-        ORDER BY type(r)
+        UNION
+        MATCH (source:Entity)-[r]->(e:Entity {entityId: $cid})
+        RETURN type(r) AS relation,
+               source.entityId   AS target_id,
+               source.description AS target_desc
+        ORDER BY relation
     """, {"cid": cid})
 
     rel_map = {}

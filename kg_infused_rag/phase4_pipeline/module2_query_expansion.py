@@ -14,19 +14,13 @@ import os
 import time
 import functools
 import wikipedia
-from dotenv import load_dotenv
 from groq import Groq
-
-load_dotenv()
-
-# ── Parametreler ──────────────────────────────────────────────────────────────
-K_P             = 6      # Toplam passage sayısı
-MAX_PASSAGE_LEN = 500    # Her passage'ın maksimum karakter uzunluğu
-WIKI_LANGUAGE   = "en"
-GROQ_MODEL      = "llama-3.1-8b-instant"
-GROQ_API_KEY    = os.getenv("GROQ_API_KEY", "")
-WIKI_SEARCH_DELAY = 0.4  # Arama sonrası bekleme (saniye)
-WIKI_PAGE_DELAY   = 0.2  # Sayfa çekimi sonrası bekleme (saniye)
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from config import (
+    K_P, MAX_PASSAGE_LEN, WIKI_LANGUAGE, GROQ_MODEL, GROQ_API_KEY,
+    WIKI_SEARCH_DELAY, WIKI_PAGE_DELAY,
+)
 
 wikipedia.set_lang(WIKI_LANGUAGE)
 

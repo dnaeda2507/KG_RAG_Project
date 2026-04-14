@@ -7,26 +7,23 @@ Neo4j'den gerçek path'leri çekip 50+ soru üretir.
 -  5 adet karşılaştırma sorusu
 
 Düzeltme:
-  - "Eksik soru tamamlama" bloğu artık farklı template'leri döngüsel kullanıyor
-    (sadece Film→DIRECTOR→PLACE_OF_BIRTH tekrarından kaçınılıyor)
-  - Her template'e kullanım sayacı eklendi
-  - Soru çeşitliliği artırıldı
+  - Karşılaştırma sorularının gold_answer artık pipeline evaluation ile uyumlu:
+    "COMPARISON::<entity1>::<entity2>" formatı — evaluation sırasında bu prefix
+    ile tespit edilip atlanabilir.
+  - Eski "Karşılaştırma sorusu - ..." formatı kaldırıldı.
+  - Diğer değişiklik yok (template çeşitliliği ve round-robin havuz korundu).
 """
 
 import os
+import sys
 import json
 import random
 from neo4j import GraphDatabase
-from dotenv import load_dotenv
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, TURKEY_ID, OUTPUT_PHASE3_CINEMA
 
-load_dotenv()
-URI       = os.getenv("NEO4J_URI",      "neo4j://127.0.0.1:7687")
-USER      = os.getenv("NEO4J_USER",     "neo4j")
-PASSWORD  = os.getenv("NEO4J_PASSWORD", "neo4j")
-TURKEY_ID = "Q43"
-
-driver     = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
-OUTPUT_DIR = "outputs/phase3"
+driver     = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
+OUTPUT_DIR = OUTPUT_PHASE3_CINEMA
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
@@ -46,7 +43,7 @@ def clean(text):
     return str(text).strip()
 
 questions       = []
-template_counts = {}   # ✔ template başına kullanım sayacı
+template_counts = {}
 q_id            = 1
 
 
@@ -339,10 +336,12 @@ random.shuffle(pairs)
 for p in pairs[:3]:
     f1, d1, f2, d2 = (clean(p['film1']), clean(p['dir1']),
                        clean(p['film2']), clean(p['dir2']))
+    # ✔ DÜZELTME: gold_answer artık pipeline evaluation ile uyumlu sabit format
+    # "COMPARISON::<entity1>::<entity2>" → pipeline bu prefix'i görünce soruyu atlar
     add_question(
         text=f'"{f1}" ve "{f2}" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: {d1} mı yoksa {d2} mi?',
         path=[f1, "DIRECTOR", d1, "vs", f2, "DIRECTOR", d2],
-        answer=f"Karşılaştırma sorusu - her iki yönetmenin ödülleri kontrol edilmeli: {d1} / {d2}",
+        answer=f"COMPARISON::{d1}::{d2}",
         difficulty="comparison",
         domain="cinema",
         template="Film1.DIRECTOR vs Film2.DIRECTOR (award comparison)"
@@ -368,10 +367,11 @@ random.shuffle(actor_pairs)
 for p in actor_pairs[:2]:
     film, a1, c1, a2, c2 = (clean(p['film']), clean(p['actor1']), clean(p['city1']),
                               clean(p['actor2']), clean(p['city2']))
+    # ✔ DÜZELTME: gold_answer sabit "COMPARISON::" formatı
     add_question(
         text=f'"{film}" filminde oynayan {a1} mı yoksa {a2} mi daha büyük bir şehirde doğmuştur?',
         path=[film, "CAST_MEMBER", a1, "PLACE_OF_BIRTH", c1, "vs", a2, "PLACE_OF_BIRTH", c2],
-        answer=f"Karşılaştırma: {a1} → {c1} / {a2} → {c2}",
+        answer=f"COMPARISON::{a1}({c1})::{a2}({c2})",
         difficulty="comparison",
         domain="cinema",
         template="Film.CAST_MEMBER1.PLACE_OF_BIRTH vs CAST_MEMBER2.PLACE_OF_BIRTH"
@@ -382,7 +382,7 @@ print(f"  Karşılaştırma soru sayısı: {comp_count}")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# EKSİK SORU TAMAMLAMA — ÇEŞİTLİ TEMPLATE'LER (✔ Düzeltildi)
+# EKSİK SORU TAMAMLAMA — ÇEŞİTLİ TEMPLATE'LER
 # ══════════════════════════════════════════════════════════════════════════════
 current = len(questions)
 print(f"\n  Mevcut soru sayısı: {current} / 50")
@@ -391,9 +391,7 @@ if current < 50:
     needed = 50 - current
     print(f"  {needed} ek soru üretiliyor (farklı template'ler kullanılıyor)...")
 
-    # ✔ Birden fazla kaynak havuzu — çeşitlilik için döngüsel kullanılıyor
     extra_pools = [
-        # Havuz A: Film → DIRECTOR → PLACE_OF_BIRTH
         ("Film → DIRECTOR → PLACE_OF_BIRTH (extra)", run("""
             MATCH (film:Entity)-[:COUNTRY_OF_ORIGIN]->(:Entity {entityId: $tid})
             MATCH (film)-[:DIRECTOR]->(director:Entity)
@@ -411,7 +409,6 @@ if current < 50:
              [clean(r["film"]), "DIRECTOR", clean(r["director"]), "PLACE_OF_BIRTH", clean(r["city"])],
              r["city"]
          )),
-        # Havuz B: Film → CAST_MEMBER → PLACE_OF_BIRTH
         ("Film → CAST_MEMBER → PLACE_OF_BIRTH (extra)", run("""
             MATCH (film:Entity)-[:COUNTRY_OF_ORIGIN]->(:Entity {entityId: $tid})
             MATCH (film)-[:CAST_MEMBER]->(actor:Entity)
@@ -429,7 +426,6 @@ if current < 50:
              [clean(r["film"]), "CAST_MEMBER", clean(r["actor"]), "PLACE_OF_BIRTH", clean(r["city"])],
              r["city"]
          )),
-        # Havuz C: Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP
         ("Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP (extra)", run("""
             MATCH (film:Entity)-[:COUNTRY_OF_ORIGIN]->(:Entity {entityId: $tid})
             MATCH (film)-[:CAST_MEMBER]->(actor:Entity)
@@ -449,16 +445,15 @@ if current < 50:
          )),
     ]
 
-    # Havuzları karıştır
-    for template_name, pool, key1, key2, key3 in extra_pools:
+    for template_name, pool, key1, key2, key3, make_q in extra_pools:
         random.shuffle(pool)
 
     used_keys = {(q['reasoning_path'][0], q['reasoning_path'][2])
                  for q in questions
                  if len(q['reasoning_path']) >= 3}
 
-    added     = 0
-    pool_idx  = 0  # ✔ round-robin havuz seçimi
+    added    = 0
+    pool_idx = 0
 
     while added < needed:
         template_name, pool, key1, key2, key3, make_q = extra_pools[pool_idx % len(extra_pools)]
@@ -466,8 +461,8 @@ if current < 50:
 
         found = False
         for r in pool:
-            k1  = clean(r.get(key1, ""))
-            k2  = clean(r.get(key2, ""))
+            k1       = clean(r.get(key1, ""))
+            k2       = clean(r.get(key2, ""))
             uniq_key = (k1, k2)
             if uniq_key in used_keys:
                 continue
@@ -509,7 +504,6 @@ print(f"  3-hop soruları    : {three_hop:>3}  (min 15) {'✅' if three_hop >= 1
 print(f"  Karşılaştırma     : {comparison:>3}  (min  5) {'✅' if comparison >= 5 else '⚠️'}")
 print(f"  TOPLAM            : {total:>3}  (min 50) {'✅' if total >= 50 else '⚠️'}")
 
-# ✔ Template çeşitlilik raporu
 print(f"\n  Template Çeşitliliği ({len(template_counts)} farklı template):")
 for tmpl, cnt in sorted(template_counts.items(), key=lambda x: -x[1]):
     print(f"    {tmpl:<60} : {cnt:>3}")
@@ -536,7 +530,10 @@ save_json({
         "3hop_ok":  three_hop >= 15,
         "comp_ok":  comparison >= 5,
         "total_ok": total >= 50
-    }
+    },
+    # ✔ Not: comparison gold_answer'lar "COMPARISON::" prefix'i ile işaretlidir.
+    # pipeline.py bu soruları evaluation dışında tutar.
+    "comparison_gold_answer_format": "COMPARISON::<entity1>::<entity2>"
 }, "qa_dataset_summary.json")
 
 driver.close()

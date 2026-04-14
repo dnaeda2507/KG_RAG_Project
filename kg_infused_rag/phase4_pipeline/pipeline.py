@@ -8,11 +8,11 @@ Pipeline - KG-Infused RAG Ana Orchestrator
   3. vanilla_qe
   4. kg_rag         (Ana yöntem)
 
-Düzeltmeler:
-  - Lazy initialization: modüller sadece gerektiğinde yükleniyor
-  - Evaluation: Accuracy yanı sıra token-level F1 ve Exact Match eklendi
-  - Retry decorator tüm Groq çağrılarında mevcut
-  - Wikipedia rate limit bekleme eklendi
+Düzeltme:
+  - retrieval_recall hesabında comparison soruları artık doğru atlanıyor.
+    gold.startswith("COMPARISON::") kontrolü eklendi — Phase 3'te üretilen
+    karşılaştırma sorularının gold_answer formatıyla tutarlı.
+  - Diğer düzeltmeler korundu (lazy initialization, F1/EM metrikleri, retry).
 
 Kullanım:
     python pipeline.py --query "Galatasaray'ın teknik direktörünün doğum yeri neresidir?"
@@ -26,22 +26,18 @@ import time
 import argparse
 import functools
 import wikipedia
-from dotenv import load_dotenv
 from groq import Groq
-
-load_dotenv()
-
-GROQ_MODEL        = "llama-3.1-8b-instant"
-GROQ_API_KEY      = os.getenv("GROQ_API_KEY", "")
-K_P               = 6
-MAX_PASSAGE_CHARS = 400
-WIKI_SEARCH_DELAY = 0.4
-WIKI_PAGE_DELAY   = 0.2
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from config import (
+    GROQ_MODEL, GROQ_API_KEY,
+    K_P, MAX_PASSAGE_CHARS,
+    WIKI_SEARCH_DELAY, WIKI_PAGE_DELAY,
+)
 
 wikipedia.set_lang("en")
 
 
-# ── Retry decorator ───────────────────────────────────────────────────────────
 def retry_on_failure(max_retries: int = 3, delay: float = 2.0):
     def decorator(func):
         @functools.wraps(func)
@@ -77,7 +73,6 @@ def _groq_call(groq_client: Groq, prompt: str, max_tokens: int = 200) -> str:
 
 
 def _wiki_search(query: str, n: int = K_P) -> list:
-    """Wikipedia'dan passage çeker."""
     passages = []
     try:
         results = wikipedia.search(query, results=n + 2)
@@ -116,20 +111,14 @@ def _wiki_search(query: str, n: int = K_P) -> list:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def _normalize(text: str) -> str:
-    """Karşılaştırma için metni normalleştir."""
     return text.lower().strip()
 
 
 def _exact_match(prediction: str, gold: str) -> bool:
-    """Tam eşleşme kontrolü."""
     return _normalize(prediction) == _normalize(gold)
 
 
 def _token_f1(prediction: str, gold: str) -> float:
-    """
-    Token-level F1 skoru.
-    Her iki metin de tokenize edilir, ortak token'lar üzerinden hesaplanır.
-    """
     pred_tokens = set(_normalize(prediction).split())
     gold_tokens = set(_normalize(gold).split())
 
@@ -146,13 +135,20 @@ def _token_f1(prediction: str, gold: str) -> float:
 
 
 def _soft_accuracy(prediction: str, gold: str) -> bool:
-    """
-    Substring tabanlı soft accuracy.
-    Gold cevap prediction içinde geçiyor mu (veya tersi)?
-    """
     p = _normalize(prediction)
     g = _normalize(gold)
     return (g in p) or (p in g and len(p) > 3)
+
+
+# ✔ DÜZELTME: comparison sorusu tespit yardımcısı
+# Phase 3'te gold_answer "COMPARISON::" prefix'i ile üretiliyor.
+def _is_comparison_question(gold: str) -> bool:
+    """
+    Phase 3'te comparison sorularının gold_answer'ı "COMPARISON::" ile başlar.
+    Eski format uyumluluğu için "karşılaştırma" da kontrol edilir.
+    """
+    g = gold.strip().lower()
+    return g.startswith("comparison::") or g.startswith("karşılaştırma")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -160,10 +156,6 @@ def _soft_accuracy(prediction: str, gold: str) -> bool:
 # ══════════════════════════════════════════════════════════════════════════════
 
 class Pipeline:
-    """
-    KG-Infused RAG Pipeline — 4 yöntemi destekler.
-    Lazy initialization: modüller sadece gerektiğinde yükleniyor.
-    """
 
     def __init__(self):
         print("\n" + "=" * 60)
@@ -171,7 +163,6 @@ class Pipeline:
         print("=" * 60)
         self.groq = Groq(api_key=GROQ_API_KEY)
 
-        # ✔ Lazy: modüller henüz yüklenmiyor
         self._m1 = None
         self._m2 = None
         self._m3 = None
@@ -179,7 +170,6 @@ class Pipeline:
 
     @property
     def m1(self):
-        """Module 1: sadece gerektiğinde yükle."""
         if self._m1 is None:
             from module1_spreading_activation import SpreadingActivation
             self._m1 = SpreadingActivation()
@@ -187,7 +177,6 @@ class Pipeline:
 
     @property
     def m2(self):
-        """Module 2: sadece gerektiğinde yükle."""
         if self._m2 is None:
             from module2_query_expansion import QueryExpansion
             self._m2 = QueryExpansion()
@@ -195,15 +184,12 @@ class Pipeline:
 
     @property
     def m3(self):
-        """Module 3: sadece gerektiğinde yükle."""
         if self._m3 is None:
             from module3_answer_generation import AnswerGeneration
             self._m3 = AnswerGeneration()
         return self._m3
 
-    # ── 1. No Retrieval ───────────────────────────────────────────────────────
     def no_retrieval(self, query: str) -> dict:
-        """LLM'e direkt soru sorar, retrieval yok. (Neo4j gerekmez)"""
         print(f"\n[NoR] {query[:60]}...")
         prompt = (
             f"Answer the following question based on your knowledge.\n"
@@ -226,9 +212,7 @@ class Pipeline:
             "kg_summary":   "",
         }
 
-    # ── 2. Vanilla RAG ────────────────────────────────────────────────────────
     def vanilla_rag(self, query: str) -> dict:
-        """Orijinal sorgu ile Wikipedia'dan passage çeker. (Neo4j gerekmez)"""
         print(f"\n[VanillaRAG] {query[:60]}...")
         passages = _wiki_search(query, n=K_P)
 
@@ -256,9 +240,7 @@ class Pipeline:
             "kg_summary":   "",
         }
 
-    # ── 3. Vanilla Query Expansion ────────────────────────────────────────────
     def vanilla_qe(self, query: str) -> dict:
-        """KG olmadan LLM ile query genişletir, dual retrieval yapar. (Neo4j gerekmez)"""
         print(f"\n[VanillaQE] {query[:60]}...")
 
         expand_prompt = (
@@ -305,9 +287,7 @@ class Pipeline:
             "kg_summary":     "",
         }
 
-    # ── 4. KG-Infused RAG ────────────────────────────────────────────────────
     def kg_rag(self, query: str) -> dict:
-        """Module 1 → Module 2 → Module 3 tam pipeline. (Neo4j gerekir)"""
         print(f"\n[KG-RAG] {query[:60]}...")
 
         m1_result = self.m1.run(query)
@@ -335,10 +315,6 @@ class Pipeline:
             "reasoning_chain":    m3_result["reasoning_chain"],
         }
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # TEK SORU ÇALIŞTIR
-    # ──────────────────────────────────────────────────────────────────────────
-
     def run_single(self, query: str, method: str = "kg_rag") -> dict:
         methods = {
             "no_retrieval": self.no_retrieval,
@@ -358,10 +334,6 @@ class Pipeline:
             raise ValueError(f"Geçersiz method: {method}. Seçenekler: {list(methods.keys())}")
 
         return methods[method](query)
-
-    # ──────────────────────────────────────────────────────────────────────────
-    # DATASET ÜZERİNDE TOPLU TEST
-    # ──────────────────────────────────────────────────────────────────────────
 
     def run_dataset(
         self,
@@ -404,14 +376,14 @@ class Pipeline:
                 "domain":         domain,
                 "reasoning_path": q.get("reasoning_path", []),
                 "answers":        {},
-                "passages":       {},   # ✔ Retrieval Recall için passage'ları sakla
+                "passages":       {},
             }
 
             for m in methods_to_run:
                 try:
                     result = getattr(self, m)(query)
                     row["answers"][m]  = result.get("final_answer", "")
-                    row["passages"][m] = result.get("passages", [])   # ✔
+                    row["passages"][m] = result.get("passages", [])
                     print(f"  [{m:15}] → {str(row['answers'][m])[:60]}")
                 except Exception as e:
                     print(f"  [{m:15}] ⚠ Hata: {e}")
@@ -434,16 +406,7 @@ class Pipeline:
         self._print_summary(summary)
         return {"results": all_results, "summary": summary}
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # ÖZET RAPOR  (✔ F1 ve EM eklendi)
-    # ──────────────────────────────────────────────────────────────────────────
-
     def _build_summary(self, results: list, methods: list) -> dict:
-        """
-        Sonuçlardan özet istatistik üretir.
-        Metrikler: Accuracy (soft), Exact Match (EM), Token-level F1,
-                   Retrieval Recall (gold cevap passage'larda geçiyor mu?)
-        """
         summary = {
             "total_questions": len(results),
             "methods":         {},
@@ -453,9 +416,9 @@ class Pipeline:
             acc_correct      = 0
             em_correct       = 0
             f1_total         = 0.0
-            recall_correct   = 0   # ✔ Retrieval Recall sayacı
+            recall_correct   = 0
             total            = 0
-            total_retrieving = 0   # ✔ Retrieval yapan yöntemler için toplam
+            total_retrieving = 0
             by_diff          = {}
 
             for r in results:
@@ -463,8 +426,11 @@ class Pipeline:
                 answer = str(r.get("answers", {}).get(m, "")).strip()
                 diff   = r.get("difficulty", "unknown")
 
-                # Karşılaştırma sorularını ve boş cevapları atla
-                if not gold or gold.lower().startswith("karşılaştırma"):
+                # ✔ DÜZELTME: comparison soruları _is_comparison_question() ile atlanıyor
+                # Eski kod sadece "karşılaştırma" prefix'ini kontrol ediyordu;
+                # yeni Phase 3 çıktısında "COMPARISON::" prefix'i var.
+                # İki format da destekleniyor.
+                if not gold or _is_comparison_question(gold):
                     continue
 
                 total += 1
@@ -479,11 +445,11 @@ class Pipeline:
                     em_correct += 1
                 f1_total += f1
 
-                # ✔ Retrieval Recall: gold cevap retrieved passage'lardan herhangi birinde geçiyor mu?
+                # Retrieval Recall
                 passages = r.get("passages", {}).get(m, [])
-                if passages:                       # no_retrieval için passages boş olur
+                if passages:
                     total_retrieving += 1
-                    gold_norm = gold.lower()
+                    gold_norm    = gold.lower()
                     passage_text = " ".join(
                         p.get("content", "").lower() for p in passages
                     )
@@ -508,7 +474,7 @@ class Pipeline:
                     by_diff[diff]["em_correct"]  += 1
                 if passages:
                     by_diff[diff]["recall_total"] += 1
-                    gold_norm = gold.lower()
+                    gold_norm    = gold.lower()
                     passage_text = " ".join(
                         p.get("content", "").lower() for p in passages
                     )
@@ -529,7 +495,7 @@ class Pipeline:
                 "accuracy":         acc_score,
                 "exact_match":      em_score,
                 "f1":               f1_score,
-                "retrieval_recall": recall_score,   # ✔ None = retrieval yok (no_retrieval)
+                "retrieval_recall": recall_score,
                 "by_difficulty": {
                     d: {
                         "accuracy":         round(v["acc_correct"]    / v["total"],        4) if v["total"]        > 0 else 0,
@@ -576,14 +542,12 @@ class Pipeline:
             self._m1.close()
 
 
-# ── Yardımcı ─────────────────────────────────────────────────────────────────
 def _save_json(data, path: str):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"  ✔ Kaydedildi: {path}")
 
 
-# ── CLI ───────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="KG-Infused RAG Pipeline")
     parser.add_argument("--query",   type=str, default=None,

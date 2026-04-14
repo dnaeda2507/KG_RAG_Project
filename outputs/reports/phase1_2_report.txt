@@ -1,0 +1,357 @@
+══════════════════════════════════════════════════════════════════════════
+  CSE 474 & 5074 — Social Network Analysis  |  Term Project
+  PHASE 1-2 REPORT: Türkiye Entity Analysis and Domain Selection
+  Dataset: Wikidata5M  |  Focus Domain: Türkiye
+══════════════════════════════════════════════════════════════════════════
+
+══════════════════════════════════════════════════════════════════════════
+  1. INTRODUCTION
+══════════════════════════════════════════════════════════════════════════
+
+  This report documents Phase 1 (Dataset Exploration) and Phase 2 (Domain
+  Selection) of the KG-Infused RAG project.
+
+  The Wikidata5M knowledge graph contains approximately 4.8 million entities
+  and 20.6 million triples stored across the following files:
+
+    wikidata5m_raw_data/wikidata5m_all_triplet.txt   — all subject|rel|object triples
+    wikidata5m_raw_data/wikidata5m_alias/wikidata5m_entity.txt — entity aliases
+    wikidata5m_raw_data/wikidata5m_alias/wikidata5m_relation.txt — relation aliases
+    wikidata5m_raw_data/wikidata5m_text.txt — full entity text descriptions
+
+  The goal of Phase 1 is to identify Türkiye-related entities, city
+  distributions, and relevant relation types. Phase 2 selects the most
+  suitable domain for creating multi-hop questions.
+
+
+══════════════════════════════════════════════════════════════════════════
+  2. PHASE 1: DATASET EXPLORATION (Section 2.3)
+══════════════════════════════════════════════════════════════════════════
+
+──────────────────────────────────────────────────────────────────────────
+  2.1  Türkiye Main Entity Detection  (Section 2.3.1)
+──────────────────────────────────────────────────────────────────────────
+
+  Method: Neo4j description matching — all entities whose description field
+  contains "turkey" or "türkiye" were retrieved via Cypher query.
+
+  ┌─────────────┬──────────────────────────────────────────────────────┐
+  │  Entity ID  │  Description                                         │
+  ├─────────────┼──────────────────────────────────────────────────────┤
+  │  Q43        │  turkiye  ◄── PRIMARY ENTITY                         │
+  │  Q6079083   │  Order of Merit of the Republic of Turkey            │
+  │  Q6077245   │  order of the state of republic of turkey            │
+  │  Q16151507  │  List of Field Marshals of the Republic of Turkey    │
+  │  Q14999194  │  Festivals in republic of turkey                     │
+  └─────────────┴──────────────────────────────────────────────────────┘
+
+  Primary Türkiye Entity   : Q43
+  Total direct connections : 21,865 entities reference Q43 as an object
+
+  Sample triples connected TO Türkiye (Q43):
+
+  ┌───────────────────┬───────────────────────┬──────────────────────┐
+  │  Subject ID       │  Relation             │  Subject Description │
+  ├───────────────────┼───────────────────────┼──────────────────────┤
+  │  Q19771           │  HAS_PART             │  Current G20 Countries│
+  │  Q27293           │  HAS_PART             │  SW Asia             │
+  │  Q611214          │  MAIN_SUBJECT         │  next eleven         │
+  │  Q1078486         │  MAIN_SUBJECT         │  christianity in turkey│
+  │  Q7855404         │  MAIN_SUBJECT         │  Turkish women academics│
+  │  Q12560           │  REPLACED_BY          │  Ottoman empire      │
+  │  Q610759          │  PLACE_OF_BURIAL      │  qaplan ii giray     │
+  └───────────────────┴───────────────────────┴──────────────────────┘
+
+  Finding: Q43 is the canonical Türkiye entity in Wikidata5M.  It is
+  referenced by 21,865 entities via relations such as COUNTRY,
+  COUNTRY_OF_CITIZENSHIP, COUNTRY_OF_ORIGIN, PLACE_OF_BIRTH and
+  HEADQUARTERS_LOCATION — confirming a rich Turkish-domain subgraph.
+
+
+──────────────────────────────────────────────────────────────────────────
+  2.2  Turkish Cities Detection  (Section 2.3.2)
+──────────────────────────────────────────────────────────────────────────
+
+  Method: Entities whose COUNTRY or LOCATED_IN relation points to Q43 were
+  retrieved and ranked by total incoming connection count.
+
+  ┌─────────────┬────────────────────────────┬─────────────┬──────────────┐
+  │  City ID    │  Description               │  Connections│  People Born │
+  ├─────────────┼────────────────────────────┼─────────────┼──────────────┤
+  │  Q406       │  istanbul (turkey)          │      3,278  │       1,514  │
+  │  Q3640      │  Angora, Turkey (Ankara)   │        922  │         417  │
+  │  Q35997     │  ismir, turkey (İzmir)     │        480  │         302  │
+  │  Q40738     │  Bursa, Turkey             │        245  │         121  │
+  │  Q134291    │  mersin, turkey            │         90  │          50  │
+  │  Q483856    │  Türkiye millî futbol tak. │        412  │           0  │
+  │  Q3590479   │  turkey national U-17 team │        241  │           0  │
+  │  Q7855168   │  turkey national U-20 team │        168  │           0  │
+  │  Q7855039   │  turkey national U-23 team │        138  │           0  │
+  │  Q1020663   │  kızılcahamam district     │        109  │           0  │
+  └─────────────┴────────────────────────────┴─────────────┴──────────────┘
+
+  Key findings:
+  • İstanbul (Q406) dominates with 3,278 connected entities and 1,514 birth
+    records — the single most connected Turkish city by a wide margin.
+  • Ankara (Q3640) appears as 'Angora, Turkey' (historical name) in Wikidata5M.
+    This alias mismatch is a known limitation affecting entity linking.
+  • İzmir (Q35997) appears as 'ismir, turkey' — again showing transliteration
+    differences common in Wikidata5M.
+  • National football teams appear in the top-10 due to heavy player-team linking
+    via MEMBER_OF_SPORTS_TEAM (699 players linked to these teams).
+  • The top 3 cities (İstanbul, Ankara, İzmir) cover over 75% of person-entity
+    birth-location data in the Turkish domain.
+
+
+──────────────────────────────────────────────────────────────────────────
+  2.3  Relevant Relation Type Analysis  (Section 2.3.3)
+──────────────────────────────────────────────────────────────────────────
+
+  All relations where Q43 (Türkiye) appears as the object were extracted and
+  ranked by frequency.
+
+  ┌────────────────────────────────────────────┬───────────────┐
+  │  Relation Type                             │  Frequency    │
+  ├────────────────────────────────────────────┼───────────────┤
+  │  COUNTRY                                   │    14,114     │
+  │  COUNTRY_OF_CITIZENSHIP                    │     6,250     │
+  │  COUNTRY_OF_ORIGIN                         │       759     │
+  │  NARRATIVE_LOCATION                        │       237     │
+  │  PLACE_OF_BIRTH                            │       101     │
+  │  FACET_OF                                  │        96     │
+  │  FILMING_LOCATION                          │        63     │
+  │  DIPLOMATIC_RELATION                       │        59     │
+  │  PLACE_OF_DEATH                            │        39     │
+  │  LOCATED_IN_THE_ADMINISTRATIVE_TERR...     │        38     │
+  │  HEADQUARTERS_LOCATION                     │        17     │
+  │  SHARES_BORDER_WITH                        │        13     │
+  │  PARTICIPANT                               │        12     │
+  │  COUNTRY_FOR_SPORT                         │        10     │
+  │  OPERATING_AREA                            │         7     │
+  └────────────────────────────────────────────┴───────────────┘
+
+  Relation usage in Türkiye context:
+
+   COUNTRY (14,114)
+     — Most frequent: used for citizenship, company country, entity location.
+     — Powers 3-hop questions: Film → Director → BirthCity → COUNTRY → Türkiye
+
+   COUNTRY_OF_CITIZENSHIP (6,250)
+     — Person ↔ Türkiye links; essential for cast-member nationality questions.
+     — Example: "muhteşem yüzyıl" CAST_MEMBER Deniz Cakir
+                → COUNTRY_OF_CITIZENSHIP → turkiye
+
+   COUNTRY_OF_ORIGIN (759)
+     — Film and product origin; key relation for cinema domain.
+     — All 759 Turkish films identified via this relation.
+
+   PLACE_OF_BIRTH (101)
+     — Directly answers "where was X born?" questions.
+     — Core relation for 2-hop cinema/football questions.
+
+   HEADQUARTERS_LOCATION (17)
+     — Company and institution HQ in Turkey.
+     — Used in companies domain (707 entities).
+
+   FILMING_LOCATION (63)
+     — Turkish locations used in film shoots.
+     — Present in cinema subgraph but not used in question templates.
+
+   Note: MEMBER_OF_SPORTS_TEAM and DIRECTOR are not direct Q43 relations;
+   they are 1-hop relations used in multi-hop paths through Turkish entities.
+
+
+══════════════════════════════════════════════════════════════════════════
+  3. PHASE 1: RESEARCH QUESTION ANSWERS  (Section 2.4)
+══════════════════════════════════════════════════════════════════════════
+
+  Q1: How many entities are directly connected to Türkiye in Wikidata5M?
+  ────────────────────────────────────────────────────────────────────────
+  → 21,865 entities reference Q43 (Türkiye) as an object.
+
+  By domain category:
+  ┌────────────────────────────────┬────────────┐
+  │  Category                      │  Count     │
+  ├────────────────────────────────┼────────────┤
+  │  Football players              │    4,191   │
+  │  Football clubs                │      137   │
+  │  Cinema films                  │      759   │
+  │  Cinema directors              │        2   │
+  │  Companies                     │      707   │
+  │  Universities / Academia       │      146   │
+  │  Music artists                 │       12   │
+  │  Persons born in Turkey (total)│    5,806   │
+  └────────────────────────────────┴────────────┘
+
+  Q2: Which Turkish cities have the most entities?
+  ────────────────────────────────────────────────────────────────────────
+  → 1st  İstanbul  (Q406):   3,278 connections  —  1,514 birth records
+     2nd  Ankara   (Q3640):    922 connections  —    417 birth records
+     3rd  İzmir    (Q35997):   480 connections  —    302 birth records
+     4th  Bursa    (Q40738):   245 connections  —    121 birth records
+     5th  Mersin   (Q134291):   90 connections  —     50 birth records
+
+  Q3: What are the most frequently used relation types in the Türkiye context?
+  ────────────────────────────────────────────────────────────────────────
+  → COUNTRY (14,114) > COUNTRY_OF_CITIZENSHIP (6,250) > COUNTRY_OF_ORIGIN (759)
+     > NARRATIVE_LOCATION (237) > PLACE_OF_BIRTH (101) > FILMING_LOCATION (63)
+
+  Q4: Which domains have the most Türkiye data?
+  ────────────────────────────────────────────────────────────────────────
+  ┌──────────────┬──────────────────────────────────────────────────────┐
+  │  Domain      │  Entity Count  &  Notes                              │
+  ├──────────────┼──────────────────────────────────────────────────────┤
+  │  Football    │  4,328 (4,191 players + 137 clubs) — largest         │
+  │  Cinema      │    761 (759 films + 2 directors)                     │
+  │  Companies   │    707 entities                                       │
+  │  Academia    │    146 universities                                  │
+  │  Music       │     12 artists — too small for 50 questions          │
+  └──────────────┴──────────────────────────────────────────────────────┘
+
+
+══════════════════════════════════════════════════════════════════════════
+  4. PHASE 2: DOMAIN SELECTION  (Section 3.1-3.5)
+══════════════════════════════════════════════════════════════════════════
+
+──────────────────────────────────────────────────────────────────────────
+  4.1  Domain Verification Results
+──────────────────────────────────────────────────────────────────────────
+
+  All 5 candidate domains were analysed against the Phase 2 selection
+  criteria (Section 3.4):
+
+  ┌──────────────────┬───────┬──────────┬────────┬───────┬──────────┬──────┐
+  │  Domain          │ Seeds │ Related  │  2-hop │  3-hop│  Rels    │ Pass?│
+  ├──────────────────┼───────┼──────────┼────────┼───────┼──────────┼──────┤
+  │  Football        │    11 │     521  │    711 │   550 │    9     │  ✔   │
+  │  Cinema          │   759 │     487  │    162 │   296 │   50     │  ✔   │
+  │  Companies       │   707 │       0  │      ? │     ? │   50     │  ✗   │
+  │  Music           │    12 │      —   │      — │     — │    —     │  ✗   │
+  │  Academia        │   146 │      —   │      — │     — │    —     │  ✗   │
+  └──────────────────┴───────┴──────────┴────────┴───────┴──────────┴──────┘
+
+  Companies domain failed: 0 related entities could be traversed (sparse
+  inbound edges in Neo4j for company-to-Turkey paths).
+  Music and Academia domains have insufficient entity counts.
+
+
+──────────────────────────────────────────────────────────────────────────
+  4.2  Cinema Domain — Detailed Verification
+──────────────────────────────────────────────────────────────────────────
+
+  Entity breakdown:
+    Films      :  759
+    Directors  :   71  (extracted via DIRECTOR relation from film seed entities)
+    Actors     :  416  (extracted via CAST_MEMBER relation)
+
+  Selection Criteria Assessment:
+  ┌────────────────────────────────┬───────────────────────────┬────────┐
+  │  Criterion                     │  Cinema Result            │  Pass? │
+  ├────────────────────────────────┼───────────────────────────┼────────┤
+  │  Seed entities ≥ 10            │  759 films                │   ✔    │
+  │  Avg relations/entity ≥ 5      │  26 unique relation types │   ✔    │
+  │  2-hop paths ≥ 30              │  619 paths                │   ✔    │
+  │  3-hop paths available         │  557 paths                │   ✔    │
+  │  Relation diversity ≥ 5 types  │  26 types (26 types)      │   ✔    │
+  └────────────────────────────────┴───────────────────────────┴────────┘
+
+  Top Cinema Entities by Degree (most connected films):
+  ┌─────────────────┬───────────────────────────────┬────────┬───────┬───────┐
+  │  Entity ID      │  Description                  │ Degree │Actors │Awards│
+  ├─────────────────┼───────────────────────────────┼────────┼───────┼───────┤
+  │  Q654493        │  Turkish Cuisine               │    171 │     0 │    0  │
+  │  Q17512617      │  the cut (2014 film)           │     32 │    13 │    0  │
+  │  Q325648        │  Duvara karşı                  │     31 │    14 │    1  │
+  │  Q3472837       │  istanbul tales                │     23 │    17 │    0  │
+  └─────────────────┴───────────────────────────────┴────────┴───────┴───────┘
+
+  26 Relation Types in Cinema Subgraph:
+    AWARD_RECEIVED        CAST_MEMBER           COMPOSER
+    COUNTRY_OF_ORIGIN     DIFFERENT_FROM        DIRECTOR
+    DIRECTOR_OF_PHOTOGRAPHY  DISTRIBUTOR        FILMING_LOCATION
+    FILM_EDITOR           GENRE                 INSTANCE_OF
+    LIST_OF_EPISODES      LOCATION              MAIN_SUBJECT
+    NARRATIVE_LOCATION    NOMINATED_FOR         ORIGINAL_LANGUAGE_OF_FILM
+    ORIGINAL_NETWORK      PART_OF               PRODUCER
+    PRODUCTION_COMPANY    SAID_TO_BE_THE_SAME_AS  SCREENWRITER
+    SUBCLASS_OF           USES
+
+
+──────────────────────────────────────────────────────────────────────────
+  4.3  Football Domain — Detailed Verification
+──────────────────────────────────────────────────────────────────────────
+
+  Entity breakdown:   Football clubs: 11  |  Players: 699
+
+  ┌────────────────────────────────┬───────────────────────────┬────────┐
+  │  Criterion                     │  Football Result          │  Pass? │
+  ├────────────────────────────────┼───────────────────────────┼────────┤
+  │  Seed entities ≥ 10            │  11 clubs                 │   ✔    │
+  │  Avg relations/entity ≥ 5      │  4.09 avg                 │   ✗    │
+  │  2-hop paths ≥ 30              │  575 paths                │   ✔    │
+  │  3-hop paths available         │  555 paths                │   ✔    │
+  │  Relation diversity ≥ 5 types  │  12 relation types        │   ✔    │
+  └────────────────────────────────┴───────────────────────────┴────────┘
+
+  Note: The avg-relations criterion (4.09 < 5.0 required) is not met.
+  However, the domain still provides 575 two-hop and 555 three-hop paths
+  and was retained as a SECONDARY domain for supplementary question generation.
+
+
+──────────────────────────────────────────────────────────────────────────
+  4.4  Domain Selection Decision
+──────────────────────────────────────────────────────────────────────────
+
+  PRIMARY Domain   : CINEMA (Türk Sineması)
+  SECONDARY Domain : FOOTBALL (Türk Futbolu)
+
+  Justification for Cinema (Primary):
+    759 Türk filmi tespit edildi. DIRECTOR, CAST_MEMBER, AWARD_RECEIVED,
+    EDUCATED_AT, GENRE, COUNTRY_OF_ORIGIN relation'ları ile 619 adet 2-hop
+    ve 557 adet 3-hop path oluşturulabilmektedir. 26 farklı relation türü ile
+    en çeşitli domain konumundadır. Tüm 3.4 kriterleri karşılanmıştır.
+
+  Justification for Football (Secondary):
+    11 futbol kulübü ve 699 futbolcu tespit edildi. 575 adet 2-hop ve 555
+    adet 3-hop path mevcuttur. Avg-relations kriteri tam sağlanmasa da zengin
+    path yapısı nedeniyle ikincil domain olarak seçilmiştir.
+
+  Multi-Hop Path Templates (Cinema):
+    2-hop: Film → DIRECTOR         → PLACE_OF_BIRTH   → City
+    2-hop: Film → CAST_MEMBER      → PLACE_OF_BIRTH   → City
+    2-hop: Film → DIRECTOR         → AWARD_RECEIVED   → Award
+    2-hop: Film → CAST_MEMBER      → COUNTRY_OF_CITIZENSHIP → Country
+    2-hop: Film → DIRECTOR         → EDUCATED_AT      → Institution
+    3-hop: Film → DIRECTOR         → PLACE_OF_BIRTH   → COUNTRY → Country
+    3-hop: Film → CAST_MEMBER      → PLACE_OF_BIRTH   → COUNTRY → Country
+    3-hop: Film → DIRECTOR         → EDUCATED_AT      → COUNTRY → Country
+
+
+══════════════════════════════════════════════════════════════════════════
+  5. LIMITATIONS  (Section 10.2 & 10.3)
+══════════════════════════════════════════════════════════════════════════
+
+  1. Historical place name aliases
+     Ankara stored as 'Angora, Turkey', İzmir as 'ismir, turkey'. These
+     do not match standard English or Turkish spellings, creating entity-
+     linking difficulties in downstream phases.
+
+  2. Turkish character encoding gaps
+     Characters ş, ğ, ü, ö, ı, ç lack consistent aliases in
+     wikidata5m_entity.txt, causing entity-linking failures in Phase 4
+     (e.g., 'halit refiğ' not found via alias matching).
+
+  3. wikidata5m_text.txt not used as retrieval corpus
+     The text file contains richer Wikipedia-style descriptions. Using it
+     as a retrieval corpus in Phase 4 is noted as a key improvement.
+
+  4. Company domain sparse
+     707 company entities exist but Neo4j traversal returned 0 related
+     entities — the company subgraph has very few traversable outbound edges.
+
+  5. Music domain insufficient
+     Only 12 music artists — far below the 50-question requirement.
+
+══════════════════════════════════════════════════════════════════════════
+  End of Phase 1-2 Report
+══════════════════════════════════════════════════════════════════════════

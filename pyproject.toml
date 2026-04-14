@@ -1,0 +1,19 @@
+[project]
+name = "kg-infused-rag"
+version = "0.1.0"
+description = "Multi-Hop Question Answering with KG-Infused RAG using Wikidata5M - Türkiye Domain"
+requires-python = ">=3.12"
+dependencies = [
+    "neo4j==6.1.0",
+    "groq==1.1.2",
+    "sentence-transformers==5.4.0",
+    "scikit-learn==1.8.0",
+    "numpy==2.4.3",
+    "matplotlib==3.10.8",
+    "networkx==3.6.1",
+    "wikipedia==1.4.0",
+    "python-dotenv==1.2.2",
+]
+
+[tool.uv]
+dev-dependencies = []

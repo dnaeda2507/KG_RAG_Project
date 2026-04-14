@@ -24,17 +24,13 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import networkx as nx
 from neo4j import GraphDatabase
-from dotenv import load_dotenv
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, TURKEY_ID, OUTPUT_PHASE2_CINEMA
 
 # ── Bağlantı ──────────────────────────────────────────────────────────────────
-load_dotenv()
-URI       = os.getenv("NEO4J_URI",      "neo4j://127.0.0.1:7687")
-USER      = os.getenv("NEO4J_USER",     "neo4j")
-PASSWORD  = os.getenv("NEO4J_PASSWORD", "neo4j")
-TURKEY_ID = "Q43"
-
-driver     = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
-OUTPUT_DIR = "outputs/cinema"
+driver     = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
+OUTPUT_DIR = OUTPUT_PHASE2_CINEMA
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 

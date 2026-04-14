@@ -13,6 +13,9 @@
     "INSTANCE_OF",
     "IS_A_LIST_OF",
     "LEAGUE",
+    "MEMBER_OF_SPORTS_TEAM",
+    "OCCUPANT",
+    "PARTICIPATING_TEAM",
     "SPORT",
     "SUBCLASS_OF"
   ],
@@ -28,10 +31,13 @@
       "INSTANCE_OF",
       "IS_A_LIST_OF",
       "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM",
       "SPORT",
       "SUBCLASS_OF"
     ],
-    "avg_rels_per_entity": 3.27
+    "avg_rels_per_entity": 4.09
   },
   "criteria": {
     "seed_entities_ok": true,

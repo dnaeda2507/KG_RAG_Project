@@ -1,25 +1,25 @@
 {
   "seed_entities": [
     {
-      "id": "Q4412791",
-      "desc": "Polyteknikkojen urheiluseura",
-      "similarity": 0.5585594773292542
+      "id": "Q5518018",
+      "desc": "galatasaray sk marsi",
+      "similarity": 0.5920861959457397
     },
     {
-      "id": "Q8080256",
-      "desc": "Izmir Ataturk Anadolu Teknik Lisesi",
-      "similarity": 0.5501447916030884
+      "id": "Q2525887",
+      "desc": "Galatasaray Yurtici Kargo",
+      "similarity": 0.5780321955680847
     },
     {
-      "id": "Q474543",
-      "desc": "Polyteknikkojen Ilmailukerho",
-      "similarity": 0.5252484083175659
+      "id": "Q5864650",
+      "desc": "history of galatasaray s.k.",
+      "similarity": 0.5733397603034973
     }
   ],
   "activated_triples": [
     {
-      "source_id": "Q8080256",
-      "source_desc": "Izmir Ataturk Anadolu Teknik Lisesi",
+      "source_id": "Q2525887",
+      "source_desc": "Galatasaray Yurtici Kargo",
       "relation": "COUNTRY",
       "target_id": "Q43",
       "target_desc": "turkiye",
@@ -66,16 +66,16 @@
       "round": 4
     }
   ],
-  "kg_summary": "Galatasaray'ın teknik direktörünün doğum yeri ile ilgili bilgi bulunamadı. Ancak, Galatasaray'ın isminin kökeni, modern Türkiye'nin eski adı olan Galatia Salutaris'ten gelmektedir.",
+  "kg_summary": "Galatasaray'ın teknik direktörünün doğum yeri ile ilgili bilgi bulunamadı. Ancak, Galatasaray'ın Türkiye'den geldiği bilinmektedir.",
   "visited_entities": [
-    "Q3640",
     "Q2297724",
-    "Q474543",
-    "Q1249412",
-    "Q4412791",
     "Q43",
+    "Q3640",
+    "Q2525887",
+    "Q1249412",
     "Q2277",
-    "Q8080256"
+    "Q5864650",
+    "Q5518018"
   ],
-  "rounds_completed": 6
+  "rounds_completed": 5
 }

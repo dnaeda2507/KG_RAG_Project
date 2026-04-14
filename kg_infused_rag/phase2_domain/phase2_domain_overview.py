@@ -10,6 +10,10 @@ Tüm 5 domain'e bakış yapar, karşılaştırma tablosu üretir.
 Çıktılar:
     outputs/phase2_domain_overview.json
     outputs/phase2_domain_overview_chart.png
+
+Düzeltme:
+    phase1_summary artık Phase 1 çıktı JSON'undan okunuyor (hardcode değil).
+    Dosya yoksa uyarı verilip devam ediliyor.
 """
 
 import os
@@ -17,20 +21,15 @@ import json
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
 import numpy as np
 from neo4j import GraphDatabase
-from dotenv import load_dotenv
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, TURKEY_ID, OUTPUT_PHASE1
 
 # ── Bağlantı ──────────────────────────────────────────────────────────────────
-load_dotenv()
-URI       = os.getenv("NEO4J_URI",      "neo4j://127.0.0.1:7687")
-USER      = os.getenv("NEO4J_USER",     "neo4j")
-PASSWORD  = os.getenv("NEO4J_PASSWORD", "neo4j")
-TURKEY_ID = "Q43"
-
-driver    = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
-OUTPUT_DIR = "outputs"
+driver    = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
+OUTPUT_DIR = OUTPUT_PHASE1
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
@@ -48,6 +47,40 @@ def section(title):
     print("\n" + "=" * 65)
     print(f"  {title}")
     print("=" * 65)
+
+
+# ✔ DÜZELTME: phase1_summary Phase 1 çıktı dosyasından okunuyor
+def _load_phase1_summary() -> dict:
+    """
+    Phase 1 çıktı JSON dosyalarından özet değerleri okur.
+    Dosyalar yoksa boş dict döner ve uyarı verir.
+    """
+    summary = {}
+    mapping = {
+        "Spor_Futbolcular":        ("outputs/phase1_domain_counts.json", "Spor - Futbolcular"),
+        "Spor_Kulupler":           ("outputs/phase1_domain_counts.json", "Spor - Kulüpler"),
+        "Sinema_Filmler":          ("outputs/phase1_domain_counts.json", "Sinema - Filmler"),
+        "Sinema_Yonetmenler":      ("outputs/phase1_domain_counts.json", "Sinema - Yönetmenler"),
+        "Sirketler":               ("outputs/phase1_domain_counts.json", "Şirketler"),
+        "Egitim_Universiteler":    ("outputs/phase1_domain_counts.json", "Eğitim - Üniversiteler"),
+        "Muzik_Sanatcilar":        ("outputs/phase1_domain_counts.json", "Müzik - Sanatçılar"),
+        "Dogum_Yeri_Turkiye":      ("outputs/phase1_domain_counts.json", "Doğum Yeri Türkiye"),
+    }
+
+    domain_counts_path = "outputs/phase1_domain_counts.json"
+    if not os.path.exists(domain_counts_path):
+        print(f"  ⚠ {domain_counts_path} bulunamadı — phase1_summary boş bırakılıyor.")
+        print("    Phase 1'i önce çalıştırın: python phase1_turkey_analysis.py")
+        return {}
+
+    with open(domain_counts_path, "r", encoding="utf-8") as f:
+        domain_counts = json.load(f)
+
+    for key, (_, json_key) in mapping.items():
+        summary[key] = domain_counts.get(json_key, 0)
+
+    print(f"  ✔ phase1_summary yüklendi: {domain_counts_path}")
+    return summary
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -318,48 +351,47 @@ section("KARŞILAŞTIRMA TABLOSU — 3.4 KRİTERLERİ")
 
 domains = {
     "Futbol": {
-        "seed_entities":  football_club_count,
+        "seed_entities":    football_club_count,
         "related_entities": football_player_count,
-        "relation_types": len(football_rels),
-        "rel_names":      football_rels,
-        "2hop_paths":     football_2hop_count,
-        "3hop_paths":     football_3hop_count,
+        "relation_types":   len(football_rels),
+        "rel_names":        football_rels,
+        "2hop_paths":       football_2hop_count,
+        "3hop_paths":       football_3hop_count,
     },
     "Sinema": {
-        "seed_entities":  cinema_film_count,
+        "seed_entities":    cinema_film_count,
         "related_entities": cinema_director_count + cinema_actor_count,
-        "relation_types": len(cinema_rels),
-        "rel_names":      cinema_rels,
-        "2hop_paths":     cinema_2hop_count,
-        "3hop_paths":     cinema_3hop_count,
+        "relation_types":   len(cinema_rels),
+        "rel_names":        cinema_rels,
+        "2hop_paths":       cinema_2hop_count,
+        "3hop_paths":       cinema_3hop_count,
     },
     "Şirketler": {
-        "seed_entities":  company_count,
+        "seed_entities":    company_count,
         "related_entities": 0,
-        "relation_types": len(company_rels),
-        "rel_names":      company_rels,
-        "2hop_paths":     company_2hop_count,
-        "3hop_paths":     company_3hop_count,
+        "relation_types":   len(company_rels),
+        "rel_names":        company_rels,
+        "2hop_paths":       company_2hop_count,
+        "3hop_paths":       company_3hop_count,
     },
     "Müzik": {
-        "seed_entities":  musician_count,
+        "seed_entities":    musician_count,
         "related_entities": 0,
-        "relation_types": len(music_rels),
-        "rel_names":      music_rels,
-        "2hop_paths":     music_2hop_count,
-        "3hop_paths":     music_3hop_count,
+        "relation_types":   len(music_rels),
+        "rel_names":        music_rels,
+        "2hop_paths":       music_2hop_count,
+        "3hop_paths":       music_3hop_count,
     },
     "Akademi": {
-        "seed_entities":  university_count,
+        "seed_entities":    university_count,
         "related_entities": 0,
-        "relation_types": len(academia_rels),
-        "rel_names":      academia_rels,
-        "2hop_paths":     academia_2hop_count,
-        "3hop_paths":     academia_3hop_count,
+        "relation_types":   len(academia_rels),
+        "rel_names":        academia_rels,
+        "2hop_paths":       academia_2hop_count,
+        "3hop_paths":       academia_3hop_count,
     },
 }
 
-# 3.4 Kriterleri
 CRITERIA = {
     "seed_entities":  {"min": 10,  "label": "Seed Entity (≥10)"},
     "relation_types": {"min": 5,   "label": "Rel. Türü (≥5)"},
@@ -379,10 +411,7 @@ for name, d in domains.items():
     print(f"  {name:12} | {d['seed_entities']:>6,} | {d['related_entities']:>7,} | "
           f"{d['relation_types']:>8} | {d['2hop_paths']:>7,} | {d['3hop_paths']:>7,} | {status}")
 
-print(f"\n  Minimum beklentiler:")
-print(f"    Seed Entity  : ≥ 10")
-print(f"    Rel. Türü    : ≥ 5")
-print(f"    2-hop Path   : ≥ 30")
+print(f"\n  Minimum beklentiler: Seed ≥ 10 | Rel. Türü ≥ 5 | 2-hop ≥ 30")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -394,9 +423,6 @@ domain_names = list(domains.keys())
 seed_counts  = [domains[d]['seed_entities']   for d in domain_names]
 hop2_counts  = [domains[d]['2hop_paths']      for d in domain_names]
 rel_counts   = [domains[d]['relation_types']  for d in domain_names]
-
-x     = np.arange(len(domain_names))
-width = 0.25
 
 fig, axes = plt.subplots(1, 3, figsize=(18, 6))
 fig.patch.set_facecolor("#1a1a2e")
@@ -411,7 +437,6 @@ for ax in axes:
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
 
-# Sol: Seed Entity Sayısı
 bars1 = axes[0].bar(domain_names, seed_counts, color=colors, alpha=0.85, edgecolor='white', linewidth=0.5)
 axes[0].set_title("Seed Entity Sayısı", color="white", fontsize=12, fontweight="bold")
 axes[0].set_ylabel("Sayı", color="white")
@@ -422,7 +447,6 @@ for bar, val in zip(bars1, seed_counts):
                  f'{val:,}', ha='center', va='bottom', color='white', fontsize=9, fontweight='bold')
 axes[0].set_xticklabels(domain_names, rotation=15, color='white', fontsize=9)
 
-# Orta: 2-Hop Path Sayısı
 bars2 = axes[1].bar(domain_names, hop2_counts, color=colors, alpha=0.85, edgecolor='white', linewidth=0.5)
 axes[1].set_title("2-Hop Path Sayısı", color="white", fontsize=12, fontweight="bold")
 axes[1].set_ylabel("Sayı", color="white")
@@ -433,7 +457,6 @@ for bar, val in zip(bars2, hop2_counts):
                  f'{val:,}', ha='center', va='bottom', color='white', fontsize=9, fontweight='bold')
 axes[1].set_xticklabels(domain_names, rotation=15, color='white', fontsize=9)
 
-# Sağ: Relation Türü Sayısı
 bars3 = axes[2].bar(domain_names, rel_counts, color=colors, alpha=0.85, edgecolor='white', linewidth=0.5)
 axes[2].set_title("Relation Türü Sayısı", color="white", fontsize=12, fontweight="bold")
 axes[2].set_ylabel("Sayı", color="white")
@@ -455,19 +478,12 @@ print(f"\n  ✔ Grafik kaydedildi: {chart_path}")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# JSON KAYDET
+# JSON KAYDET  ✔ phase1_summary JSON'dan okunuyor
 # ══════════════════════════════════════════════════════════════════════════════
+phase1_summary = _load_phase1_summary()
+
 save_json({
-    "phase1_summary": {
-        "Spor_Futbolcular": 4191,
-        "Spor_Kulupler":    137,
-        "Sinema_Filmler":   759,
-        "Sinema_Yonetmenler": 2,
-        "Sirketler":        707,
-        "Egitim_Universiteler": 146,
-        "Muzik_Sanatcilar": 12,
-        "Dogum_Yeri_Turkiye": 5806,
-    },
+    "phase1_summary":  phase1_summary,   # ✔ artık gerçek değerler
     "domain_analysis": domains,
     "criteria": {
         "min_seed_entities":  10,
@@ -483,16 +499,13 @@ print("\n" + "=" * 65)
 print("  ÖZET — Domain Karşılaştırması Tamamlandı")
 print("=" * 65)
 print(f"""
-  Aşağıdaki veriye göre domain seçimi yapabilirsin:
-
-  Domain       | Seed  | 2-hop | Rel Türü | Öneri
-  ─────────────────────────────────────────────────
-  Futbol       | {football_club_count:>5,} | {football_2hop_count:>5,} | {len(football_rels):>8} | ✅ Güçlü
-  Sinema       | {cinema_film_count:>5,} | {cinema_2hop_count:>5,} | {len(cinema_rels):>8} | ?
-  Şirketler    | {company_count:>5,} | {company_2hop_count:>5,} | {len(company_rels):>8} | ?
-  Müzik        | {musician_count:>5,} | {music_2hop_count:>5,} | {len(music_rels):>8} | ?
-  Akademi      | {university_count:>5,} | {academia_2hop_count:>5,} | {len(academia_rels):>8} | ?
+  Domain       | Seed  | 2-hop | Rel Türü
+  ────────────────────────────────────────
+  Futbol       | {football_club_count:>5,} | {football_2hop_count:>5,} | {len(football_rels):>8}
+  Sinema       | {cinema_film_count:>5,} | {cinema_2hop_count:>5,} | {len(cinema_rels):>8}
+  Şirketler    | {company_count:>5,} | {company_2hop_count:>5,} | {len(company_rels):>8}
+  Müzik        | {musician_count:>5,} | {music_2hop_count:>5,} | {len(music_rels):>8}
+  Akademi      | {university_count:>5,} | {academia_2hop_count:>5,} | {len(academia_rels):>8}
 
   → Çıktıya bakarak domain seçimini yap.
-  → Seçim sonrası 3.3 adımlarına geçilecek.
 """)

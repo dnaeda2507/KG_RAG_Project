@@ -16,15 +16,10 @@ Düzeltmeler:
 import os
 import functools
 import time
-from dotenv import load_dotenv
 from groq import Groq
-
-load_dotenv()
-
-# ── Parametreler ──────────────────────────────────────────────────────────────
-GROQ_MODEL        = "llama-3.1-8b-instant"
-GROQ_API_KEY      = os.getenv("GROQ_API_KEY", "")
-MAX_PASSAGE_CHARS = 400
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from config import GROQ_MODEL, GROQ_API_KEY, MAX_PASSAGE_CHARS
 
 
 # ── Retry decorator ───────────────────────────────────────────────────────────

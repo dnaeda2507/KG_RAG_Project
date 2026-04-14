@@ -5,11 +5,25 @@
     "3-hop": 15,
     "comparison": 5
   },
+  "template_distribution": {
+    "Film → DIRECTOR → PLACE_OF_BIRTH": 8,
+    "Film → CAST_MEMBER → PLACE_OF_BIRTH": 8,
+    "Film → DIRECTOR → AWARD_RECEIVED": 5,
+    "Film → CAST_MEMBER → COUNTRY_OF_CITIZENSHIP": 5,
+    "Film → DIRECTOR → EDUCATED_AT": 4,
+    "Film → DIRECTOR → PLACE_OF_BIRTH → COUNTRY": 5,
+    "Film → CAST_MEMBER → PLACE_OF_BIRTH → COUNTRY": 5,
+    "Film → DIRECTOR → EDUCATED_AT → COUNTRY": 3,
+    "Film → CAST_MEMBER → AWARD_RECEIVED": 2,
+    "Film1.DIRECTOR vs Film2.DIRECTOR (award comparison)": 3,
+    "Film.CAST_MEMBER1.PLACE_OF_BIRTH vs CAST_MEMBER2.PLACE_OF_BIRTH": 2
+  },
   "domain": "cinema",
   "criteria_met": {
     "2hop_ok": true,
     "3hop_ok": true,
     "comp_ok": true,
     "total_ok": true
-  }
+  },
+  "comparison_gold_answer_format": "COMPARISON::<entity1>::<entity2>"
 }
