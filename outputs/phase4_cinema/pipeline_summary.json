@@ -1,0 +1,129 @@
+{
+  "total_questions": 50,
+  "methods": {
+    "no_retrieval": {
+      "total": 45,
+      "accuracy": 0.0,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "retrieval_recall": null,
+      "by_difficulty": {
+        "2-hop": {
+          "accuracy": 0.0,
+          "exact_match": 0.0,
+          "f1": 0.0,
+          "retrieval_recall": null,
+          "acc_correct": 0,
+          "em_correct": 0,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 30
+        },
+        "3-hop": {
+          "accuracy": 0.0,
+          "exact_match": 0.0,
+          "f1": 0.0,
+          "retrieval_recall": null,
+          "acc_correct": 0,
+          "em_correct": 0,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 15
+        }
+      }
+    },
+    "vanilla_rag": {
+      "total": 45,
+      "accuracy": 0.0,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "retrieval_recall": null,
+      "by_difficulty": {
+        "2-hop": {
+          "accuracy": 0.0,
+          "exact_match": 0.0,
+          "f1": 0.0,
+          "retrieval_recall": null,
+          "acc_correct": 0,
+          "em_correct": 0,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 30
+        },
+        "3-hop": {
+          "accuracy": 0.0,
+          "exact_match": 0.0,
+          "f1": 0.0,
+          "retrieval_recall": null,
+          "acc_correct": 0,
+          "em_correct": 0,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 15
+        }
+      }
+    },
+    "vanilla_qe": {
+      "total": 45,
+      "accuracy": 0.0,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "retrieval_recall": 0.0,
+      "by_difficulty": {
+        "2-hop": {
+          "accuracy": 0.0,
+          "exact_match": 0.0,
+          "f1": 0.0,
+          "retrieval_recall": null,
+          "acc_correct": 0,
+          "em_correct": 0,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 30
+        },
+        "3-hop": {
+          "accuracy": 0.0,
+          "exact_match": 0.0,
+          "f1": 0.0,
+          "retrieval_recall": 0.0,
+          "acc_correct": 0,
+          "em_correct": 0,
+          "recall_correct": 0,
+          "recall_total": 1,
+          "total": 15
+        }
+      }
+    },
+    "kg_rag": {
+      "total": 45,
+      "accuracy": 0.0444,
+      "exact_match": 0.0,
+      "f1": 0.0249,
+      "retrieval_recall": 0.0,
+      "by_difficulty": {
+        "2-hop": {
+          "accuracy": 0.0333,
+          "exact_match": 0.0,
+          "f1": 0.0339,
+          "retrieval_recall": 0.0,
+          "acc_correct": 1,
+          "em_correct": 0,
+          "recall_correct": 0,
+          "recall_total": 1,
+          "total": 30
+        },
+        "3-hop": {
+          "accuracy": 0.0667,
+          "exact_match": 0.0,
+          "f1": 0.007,
+          "retrieval_recall": null,
+          "acc_correct": 1,
+          "em_correct": 0,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 15
+        }
+      }
+    }
+  }
+}

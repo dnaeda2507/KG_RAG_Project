@@ -111,6 +111,12 @@ pre.cypher .cmt{color:var(--dim)}
 .qa-col ul{list-style:none}.qa-col li{padding:4px 0;font-size:12px;color:var(--dim)}
 .qa-col li::before{content:"○ ";color:var(--cyan)}
 
+/* domain filter */
+.domain-filter{display:flex;gap:8px;margin-bottom:16px}
+.domain-btn{padding:6px 18px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--dim);cursor:pointer;font-family:var(--font);font-size:11px;text-transform:uppercase;letter-spacing:1px;transition:.2s}
+.domain-btn:hover{border-color:var(--cyan);color:var(--text)}
+.domain-btn.active{background:rgba(0,229,255,.12);border-color:var(--cyan);color:var(--cyan);font-weight:700}
+
 /* loading */
 .loading{display:flex;align-items:center;justify-content:center;height:200px;color:var(--dim)}
 
@@ -175,6 +181,10 @@ pre.cypher .cmt{color:var(--dim)}
   </div>
   <div class="panel" style="margin-top:16px">
     <div class="panel-title">Multi-Hop Question Dataset — Summary</div>
+    <div class="domain-filter" id="qa-domain-filter">
+      <button class="domain-btn active" data-domain="cinema">🎬 Cinema</button>
+      <button class="domain-btn" data-domain="football">⚽ Football</button>
+    </div>
     <div class="qa-cols" id="qa-summary"></div>
   </div>
 </div>
@@ -252,6 +262,11 @@ pre.cypher .cmt{color:var(--dim)}
     <div class="stat"><label>Best Accuracy</label><div class="val val-yellow" id="best-acc">…</div><div class="sub">KG-Infused RAG method</div></div>
     <div class="stat"><label>Best F1</label><div class="val val-magenta" id="best-f1">…</div><div class="sub">KG-Infused RAG method</div></div>
   </div>
+  <div class="domain-filter" id="pipe-domain-filter">
+    <button class="domain-btn active" data-domain="all">All Domains</button>
+    <button class="domain-btn" data-domain="cinema">🎬 Cinema</button>
+    <button class="domain-btn" data-domain="football">⚽ Football</button>
+  </div>
   <div class="grid2">
     <!-- Sol: Method Comparison Tablosu -->
     <div class="panel">
@@ -289,6 +304,11 @@ pre.cypher .cmt{color:var(--dim)}
     <div class="stat"><label>Avg Activation Rounds</label><div class="val val-green">3.2</div><div class="sub">Before convergence</div></div>
     <div class="stat"><label>KG-RAG Accuracy</label><div class="val val-yellow" id="cs-acc">…</div><div class="sub">On evaluated questions</div></div>
     <div class="stat"><label>Dominant Error</label><div class="val val-magenta" style="font-size:24px">KG Gap</div><div class="sub">Majority of failure cases</div></div>
+  </div>
+  <div class="domain-filter" id="xai-domain-filter">
+    <button class="domain-btn active" data-domain="all">All Domains</button>
+    <button class="domain-btn" data-domain="cinema">🎬 Cinema</button>
+    <button class="domain-btn" data-domain="football">⚽ Football</button>
   </div>
   <div id="cases-container"></div>
 </div>
@@ -346,7 +366,11 @@ async function loadKG() {
   }).join('');
 
   // QA summary
-  const qa = await api('/api/qa/summary');
+  loadQASummary('cinema');
+}
+
+async function loadQASummary(domain='cinema') {
+  const qa = await api(`/api/qa/summary?domain=${domain}`);
   if(qa){
     const h2 = qa.hop2 || {};
     const h3 = qa.hop3 || {};
@@ -424,8 +448,8 @@ async function loadCypher() {
 function highlightCypher(code){return code.replace(/(MATCH|WHERE|RETURN|LIMIT|ORDER BY|WITH|AND|OR|AS|COUNT|CALL|YIELD|CREATE|SET|UNWIND)/g,'<span class="kw">$1</span>').replace(/'([^']+)'/g,"'<span class=\"str\">$1</span>'").replace(/(\/\/.*)/g,'<span class="cmt">$1</span>')}
 
 // ── TAB 3: Pipeline Results ──────────────────────────────────────────
-async function loadPipeline() {
-  const data = await api('/api/pipeline/results');
+async function loadPipeline(domain='all') {
+  const data = await api(`/api/pipeline/results?domain=${domain}`);
   const names = {'no_retrieval':'No-Retrieval (NoR)','vanilla_rag':'Vanilla RAG','vanilla_qe':'Vanilla QE','kg_rag':'KG-Infused RAG'};
   const order = ['no_retrieval','vanilla_rag','vanilla_qe','kg_rag'];
 
@@ -518,8 +542,8 @@ async function loadPipeline() {
 }
 
 // ── TAB 4: XAI Evidence ──────────────────────────────────────────────
-async function loadXAI() {
-  const cases = await api('/api/casestudies');
+async function loadXAI(domain='all') {
+  const cases = await api(`/api/casestudies?domain=${domain}`);
   // Karşılaştırma sorularını payda'dan çıkar
   const evaluable = cases.filter(c=>!c.is_comparison);
   const comparison = cases.filter(c=>c.is_comparison);
@@ -536,7 +560,9 @@ async function loadXAI() {
   evaluable.slice(0,50).forEach((c,i)=>{
     const badge = c.success ? '<span class="badge-success">SUCCESS</span>' : '<span class="badge-fail">FAILURE</span>';
     const icon = c.success ? '✓' : '✗';
-    html+=`<div class="case"><div class="case-header"><h3>${icon} Case Study #${i+1} — ${c.difficulty.toUpperCase()} (${c.domain})</h3>${badge}</div>`;
+    const domainIcon = c.domain==='football' ? '⚽' : '🎬';
+    const domainLabel = (c.domain||'cinema').toUpperCase();
+    html+=`<div class="case"><div class="case-header"><h3>${icon} Case Study #${i+1} — ${c.difficulty.toUpperCase()} <span style="color:var(--dim);font-size:11px">${domainIcon} ${domainLabel}</span></h3>${badge}</div>`;
     html+=`<div style="color:var(--dim);font-size:11px;margin-bottom:8px">Question</div><div class="q">"${c.question}"</div>`;
     // reasoning path
     if(c.reasoning_path&&c.reasoning_path.length){
@@ -557,6 +583,22 @@ async function loadXAI() {
 
 // ── Init ─────────────────────────────────────────────────────────────
 loadKG();loadCypher();loadGNN();loadPipeline();loadXAI();
+
+// ── Domain Filter Handlers ───────────────────────────────────────────
+function setupDomainFilter(containerId, callback) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  container.querySelectorAll('.domain-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      container.querySelectorAll('.domain-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      callback(btn.dataset.domain);
+    });
+  });
+}
+setupDomainFilter('pipe-domain-filter', (d) => loadPipeline(d));
+setupDomainFilter('xai-domain-filter', (d) => loadXAI(d));
+setupDomainFilter('qa-domain-filter', (d) => loadQASummary(d));
 
 // ── TAB: GNN ─────────────────────────────────────────────────────────
 function loadGNN(){

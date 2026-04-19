@@ -1,0 +1,1374 @@
+[
+  {
+    "question_id": "TR_001",
+    "question_text": "\"kibar feyzo\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "mersin, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "kibar feyzo",
+      "DIRECTOR",
+      "Atıf Yılmaz Batıbeki",
+      "PLACE_OF_BIRTH",
+      "mersin, turkey"
+    ],
+    "answers": {
+      "no_retrieval": "\"Kibar Feyzo\" filminin yönetmeni, Çağan Irmak'tır. Çağan Irmak, 1968 yılında Ankara'da doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_002",
+    "question_text": "\"gurbet kuslari\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "gurbet kuslari",
+      "DIRECTOR",
+      "halit refiğ",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "answers": {
+      "no_retrieval": "\"Gurbet Kusları\" filminin yönetmeni, Yılmaz Duru, Türkiye'de doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "The director of the film \"Gurbet Kuslari\" was likely born in Ankara, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_003",
+    "question_text": "\"Çekirdek ve Makara (Film, 2015)\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Çekirdek ve Makara (Film, 2015)",
+      "DIRECTOR",
+      "Tayfun Belet",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "answers": {
+      "no_retrieval": "\"Çekirdek ve Makara\" filminin yönetmeni, Çağan Irmak, İstanbul'da doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Tayfun Belet, İzmir, Türkiye'de doğmuştur."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_004",
+    "question_text": "\"do not forget me istanbul\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "Belgrado",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "do not forget me istanbul",
+      "DIRECTOR",
+      "Stefan Arsenijevic",
+      "PLACE_OF_BIRTH",
+      "Belgrado"
+    ],
+    "answers": {
+      "no_retrieval": "\"Do Not Forget Me Istanbul\" filminin yönetmeni, Fatih Akın'dır. Fatih Akın, Almanya'nın Hamburg şehrinde doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_005",
+    "question_text": "\"Kızımın Kanı\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Kızımın Kanı",
+      "DIRECTOR",
+      "halit refiğ",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "answers": {
+      "no_retrieval": "\"Kızımın Kanı\" filminin yönetmeni hakkında bilgi edinebilirim. \"Kızımın Kanı\" filminin yönetmeni, Ömer Uğur'dur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_006",
+    "question_text": "\"yasamak ne guzel sey\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "yasamak ne guzel sey",
+      "DIRECTOR",
+      "halit refiğ",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "answers": {
+      "no_retrieval": "\"Yasamak Ne Güzel Şey\" filminin yönetmeni, Ömer Uğur'dur. Ömer Uğur, 1930 yılında İstanbul'da doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Halit Refiğ, \"Yasamak Ne Güzel Şey\" filminin yönetmeni, Türkiye'nin İzmir şehrinde doğmuştur."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_007",
+    "question_text": "\"Coming Soon (2014 film)\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Coming Soon (2014 film)",
+      "DIRECTOR",
+      "cem yilmaz",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "answers": {
+      "no_retrieval": "\"Coming Soon (2014 film)\" filminin yönetmeni James Mottern'dir. James Mottern ABD'de doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cem Yılmaz, Türkiye'nin İstanbul şehrinde doğmuştur."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_008",
+    "question_text": "\"Gallipoli (2005)\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Gallipoli (2005)",
+      "DIRECTOR",
+      "tolga örnek",
+      "PLACE_OF_BIRTH",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "\"Gallipoli (2005)\" filminin yönetmeni Phillip Noyce Avustralya'da doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_009",
+    "question_text": "\"Teyzem\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Teyzem",
+      "DIRECTOR",
+      "halit refiğ",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "answers": {
+      "no_retrieval": "\"Teyzem\" filminin yönetmeni Çağan Irmak'tır. Çağan Irmak, 1968 yılında Ankara'da doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_010",
+    "question_text": "\"Beauty from Peran\" filminin yönetmeni nerede doğmuştur?",
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Beauty from Peran",
+      "DIRECTOR",
+      "vedat örfi bengü",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "answers": {
+      "no_retrieval": "\"Beauty from Peran\" filminin yönetmeni hakkında bilgi edinebilirim. Lakin, filmin ismi \"Beauty from Peran\" ile ilgili bilgi edinemedim. Lakin, \"Peran\" kelimesi Endonezya'da kullanılan bir kelime.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Jean Epstein, \"Beauty from Peran\" filminin yönetmeni, Warsaw'da doğmuştur."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_011",
+    "question_text": "\"Zugurt Aga\" filminde oynayan erdal özyağcılar nerede doğmuştur?",
+    "gold_answer": "Bursa, Turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Zugurt Aga",
+      "CAST_MEMBER",
+      "erdal özyağcılar",
+      "PLACE_OF_BIRTH",
+      "Bursa, Turkey"
+    ],
+    "answers": {
+      "no_retrieval": "Erdal Özyağcılar, \"Züğürt Ağa\" filminde oynayan Türk oyuncu, 1942 yılında İstanbul'da doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Maalesef, ilgili bilgiye ulaşamadım.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_012",
+    "question_text": "\"Köyden İndim Şehire\" filminde oynayan metin akpınar nerede doğmuştur?",
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Köyden İndim Şehire",
+      "CAST_MEMBER",
+      "metin akpınar",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "answers": {
+      "no_retrieval": "Mert Ramazan Demir, \"Köyden İndim Şehire\" filminde oynayan karakteri canlandıran aktörün adıyla karıştırılabilmektedir. Ancak karakterin oynandığı filmde Metin Akpınar'ın rolü yok.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Metin Akpınar Türkiye'nin İstanbul şehrinde doğmuştur."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_013",
+    "question_text": "\"muhteşem yüzyıl\" filminde oynayan Meltem Cumbul nerede doğmuştur?",
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "muhteşem yüzyıl",
+      "CAST_MEMBER",
+      "Meltem Cumbul",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "answers": {
+      "no_retrieval": "Meltem Cumbul, \"Muhteşem Yüzyıl\" filminde oynayan oyuncudur. Meltem Cumbul, 1978 yılında İstanbul, Türkiye'de doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Meltem Cumbul was born in İzmir, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_014",
+    "question_text": "\"Suçlu benim\" filminde oynayan Sadri Alışık nerede doğmuştur?",
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Suçlu benim",
+      "CAST_MEMBER",
+      "Sadri Alışık",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "answers": {
+      "no_retrieval": "Sadri Alışık, \"Suçlu Benim\" filminde oynayan Türk sinema oyuncusu, 1925 yılında Ankara'da doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Sadri Alışık, Türkiye'nin İstanbul şehrinde doğmuştur."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_015",
+    "question_text": "\"Kelebegin Ruyası\" filminde oynayan Ahmet Mümtaz Taylan nerede doğmuştur?",
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Kelebegin Ruyası",
+      "CAST_MEMBER",
+      "Ahmet Mümtaz Taylan",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey"
+    ],
+    "answers": {
+      "no_retrieval": "Ahmet Mümtaz Taylan, 1956 yılında Ankara'da doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_016",
+    "question_text": "\"For Love and Honor\" filminde oynayan i̇smail hacıoğlu nerede doğmuştur?",
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "For Love and Honor",
+      "CAST_MEMBER",
+      "i̇smail hacıoğlu",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "answers": {
+      "no_retrieval": "\"For Love and Honor\" filminde oynayan İsmail Hacıoğlu'nun doğduğu yer bilinmiyor.",
+      "vanilla_rag": "Bilgiye ulaşamadım.",
+      "vanilla_qe": "Bilgiye ulaşamadım.",
+      "kg_rag": "Ismail Hacıoğlu doğduğu yer İstanbul'dur."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_017",
+    "question_text": "\"muhteşem yüzyıl\" filminde oynayan Engin Öztürk nerede doğmuştur?",
+    "gold_answer": "Eski-Shehr",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "muhteşem yüzyıl",
+      "CAST_MEMBER",
+      "Engin Öztürk",
+      "PLACE_OF_BIRTH",
+      "Eski-Shehr"
+    ],
+    "answers": {
+      "no_retrieval": "Engin Öztürk, \"Muhteşem Yüzyıl\" filminde oynayan oyuncudur. Engin Öztürk, 1976 yılında Ankara'da doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Engin Öztürk was born in Gomish Khaneh. Gomish Khaneh is located in Gumushane Province, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_018",
+    "question_text": "\"bal (film\" filminde oynayan erdal beşikçioğlu nerede doğmuştur?",
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "bal (film",
+      "CAST_MEMBER",
+      "erdal beşikçioğlu",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey"
+    ],
+    "answers": {
+      "no_retrieval": "Balk (film) filminde oynayan Erdal Beşikçioğlu, Türkiye'de doğmuştur.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Erdal Beşikçioğlu was born in Ankara, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_019",
+    "question_text": "\"a handful of soil\" filminin yönetmeni Osman Fahir Seden hangi ödülü almıştır?",
+    "gold_answer": "state artist",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "a handful of soil",
+      "DIRECTOR",
+      "Osman Fahir Seden",
+      "AWARD_RECEIVED",
+      "state artist"
+    ],
+    "answers": {
+      "no_retrieval": "Osman Fahir Seden, \"Aylak Adam\" filminin ardından \"A handful of soil\" filminin yönetmenliğini yapmıştır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_020",
+    "question_text": "\"Six Are Dead\" filminin yönetmeni lütfi akad hangi ödülü almıştır?",
+    "gold_answer": "Presidential Culture and Arts Grand Awards",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Six Are Dead",
+      "DIRECTOR",
+      "lütfi akad",
+      "AWARD_RECEIVED",
+      "Presidential Culture and Arts Grand Awards"
+    ],
+    "answers": {
+      "no_retrieval": "Lütfi Akad, \"Six Are Dead\" filminin yönetmeni olarak, 1963 yılında Altın Portakal Ödülü'nü almıştır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "\"Altı Aydır Bekliyorum\" (Six Are Dead) filmi Altın Portakal Film Festivali'nde \"En İyi Film\" ödülünü almıştır."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_021",
+    "question_text": "\"Çöpçüler krali\" filminin yönetmeni Zeki Okten hangi ödülü almıştır?",
+    "gold_answer": "Sutherland Award",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Çöpçüler krali",
+      "DIRECTOR",
+      "Zeki Okten",
+      "AWARD_RECEIVED",
+      "Sutherland Award"
+    ],
+    "answers": {
+      "no_retrieval": "\"Çöpçüler Kralı\" filminin yönetmeni Zeki Ökten, 1973 yılında 16. Uluslararası Antalya Film Festivali'nde \"En İyi Yönetmen\" ödülünü almıştır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Zeki Okten, \"Çöpçüler Kralı\" filmi için En İyi Yönetmen ödülünü almıştır."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_022",
+    "question_text": "\"murderous city\" filminin yönetmeni lütfi akad hangi ödülü almıştır?",
+    "gold_answer": "Presidential Culture and Arts Grand Awards",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "murderous city",
+      "DIRECTOR",
+      "lütfi akad",
+      "AWARD_RECEIVED",
+      "Presidential Culture and Arts Grand Awards"
+    ],
+    "answers": {
+      "no_retrieval": "Lütfi Akad, \"Kızılırmak Kardeşler\" filminin yönetmeni olarak 1964'te En İyi Yönetmen ödülünü almıştır.",
+      "vanilla_rag": "Lütfi Akad, \"Murderous City\" filminin yönetmeni olarak, 1967 yılında Altın Portakal Ödülü'nü almıştır.",
+      "vanilla_qe": "Lütfi Akad, \"Murderous City\" filminin yönetmeni olarak, 1967 yılında Altın Portakal Ödülü'nü almıştır.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_023",
+    "question_text": "\"The Unforgettable Director of Love Movies\" filminin yönetmeni yavuz turgul hangi ödülü almıştır?",
+    "gold_answer": "Presidential Culture and Arts Grand Awards",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "The Unforgettable Director of Love Movies",
+      "DIRECTOR",
+      "yavuz turgul",
+      "AWARD_RECEIVED",
+      "Presidential Culture and Arts Grand Awards"
+    ],
+    "answers": {
+      "no_retrieval": "Yavuz Turgul'un yönettiği \"The Unforgettable Director of Love Movies\" filminin adı \"Aşk Filmi\" değil, \"Aşk Filmi\" filminin yönetmeni Yavuz Turgul'dür. Yavuz Turgul, \"Aşk Filmi\" ile 1993 yılında Altın Portakal En İyi Yönetmen Ödülü'nü almıştır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Yavuz Turgul, Presidential Culture and Arts Grand Awards ödülünü almıştır."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_024",
+    "question_text": "\"whisper if i forget\" filminde oynayan kerem bursin love yaqin hangi ülkenin vatandaşıdır?",
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "whisper if i forget",
+      "CAST_MEMBER",
+      "kerem bursin love yaqin",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "Kerem Bursin'in oynadığı \"Whisper If I Forget\" filmi ile ilgili bilgiye ulaşamadım. Ancak Kerem Bursin'in oynadığı \"Whisper If I Forget\" filmi ile ilgili bilgiye ulaşamadım.",
+      "vanilla_rag": "Unfortunately, I don't have any information about the passages you provided. However, I can try to find the answer based on general knowledge.\n\nAfter searching, I found that Kerem Bursin is a Turkish actor.",
+      "vanilla_qe": "Unfortunately, I don't have any information about the passages you provided. However, I can try to find the answer based on general knowledge.\n\nAfter searching, I found that Kerem Bursin is a Turkish actor.",
+      "kg_rag": "Kerem Bürsin, also known as Kerem Bürsin Love Yağın, is a Turkish citizen. He is a citizen of Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_025",
+    "question_text": "\"worst movie death scene ever\" filminde oynayan hayati hamzaoglu hangi ülkenin vatandaşıdır?",
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "worst movie death scene ever",
+      "CAST_MEMBER",
+      "hayati hamzaoglu",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "Hayati Hamzaoğlu, Türk aktör.",
+      "vanilla_rag": "Bilgiye ulaşamadım.",
+      "vanilla_qe": "Bilgiye ulaşamadım.",
+      "kg_rag": "Hayati Hamzaoğlu is a Turkish citizen."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_026",
+    "question_text": "\"The Inheritance (2012 film)\" filminde oynayan abbass, hiam hangi ülkenin vatandaşıdır?",
+    "gold_answer": "iso 3166-1:fr",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "The Inheritance (2012 film)",
+      "CAST_MEMBER",
+      "abbass, hiam",
+      "COUNTRY_OF_CITIZENSHIP",
+      "iso 3166-1:fr"
+    ],
+    "answers": {
+      "no_retrieval": "Hiam Abbass, Filistin vatandaşıdır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Hiam Abbass, filminde oynayan Abbas ile karıştırılmaması için, Hiam Abbass, Fransa vatandaşıdır."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_027",
+    "question_text": "\"muhteşem yüzyıl\" filminde oynayan Selma Ergeç hangi ülkenin vatandaşıdır?",
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "muhteşem yüzyıl",
+      "CAST_MEMBER",
+      "Selma Ergeç",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "Selma Ergeç, \"Muhteşem Yüzyıl\" filminde oynadı. Selma Ergeç, Almanya'nın vatandaşıdır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Selma Ergeç is a Turkish citizen. She holds Turkish nationality."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": [
+        {
+          "title": "List of Turkish actors",
+          "content": "This is a list of notable Turkish actors.\n\n\n== References ==",
+          "url": "https://en.wikipedia.org/wiki/List_of_Turkish_actors",
+          "query_source": "\"Selma Ergeç\" nationality Turkey."
+        },
+        {
+          "title": "Hamm, North Rhine-Westphalia",
+          "content": "Hamm (German pronunciation: [ham] , Latin: Hammona) is a city in North Rhine-Westphalia, Germany. It is located in the northeastern part of the Ruhr area. As of 2016 its population was 179,397. The city is situated between the A1 motorway and A2 motorway. Hamm railway station is an important hub for rail transport and renowned for its distinctive station building.\n\n\n== History ==\n\n\n=== Coat of arms ===\nThe coat of arms has been in use in its present form for about 750 years. It shows the markish",
+          "url": "https://en.wikipedia.org/wiki/Hamm,_North_Rhine-Westphalia",
+          "query_source": "\"Selma Ergeç\" nationality Turkey."
+        },
+        {
+          "title": "Turks in Germany",
+          "content": "Turks in Germany, also referred to as German Turks and Turkish Germans (German: Türken in Deutschland or Deutschtürken; Turkish: Almanya'daki Türkler, also known as Gurbetçiler or Almancılar), are ethnic Turkish people living in Germany. These terms are also used to refer to German-born individuals who are of full or partial Turkish ancestry.\nHowever, not all people in Germany who trace their heritage back to Turkey are ethnic Turks. A significant proportion of the population is also of Kurdish,",
+          "url": "https://en.wikipedia.org/wiki/Turks_in_Germany",
+          "query_source": "\"Selma Ergeç\" nationality Turkey."
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "TR_028",
+    "question_text": "\"Kanun namina\" filminde oynayan muzaffer tema hangi ülkenin vatandaşıdır?",
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Kanun namina",
+      "CAST_MEMBER",
+      "muzaffer tema",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "\"Kanun namina\" filminde oynayan Muzaffer Tema, Türk vatandaşıdır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Muzaffer Tema, film \"Kanun namina\" oyuncusu, Sovyetler Birliği vatandaşıdır."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_029",
+    "question_text": "\"greatest ears in town: the arif mardin story\" filminin yönetmeni Joe Mardin hangi kurumda eğitim görmüştür?",
+    "gold_answer": "berkley school of music",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "greatest ears in town: the arif mardin story",
+      "DIRECTOR",
+      "Joe Mardin",
+      "EDUCATED_AT",
+      "berkley school of music"
+    ],
+    "answers": {
+      "no_retrieval": "Joe Mardin'in eğitim gördüğü kurum hakkında bilgi edinemedim.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Joe Mardin received his education at the Berklee School of Music."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_030",
+    "question_text": "\"ölmüs bir kadinin evraki metrukesi\" filminin yönetmeni metin erksan hangi kurumda eğitim görmüştür?",
+    "gold_answer": "Daruelfuenun",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "ölmüs bir kadinin evraki metrukesi",
+      "DIRECTOR",
+      "metin erksan",
+      "EDUCATED_AT",
+      "Daruelfuenun"
+    ],
+    "answers": {
+      "no_retrieval": "Mütevelli Metin Erksan, İstanbul Üniversitesi Devlet Konservatuvarı'nda eğitim görmüştür.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Metin Erksan, Darülfünun'da eğitim görmüştür."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_031",
+    "question_text": "\"İstanbul Kırmızısı (film)\" filminin yönetmeni Ferzan Özpetek'nin doğduğu şehrin ülkesi neresidir?",
+    "gold_answer": "byzantine (eastern roman) empire",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "İstanbul Kırmızısı (film)",
+      "DIRECTOR",
+      "Ferzan Özpetek",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "byzantine (eastern roman) empire"
+    ],
+    "answers": {
+      "no_retrieval": "Ferzan Özpetek, İtalyan bir yönetmen. Ferzan Özpetek'nin doğduğu şehrin ülkesi İtalya'dır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Ferzan Özpetek'in doğduğu şehrin ülkesi Türkiye'dir."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_032",
+    "question_text": "\"Çekirdek ve Makara (Film, 2015)\" filminin yönetmeni Tayfun Belet'nin doğduğu şehrin ülkesi neresidir?",
+    "gold_answer": "Ottoman empire",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Çekirdek ve Makara (Film, 2015)",
+      "DIRECTOR",
+      "Tayfun Belet",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey",
+      "COUNTRY",
+      "Ottoman empire"
+    ],
+    "answers": {
+      "no_retrieval": "Tayfun Belet'nin doğduğu şehrin ülkesi Türkiye'dir.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Tayfun Belet'in doğduğu şehrin ülkesi Türkiye'dir."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_033",
+    "question_text": "\"Beauty from Peran\" filminin yönetmeni vedat örfi bengü'nin doğduğu şehrin ülkesi neresidir?",
+    "gold_answer": "byzantine (eastern roman) empire",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Beauty from Peran",
+      "DIRECTOR",
+      "vedat örfi bengü",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "byzantine (eastern roman) empire"
+    ],
+    "answers": {
+      "no_retrieval": "Vedat Örfi Bengü'nün doğduğu şehir bilinmiyor, ancak filmin adı \"Beauty from Peran\" ve Vedat Örfi Bengü'nün Türk olduğu için, Vedat Örfi Bengü'nün doğduğu şehrin ülkesi Türkiye'dir.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Vedat Örfi Bengü'nin doğduğu şehrin ülkesi Türkiye'dir."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_034",
+    "question_text": "\"dark world\" filminin yönetmeni metin erksan'nin doğduğu şehrin ülkesi neresidir?",
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "dark world",
+      "DIRECTOR",
+      "metin erksan",
+      "PLACE_OF_BIRTH",
+      "Çanakkale Province",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "Metin Erksan'ın doğduğu şehrin ülkesi Türkiye'dir.",
+      "vanilla_rag": "Bilgiye ulaşamadım. Lütfen daha fazla bilgi verin.",
+      "vanilla_qe": "Bilgiye ulaşamadım. Lütfen daha fazla bilgi verin.",
+      "kg_rag": "Metin Erksan'ın doğduğu şehrin ülkesi Türkiye'dir."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_035",
+    "question_text": "\"SeMazen\" filminin yönetmeni Genco Gulan'nin doğduğu şehrin ülkesi neresidir?",
+    "gold_answer": "byzantine (eastern roman) empire",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "SeMazen",
+      "DIRECTOR",
+      "Genco Gulan",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "byzantine (eastern roman) empire"
+    ],
+    "answers": {
+      "no_retrieval": "SeMazen filminin yönetmeni Genco Ersoy'un doğduğu şehrin ülkesi Türkiye'dir.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Genco Gulan'ın doğduğu şehri, Türkiye'nin başkenti olan İstanbul olarak belirtilmiştir. Bu nedenle, Genco Gulan'ın doğduğu şehrin ülkesi Türkiye'dir."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_036",
+    "question_text": "\"whisper if i forget\" filminde oynayan Mehmet Gunsur'nin doğduğu şehrin ülkesi nedir?",
+    "gold_answer": "Ottoman empire",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "whisper if i forget",
+      "CAST_MEMBER",
+      "Mehmet Gunsur",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "Ottoman empire"
+    ],
+    "answers": {
+      "no_retrieval": "Mehmet Gunsur, \"Whisper If I Forget\" filminde oynadı. Mehmet Gunsur'un doğduğu şehrin ülkesi Türkiye'dir.",
+      "vanilla_rag": "Bilgiye ulaşamadım.",
+      "vanilla_qe": "Bilgiye ulaşamadım.",
+      "kg_rag": "Answer generation failed."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_037",
+    "question_text": "\"balikçi güzeli\" filminde oynayan Münir Özkul'nin doğduğu şehrin ülkesi nedir?",
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "balikçi güzeli",
+      "CAST_MEMBER",
+      "Münir Özkul",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "",
+      "vanilla_rag": "",
+      "vanilla_qe": "",
+      "kg_rag": "Münir Özkul was born in Istanbul, Turkey. Therefore, his birthplace's country is Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_038",
+    "question_text": "\"Zugurt Aga\" filminde oynayan ayla arslancan'nin doğduğu şehrin ülkesi nedir?",
+    "gold_answer": "Ottoman empire",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Zugurt Aga",
+      "CAST_MEMBER",
+      "ayla arslancan",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "Ottoman empire"
+    ],
+    "answers": {
+      "no_retrieval": "Ayla Arslancan'in doğduğu şehri bilmediğim için, Ayla Arslancan'in doğduğu şehrin ülkesini bilinememektedir.",
+      "vanilla_rag": "Bilgiye ulaşamadım. Lütfen daha fazla bilgi verin.",
+      "vanilla_qe": "Bilgiye ulaşamadım. Lütfen daha fazla bilgi verin.",
+      "kg_rag": "Ayla Arslancan'ın doğduğu şehrin ülkesi Türkiye'dir."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_039",
+    "question_text": "\"kız kolunda damga var\" filminde oynayan Fatma Girik'nin doğduğu şehrin ülkesi nedir?",
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "kız kolunda damga var",
+      "CAST_MEMBER",
+      "Fatma Girik",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "Fatma Girik, Türk sinema oyuncusudur. Fatma Girik'in doğduğu şehrin ülkesi Türkiye'dir.",
+      "vanilla_rag": "Bilgiye ulaşamadım.",
+      "vanilla_qe": "Bilgiye ulaşamadım.",
+      "kg_rag": "Fatma Girik was born in Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_040",
+    "question_text": "\"worst movie death scene ever\" filminde oynayan hayati hamzaoglu'nin doğduğu şehrin ülkesi nedir?",
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "worst movie death scene ever",
+      "CAST_MEMBER",
+      "hayati hamzaoglu",
+      "PLACE_OF_BIRTH",
+      "history of trabzon",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "Hayati Hamzaoğlu, \"Worst Movie Death Scene Ever\" filminde rol aldı. Hayati Hamzaoğlu'nun doğduğu şehir hakkında bilgi edinemediğim için, daha fazla bilgi edinebilmek için ek araştırma yapmam gerekebilir.",
+      "vanilla_rag": "Bilgiye ulaşamadım.",
+      "vanilla_qe": "Bilgiye ulaşamadım.",
+      "kg_rag": "Hayati Hamzaoğlu'nun doğduğu şehrin ülkesi Türkiye'dir."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_041",
+    "question_text": "\"greatest ears in town: the arif mardin story\" yönetmeni Joe Mardin'nin mezun olduğu okulun bulunduğu ülke neresidir?",
+    "gold_answer": "united stated",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "greatest ears in town: the arif mardin story",
+      "DIRECTOR",
+      "Joe Mardin",
+      "EDUCATED_AT",
+      "berkley school of music",
+      "COUNTRY",
+      "united stated"
+    ],
+    "answers": {
+      "no_retrieval": "Joe Mardin'in mezun olduğu okulun bulunduğu ülke ABD'dir.",
+      "vanilla_rag": "Cevap verilemedi, çünkü ilgili bilgiye ulaşılamadı.",
+      "vanilla_qe": "Cevap verilemedi, çünkü ilgili bilgiye ulaşılamadı.",
+      "kg_rag": "Joe Mardin's alma mater is the Berkley School of Music, which is located in the United States. The country where Joe Mardin's alma mater is located is the United States."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_042",
+    "question_text": "\"grain (film)\" yönetmeni Semih Kaplanoğlu'nin mezun olduğu okulun bulunduğu ülke neresidir?",
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "grain (film)",
+      "DIRECTOR",
+      "Semih Kaplanoğlu",
+      "EDUCATED_AT",
+      "Dokuz Eylul University",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "Semih Kaplanoğlu, \"grain (film)\" yönetmeni, mezun olduğu okul olan Hacettepe Üniversitesi Güzel Sanatlar Fakültesi Sinema Bölümü, Türkiye'de bulunmaktadır.",
+      "vanilla_rag": "Bilgiye ulaşamadım. Lütfen daha fazla bilgi verin.",
+      "vanilla_qe": "Bilgiye ulaşamadım. Lütfen daha fazla bilgi verin.",
+      "kg_rag": "Semih Kaplanoğlu'nun mezun olduğu okul Dokuz Eylul University'dir ve Türkiye'de bulunmaktadır."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_043",
+    "question_text": "\"murderous city\" yönetmeni lütfi akad'nin mezun olduğu okulun bulunduğu ülke neresidir?",
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "murderous city",
+      "DIRECTOR",
+      "lütfi akad",
+      "EDUCATED_AT",
+      "Galatasaray Lyceum",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "answers": {
+      "no_retrieval": "\"Murderous City\" filmi yönetmeni Lütfi Akad, İstanbul Teknik Üniversitesi'nin bulunduğu Türkiye'de doğmuş ve eğitim görmüştür.",
+      "vanilla_rag": "Lütfi Akad, \"Murderous City\" filminin yönetmeni. Lütfi Akad, İstanbul Teknik Üniversitesi'nden mezun olmuştur.",
+      "vanilla_qe": "Lütfi Akad, \"Murderous City\" filminin yönetmeni. Lütfi Akad, İstanbul Teknik Üniversitesi'nden mezun olmuştur.",
+      "kg_rag": "Lütfi Akad'in mezun olduğu okulun bulunduğu ülke Türkiye'dir."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_044",
+    "question_text": "\"Sultan Gelin\" filminde yer alan oyuncu turkan soray hangi ödülü kazanmıştır?",
+    "gold_answer": "state artist",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Sultan Gelin",
+      "CAST_MEMBER",
+      "turkan soray",
+      "AWARD_RECEIVED",
+      "state artist"
+    ],
+    "answers": {
+      "no_retrieval": "\"Sultan Gelin\" filminde yer alan oyuncu Turkan Şoray, 1969 yılında \"Altın Portakal Film Festivali\"'nde \"En İyi Kadın Oyuncu\" ödülünü kazanmıştır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "There is no information about an actress named Turkan Soray in the provided passages.",
+      "kg_rag": "Turkan Soray, \"State Artist\" unvanını kazanmıştır. Bu unvan, \"Titles of Honour\" ve \"People's Artist\" ile aynı anlama gelir."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [
+        {
+          "title": "Big Brother (Australian TV series) season 2",
+          "content": "The second season of the Australian reality television series, Big Brother, also known as Big Brother 2002, started on 8 April 2002, and ended on 1 July 2002, lasting 86 days. This season was similar to the first season, and was the only one to use the same house from a previous season, albeit with some small modifications. Simultaneous with the main house was a house of six potential Intruders. A"
+        },
+        {
+          "title": "Torkan, Fars",
+          "content": "Torkan (Persian: تركان, also Romanized as Torkān; also known as Turkān) is a village in Kaftarak Rural District, in the Central District of Shiraz County, Fars province, Iran. At the 2006 census, its population was 2,685, in 726 families.\n\n\n== References =="
+        },
+        {
+          "title": "Türkan Hanımsultan",
+          "content": "Türkan Hanımsultan (Ottoman Turkish: ترکان خانم سلطان; 4 July 1919 – 25 December 1989) also Türkan Mayatepek or Türkan Enver, was an Ottoman princess, the daughter of Naciye Sultan and Enver Pasha.\n\n\n== Biography ==\nTürkan Hanımsultan was born on 4 July 1919 in the Kuruçeşme Palace. Her father was Ismail Enver Pasha, son of Ahmed Bey and Ayşe Dilara Hanım, and her mother was Naciye Sultan, daughte"
+        }
+      ],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_045",
+    "question_text": "\"lovelorn (film)\" filminde yer alan oyuncu sener sen hangi ödülü kazanmıştır?",
+    "gold_answer": "state artist",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "lovelorn (film)",
+      "CAST_MEMBER",
+      "sener sen",
+      "AWARD_RECEIVED",
+      "state artist"
+    ],
+    "answers": {
+      "no_retrieval": "Lovelorn filminden Sener Sen \"En İyi Erkek Oyuncu\" ödülünü kazanmıştır.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_046",
+    "question_text": "\"whisper if i forget\" ve \"dark world\" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: Çagan Irmak mı yoksa metin erksan mi?",
+    "gold_answer": "Karşılaştırma sorusu - her iki yönetmenin ödülleri kontrol edilmeli: Çagan Irmak / metin erksan",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "reasoning_path": [
+      "whisper if i forget",
+      "DIRECTOR",
+      "Çagan Irmak",
+      "vs",
+      "dark world",
+      "DIRECTOR",
+      "metin erksan"
+    ],
+    "answers": {
+      "no_retrieval": "Bilgiye ulaşamadım.",
+      "vanilla_rag": "Bilgiye ulaşamadım.",
+      "vanilla_qe": "Bilgiye ulaşamadım.",
+      "kg_rag": "Cannot be determined from available information about Çagan Irmak's awards. However, Metin Erksan has received multiple awards for his work."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_047",
+    "question_text": "\"whisper if i forget\" ve \"Yasak Aşk\" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: Çagan Irmak mı yoksa halit refiğ mi?",
+    "gold_answer": "Karşılaştırma sorusu - her iki yönetmenin ödülleri kontrol edilmeli: Çagan Irmak / halit refiğ",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "reasoning_path": [
+      "whisper if i forget",
+      "DIRECTOR",
+      "Çagan Irmak",
+      "vs",
+      "Yasak Aşk",
+      "DIRECTOR",
+      "halit refiğ"
+    ],
+    "answers": {
+      "no_retrieval": "Bilgiye ulaşamadım.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_048",
+    "question_text": "\"whisper if i forget\" ve \"yarın ağlayacağım\" filmlerinden hangisinin yönetmeni daha fazla ödül almıştır: Çagan Irmak mı yoksa halit refiğ mi?",
+    "gold_answer": "Karşılaştırma sorusu - her iki yönetmenin ödülleri kontrol edilmeli: Çagan Irmak / halit refiğ",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "reasoning_path": [
+      "whisper if i forget",
+      "DIRECTOR",
+      "Çagan Irmak",
+      "vs",
+      "yarın ağlayacağım",
+      "DIRECTOR",
+      "halit refiğ"
+    ],
+    "answers": {
+      "no_retrieval": "Bilgiye ulaşamadım.",
+      "vanilla_rag": "Bilgi bulunamadı.",
+      "vanilla_qe": "Bilgi bulunamadı.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_049",
+    "question_text": "\"whisper if i forget\" filminde oynayan farah zeynep abdullah mı yoksa Işıl Yücesoy mi daha büyük bir şehirde doğmuştur?",
+    "gold_answer": "Karşılaştırma: farah zeynep abdullah → istanbul (turkey) / Işıl Yücesoy → lozengrad",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "reasoning_path": [
+      "whisper if i forget",
+      "CAST_MEMBER",
+      "farah zeynep abdullah",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "vs",
+      "Işıl Yücesoy",
+      "PLACE_OF_BIRTH",
+      "lozengrad"
+    ],
+    "answers": {
+      "no_retrieval": "Bilgiye ulaşamadım.",
+      "vanilla_rag": "I couldn't find any information about the film \"whisper if i forget\" or the actresses Farah Zeynep Abdullah and Işıl Yücesoy in the provided passages.",
+      "vanilla_qe": "I couldn't find any information about the film \"whisper if i forget\" or the actresses Farah Zeynep Abdullah and Işıl Yücesoy in the provided passages.",
+      "kg_rag": "Işıl Yücesoy was born in Istanbul, a larger city compared to Budrum, where Zeynep Çamcı was born."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  },
+  {
+    "question_id": "TR_050",
+    "question_text": "\"Kelebegin Ruyası\" filminde oynayan Tatlıtuğ mı yoksa Baris Çakmak mi daha büyük bir şehirde doğmuştur?",
+    "gold_answer": "Karşılaştırma: Tatlıtuğ → istanbul (turkey) / Baris Çakmak → thracian chersonesus",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Kelebegin Ruyası",
+      "CAST_MEMBER",
+      "Tatlıtuğ",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "vs",
+      "Baris Çakmak",
+      "PLACE_OF_BIRTH",
+      "thracian chersonesus"
+    ],
+    "answers": {
+      "no_retrieval": "Bilgiye ulaşamadım.",
+      "vanilla_rag": "Bilgiye ulaşamadım.",
+      "vanilla_qe": "Bilgiye ulaşamadım.",
+      "kg_rag": "Cannot be determined from available information."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": []
+    }
+  }
+]

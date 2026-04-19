@@ -164,7 +164,33 @@ def cypher_run(index: int = 0):
 
 # ── 7. Pipeline Results ──────────────────────────────────────────────
 @app.get("/api/pipeline/results")
-def pipeline_results():
+def pipeline_results(domain: str = "all"):
+    """domain: 'cinema', 'football', 'all' (combined)"""
+    domain_map = {
+        "cinema": ["phase4_cinema"],
+        "football": ["phase4_football"],
+        "all": ["phase4_cinema", "phase4_football"],
+    }
+    dirs = domain_map.get(domain, domain_map["all"])
+    combined = {}
+    count = 0
+    for domain_dir in dirs:
+        data = load_json(f"outputs/{domain_dir}/pipeline_summary.json")
+        if isinstance(data, dict) and "methods" in data:
+            count += 1
+            for method, stats in data["methods"].items():
+                if method not in combined:
+                    combined[method] = dict(stats)
+                else:
+                    for key in ["accuracy", "exact_match", "f1", "retrieval_recall"]:
+                        v1 = combined[method].get(key)
+                        v2 = stats.get(key)
+                        if v1 is not None and v2 is not None:
+                            combined[method][key] = round((v1 + v2) / 2, 4)
+                    combined[method]["total"] = combined[method].get("total", 0) + stats.get("total", 0)
+    if combined:
+        return combined
+    # Fallback: phase5
     methods = {}
     for m in ["nor", "vanilla_rag", "vanilla_qe", "kg_rag"]:
         data = load_json(f"outputs/phase5/{m}_results.json/pipeline_summary.json")
@@ -174,12 +200,34 @@ def pipeline_results():
 
 # ── 8. Case Studies ──────────────────────────────────────────────────
 @app.get("/api/casestudies")
-def case_studies():
-    results = load_json("outputs/phase5/kg_rag_results.json/pipeline_results.json")
-    if not results:
+def case_studies(domain: str = "all"):
+    """domain: 'cinema', 'football', 'all'"""
+    domain_paths = {
+        "cinema": [("outputs/phase4_cinema/pipeline_results.json", "cinema"),
+                   ("outputs/phase4_cinema/pipeline_results_partial.json", "cinema")],
+        "football": [("outputs/phase4_football/pipeline_results.json", "football"),
+                     ("outputs/phase4_football/pipeline_results_partial.json", "football")],
+    }
+    if domain == "all":
+        search_list = domain_paths["cinema"] + domain_paths["football"]
+    else:
+        search_list = domain_paths.get(domain, domain_paths["cinema"])
+
+    all_results = []
+    for path, dom in search_list:
+        data = load_json(path)
+        if data:
+            items = data if isinstance(data, list) else data.get("results", [])
+            for item in items:
+                item.setdefault("domain", dom)
+            # Tam sonuçları (partial değil) tercih et: aynı domain'den zaten veri varsa skip
+            existing_domains = {r.get("domain") for r in all_results}
+            if dom not in existing_domains:
+                all_results.extend(items)
+    if not all_results:
         return []
     cases = []
-    for item in results[:50]:
+    for item in all_results[:100]:
         # answers alanından kg_rag cevabını al
         answers = item.get("answers", item.get("results", {}))
         pred = answers.get("kg_rag", "")
@@ -308,10 +356,17 @@ def case_studies():
 
 # ── 9. QA Dataset summary ────────────────────────────────────────────
 @app.get("/api/qa/summary")
-def qa_summary():
-    data = load_json("outputs/phase3/qa_dataset.json")
+def qa_summary(domain: str = "cinema"):
+    """domain: 'cinema', 'football'"""
+    dataset_map = {
+        "cinema": "outputs/phase3/qa_dataset.json",
+        "football": "outputs/phase3_football/qa_dataset.json",
+    }
+    data = load_json(dataset_map.get(domain, dataset_map["cinema"]))
     questions = data if isinstance(data, list) else data.get("questions", data.get("dataset", []))
     if not questions:
+        if domain == "football":
+            return load_json("outputs/phase3_football/qa_dataset_summary.json")
         return load_json("outputs/phase3/qa_dataset_summary.json")
 
     from collections import Counter
@@ -333,7 +388,7 @@ def qa_summary():
 
     return {
         "total_questions": len(questions),
-        "domain": "cinema",
+        "domain": domain,
         "hop2": {"count": len(hop2_patterns), "patterns": top_patterns(hop2_patterns), "remaining": max(0, len(Counter(hop2_patterns)) - 4)},
         "hop3": {"count": len(hop3_patterns), "patterns": top_patterns(hop3_patterns), "remaining": max(0, len(Counter(hop3_patterns)) - 4)},
         "comparison": {"count": len(comp_texts), "samples": comp_texts[:3], "remaining": max(0, len(comp_texts) - 3)},

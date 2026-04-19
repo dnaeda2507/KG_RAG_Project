@@ -1,0 +1,26 @@
+# Credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files
+wikidata5m_raw_data/
+*.csv
+
+# Outputs (optional — uncomment to exclude)
+# outputs/
