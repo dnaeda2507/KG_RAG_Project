@@ -1,21 +1,3 @@
-"""
-Phase 2 - 5 Domain Hızlı Karşılaştırma
-========================================
-Tüm 5 domain'e bakış yapar, karşılaştırma tablosu üretir.
-Çıktıya göre domain seçimi yapılacak.
-
-Çalıştır:
-    python phase2_domain_overview.py
-
-Çıktılar:
-    outputs/phase2_domain_overview.json
-    outputs/phase2_domain_overview_chart.png
-
-Düzeltme:
-    phase1_summary artık Phase 1 çıktı JSON'undan okunuyor (hardcode değil).
-    Dosya yoksa uyarı verilip devam ediliyor.
-"""
-
 import os
 import json
 import matplotlib
@@ -25,11 +7,11 @@ import numpy as np
 from neo4j import GraphDatabase
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, TURKEY_ID, OUTPUT_PHASE1
+from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, TURKEY_ID, OUTPUT_PHASE2
 
-# ── Bağlantı ──────────────────────────────────────────────────────────────────
+# ── Bağlantı ──────────────────────────────────────────────────────────────────────────────
 driver    = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
-OUTPUT_DIR = OUTPUT_PHASE1
+OUTPUT_DIR = OUTPUT_PHASE2
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
@@ -41,7 +23,7 @@ def save_json(data, filename):
     path = os.path.join(OUTPUT_DIR, filename)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"  ✔ Kaydedildi: {path}")
+    print(f"  Saved: {path}")
 
 def section(title):
     print("\n" + "=" * 65)
@@ -49,28 +31,25 @@ def section(title):
     print("=" * 65)
 
 
-# ✔ DÜZELTME: phase1_summary Phase 1 çıktı dosyasından okunuyor
 def _load_phase1_summary() -> dict:
-    """
-    Phase 1 çıktı JSON dosyalarından özet değerleri okur.
-    Dosyalar yoksa boş dict döner ve uyarı verir.
-    """
+    """Load summary values from Phase 1 outputs if available."""
     summary = {}
     mapping = {
-        "Spor_Futbolcular":        ("outputs/phase1_domain_counts.json", "Spor - Futbolcular"),
-        "Spor_Kulupler":           ("outputs/phase1_domain_counts.json", "Spor - Kulüpler"),
-        "Sinema_Filmler":          ("outputs/phase1_domain_counts.json", "Sinema - Filmler"),
-        "Sinema_Yonetmenler":      ("outputs/phase1_domain_counts.json", "Sinema - Yönetmenler"),
-        "Sirketler":               ("outputs/phase1_domain_counts.json", "Şirketler"),
-        "Egitim_Universiteler":    ("outputs/phase1_domain_counts.json", "Eğitim - Üniversiteler"),
-        "Muzik_Sanatcilar":        ("outputs/phase1_domain_counts.json", "Müzik - Sanatçılar"),
-        "Dogum_Yeri_Turkiye":      ("outputs/phase1_domain_counts.json", "Doğum Yeri Türkiye"),
+        "sports_players":     ("outputs/phase1_domain_counts.json", "Sports - Players"),
+        "sports_clubs":       ("outputs/phase1_domain_counts.json", "Sports - Clubs"),
+        "cinema_films":       ("outputs/phase1_domain_counts.json", "Cinema - Films"),
+        "cinema_directors":   ("outputs/phase1_domain_counts.json", "Cinema - Directors"),
+        "citizenship_people": ("outputs/phase1_domain_counts.json", "Citizenship - People"),
+        "companies_hq":       ("outputs/phase1_domain_counts.json", "Companies (HQ)"),
+        "education_alumni":   ("outputs/phase1_domain_counts.json", "Education - Alumni"),
+        "birthplace_turkey":  ("outputs/phase1_domain_counts.json", "Birthplace - Turkey"),
+        "music_artists":      ("outputs/phase1_domain_counts.json", "Music - Artists"),
     }
 
     domain_counts_path = "outputs/phase1_domain_counts.json"
     if not os.path.exists(domain_counts_path):
-        print(f"  ⚠ {domain_counts_path} bulunamadı — phase1_summary boş bırakılıyor.")
-        print("    Phase 1'i önce çalıştırın: python phase1_turkey_analysis.py")
+        print(f"  Warning: {domain_counts_path} not found. phase1_summary will be empty.")
+        print("    Run Phase 1 first: python phase1_turkey_analysis.py")
         return {}
 
     with open(domain_counts_path, "r", encoding="utf-8") as f:
@@ -79,19 +58,19 @@ def _load_phase1_summary() -> dict:
     for key, (_, json_key) in mapping.items():
         summary[key] = domain_counts.get(json_key, 0)
 
-    print(f"  ✔ phase1_summary yüklendi: {domain_counts_path}")
+    print(f"  Phase 1 summary loaded: {domain_counts_path}")
     return summary
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # DOMAIN 1: TÜRK FUTBOLU
 # ══════════════════════════════════════════════════════════════════════════════
-section("DOMAIN 1: Türk Futbolu")
+section("DOMAIN 1: Turkish Football")
 
 football_clubs = run("""
     MATCH (club:Entity)-[:COUNTRY]->(:Entity {entityId: $tid})
-    WHERE toLower(club.description) CONTAINS 'football club'
-       OR toLower(club.description) CONTAINS 'football team'
+     WHERE club.description CONTAINS 'football club'
+         OR club.description CONTAINS 'football team'
     RETURN count(DISTINCT club) AS cnt
 """, {"tid": TURKEY_ID})
 football_club_count = football_clubs[0]['cnt'] if football_clubs else 0
@@ -99,16 +78,16 @@ football_club_count = football_clubs[0]['cnt'] if football_clubs else 0
 football_players = run("""
     MATCH (p:Entity)-[:MEMBER_OF_SPORTS_TEAM]->(club:Entity)
           -[:COUNTRY]->(:Entity {entityId: $tid})
-    WHERE toLower(club.description) CONTAINS 'football club'
-       OR toLower(club.description) CONTAINS 'football team'
+     WHERE club.description CONTAINS 'football club'
+         OR club.description CONTAINS 'football team'
     RETURN count(DISTINCT p) AS cnt
 """, {"tid": TURKEY_ID})
 football_player_count = football_players[0]['cnt'] if football_players else 0
 
 football_rel_types = run("""
     MATCH (club:Entity)-[:COUNTRY]->(:Entity {entityId: $tid})
-    WHERE toLower(club.description) CONTAINS 'football club'
-       OR toLower(club.description) CONTAINS 'football team'
+     WHERE club.description CONTAINS 'football club'
+         OR club.description CONTAINS 'football team'
     MATCH (club)-[r]->(target)
     RETURN DISTINCT type(r) AS rel
     LIMIT 50
@@ -118,8 +97,8 @@ football_rels = [r['rel'] for r in football_rel_types]
 football_2hop = run("""
     MATCH (p:Entity)-[:MEMBER_OF_SPORTS_TEAM]->(club:Entity)
           -[:COUNTRY]->(:Entity {entityId: $tid})
-    WHERE toLower(club.description) CONTAINS 'football club'
-       OR toLower(club.description) CONTAINS 'football team'
+     WHERE club.description CONTAINS 'football club'
+         OR club.description CONTAINS 'football team'
     MATCH (p)-[:PLACE_OF_BIRTH]->(city:Entity)
     RETURN count(*) AS cnt
 """, {"tid": TURKEY_ID})
@@ -128,25 +107,25 @@ football_2hop_count = football_2hop[0]['cnt'] if football_2hop else 0
 football_3hop = run("""
     MATCH (p:Entity)-[:MEMBER_OF_SPORTS_TEAM]->(club:Entity)
           -[:COUNTRY]->(:Entity {entityId: $tid})
-    WHERE toLower(club.description) CONTAINS 'football club'
-       OR toLower(club.description) CONTAINS 'football team'
+     WHERE club.description CONTAINS 'football club'
+         OR club.description CONTAINS 'football team'
     MATCH (club)-[:HOME_VENUE]->(stadium:Entity)
     MATCH (stadium)-[:LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY|COUNTRY]->(place:Entity)
     RETURN count(*) AS cnt
 """, {"tid": TURKEY_ID})
 football_3hop_count = football_3hop[0]['cnt'] if football_3hop else 0
 
-print(f"\n  Kulüp sayısı        : {football_club_count:,}")
-print(f"  Futbolcu sayısı     : {football_player_count:,}")
-print(f"  Relation türleri    : {football_rels}")
-print(f"  2-hop path sayısı   : {football_2hop_count:,}")
-print(f"  3-hop path sayısı   : {football_3hop_count:,}")
+print(f"\n  Club count          : {football_club_count:,}")
+print(f"  Player count        : {football_player_count:,}")
+print(f"  Relation types      : {football_rels}")
+print(f"  2-hop path count    : {football_2hop_count:,}")
+print(f"  3-hop path count    : {football_3hop_count:,}")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # DOMAIN 2: TÜRK SİNEMASI
 # ══════════════════════════════════════════════════════════════════════════════
-section("DOMAIN 2: Türk Sineması")
+section("DOMAIN 2: Turkish Cinema")
 
 cinema_films = run("""
     MATCH (film:Entity)-[:COUNTRY_OF_ORIGIN]->(:Entity {entityId: $tid})
@@ -193,18 +172,18 @@ cinema_3hop = run("""
 """, {"tid": TURKEY_ID})
 cinema_3hop_count = cinema_3hop[0]['cnt'] if cinema_3hop else 0
 
-print(f"\n  Film sayısı         : {cinema_film_count:,}")
-print(f"  Yönetmen sayısı     : {cinema_director_count:,}")
-print(f"  Oyuncu sayısı       : {cinema_actor_count:,}")
-print(f"  Relation türleri    : {cinema_rels}")
-print(f"  2-hop path sayısı   : {cinema_2hop_count:,}")
-print(f"  3-hop path sayısı   : {cinema_3hop_count:,}")
+print(f"\n  Film count          : {cinema_film_count:,}")
+print(f"  Director count      : {cinema_director_count:,}")
+print(f"  Actor count         : {cinema_actor_count:,}")
+print(f"  Relation types      : {cinema_rels}")
+print(f"  2-hop path count    : {cinema_2hop_count:,}")
+print(f"  3-hop path count    : {cinema_3hop_count:,}")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # DOMAIN 3: TÜRK ŞİRKETLERİ
 # ══════════════════════════════════════════════════════════════════════════════
-section("DOMAIN 3: Türk Şirketleri")
+section("DOMAIN 3: Turkish Companies")
 
 companies = run("""
     MATCH (co:Entity)-[:HEADQUARTERS_LOCATION]->(city:Entity)
@@ -239,32 +218,41 @@ company_3hop = run("""
 """, {"tid": TURKEY_ID})
 company_3hop_count = company_3hop[0]['cnt'] if company_3hop else 0
 
-print(f"\n  Şirket sayısı       : {company_count:,}")
-print(f"  Relation türleri    : {company_rels}")
-print(f"  2-hop path sayısı   : {company_2hop_count:,}")
-print(f"  3-hop path sayısı   : {company_3hop_count:,}")
+company_founders = run("""
+    MATCH (co:Entity)-[:HEADQUARTERS_LOCATION]->(city:Entity)
+          -[:COUNTRY]->(:Entity {entityId: $tid})
+    MATCH (co)-[:FOUNDED_BY]->(founder:Entity)
+    RETURN count(DISTINCT founder) AS cnt
+""", {"tid": TURKEY_ID})
+company_related_count = company_founders[0]['cnt'] if company_founders else 0
+
+print(f"\n  Company count       : {company_count:,}")
+print(f"  Founder count       : {company_related_count:,}")
+print(f"  Relation types      : {company_rels}")
+print(f"  2-hop path count    : {company_2hop_count:,}")
+print(f"  3-hop path count    : {company_3hop_count:,}")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # DOMAIN 4: TÜRK MÜZİĞİ
 # ══════════════════════════════════════════════════════════════════════════════
-section("DOMAIN 4: Türk Müziği")
+section("DOMAIN 4: Turkish Music")
 
 musicians = run("""
     MATCH (e:Entity)-[:COUNTRY_OF_CITIZENSHIP]->(:Entity {entityId: $tid})
-    WHERE toLower(e.description) CONTAINS 'singer'
-       OR toLower(e.description) CONTAINS 'musician'
-       OR toLower(e.description) CONTAINS 'composer'
-       OR toLower(e.description) CONTAINS 'rapper'
+     WHERE e.description CONTAINS 'singer'
+         OR e.description CONTAINS 'musician'
+         OR e.description CONTAINS 'composer'
+         OR e.description CONTAINS 'rapper'
     RETURN count(DISTINCT e) AS cnt
 """, {"tid": TURKEY_ID})
 musician_count = musicians[0]['cnt'] if musicians else 0
 
 music_rel_types = run("""
     MATCH (e:Entity)-[:COUNTRY_OF_CITIZENSHIP]->(:Entity {entityId: $tid})
-    WHERE toLower(e.description) CONTAINS 'singer'
-       OR toLower(e.description) CONTAINS 'musician'
-       OR toLower(e.description) CONTAINS 'composer'
+     WHERE e.description CONTAINS 'singer'
+         OR e.description CONTAINS 'musician'
+         OR e.description CONTAINS 'composer'
     MATCH (e)-[r]->(target)
     RETURN DISTINCT type(r) AS rel
     LIMIT 50
@@ -273,8 +261,8 @@ music_rels = [r['rel'] for r in music_rel_types]
 
 music_2hop = run("""
     MATCH (e:Entity)-[:COUNTRY_OF_CITIZENSHIP]->(:Entity {entityId: $tid})
-    WHERE toLower(e.description) CONTAINS 'singer'
-       OR toLower(e.description) CONTAINS 'musician'
+     WHERE e.description CONTAINS 'singer'
+         OR e.description CONTAINS 'musician'
     MATCH (e)-[:PLACE_OF_BIRTH]->(city:Entity)
     RETURN count(*) AS cnt
 """, {"tid": TURKEY_ID})
@@ -282,37 +270,48 @@ music_2hop_count = music_2hop[0]['cnt'] if music_2hop else 0
 
 music_3hop = run("""
     MATCH (e:Entity)-[:COUNTRY_OF_CITIZENSHIP]->(:Entity {entityId: $tid})
-    WHERE toLower(e.description) CONTAINS 'singer'
-       OR toLower(e.description) CONTAINS 'musician'
+     WHERE e.description CONTAINS 'singer'
+         OR e.description CONTAINS 'musician'
     MATCH (e)-[:PLACE_OF_BIRTH]->(city:Entity)
     MATCH (city)-[:COUNTRY]->(country:Entity)
     RETURN count(*) AS cnt
 """, {"tid": TURKEY_ID})
 music_3hop_count = music_3hop[0]['cnt'] if music_3hop else 0
 
-print(f"\n  Müzisyen sayısı     : {musician_count:,}")
-print(f"  Relation türleri    : {music_rels}")
-print(f"  2-hop path sayısı   : {music_2hop_count:,}")
-print(f"  3-hop path sayısı   : {music_3hop_count:,}")
+music_awards = run("""
+    MATCH (e:Entity)-[:COUNTRY_OF_CITIZENSHIP]->(:Entity {entityId: $tid})
+     WHERE e.description CONTAINS 'singer'
+         OR e.description CONTAINS 'musician'
+         OR e.description CONTAINS 'composer'
+    MATCH (e)-[:AWARD_RECEIVED]->(aw:Entity)
+    RETURN count(DISTINCT aw) AS cnt
+""", {"tid": TURKEY_ID})
+music_related_count = music_awards[0]['cnt'] if music_awards else 0
+
+print(f"\n  Musician count      : {musician_count:,}")
+print(f"  Award count         : {music_related_count:,}")
+print(f"  Relation types      : {music_rels}")
+print(f"  2-hop path count    : {music_2hop_count:,}")
+print(f"  3-hop path count    : {music_3hop_count:,}")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # DOMAIN 5: TÜRK AKADEMİSİ
 # ══════════════════════════════════════════════════════════════════════════════
-section("DOMAIN 5: Türk Akademisi")
+section("DOMAIN 5: Turkish Academia")
 
 universities = run("""
     MATCH (u:Entity)-[:COUNTRY]->(:Entity {entityId: $tid})
-    WHERE toLower(u.description) CONTAINS 'university'
-       OR toLower(u.description) CONTAINS 'college'
+     WHERE u.description CONTAINS 'university'
+         OR u.description CONTAINS 'college'
     RETURN count(DISTINCT u) AS cnt
 """, {"tid": TURKEY_ID})
 university_count = universities[0]['cnt'] if universities else 0
 
 academia_rel_types = run("""
     MATCH (u:Entity)-[:COUNTRY]->(:Entity {entityId: $tid})
-    WHERE toLower(u.description) CONTAINS 'university'
-       OR toLower(u.description) CONTAINS 'college'
+     WHERE u.description CONTAINS 'university'
+         OR u.description CONTAINS 'college'
     MATCH (u)-[r]->(target)
     RETURN DISTINCT type(r) AS rel
     LIMIT 50
@@ -321,8 +320,8 @@ academia_rels = [r['rel'] for r in academia_rel_types]
 
 academia_2hop = run("""
     MATCH (u:Entity)-[:COUNTRY]->(:Entity {entityId: $tid})
-    WHERE toLower(u.description) CONTAINS 'university'
-       OR toLower(u.description) CONTAINS 'college'
+     WHERE u.description CONTAINS 'university'
+         OR u.description CONTAINS 'college'
     MATCH (p:Entity)-[:EDUCATED_AT]->(u)
     RETURN count(*) AS cnt
 """, {"tid": TURKEY_ID})
@@ -330,27 +329,37 @@ academia_2hop_count = academia_2hop[0]['cnt'] if academia_2hop else 0
 
 academia_3hop = run("""
     MATCH (u:Entity)-[:COUNTRY]->(:Entity {entityId: $tid})
-    WHERE toLower(u.description) CONTAINS 'university'
-       OR toLower(u.description) CONTAINS 'college'
+     WHERE u.description CONTAINS 'university'
+         OR u.description CONTAINS 'college'
     MATCH (p:Entity)-[:EDUCATED_AT]->(u)
     MATCH (p)-[:PLACE_OF_BIRTH]->(city:Entity)
     RETURN count(*) AS cnt
 """, {"tid": TURKEY_ID})
 academia_3hop_count = academia_3hop[0]['cnt'] if academia_3hop else 0
 
-print(f"\n  Üniversite sayısı   : {university_count:,}")
-print(f"  Relation türleri    : {academia_rels}")
-print(f"  2-hop path sayısı   : {academia_2hop_count:,}")
-print(f"  3-hop path sayısı   : {academia_3hop_count:,}")
+academia_students = run("""
+    MATCH (u:Entity)-[:COUNTRY]->(:Entity {entityId: $tid})
+     WHERE u.description CONTAINS 'university'
+         OR u.description CONTAINS 'college'
+    MATCH (p:Entity)-[:EDUCATED_AT]->(u)
+    RETURN count(DISTINCT p) AS cnt
+""", {"tid": TURKEY_ID})
+academia_related_count = academia_students[0]['cnt'] if academia_students else 0
+
+print(f"\n  University count    : {university_count:,}")
+print(f"  Student/alumni count: {academia_related_count:,}")
+print(f"  Relation types      : {academia_rels}")
+print(f"  2-hop path count    : {academia_2hop_count:,}")
+print(f"  3-hop path count    : {academia_3hop_count:,}")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # KARŞILAŞTIRMA TABLOSU
 # ══════════════════════════════════════════════════════════════════════════════
-section("KARŞILAŞTIRMA TABLOSU — 3.4 KRİTERLERİ")
+section("COMPARISON TABLE — SECTION 3.4 CRITERIA")
 
 domains = {
-    "Futbol": {
+    "Football": {
         "seed_entities":    football_club_count,
         "related_entities": football_player_count,
         "relation_types":   len(football_rels),
@@ -358,7 +367,7 @@ domains = {
         "2hop_paths":       football_2hop_count,
         "3hop_paths":       football_3hop_count,
     },
-    "Sinema": {
+    "Cinema": {
         "seed_entities":    cinema_film_count,
         "related_entities": cinema_director_count + cinema_actor_count,
         "relation_types":   len(cinema_rels),
@@ -366,25 +375,25 @@ domains = {
         "2hop_paths":       cinema_2hop_count,
         "3hop_paths":       cinema_3hop_count,
     },
-    "Şirketler": {
+    "Companies": {
         "seed_entities":    company_count,
-        "related_entities": 0,
+        "related_entities": company_related_count,
         "relation_types":   len(company_rels),
         "rel_names":        company_rels,
         "2hop_paths":       company_2hop_count,
         "3hop_paths":       company_3hop_count,
     },
-    "Müzik": {
+    "Music": {
         "seed_entities":    musician_count,
-        "related_entities": 0,
+        "related_entities": music_related_count,
         "relation_types":   len(music_rels),
         "rel_names":        music_rels,
         "2hop_paths":       music_2hop_count,
         "3hop_paths":       music_3hop_count,
     },
-    "Akademi": {
+    "Academia": {
         "seed_entities":    university_count,
-        "related_entities": 0,
+        "related_entities": academia_related_count,
         "relation_types":   len(academia_rels),
         "rel_names":        academia_rels,
         "2hop_paths":       academia_2hop_count,
@@ -394,11 +403,11 @@ domains = {
 
 CRITERIA = {
     "seed_entities":  {"min": 10,  "label": "Seed Entity (≥10)"},
-    "relation_types": {"min": 5,   "label": "Rel. Türü (≥5)"},
+    "relation_types": {"min": 5,   "label": "Relation Types (≥5)"},
     "2hop_paths":     {"min": 30,  "label": "2-hop Path (≥30)"},
 }
 
-print(f"\n  {'Domain':12} | {'Seed':>6} | {'İlgili':>7} | {'Rel Türü':>8} | {'2-hop':>7} | {'3-hop':>7} | Kriter")
+print(f"\n  {'Domain':12} | {'Seed':>6} | {'Related':>7} | {'Rel Types':>9} | {'2-hop':>7} | {'3-hop':>7} | Status")
 print("  " + "─" * 75)
 
 for name, d in domains.items():
@@ -407,17 +416,17 @@ for name, d in domains.items():
         d['relation_types'] >= CRITERIA['relation_types']['min'],
         d['2hop_paths']     >= CRITERIA['2hop_paths']['min'],
     ])
-    status = "✅ TÜM KRİTER" if criteria_ok else "⚠️  EKSİK"
+    status = "✅ ALL CRITERIA" if criteria_ok else "⚠️  INCOMPLETE"
     print(f"  {name:12} | {d['seed_entities']:>6,} | {d['related_entities']:>7,} | "
           f"{d['relation_types']:>8} | {d['2hop_paths']:>7,} | {d['3hop_paths']:>7,} | {status}")
 
-print(f"\n  Minimum beklentiler: Seed ≥ 10 | Rel. Türü ≥ 5 | 2-hop ≥ 30")
+print(f"\n  Minimum expectations: Seed ≥ 10 | Relation Types ≥ 5 | 2-hop ≥ 30")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # GRAFİK
 # ══════════════════════════════════════════════════════════════════════════════
-section("GRAFİK ÜRETİLİYOR")
+section("GENERATING CHART")
 
 domain_names = list(domains.keys())
 seed_counts  = [domains[d]['seed_entities']   for d in domain_names]
@@ -438,8 +447,8 @@ for ax in axes:
     ax.spines['right'].set_visible(False)
 
 bars1 = axes[0].bar(domain_names, seed_counts, color=colors, alpha=0.85, edgecolor='white', linewidth=0.5)
-axes[0].set_title("Seed Entity Sayısı", color="white", fontsize=12, fontweight="bold")
-axes[0].set_ylabel("Sayı", color="white")
+axes[0].set_title("Seed Entity Count", color="white", fontsize=12, fontweight="bold")
+axes[0].set_ylabel("Count", color="white")
 axes[0].axhline(y=10, color='yellow', linestyle='--', linewidth=1.5, label='Min (10)')
 axes[0].legend(facecolor='#2c2c54', labelcolor='white', fontsize=9)
 for bar, val in zip(bars1, seed_counts):
@@ -448,8 +457,8 @@ for bar, val in zip(bars1, seed_counts):
 axes[0].set_xticklabels(domain_names, rotation=15, color='white', fontsize=9)
 
 bars2 = axes[1].bar(domain_names, hop2_counts, color=colors, alpha=0.85, edgecolor='white', linewidth=0.5)
-axes[1].set_title("2-Hop Path Sayısı", color="white", fontsize=12, fontweight="bold")
-axes[1].set_ylabel("Sayı", color="white")
+axes[1].set_title("2-Hop Path Count", color="white", fontsize=12, fontweight="bold")
+axes[1].set_ylabel("Count", color="white")
 axes[1].axhline(y=30, color='yellow', linestyle='--', linewidth=1.5, label='Min (30)')
 axes[1].legend(facecolor='#2c2c54', labelcolor='white', fontsize=9)
 for bar, val in zip(bars2, hop2_counts):
@@ -458,8 +467,8 @@ for bar, val in zip(bars2, hop2_counts):
 axes[1].set_xticklabels(domain_names, rotation=15, color='white', fontsize=9)
 
 bars3 = axes[2].bar(domain_names, rel_counts, color=colors, alpha=0.85, edgecolor='white', linewidth=0.5)
-axes[2].set_title("Relation Türü Sayısı", color="white", fontsize=12, fontweight="bold")
-axes[2].set_ylabel("Sayı", color="white")
+axes[2].set_title("Relation Type Count", color="white", fontsize=12, fontweight="bold")
+axes[2].set_ylabel("Count", color="white")
 axes[2].axhline(y=5, color='yellow', linestyle='--', linewidth=1.5, label='Min (5)')
 axes[2].legend(facecolor='#2c2c54', labelcolor='white', fontsize=9)
 for bar, val in zip(bars3, rel_counts):
@@ -467,14 +476,14 @@ for bar, val in zip(bars3, rel_counts):
                  f'{val}', ha='center', va='bottom', color='white', fontsize=9, fontweight='bold')
 axes[2].set_xticklabels(domain_names, rotation=15, color='white', fontsize=9)
 
-fig.suptitle("Phase 2: Türkiye Domain Karşılaştırması\n(Sarı kesik çizgi = minimum kriter)",
+fig.suptitle("Phase 2: Turkey Domain Comparison\n(Yellow dashed line = minimum criterion)",
              color="white", fontsize=14, fontweight="bold")
 plt.tight_layout()
 
 chart_path = os.path.join(OUTPUT_DIR, "phase2_domain_overview_chart.png")
 plt.savefig(chart_path, dpi=150, bbox_inches="tight", facecolor="#1a1a2e")
 plt.close()
-print(f"\n  ✔ Grafik kaydedildi: {chart_path}")
+print(f"\n  Chart saved: {chart_path}")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -490,22 +499,22 @@ save_json({
         "min_relation_types": 5,
         "min_2hop_paths":     30,
     },
-    "note": "Bu dosyaya bakarak domain seçimi yapılacak."
+    "note": "Use this file to justify the final domain selection."
 }, "phase2_domain_overview.json")
 
 driver.close()
 
 print("\n" + "=" * 65)
-print("  ÖZET — Domain Karşılaştırması Tamamlandı")
+print("  SUMMARY — Domain Comparison Completed")
 print("=" * 65)
 print(f"""
-  Domain       | Seed  | 2-hop | Rel Türü
+    Domain       | Seed  | 2-hop | Rel Types
   ────────────────────────────────────────
-  Futbol       | {football_club_count:>5,} | {football_2hop_count:>5,} | {len(football_rels):>8}
-  Sinema       | {cinema_film_count:>5,} | {cinema_2hop_count:>5,} | {len(cinema_rels):>8}
-  Şirketler    | {company_count:>5,} | {company_2hop_count:>5,} | {len(company_rels):>8}
-  Müzik        | {musician_count:>5,} | {music_2hop_count:>5,} | {len(music_rels):>8}
-  Akademi      | {university_count:>5,} | {academia_2hop_count:>5,} | {len(academia_rels):>8}
+    Football     | {football_club_count:>5,} | {football_2hop_count:>5,} | {len(football_rels):>8}
+    Cinema       | {cinema_film_count:>5,} | {cinema_2hop_count:>5,} | {len(cinema_rels):>8}
+    Companies    | {company_count:>5,} | {company_2hop_count:>5,} | {len(company_rels):>8}
+    Music        | {musician_count:>5,} | {music_2hop_count:>5,} | {len(music_rels):>8}
+    Academia     | {university_count:>5,} | {academia_2hop_count:>5,} | {len(academia_rels):>8}
 
-  → Çıktıya bakarak domain seçimini yap.
+    → Choose the final domain based on this output.
 """)

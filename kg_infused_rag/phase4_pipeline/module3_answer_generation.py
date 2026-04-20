@@ -1,25 +1,10 @@
-"""
-Module 3 - KG-Augmented Answer Generation
-==========================================
-Module 2'den gelen passage'ları ve Module 1'den gelen KG özetini
-birleştirerek final cevabı üretir.
-
-3 adım:
-  1. Passage Note Construction   — passage'ları sorgu odaklı nota dönüştür
-  2. KG-Guided Augmentation      — nota + KG özeti → fact-enhanced nota
-  3. Answer Generation           — fact-enhanced nota → final cevap
-
-Düzeltmeler:
-  - Tüm LLM çağrılarına retry mekanizması eklendi
-"""
-
 import os
 import functools
 import time
 from groq import Groq
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-from config import GROQ_MODEL, GROQ_API_KEY, MAX_PASSAGE_CHARS
+from config import GROQ_MODEL, GROQ_API_KEYS, MAX_PASSAGE_CHARS, GroqKeyRotator
 
 
 # ── Retry decorator ───────────────────────────────────────────────────────────
@@ -28,11 +13,14 @@ def retry_on_failure(max_retries: int = 3, delay: float = 2.0):
         @functools.wraps(func)
         def wrapper(*args, **kwargs):
             last_exc = None
+            self_obj = args[0] if args and hasattr(args[0], 'groq') else None
             for attempt in range(max_retries):
                 try:
                     return func(*args, **kwargs)
                 except Exception as e:
                     last_exc = e
+                    if '429' in str(e) and self_obj is not None and len(GROQ_API_KEYS) > 1:
+                        self_obj.groq.rotate()
                     wait = delay * (attempt + 1)
                     print(f"  [Retry] {func.__name__} hata (deneme {attempt+1}/{max_retries}): "
                           f"{e} — {wait:.1f}s bekleniyor.")
@@ -50,7 +38,7 @@ class AnswerGeneration:
 
     def __init__(self):
         print("[Module3] Başlatılıyor...")
-        self.groq = Groq(api_key=GROQ_API_KEY)
+        self.groq = GroqKeyRotator(GROQ_API_KEYS)
         print("[Module3] ✔ Groq hazır.")
 
     # ──────────────────────────────────────────────────────────────────────────
@@ -124,7 +112,8 @@ Knowledge Graph Summary (structured facts):
 
 Combine both sources into a FACT-ENHANCED NOTE that:
 - Integrates structured KG facts with passage information
-- Resolves any conflicts by trusting KG facts for specific entities/relations
+- Only trust KG facts that are DIRECTLY about the entity mentioned in the query; ignore KG facts about unrelated entities
+- If KG facts are about a different entity (not the one asked about), discard them and rely on the passage note
 - Highlights the most relevant facts for answering the query
 - Is 4-6 sentences maximum
 - Clearly states what is known about the query topic

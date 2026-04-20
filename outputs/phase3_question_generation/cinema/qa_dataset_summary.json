@@ -1,0 +1,108 @@
+{
+  "domain": "cinema",
+  "total_questions": 57,
+  "filtered_noisy": 0,
+  "by_difficulty": {
+    "2-hop": 33,
+    "3-hop": 17,
+    "comparison": 7
+  },
+  "criteria_met": {
+    "2hop_ok": true,
+    "3hop_ok": true,
+    "comp_ok": true,
+    "total_ok": true
+  },
+  "template_distribution": {
+    "Film->DIRECTOR->PLACE_OF_BIRTH": 5,
+    "Film->CAST_MEMBER->PLACE_OF_BIRTH": 6,
+    "Film->DIRECTOR->AWARD_RECEIVED": 1,
+    "Film->CAST_MEMBER->COUNTRY_OF_CITIZENSHIP": 6,
+    "Film->DIRECTOR->EDUCATED_AT": 1,
+    "Film->AWARD_RECEIVED (with DIRECTOR)": 1,
+    "Film->CAST_MEMBER->EDUCATED_AT": 5,
+    "Film->CAST_MEMBER->AWARD_RECEIVED": 8,
+    "Film->DIRECTOR->PLACE_OF_BIRTH->COUNTRY": 4,
+    "Film->DIRECTOR->EDUCATED_AT->COUNTRY": 1,
+    "Film->CAST_MEMBER->PLACE_OF_BIRTH->COUNTRY": 4,
+    "Film->CAST_MEMBER->EDUCATED_AT->COUNTRY": 4,
+    "Film->CAST_MEMBER->PLACE_OF_BIRTH->LOCATED_IN": 4,
+    "Film.CastMember(Turkish) vs Film.CastMember(Foreign)": 5,
+    "Film1.Director(Turkish) vs Film2.Director(Foreign)": 2
+  },
+  "phase2_pipeline": {
+    "source_report": "outputs\\phase2_domain_selection\\cinema\\cinema_path_density_report.json",
+    "verified_film_rels": [
+      "AWARD_RECEIVED",
+      "CAST_MEMBER",
+      "COMPOSER",
+      "COUNTRY_OF_ORIGIN",
+      "DIFFERENT_FROM",
+      "DIRECTOR",
+      "DIRECTOR_OF_PHOTOGRAPHY",
+      "DISTRIBUTOR",
+      "FILMING_LOCATION",
+      "FILM_EDITOR",
+      "GENRE",
+      "INSTANCE_OF",
+      "LIST_OF_EPISODES",
+      "LOCATION",
+      "MAIN_SUBJECT",
+      "NARRATIVE_LOCATION",
+      "NOMINATED_FOR",
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "ORIGINAL_NETWORK",
+      "PART_OF",
+      "PRODUCER",
+      "PRODUCTION_COMPANY",
+      "SAID_TO_BE_THE_SAME_AS",
+      "SCREENWRITER",
+      "SUBCLASS_OF",
+      "USES"
+    ],
+    "zero_path_templates": {
+      "2hop": [],
+      "3hop": []
+    },
+    "phase2_path_counts": {
+      "2hop": {
+        "A_film_director_city": 162,
+        "B_film_actor_city": 200,
+        "C_film_director_award": 20,
+        "D_film_actor_citizenship": 200,
+        "E_film_director_school": 33,
+        "F_film_director_award_film": 4,
+        "G_film_actor_school": 160,
+        "H_film_actor_award": 125,
+        "3B_actor_award": 125
+      },
+      "3hop": {
+        "3A_film_director_city_country": 200,
+        "3C_film_director_school_country": 32,
+        "3D_film_actor_city_country": 200,
+        "3E_film_actor_school_country": 160,
+        "3F_film_actor_city_province": 200
+      }
+    },
+    "derived_limits": {
+      "2hop": {
+        "A_film_director_city": 5,
+        "B_film_actor_city": 6,
+        "C_film_director_award": 1,
+        "D_film_actor_citizenship": 6,
+        "E_film_director_school": 1,
+        "F_film_director_award_film": 1,
+        "G_film_actor_school": 5,
+        "H_film_actor_award": 4,
+        "3B_actor_award": 4
+      },
+      "3hop": {
+        "3A_film_director_city_country": 4,
+        "3C_film_director_school_country": 1,
+        "3D_film_actor_city_country": 4,
+        "3E_film_actor_school_country": 4,
+        "3F_film_actor_city_province": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,2161 @@
+[
+  {
+    "entity_id": "Q483856",
+    "name": "Türkiye millî futbol takımı",
+    "aliases": "Türkiye millî futbol takımı|Turkey national soccer team|turkey national soccer team|Turkish national soccer team|turkish football team|Turkish football team|turkish national football team|turkish national soccer team|The Turkish National Football Team|Turkey national football team|türkiye millî futbol takımı|turkey national football team|the turkish national football team|Turkish national football team",
+    "description": "The Turkey national football team (Turkish: Türkiye Millî Futbol Takımı) represents Turkey in association football and is controlled by the Turkish Football Federation, the governing body for football in Turkey. They are affiliated with UEFA.Turkey has qualified three times for the FIFA World Cup, in 1950, 1954, and 2002, although they withdrew from the 1950 event.  Turkey has also qualified four times for the UEFA European Championship, in 1996, 2000, 2008, and 2016.  They have reached the semi",
+    "degree": 412,
+    "player_count": 398,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "PARTICIPANT_OF",
+      "MEMBER_OF",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "PARTICIPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": null,
+    "coach": "fatih terim",
+    "league": null
+  },
+  {
+    "entity_id": "Q495299",
+    "name": "Galatasaray F.C.",
+    "aliases": "Galatasaray F.C.|Cimbom|galatasaray f.c.|cimbom|List of Galatasaray S.K. Football Schools|Galatasaray S.K. Football Schools|Galatasaray FC|Galatasaray Spor Kulübü|Galatasaray S.K. (football)|Galatasaray SK (football)|galatasaray spor kulübü|galatasaray s.k. (football)|galatasaray aş|Galatasaray F.C|galatasaray sk (football)|galatasaray s.k. (football team)|galatasaray s.k. football schools|galatasaray fc|Galatasaray S.K. (football team)|galatasaray f.c|list of galatasaray s.k. football schools|Galatasaray AŞ",
+    "description": "Galatasaray Spor Kulübü (Turkish pronunciation: [ɡaɫatasaˈɾaj ˈspoɾ kulyˈby], Galatasaray Sports Club), is a Turkish professional football club based on the European side of the city of Istanbul in Turkey. It is the association football branch of the larger Galatasaray Sports Club of the same name, itself a part of the Galatasaray Community Cooperation Committee which includes Galatasaray High School where the football club was founded in October 1905 consisting entirely of student members.Galat",
+    "degree": 379,
+    "player_count": 367,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "OWNED_BY",
+      "HEAD_COACH",
+      "DIFFERENT_FROM",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "Türk Telekom Arena",
+    "coach": "Igor Tudor",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q6601875",
+    "name": "fenerbahçe s.k. (football)",
+    "aliases": "fenerbahçe s.k. (football)|Fenerbahçe S.K. (football)|Fenerbahçe S.K. (football team)|fenerbahçe s.k. (football team)|fenerbahçe futbol a.ş.|Fenerbahçe S.K. (football Team)|fenerbahçe sk (football team)|fenerbahce|Fenerbahçe SK (football)|fenerbahçe sk (football)|Fenerbahçe Futbol A.Ş.|Fenerbahce S.K. (football)|fenerbahçe f.c.|Fenerbahçe SK (football team)|Fenerbahçe F.C.|Fenerbahce|fenerbahce s.k. (football)",
+    "description": "Fenerbahçe S.K. (Turkish pronunciation: [feˈnæɾbahtʃe], Fenerbahçe Sports Club), commonly known as Fenerbahçe, are a Turkish football club based in Istanbul, Turkey. The club's name comes from Fenerbahçe neighbourhood of Istanbul. The professional football department are the most notable one of Fenerbahçe SK, a major multi-sport club who compete in football, basketball, volleyball, athletics, swimming, sailing, rowing, boxing, and table tennis, among others, with many major honours won in each d",
+    "degree": 353,
+    "player_count": 344,
+    "relations": [
+      "PART_OF",
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "CHAIRPERSON",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "suekrue saracoglu stadyumu",
+    "coach": "aykut kocaman",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q172567",
+    "name": "Besiktas Jk",
+    "aliases": "Besiktas Jk|besiktas|beşiktaş istanbul|Besiktas|beşiktaş tv|Besiktas Istanbul|bjk|beşiktaş j.k.|Besiktas Jimlastik Kulübü|Besiktas Jimlastik Kulubu|Beşiktaş, BJK, Kara kartal|beşiktaş j.k|beşiktaş jimnastik kulübü|Beşiktaş J.K.|besiktas j.k|Beşiktaş JK|beşiktaş, bjk, kara kartal|Besiktas Jimlastik Kuluebue|Besiktas Jimnastik Kulübü|besiktas jk|besiktas jimlastik kulubu|besiktas istanbul|besiktas jimlastik kulübü|besiktas j.k.|Beşiktaş e-Sports Club|Besiktas J.K|besiktas jimlastik kuluebue|Besiktas Jimnastik Kulubu|Besiktas JK|Beşiktaş Istanbul|besiktas jimnastik kulubu|beşiktaş e-sports club|BJK|Besiktas J.K.|Beşiktaş TV|Beşiktaş Jimnastik Kulübü|besiktas jimnastik kulübü|beşiktaş jk|Beşiktaş J.K",
+    "description": "Beşiktaş Jimnastik Kulübü (English: Beşiktaş Gymnastics Club), also known simply as Beşiktaş (Turkish pronunciation: [beˈʃiktaʃ]), is a Turkish sports club founded in 1903, and based in the Beşiktaş district of Istanbul, Turkey.The club's football team is one of the most successful teams in Turkey, having never been relegated to a lower division. The team last won the Turkish Süper Lig championship during the 2016–17 season.The home ground of Beşiktaş is Vodafone Park, a 41,903 capacity all-seat",
+    "degree": 319,
+    "player_count": 304,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "CHAIRPERSON",
+      "MEMBER_OF",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "OWNED_BY",
+      "PARTICIPATING_TEAM",
+      "PART_OF"
+    ],
+    "stadium": "articles for creation/vodafone arena",
+    "coach": null,
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q192641",
+    "name": "trabzonspor",
+    "aliases": "trabzonspor|Trabzon spor|Trabzonspor football club|trabzonspor dergisi|Trabzonspor|trabzonspor football club|Trabzonspor Dergisi|trabzon spor|Trabzonspor A.Ş.|trabzonspor a.ş.",
+    "description": "Trabzonspor are a professional Turkish sports club located in the city of Trabzon, Turkey. Formed in 1967 through a merger of several local clubs, the men's football department of Trabzonspor have won six Süper Lig championship titles. Trabzonspor also have a women's football team and a men's basketball team.Trabzonspor are one of the most decorated clubs in Turkey. They have won seven Süper Lig titles and were the first non  Istanbul-based club to win the league. They also have won eight Federa",
+    "degree": 288,
+    "player_count": 280,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "huseyin avni aker stadium",
+    "coach": "riza çalimbay",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q285722",
+    "name": "Gaziantepspor",
+    "aliases": "Gaziantepspor|gaziantepspor",
+    "description": "Gaziantepspor is a professional Turkish football club located in the city of Gaziantep. Formed in 1969, Gaziantepspor are nicknamed the Şahinler (The Falcons). The club colours are black and red, and they play their home matches at New Gaziantep Stadium.",
+    "degree": 258,
+    "player_count": 250,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "kamil ocak stadı",
+    "coach": "buelent uygun",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q608122",
+    "name": "kayserispor",
+    "aliases": "kayserispor|Kayserispor",
+    "description": "Kayseri Spor Kulübü, commonly known as Kayserispor, is a Turkish professional football club based in Kayseri, Turkey. They play their home matches at the Kadir Has Stadium in red and yellow kits.The team has won one Turkish Cup in 2008 and also finished as Turkish Super Cup runners-up in the same year. They finished fifth in the Turkish Super League four times, in 2005–06, 2006–07, 2007–08, and 2012–13. Internationally, Kayserispor was one of the co-winners of the 2006 Intertoto Cup.",
+    "degree": 214,
+    "player_count": 205,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "Kadir Has Stadium",
+    "coach": "marius şumudică",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q43710",
+    "name": "mp antalyaspor",
+    "aliases": "mp antalyaspor|Antalya S.K.|Ali Şafak Öztürk|ali şafak öztürk|Antalyaspor SFTSAŞ|antalyaspor sftsas|MP Antalyaspor|Antalyaspor SFTSAS|Antalyaspor|antalya s.k.|antalyaspor sftsaş|Medical Park Antalyaspor|antalyaspor|antalyaspor kulübü|medical park antalyaspor|Antalyaspor Kulübü",
+    "description": "Antalyaspor is a Turkish professional football club located in the city of Antalya. The club's colours are red and white. They play their home matches at the Antalya Arena. In Turkey, the club won the First League twice in 1982 and 1986 and finished as runners-up for the Turkish Cup in 2000.",
+    "degree": 210,
+    "player_count": 200,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "Akdeniz University Stadium",
+    "coach": null,
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q430107",
+    "name": "Samsunspor",
+    "aliases": "Samsunspor|samsunspor",
+    "description": "Samsunspor is a professional Turkish football club located in the city of Samsun. The club was formed through a merger of five clubs: 19 Mayıs, Akınspor, Fener Gençlik, Samsunspor, and Samsunspor Galatasaray. The club colours are red and white, and they play their home matches at Samsun Stadium.The club finished runners-up for the 2. Lig crown in 1968–69, but then yo-yoed between the top two divisions until 1993. The club competed in the UEFA Intertoto Cup in 1997 and 1998, and won the Balkans C",
+    "degree": 199,
+    "player_count": 193,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Samsun 19 Mayis Stadyumu",
+    "coach": null,
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q272712",
+    "name": "caykur rizespor",
+    "aliases": "caykur rizespor|Caykur Rizespor|rizespor|çaykur rizespor|Rizespor|Çaykur Rizespor",
+    "description": "Çaykur Rizespor Kulübü is a professional football club based in Rize, Turkey. The club play in the Turkish Süper Lig, which is the top tier of football in the country. The club was founded on May 19, 1953 with green-yellow as club colours, but later changed to blue-green. Since 1990, the team has been sponsored by the Turkish tea company Çaykur, hence the name and the image of a tea leaf on the club's logo. The club plays its home games in Yeni Rize Şehir Stadium.",
+    "degree": 193,
+    "player_count": 184,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "Yeni Rize Şehir Stadium",
+    "coach": "riza çalimbay",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q748445",
+    "name": "Eskisehirspor",
+    "aliases": "Eskisehirspor|eskisehirspor|eskişehirspor|Eskişehirspor|halil ünal|Halil Ünal|e. sehirspor|E. Sehirspor",
+    "description": "Eskişehirspor is a Turkish football club located in Eskişehir. The club was founded in 1965. Eskişehirspor started a long term stay in the first league in Turkey when they were founded. This term lasted 16 years until they were relegated. After being out of the Süper Lig for 12 years the club won the TFF First League playoffs and were promoted in May 2008.",
+    "degree": 184,
+    "player_count": 177,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "eskişehir atatürk stadyumu",
+    "coach": "Kazım Ersun Yanal",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q176795",
+    "name": "Karşıyaka S.K.",
+    "aliases": "Karşıyaka S.K.|karsiyaka sk|karşıyaka s.k.|Karsiyaka S.K.|Karşıyaka SK|karşıyaka sk|karsiyaka s.k.|Karsiyaka sk|Karsiyaka SK",
+    "description": "Karşıyaka Spor Kulübü is a Turkish sports club located in Karşıyaka, Izmir. The team was founded on 1 November 1912. The \"SK\" refers to sports club, as besides football the club has sports branches in basketball, volleyball, handball, tennis, swimming, sailing, billiards and bowling. The club's football team is currently playing in the TFF Third League, the basketball team in the Turkish Basketball League and the women's volleyball team in the Turkish Women's Second League.Karşıyaka have a fierc",
+    "degree": 172,
+    "player_count": 167,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Altay Alsancak Stadium",
+    "coach": "Cihat Arslan",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q556570",
+    "name": "buyuksehir belediye ankaraspor",
+    "aliases": "buyuksehir belediye ankaraspor|osmanlıspor fk|Buyuksehir Belediye Ankaraspor|Büyüksehir Belediye Ankaraspor|osmanlispor|Ankara Spor A.Ş.|B.B. Ankaraspor|büyüksehir belediye ankaraspor|ankaraspor a.ş.|Büyükşehir Belediye Ankaraspor|ankaraspor a.s.|osmanlıspor|Ankaraspor|Ankara Spor A.Ş:|Osmanlıspor FK|b.b. ankaraspor|Osmanlıspor|büyükşehir belediye ankaraspor|ankaraspor|Osmanlispor|ankara spor a.ş:|Ankaraspor A.S.|ankara spor a.ş.|Ankaraspor A.Ş.",
+    "description": "Osmanlıspor Futbol Kulübü (Turkish pronunciation: [ˈosmanɫɯspoɾ]), commonly known as Osmanlıspor, is a Turkish football club based in the country's capital Ankara. It currently plays in the TFF First League.",
+    "degree": 166,
+    "player_count": 156,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "OWNED_BY",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "yenikent asaş stadyumu",
+    "coach": "buelent uygun",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q352270",
+    "name": "adanaspor",
+    "aliases": "adanaspor|Adanaspor",
+    "description": "Adanaspor is a professional Turkish football club based in Adana. Founded in 1954, Adanaspor are nicknamed Toros Kaplanları (Taurus Tigers). The club colours are orange and white, and the club play their home matches at Adana 5 Ocak Stadı.Domestically, they have won the now-defunct Ministry of Sports and Youth Cup once. Their highest finishes in the top flight were second and third place, in 1981 and 1976 respectively. They have competed in the UEFA Cup three times and the Balkans Cup once. They",
+    "degree": 161,
+    "player_count": 155,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "5 ocak stadium",
+    "coach": null,
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q128148",
+    "name": "Vestel Manisaspor",
+    "aliases": "Vestel Manisaspor|vestel manisaspor|manisaspor|Manisaspor",
+    "description": "Manisaspor is a professional Turkish football club located in the city of Manisa. Originally formed in 1931 as Sakaryaspor, the club changed its name to Manisaspor on 15 June 1965. The club colours are red, white, and black. Manisaspor play their home matches at Manisa 19 Mayis Stadi.",
+    "degree": 155,
+    "player_count": 149,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Manisa 19 Mayis Stadium",
+    "coach": null,
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q434929",
+    "name": "Altay Izmir",
+    "aliases": "Altay Izmir|altay s.k.|altay sk|Altay S K|altay izmir|Altay S.K.|Altayspor|Altay SK|Altay S. K.|altayspor|altay s k|altay s. k.|Altay sk",
+    "description": "Altay Spor Kulübü is a professional Turkish football club based in the city of İzmir, Turkey. Formed in 1914, Altay are nicknamed Büyük Altay (Great Altay). The club colours are black and white, and they play their home matches at the İzmir Atatürk Stadium.Domestically, the club has finished third place for the Süper Lig three times and have won the Turkish Cup twice. They hold the record for most İzmir Football League titles with 14. They are the most successful İzmir-based club with 16 champio",
+    "degree": 151,
+    "player_count": 143,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Altay Alsancak Stadium",
+    "coach": "Ümit Turmuş",
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q929360",
+    "name": "mersin i̇.y",
+    "aliases": "mersin i̇.y|Mersin İdmanyurdu|mersin i̇y|mersin i̇dman yurdu|Mersin I.Y|Mersin İdmanyurdu SK|mersin i̇dmanyurdu sk|mersin idmanyurdu|çukurova i̇dman yurdu|Mersin Idmanyurdu|mersin i̇dmanyurdu seasons|mersin i.y|Çukurova İdman Yurdu|Mersin Idmanyurdu SK|Mersin İY|mersin i̇dmanyurdu turkish cup participations|Mersin İ.Y|Mersin İdman Yurdu SK|mersin i̇dman yurdu sk|Mersin İdmanyurdu Seasons|Mersin İdmanyurdu Turkish Cup Participations|Mersin idmanyurdu|mersin idmanyurdu sk|Mersin Idman Yurdu|mersin idman yurdu|mersin i̇dmanyurdu|Mersin İdman Yurdu",
+    "description": "Mersin İdman Yurdu or Mersin İdmanyurdu (abbreviated as Mersin İY or MİY) was a Turkish sports club from Mersin, Turkey in the eastern Mediterranean Region. The team played in the Turkish first division for 11 seasons, and after the 1983–84 season the football team played in the Turkish second and third divisions. The team was promoted to the Turkish second level division after the 2008–09 season. MİY became the champions of the Turkish second division during the 2010–11 season and earned promot",
+    "degree": 150,
+    "player_count": 143,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Tevfik Sırıı Gür Stadium",
+    "coach": null,
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q1423118",
+    "name": "Goztepe S.K.",
+    "aliases": "Goztepe S.K.|goeztepespor|goeztepe a.s.|göztepespor|Goztepe A.S.|Göztepe Izmir|goztepespor|göztepe izmir|Göztepe SK|Goeztepe A.S.|göztepe s.k.|Goztepespor|Göztepe S.K.|Göztepe İzmir|Goeztepespor|göztepe a.ş.|Göztepe A.Ş.|Göztepespor|göztepe sk|göztepe i̇zmir|goztepe a.s.|goztepe s.k.",
+    "description": "Göztepe Spor Kulübü (Turkish pronunciation: [ɟœztepe spoɾ kulyby], Göztepe Sports Club) also known as Göztepe, is a Turkish sports club located in the Güzelyalı neighborhood of İzmir, Turkey. The \"SK\" refers to sports club, as besides football the club also has departments in fencing, triathlon, handball, sailing, swimming, and windsurfing.Domestically, the greatest success was achieved when the club became Turkish champions in 1950. In 1969 Göztepe became the first Turkish football team to play",
+    "degree": 149,
+    "player_count": 137,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "i̇zmir atatürk stadı",
+    "coach": "Tamer Tuna (footballer, born 1976)",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q513237",
+    "name": "kocaelispor",
+    "aliases": "kocaelispor|Kocaelispor",
+    "description": "Kocaelispor, is the football team of İzmit, Turkey. They were founded in 1966 and played in the top level between 1980–1988 and 1992–2003. The best result for them was the 4th position in 1992–93 season. They won Turkish Cup twice in 1997 and 2002. Gathering 20,152 spectators, Kocaelispor set a record of highest attendance at a Turkish Regional Amateur League encounter, on 8 January 2015.",
+    "degree": 146,
+    "player_count": 140,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "izmit ismetpasa stadium",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q1127498",
+    "name": "sanica boru elâzığspor",
+    "aliases": "sanica boru elâzığspor|Sanica Boru Elâzığspor|Elazığspor|elazigspor|sanica boru elazığspor|Elazigspor|Sanica Boru Elazığspor|elazığspor",
+    "description": "Elazığspor is a football team located in Elazığ, Turkey, which competes in the TFF First League. They previously played their home games at Elazığ Atatürk Stadium in Elazığ, which had a maximum capacity of 13,923. The club was founded in 1967.",
+    "degree": 144,
+    "player_count": 137,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "elazığ atatürk stadium",
+    "coach": "Yılmaz Vural",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q138230",
+    "name": "Kasımpaşa S.K.",
+    "aliases": "Kasımpaşa S.K.|Kasimpasa SK|kasimpasa spor kulubu|Kasimpasa S.K.|Kasımpaşa SK|Kasımpaşaspor|kasımpaşa spor klübü|kasımpaşa spor kulübü|Kasımpaşa Spor Klübü|kasımpaşaspor|Kasimpasa Spor Kulubu|kasımpaşa s.k.|kasimpasa s.k.|Kasımpaşa Spor Kulübü|kasimpasa sk|kasımpaşa sk",
+    "description": "Kasımpaşa S.K. (Turkish pronunciation: [ˈkasɯmpaʃa], Kasımpaşa Sports Club), also known as Kasımpaşa SK or simply Kasımpaşa, is a Turkish football club located in the Beyoğlu district of Istanbul, Turkey. They play their home games in the Recep Tayyip Erdoğan Stadium in Kasımpaşa, a neighbourhood of the district of Beyoğlu. The club is one of five Süper Lig clubs representing Istanbul, along with Fenerbahçe, Galatasaray, Beşiktaş and İstanbul Başakşehir. The 2018–19 season is Kasımpaşa's fifteen",
+    "degree": 141,
+    "player_count": 132,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "OWNED_BY",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "recep tayyip erdoğan stadium",
+    "coach": "Kemal Ozdes",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q352251",
+    "name": "Adana Demirspor",
+    "aliases": "Adana Demirspor|adana demirspor",
+    "description": "Adana Demirspor is a sports club based in Adana, Turkey. Major department of the club is the men's football department, currently performing in the TFF First Division. The football team have a long history at the Turkish top flight, standing at mid-positions for 17 years from 1970s to mid 1990s. The club were the runners-up for the Turkish Cup in the 1977–78 season, and the highest spot at the top-flight was the 6th place in 1981–82. The club's water polo team was at the top of the Turkish Water",
+    "degree": 138,
+    "player_count": 131,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "5 ocak stadium",
+    "coach": "engin ipekoglu",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q344328",
+    "name": "i̇stanbulspor a.ş.",
+    "aliases": "i̇stanbulspor a.ş.|Istambulspor|Istanbulspor AS|istanbulspor a.s.|Istanbulspor A.S.|i̇stanbulspor|Ístanbulspor|istambulspor|İstanbulspor A.S.|İstanbulspor A.Ş.|ístanbulspor|istanbulspor as|İstanbulspor|i̇stanbulspor a.s.|istanbulspor|Istanbulspor",
+    "description": "İstanbulspor is a Turkish football and sports club, founded by Istanbul High School students in 1926. In 2004–05 they were relegated from the Turkish Süper Lig (Super League) to TFF 1. Lig. For many decades it was the fourth most famous and well-developed professional football club from Istanbul, coming after Beşiktaş, Galatasaray, and Fenerbahçe. After being bought by the Uzan Family in 1990, it has been repossessed by the government and resold to third companies. Their greatest success is the ",
+    "degree": 134,
+    "player_count": 129,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "bahcelievler stadium",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q178180",
+    "name": "orduspor",
+    "aliases": "orduspor|Orduspor",
+    "description": "Orduspor is a Turkish football club founded in 1967. The club is located in Ordu, Turkey and plays their home games at 19 Eylül Stadium. The team managed to qualify for Turkish Super League again in 2011. But, the last spell in top level finished in 2013.",
+    "degree": 131,
+    "player_count": 124,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "19 eylul stadi",
+    "coach": "cevat guler",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q891679",
+    "name": "Boluspor",
+    "aliases": "Boluspor|boluspor",
+    "description": "Boluspor is a Turkish professional football club located in the city of Bolu. The clubs plays in red and white kits, and have done so since their formation in 1965.Domestically, the club has won the TFF Second League on one occasion, finishing as runner-up to the Türkiye Kupası. Their greatest success in top-flight football came in 1974, when they finished in third place.",
+    "degree": 131,
+    "player_count": 126,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "ahmet oguz cetin",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q857938",
+    "name": "i̇stanbul büyükşehir belediyespor (football team)",
+    "aliases": "i̇stanbul büyükşehir belediyespor (football team)|medipol başakşehir fk|İstanbul Başakşehir|Medipol Başakşehir FK|Istanbul Basaksehir F.K.|Başakşehir F.K.|i̇stanbul başakşehir fk|i̇stanbul büyükşehir belediyespor (football)|İstanbul Başakşehir F.K.|i̇stanbul başakşehir|istanbul başakşehir|istanbul basaksehir f.k.|Medipol Başakşehir F.K.|medipol başakşehir|Istanbul Buyuksehir Belediyespor (football team)|Medipol Başakşehir|İstanbul Büyükşehir Belediyespor (football)|istanbul buyuksehir belediyespor (football team)|İstanbul Büyükşehir Belediyespor (football team)|Istanbul Başakşehir|Medipol Başakşehir Futbol Kulübü|başakşehir f.k.|İstanbul Başakşehir FK|medipol başakşehir futbol kulübü|medipol başakşehir f.k.|i̇stanbul başakşehir f.k.",
+    "description": "İstanbul Başakşehir Futbol Kulübü (Turkish pronunciation: [isˈtɑnbuɫ bɑʃɑkʃeˈhiɾ futˈboɫ kulyˈby]) is a Turkish professional football club based in the Başakşehir district of Istanbul, Turkey. The club is better known as İstanbul Başakşehir or, due to sponsorship, Medipol Başakşehir (Turkish pronunciation: [mediˈpoɫ bɑʃɑkʃeˈhiɾ]). The club was founded in 1990 as İstanbul Büyükşehir Belediyespor. They first reached the highest level in Turkish Football in 2007–08. They play their home games at th",
+    "degree": 130,
+    "player_count": 120,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "basaksehir fatih terim stadium",
+    "coach": "Abullah Avcı",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q520207",
+    "name": "Diyarbakirspor",
+    "aliases": "Diyarbakirspor|azrailler|diyarbakırspor|Diyarbakırspor|diyarbakirspor|Azrailler",
+    "description": "Diyarbakırspor, currently known as Diyarbekirspor A.Ş., is a professional football club located in the city of Diyarbakır in Turkey. Formed in 1968, Diyarbakırspor are nicknamed Diyar (Land). The club colours are red and green, and they play their home matches at Diyarbakır Stadium.Historically, Diyarbakırspor hold the distinction of being the second club in the world to earn double promotion (with Nottingham Forest being the first). Domestically, they have finished runners-up for the 1.Lig (Sec",
+    "degree": 125,
+    "player_count": 119,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "diyarbakir ataturk stadyumu",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q388487",
+    "name": "şanlıurfa s.k.",
+    "aliases": "şanlıurfa s.k.|sanliurfaspor|şanlıurfaspor|Şanlıurfa S.K.|Şanlıurfaspor|Sanliurfaspor",
+    "description": "Şanlıurfa S.K. is a sports club located in Şanlıurfa, Turkey. The football club plays in the TFF Second League.",
+    "degree": 112,
+    "player_count": 105,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Olympic Stadium (ŞanlıUrfa)",
+    "coach": "raşit çetiner",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q824850",
+    "name": "Gaziantep Büyükşehir Belediyespor Kulübü",
+    "aliases": "Gaziantep Büyükşehir Belediyespor Kulübü|Gazişehir Gaziantep F.K.|Gaziantep B.B.K.|Gaziantep F.K.|gaziantep b.b.|gaziantep bueyueksehir belediyespor|Gaziantep Büyükşehir Belediyespor|gazişehir gaziantep f.k.|Gaziantep Bueyueksehir Belediyespor|gaziantep b.b.k.|gaziantep büyükşehir belediyespor kulübü|gaziantep buyuksehir belediyespor|gaziantep f.k.|Gaziantep Buyuksehir Belediyespor|Gaziantep B.B.|gaziantep büyükşehir belediyespor|gaziantep bb|Gaziantep BB",
+    "description": "Gazişehir Gaziantep Futbol Kulübü, formerly known as Gaziantep Büyükşehir Belediyespor, is a Turkish football club based in Gaziantep, Turkey, currently playing in the Süper Lig, the highest tier of Turkish football. The club was founded in 1988.",
+    "degree": 100,
+    "player_count": 94,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "kamil ocak stadı",
+    "coach": "Suat Kaya",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q1543501",
+    "name": "Giresunspor",
+    "aliases": "Giresunspor|giresunspor",
+    "description": "Giresunspor is a Turkish association football club based in Giresun. It was founded in 1925 and re-formed in 1967 after the merger of Yeşiltepespor, Akıngençlikspor, and Beşiktaşspor. The football club is playing in the TFF First League (second level). Giresunspor played in the Turkish Super League (Turkish first league) between 1971 and 1977.",
+    "degree": 97,
+    "player_count": 90,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "giresun atatürk stadium",
+    "coach": "erhan altin",
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q340133",
+    "name": "hacettepe sk",
+    "aliases": "hacettepe sk|Genclerbirligi OFTAS|genclerbirligi oftas|sanayi barbarosspor|Hacettepe Spor Kulübü|Sanayi Barbarosspor|gençlerbirliği asasspor|Gençlerbirliği OFTAŞ|hacettepespor|Gençlerbirliği Asasspor|gençlerbirliği oftaş|Hacettepe S.K.|Hacettepespor|Hacettepe SK|hacettepe s.k.|hacettepe spor kulübü",
+    "description": "Hacettepe Spor Kulübü (English: Hacettepe Sports Club), commonly known as Hacettepe is a Turkish football club located in Ankara.",
+    "degree": 93,
+    "player_count": 87,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "new ankara stadium",
+    "coach": "tarık daşgün",
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q417685",
+    "name": "Akhisar Belediyespor",
+    "aliases": "Akhisar Belediyespor|akhisar belediyespor|Akhisar B.G.S.|Akhisar Belediye ve Gençlik Spor|akhisarspor|Akhisarspor|akhisar belediye ve gençlik spor|akhisar b.g.s.",
+    "description": "Akhisar Belediye Gençlik ve Spor Kulübü (Akhisar Municipality Youth and Sports Club), commonly known as Akhisar Belediyespor or Akhisarspor, is a professional Turkish football club located in the city of Akhisar. Formed in 1970, Akhisarspor are nicknamed Akigo. The club has a fierce rivalry with Turgutluspor, Manisaspor and the Netherlands.Akhisar Belediyespor had their first major success in 2012 when they won the TFF First League and as a result were promoted to the Süper Lig. On 10 May 2018, ",
+    "degree": 93,
+    "player_count": 85,
+    "relations": [
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Manisa 19 Mayis Stadium",
+    "coach": "Buruk Okan",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q1369461",
+    "name": "sakaryaspor",
+    "aliases": "sakaryaspor|sakaryaspor adapazarı|Sakarya-Sport|Sakaryaspor|sakarya-sport|sakaryaspor adapazari|Sakaryaspor Adapazarı|Sakaryaspor Adapazari",
+    "description": "Sakaryaspor Kulübü Derneği is a Turkish football club, formed in 1965 after the merger of Yıldırımspor, Idmanyurdu, Güneşspor and Ada Gençlik. The club is better known as Sakaryaspor. The football club is nicknamed the \"Football Factory\" by supporters. Sakaryaspor became TFF First League champions in 1980–81 and 1986–87. They accomplished this feat again at the end of the 2005–06 season. Sakaryaspor subsequently won a place in the play–off matches. After eliminating İstanbulspor in the first pla",
+    "degree": 93,
+    "player_count": 86,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Adapazari Atatuerk Stadium",
+    "coach": "Tuncay Şanlı",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q805909",
+    "name": "balikesirspor",
+    "aliases": "balikesirspor|balıkesirspor|Balıkesirspor|Balikesirspor",
+    "description": "Balıkesirspor is a multisports club from Balıkesir, Turkey. Established in 1966, the football team played in the Süper Lig after achieving promotion having finished as runners-up of the TFF First League in 2013–14. The team's previous promotion was 40 years before that. Their stadium, the all-seater Balıkesir Atatürk Stadı, has a capacity of 13,732.",
+    "degree": 92,
+    "player_count": 85,
+    "relations": [
+      "COUNTRY",
+      "COLOR",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "balıkesir atatürk stadium",
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q1170018",
+    "name": "Kartalspor",
+    "aliases": "Kartalspor|kartal sc|kartalspor|kartal s.k.|Kartal SC|Kartal S.K.",
+    "description": "Kartalspor is a sports club located in the Kartal district of Istanbul, Turkey. The club's football team plays in the Bank Asya First League after finishing 2nd in the Second League Promotion Group in the 2006–2007 season. Kartal SK started the 2007–2008 season well and was 3rd with half of the games played, but had a disappointing second half of the season and finished 13th. This pattern recurred in the 2008–2009 season, finishing 12th whilst having been 6th halfway through.The club is well kno",
+    "degree": 83,
+    "player_count": 79,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q485568",
+    "name": "turkish super league",
+    "aliases": "turkish super league|turkish first football league seasons|turkcell super ligi|turkcell super lig|süper lig seasons|Turkish Super League|super lig|turkish football league|Tuerkiye Birinci Futbol Ligi|Super Lig|Süper Lig|Turkiye Super Lig|turkcell süper lig|Tuerkcell Sueper Lig|Süper Lig seasons|turkish süper lig|turkiye super lig|Süper Lig/doc|Turkcell Super Lig|Turkish First Football League seasons|Türkiye Süper Lig|spor toto süper lig|Süper Lig clubs|tuerkiye birinci futbol ligi|türkcell süper lig|Turkcell Süper Lig|Turkcell super ligi|Tuerkiye Sueper Lig|turkcell sueper lig|spor toto super league|süper lig|Turkish Premier Super League|Spor Toto Super Lig|Turkcell Super League|turkish super lig|turkish first football league|Turkish Super Premier League|turkiye birinci futbol ligi|türkiye süper lig|Türkiye Birinci Futbol Ligi|Türkcell Süper Lig|turkish league|Turkcell Sueper Lig|Turkish football league|süper lig/doc|turkcell super league|tuerkcell sueper lig|Spor Toto Süper Lig|türkiye birinci futbol ligi|Turkish National League|spor toto super lig|süper lig clubs|Turkiye Birinci Futbol Ligi|Turkish Super Lig|Turkish First Football League|Spor Toto Super League|tuerkiye sueper lig|turkish premier super league|turkish super premier league|Turkish Süper Lig|Turkish League|turkish national league|Turkish league",
+    "description": "The Süper Lig (Turkish pronunciation: [ˈsypæɾ liɟ], Super League) is a Turkish professional league for association football clubs. It is the top-flight of the Turkish football league system and is run by the Turkish Football Federation. Eighteen clubs compete annually, where a champion is decided and three clubs are promoted and relegated from, and to, the 1. Lig. The season runs from August to May, with each club playing 34 matches. Matches are played Friday through Monday.The competition was i",
+    "degree": 78,
+    "player_count": 0,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "SUBCLASS_OF",
+      "INSTANCE_OF",
+      "LEAGUE",
+      "SPORTS_SEASON_OF_LEAGUE_OR_COMPETITION"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q937678",
+    "name": "türkiye kadın millî futbol takımı",
+    "aliases": "türkiye kadın millî futbol takımı|Turkey women's national football team|Türkiye kadın millî futbol takımı|turkey women's national football team",
+    "description": "The Turkey women's national football team represents Turkey in international women's football. The team was established in 1995, and compete in the qualification for UEFA Women's Championship and the UEFA qualifying of FIFA Women's World Cup.The Turkish Football Federation (TFF) is the sports organizing body responsible for forming the women's teams in four age categories as the women's national A team, the women's U-19 national team, the girls' U-17 national team and the girls' U-15 national te",
+    "degree": 69,
+    "player_count": 65,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HEAD_COACH",
+      "COMPETITION_CLASS",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "ogun temizkanoglu",
+    "league": null
+  },
+  {
+    "entity_id": "Q1933473",
+    "name": "Sarıyer G.K.",
+    "aliases": "Sarıyer G.K.|sariyer g.k.|Sariyer SK|Sariyer S.K.|sariyer sk|Sarıyer S.K.|sarıyer s.k.|sariyer s.k.|sarıyer g.k.|Sariyer G.K.",
+    "description": "Sarıyer Spor Kulübü or Sarıyer S.K. is a sports club located in Sarıyer, Istanbul, Turkey. The football club plays in the Turkish Second Division. Sarıyer S.K. also won Balkans Cup in 1991–92 season against Romanian club Oțelul Galați with results: 0–0 away and 1–0 after extra time at home.",
+    "degree": 64,
+    "player_count": 58,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Yusuf Ziya Öniş Stadium",
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q424646",
+    "name": "A. Sebatspor",
+    "aliases": "A. Sebatspor|Akçaabat Sebatspor|akcaabat sebatspor|a. sebatspor|Akcaabat Sebatspor|akçaabat sebatspor",
+    "description": "Akçaabat Sebatspor, also known as A. Sebatspor is a Turkish football club located in the Akçaabat district of Trabzon Province. They play their home games in the Akçaabat Fatih Stadyumu. The club was founded in 1923.",
+    "degree": 59,
+    "player_count": 53,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "CHAIRPERSON",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OWNED_BY"
+    ],
+    "stadium": "fatih stadı",
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q189847",
+    "name": "trabzon karadeniz s.k.",
+    "aliases": "trabzon karadeniz s.k.|Trabzon Karadeniz S.K.|trabzon karadenizspor|Trabzon Karadenizspor|1461 trabzon|1461 Trabzon",
+    "description": "1461 Trabzon is a professional Turkish football club located in the city of Trabzon. Formed in 1998 as Değirmenderespor, the club changed its name to Trabzon Karadenizspor in 2008. The club colours are maroon, blue and white.",
+    "degree": 56,
+    "player_count": 50,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "huseyin avni aker stadium",
+    "coach": "Mustafa Reşit Akçay",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q1636019",
+    "name": "alanyaspor",
+    "aliases": "alanyaspor|Alanyaspor|alanyaspor kulübü|Alanyaspor Kulübü",
+    "description": "Alanyaspor is a professional Turkish football club located in the town of Alanya. Formed in 1948, the club colours are orange and green and home matches are played at Bahçeşehir Okulları Stadium.",
+    "degree": 52,
+    "player_count": 45,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "PARTICIPATING_TEAM"
+    ],
+    "stadium": "Bahçeşehir Okulları Stadium",
+    "coach": "safet susic",
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q118919",
+    "name": "eyüp sk",
+    "aliases": "eyüp sk|Eyupspor|eyupspor|Eyüpspor|eyuepspor|Eyuepspor|eyüpspor|Eyüp SK",
+    "description": "Eyüpspor is the football team of Istanbul district Eyüp. The team colours are lavender and yellow. They play at the 2,500 capacity Eyüp Stadium.",
+    "degree": 48,
+    "player_count": 44,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q1628465",
+    "name": "TKİ Tavşanlı Linyitspor",
+    "aliases": "TKİ Tavşanlı Linyitspor|TKI Tavsanli Linyitspor|tki tavsanli linyitspor|tki̇ tavşanlı linyitspor",
+    "description": "TKİ Tavşanlı Linyitspor is a Turkish sports club located in Tavşanlı, Kütahya Province. The football club plays in the Turkish Regional Amateur League. In 2009–2010 season of second league, they promoted to Bank Asya 1.Lig after play-off matches.",
+    "degree": 47,
+    "player_count": 42,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Dumlupınar Stadium",
+    "coach": null,
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q303121",
+    "name": "yeni malatyaspor",
+    "aliases": "yeni malatyaspor|Malatya B.S.|malatya b.s.|Yeni Malatyaspor",
+    "description": "Yeni Malatyaspor which was founded in 1986 as Malatya Belediyespor is a professional football club, based in Malatya, Turkey. The club plays in Süper Lig and its primary colors are yellow, black, and red. Their original colours were orange and green.",
+    "degree": 46,
+    "player_count": 41,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "malatya inonu stadi",
+    "coach": "Saglam Ertugrul",
+    "league": "turkish super league"
+  },
+  {
+    "entity_id": "Q1366316",
+    "name": "erzurumspor",
+    "aliases": "erzurumspor|Erzurumspor",
+    "description": "Erzurumspor was a sports club located in Erzurum, Turkey. The football club plays in the Turkish Regional Amateur League. The club also played in Turkish First League between 1998–2001. It fell into money shortage since 2000 and gradually fell into Second League Category A in 2001 and Second league Category B in 2003. It was finally forced to relegate TFF Third League after is not playing Karsspor away match on January 31, 2010. Erzurumspor also relegated from Third League and was dissolved in 2",
+    "degree": 45,
+    "player_count": 39,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OWNED_BY"
+    ],
+    "stadium": "Cemal Guersel Stadyumu",
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q4285478",
+    "name": "etimesgut şekerspor",
+    "aliases": "etimesgut şekerspor|Beypazarı Şekerspor|Camlidere Sekerspor|Şekerspor F.C.|çamlıdere şekerspor|Şekerspor A.Ş.|şekerspor a.ş.|Çamlıdere Şekerspor|Sekerspor A.S.|beypazarı şekerspor|Sekerspor AS|sekerspor as|etimesgut sekerspor|turanspor|camlidere sekerspor|Turanspor|Etimesgut Şekerspor|şekerspor f.c.|şekerspor|sekerspor a.s.|Etimesgut Sekerspor|Şekerspor",
+    "description": "Turanspor is a sports club in located in Ankara, Turkey. The football club plays in the Bölgesel Amatör Lig.",
+    "degree": 44,
+    "player_count": 40,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q343957",
+    "name": "i̇negölspor",
+    "aliases": "i̇negölspor|İnegölspor|Inegolspor|inegolspor",
+    "description": "İnegölspor is a sports club located in İnegöl, Bursa Province, Turkey. The football club played in the TFF Second League and relegated to TFF Third League after finishing 7th at First classifying Group in 2007-2008 season. The club also played in the old Second League between 1985–1993 and 1996-1997.",
+    "degree": 43,
+    "player_count": 38,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "Erguen Penbe",
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q2868795",
+    "name": "ataşehir belediyespor",
+    "aliases": "ataşehir belediyespor|Atasehir Belediyesi|Ataşehir Belediyespor|atasehir belediyesi|Ataşehir Belediyesi|ataşehir belediyesi",
+    "description": "Ataşehir Belediyespor is a Turkish sports club based in the Ataşehir district of Istanbul. It is known for its women's football team that won the Turkish League championship in 2011, the fourth year of its existence. They defended their title successfully in 2012.",
+    "degree": 40,
+    "player_count": 36,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "turkish women's first football league"
+  },
+  {
+    "entity_id": "Q447191",
+    "name": "Altinordu Spor Kulubu",
+    "aliases": "Altinordu Spor Kulubu|altinordu (spor kuluebue)|altınordu (spor kulübü)|Altınordu (spor kulübü)|altinordu (spor kulubu)|Altınordu Spor Kulübü|Altinordu|Altinordu Spor Kuluebue|altınordu spor kulübü|altınordu futbol kulübü|altınordu s.k.|Altinordu (spor kulubu)|altinordu spor kulubu|Altinordu S.K.|Altinordu (spor kuluebue)|altinordu s.k.|Altınordu S.K.|Altınordu|altınordu|altınordu f.k.|altinordu|Altınordu F.K.|Altınordu Futbol Kulübü|altinordu spor kuluebue",
+    "description": "Altınordu Futbol Kulübü (formerly known as Altınordu Spor Kulübü) is a football club based in İzmir, Turkey. It was founded in 1923 as a breakaway from Altay SK. Team colours are red and navy. The club also had a basketball team and played in Turkish Basketball League. They won the league in the 1966–67 season. Currently the club focuses on youth development of local talent.",
+    "degree": 39,
+    "player_count": 33,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "EMPLOYER",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Altay Alsancak Stadium",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q197093",
+    "name": "zeytinburnuspor",
+    "aliases": "zeytinburnuspor|Zeytinburnuspor",
+    "description": "Zeytinburnu SK is a Turkish football club established in 1953 and based in Zeytinburnu district of Istanbul, Turkey.They hold the record for worst performance in First League's history during the 96/97 season. They have lost 27 matches out of 34, with 5 draws and only 2 wins. Their success percentage was established at 13.2%.They played again in First League between 1989–1991, 1993–1995 and 1996–1997.Zeytinburnuspor  played in Istanbul First Amateur League after relegating from Istanbul Super Am",
+    "degree": 37,
+    "player_count": 32,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "zeytinburnu stadium",
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q6045389",
+    "name": "Konak Belediyesi",
+    "aliases": "Konak Belediyesi|konak belediyesi|konak belediyespor bayan futbol takımı|konak belediyespor|Konak Belediyespor Bayan Futbol Takımı|Konak Belediyespor|Konak Belediyespor (women)|konak belediyespor (women)",
+    "description": "Konak Belediyespor Women's Football (Turkish: Konak Belediyespor Bayan Futbol Takımı) is the women's football team of the Turkish multi-sport club of Konak Belediyespor based in Konak district of İzmir, Turkey. The team was established by the district municipality in 2006.Many players of the Konak Belediyespor women's team are members of the Turkey women's national football team. The club maintains two more teams as the girls under-17 and under-15.",
+    "degree": 36,
+    "player_count": 32,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "turkish women's first football league"
+  },
+  {
+    "entity_id": "Q1668605",
+    "name": "Kahramanmarasspor",
+    "aliases": "Kahramanmarasspor|kahramanmaraşspor|Kahramanmaraşspor|kahramanmarasspor",
+    "description": "Kahramanmaraşspor is a Turkish football club based in Kahramanmaraş.",
+    "degree": 35,
+    "player_count": 29,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "12 subat stadium",
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q1757369",
+    "name": "yozgatspor",
+    "aliases": "yozgatspor|yimpas yozgatspor|Yozgatspor|yimpaş yozgatspor|Yimpaş Yozgatspor|Yimpas Yozgatspor",
+    "description": "Yozgatspor is a Turkish sports club based in Yozgat, Turkey. The football club played in the TFF Third League. They played in the Süper Lig between 2000–2002 and relegated to the Third League in the 2008–09 season. They finally relegated to the Turkish Regional Amateur League and lost professional status. Between 1997 and 2008, the club was named as Yimpaş Yozgatspor.",
+    "degree": 34,
+    "player_count": 30,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q2304830",
+    "name": "vb addu football club",
+    "aliases": "vb addu football club|VB Addu FC|Island Football Club|new lagoons|vb sports|New Lagoons|island football club|Island FC|island fc|VB Sports Club|VB Sports|VB Addu Football Club|vb addu fc|vb sports club",
+    "description": "VB Addu FC is a professional Maldivian football club based in Malé, Maldives.  VB Addu FC is the former VB Sports club which was re-branded on 14 January 2012.The club was founded in 1987.  The club originally evolved from Orchid Sports Club, a team which was formed by the staffs of Bandos Island Resort. Orchid was later bought by the owners of Club Lagoons and renamed as New Lagoons which later was undertaken by a group of businessmen from Addu Atoll and was changed to the name of ‘Island Footb",
+    "degree": 33,
+    "player_count": 28,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Maldives National Stadium",
+    "coach": null,
+    "league": "Dhivehi Leegue"
+  },
+  {
+    "entity_id": "Q483741",
+    "name": "Anadolu Selçukluspor",
+    "aliases": "Anadolu Selçukluspor|Konya Şeker S.K.|Konya Anadolu Selçukspor|Konya Seker S.K.|konya anadolu selçukspor|konya şeker s.k.|konya şeker s.k.d.|Konya Şeker S.K.D.|konya anadolu selcukspor|konya seker s.k.|anadolu selçukluspor|Konya Anadolu Selcukspor",
+    "description": "1922 Konyaspor, formerly known as Anadolu Selçukspor and Konya Şeker SK, is a football club from Konya, Turkey. It was founded in 1955 and its colors are green and white. The football team managed to gain promotion for the 2008–2009 season of the TFF Second League.",
+    "degree": 33,
+    "player_count": 28,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Konya Atatürk Stadyumu",
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q1351037",
+    "name": "Turgutluspor",
+    "aliases": "Turgutluspor|turgutluspor",
+    "description": "Turgutluspor is a sports club located in Turgutlu, Manisa Province. The football clubs plays in the TFF Third League.",
+    "degree": 32,
+    "player_count": 27,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "yusuf simsek",
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q1584904",
+    "name": "siirtspor",
+    "aliases": "siirtspor|Siirtspor",
+    "description": "Siirt S.K. was a sports club located in Siirt, Turkey. The football club plays in the Iddaa League B. It was founded as Siirt YSE (Road Water Electricity) in 1969. It was renamed as Siirt Köy Hizmetleri in 1989, as Siirt Jetpa S.K. in 1999 and as Siirt S.K. in 2002.",
+    "degree": 32,
+    "player_count": 26,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "siirt atatürk stadium",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q2304817",
+    "name": "Victory Sports Club",
+    "aliases": "Victory Sports Club|victory sc|Victory SC|victory sports club",
+    "description": "Victory Sports Club is a Maldivian sports club based in Malé and founded 3 July 1971,  that includes a football team amongst other sports. Victory is one of the most successful football clubs in Maldives, winning a record 21 National Championships. They have also won the Dhivehi League (founded in 2000) twice, and the FA Cup four times.",
+    "degree": 32,
+    "player_count": 28,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Maldives National Stadium",
+    "coach": null,
+    "league": "Dhivehi Leegue"
+  },
+  {
+    "entity_id": "Q1398111",
+    "name": "Fatih Karagumruk SK",
+    "aliases": "Fatih Karagumruk SK|Karagümrük Spor Kulübü|fatih karagumruk|Fatih Karaguemruek|Fatih Karagümrük|Karagümrük S.K.|fatih karagümrük s.k.|fatih karagumruk sk|Fatih Karagümrük S.K.|fatih karagümrük|fatih karaguemruek|Fatih Karagümrük SK|karagümrük s.k.|Fatih Karagumruk|fatih karagümrük sk|karagümrük spor kulübü",
+    "description": "Fatih Karagümrük S.K., also called Centone Karagümrük, is a football club from the Karagümrük neighbourhood of the Fatih district in İstanbul, Turkey. They were in the Turkish Süper Lig from 1958–63 and 1983–84.",
+    "degree": 31,
+    "player_count": 25,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Vefa Stadium",
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q792916",
+    "name": "aydınspor",
+    "aliases": "aydınspor|Aydınspor 1923|Aydınspor|Aydinspor 1923|aydınspor 1923|aydinspor 1923|aydinspor|Aydinspor",
+    "description": "Aydınspor 1923 is a Turkish sports club based in Aydın. The football club plays in the Turkish Amateur Football Leagues. The club's former name was \"Aydın Belediyespor\" (founded after taking over Çine Topçamspor in 1993) before 2011 and former colours were blue-white. Aydınspor 1923 became first team of city of Aydın after demise of Aydınspor, was founded in 1923 and became professional in 1966, after relegation to amateur level in 2009. Aydınspor finally withdrew from Aydın Super Amateur League",
+    "degree": 31,
+    "player_count": 27,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OWNED_BY"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q384005",
+    "name": "turk telekomspor",
+    "aliases": "turk telekomspor|türk telekom gsk|tuerk telekomspor|Türk Telekom GSK|Turk Telekomspor|Türk Telekomspor|turk telekom genclik spor kulubu|türk telekom g.s.k.|Tuerk Telekomspor|Türk Telekom Gençlik Spor Kulübü|turk telekom gsk|türk telekom gençlik spor kulübü|Turk Telekom GSK|Türk Telekom G.S.K.|Turk Telekom Genclik Spor Kulubu|türk telekomspor",
+    "description": "Türk Telekom GSK is a sports club located in Ankara, Turkey. The club mostly referred incorrectly as Türk Telekomspor.  The football team plays their home games in Ankara Türk Telekom Stadı in Ankara. The club was founded in 1954 as Telspor and its previous name was PTT, and its colors were yellow and black. PTT had played in the First Level. It also has a basketball team, Türk Telekom B.K., which plays in the Turkish Basketball League. Türk Telekomspor played Turkish Basketball League between 1",
+    "degree": 29,
+    "player_count": 24,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "SPONSOR",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q1797544",
+    "name": "Pursaklarspor A.Ş.",
+    "aliases": "Pursaklarspor A.Ş.|pursaklarspor a.s.|pursaklar s.k.|Golbasispor|pursaklarspor a.ş.|kizilcahamamspor|Pursaklarspor|kızılcahamamspor|Kızılcahamamspor|Pursaklarspor A.S.|pursaklarspor|gölbaşıspor|Gölbaşıspor|golbasispor|Kizilcahamamspor|Pursaklar S.K.",
+    "description": "Çubukspor Futbol AŞ (formerly Gölbaşıspor) is a football club located in Çubuk in Ankara.",
+    "degree": 26,
+    "player_count": 22,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q1536956",
+    "name": "Kecioerenguecue",
+    "aliases": "Kecioerenguecue|Keçiörengücü|Keciorengucu|kecioerenguecue|keçiörengücü|keciorengucu",
+    "description": "Keçiörengücü is a sports club based in the Keçiören district of Ankara, Turkey. The football club plays in the TFF First League. Keçiörengücü was founded as Hacettepe with black-white colours in 1949. Hacettepe was one of Turkish First League's founder teams. They played in the First League between 1958–1960 and 1962–1968. After relegation from the First League in 1967–68 season, they played second level between 1968–1971. They were relegated to the Third League in 1970–71 season. They played in",
+    "degree": 25,
+    "player_count": 21,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q806415",
+    "name": "Bandirmaspor",
+    "aliases": "Bandirmaspor|Bandırmaspor|bandirmaspor|bandırmaspor",
+    "description": "Bandırmaspor is a professional Turkish football club located in the town of Bandırma, Balıkesir Province. The club was founded in 1965 and plays in TFF Second League.",
+    "degree": 25,
+    "player_count": 21,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "feyyaz uçar",
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q1676156",
+    "name": "Izmirspor",
+    "aliases": "Izmirspor|izmirspor|i̇zmirspor|İzmirspor",
+    "description": "İzmirspor are а Turkish football club based in İzmir, Turkey. They were founded with the name Altın Ay on 25 July 1923. Altın Ay merged with rivals Sakarya and formed İzmirspor on 28 November 1930. They are currently playing in the Turkish Regional Amateur League. The club's greatest success was achieved when they became runners-up in the former Turkish Football Championship in 1933. İzmirspor also won the İzmir Football League five times.",
+    "degree": 25,
+    "player_count": 20,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Altay Alsancak Stadium",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q815349",
+    "name": "belediye vanspor",
+    "aliases": "belediye vanspor|Van Büyükşehir Belediyespor|van buyuksehir belediyespor|van büyükşehir belediyespor|Belediye Vanspor|Van Buyuksehir Belediyespor",
+    "description": "Van Büyükşehir Belediyespor is a football team based in Van in eastern Turkey.",
+    "degree": 21,
+    "player_count": 16,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEAD_COACH",
+      "EMPLOYER",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "tarık daşgün",
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q1351045",
+    "name": "Nazillispor",
+    "aliases": "Nazillispor|Nazilli Belediyespor|nazillispor|nazilli belediyespor",
+    "description": "Nazilli Belediyespor is the local football team for city of Aydın province of Turkey. They are currently playing in the TFF Third League.",
+    "degree": 21,
+    "player_count": 17,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q4826180",
+    "name": "gümüşhanespor",
+    "aliases": "gümüşhanespor|Gümüshanespor|Gumushanespor|gumushanespor|Gümüşhanespor|gümüshanespor",
+    "description": "Gümüşhanespor is a Turkish sports club based in Gümüşhane. The football club plays in the TFF Second League.",
+    "degree": 21,
+    "player_count": 17,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "tarık daşgün",
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q989553",
+    "name": "muğlaspor",
+    "aliases": "muğlaspor|Muğlaspor|Muglaspor|muglaspor",
+    "description": "Muğlaspor is a sports club in located in Muğla, Turkey. The football club plays in the TFF Third League.",
+    "degree": 20,
+    "player_count": 16,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q1853596",
+    "name": "vefa s k",
+    "aliases": "vefa s k|vefa s.k.|vefa s. k.|Vefa S. K.|vefa sk|Vefa SK|Vefa S.K.|Vefa sk|Vefa S K",
+    "description": "Vefa SK is a football club in Vefa, neighborhood of the Fatih (Eminönü between 1928–2008) district of İstanbul.  The team currently competing at Bölgesel Amatör Lig 8th Grup which is 5th level of Turkish leagues.  Vefa SK is the first and only Turkish club coached by a female manager, Özgür Gözüaçık Akyıldız.",
+    "degree": 20,
+    "player_count": 16,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Vefa Stadium",
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q219935",
+    "name": "Zonguldakspor",
+    "aliases": "Zonguldakspor|zonguldakspor|Zonguldak Kömürspor|zonguldak kömürspor|Zonguldak S.K.|zonguldak s.k.",
+    "description": "Zonguldak Kömürspor is a football club in Zonguldak, Turkey.  It is also known as Kara Elmas (Dark Diamond).",
+    "degree": 20,
+    "player_count": 16,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q5443324",
+    "name": "fenerbahçe s.k. a2",
+    "aliases": "fenerbahçe s.k. a2|Fenerbahçe S.K. PAF|Fenerbahçe PAF|Fenerbahce S.K. A2|Fenerbahce S.K. PAF|fenerbahçe paf|fenerbahce paf|fenerbahce s.k. a2|Fenerbahce PAF|fenerbahce s.k. paf|Fenerbahçe S.K. A2|fenerbahçe s.k. paf",
+    "description": "Fenerbahçe S.K. A2, commonly known as Fenerbahçe S.K. U21 is a football club based in Istanbul, Turkey. It is the reserve team of Fenerbahçe S.K. and the club play in the A2 League.",
+    "degree": 20,
+    "player_count": 15,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEAD_COACH",
+      "CHAIRPERSON",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "dirk nicolaas advocaat",
+    "league": "a2 ligi"
+  },
+  {
+    "entity_id": "Q344068",
+    "name": "Körfez İskenderunspor",
+    "aliases": "Körfez İskenderunspor|Korfez Iskenderunspor|iskenderun demir celikspor|i̇skenderun demir çelikspor|Iskenderun Demir Celikspor|körfez i̇skenderunspor|korfez iskenderunspor|İskenderun Demir Çelikspor",
+    "description": "Korfez İskenderunspor is a sports club located in Iskenderun, Hatay Province, Turkey. The football club plays in the Hatay Amateur Leagues.",
+    "degree": 20,
+    "player_count": 14,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "iskenderun 5 temmuz stadium",
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q812593",
+    "name": "Bayrampasaspor",
+    "aliases": "Bayrampasaspor|bayrampaşaspor|Bayrampaşaspor|bayrampasaspor",
+    "description": "Bayrampaşaspor is a Turkish association football club located in the Bayrampaşa district of Istanbul, Turkey. They currently play in the TFF Third League, the fourth tier of Turkish football.",
+    "degree": 19,
+    "player_count": 15,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q264095",
+    "name": "Kastamonuspor",
+    "aliases": "Kastamonuspor|Kastamonu Spor|kastamonuspor|kastamonu spor",
+    "description": "Kastamonu Spor Kulübü (Kastamonu Sports Club) was a Turkish football club from the city of Kastamonu. The club began at the second level in the 1967 – 1968 season. Kastamonu Spor was relegated to the amateur level following the 1976 – 1977 season. They returned to professional football for the 1984 – 1985 season. Since then they have competed in the third level of Turkish football. The team advanced to the playoffs after the 2007 – 2008 season. but lost to Darıca Gençlerbirliği and did not reach",
+    "degree": 19,
+    "player_count": 12,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OWNED_BY"
+    ],
+    "stadium": "Kastamonu Gazi Stadium",
+    "coach": "Ziya Dogan",
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q556437",
+    "name": "ankara demirspor",
+    "aliases": "ankara demirspor|Ankara Demirspor",
+    "description": "Ankara Demirspor is a Turkish football club based in Ankara, Turkey. They compete in the TFF Second League. They were one of the Super League's founding members in 1959. By winning the former Turkish Football Championship in 1947, they became Turkish champions for the first and only time. They played 13 seasons in the Super League and relegated to the Second League in 1971 and never returned to the top division.Ankara Demirspor is one of the 38 Demirspor clubs in Turkey that are founded by the e",
+    "degree": 19,
+    "player_count": 13,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Cebeci İnönü Stadı",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q2315484",
+    "name": "Anadolu Üsküdar 1908 SK",
+    "aliases": "Anadolu Üsküdar 1908 SK|üsküdar anadolu s.k.|Anadolu Uskuedar 1908|Anadolu uskudar|uskudar anadolu sk|Üsküdar Anadolu SK|anadolu üsküdar 1908|üsküdar anadolu sk|anadolu üsküdar|anadolu uskuedar 1908|Anadolu Uskudar|Anadolu Uskuedar|anadolu uskudar 1908|anadolu üsküdar 1908 sk|anadolu uskudar|Anadolu Üsküdar|Anadolu Üsküdar 1908|Üsküdar Anadolu S.K.|Uskudar Anadolu SK|Anadolu Uskudar 1908|anadolu uskuedar",
+    "description": "Uskudar Anadolu Spor Kulubu was founded by Mehmed Bürhaneddin (Burhan Felek) and Dr. Hüdai in 1908. Uskudar Anadolu SK is a Turkish football club in Uskudar, a district on the Asian side of İstanbul. Their team colours are green and white. They are currently playing in Turkish Super Amateur League, Istanbul Group 3. They were groundsharing with Beylerbeyi SK at the Beylerbeyi 75. Yıl Stadı. They are currently playing at Spor Akademisi Stadium at Anadolu Hisari. The club wants to use the Burhan F",
+    "degree": 18,
+    "player_count": 14,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Vefa Stadium",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q3536136",
+    "name": "Trabzonspor (women)",
+    "aliases": "Trabzonspor (women)|trabzonspor (women)",
+    "description": "Trabzonspor Club Women's  Football Team (Turkish: Trabzonspor Kulübü Bayan Futbol Takımı) is the women's football team of Trabzonspor in Trabzon, Turkey. It was established on October 16, 2007.Right after its foundation, the team was invited to join the Turkish Women's Football Premier League.  However, the league was cancelled in 2003 but re-established for the 2007–08 season. Trabzonspor were the champions in the 2008–09 season, which was the second year of the league.",
+    "degree": 16,
+    "player_count": 12,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "Zeliha Şimşek",
+    "league": "turkish women's first football league"
+  },
+  {
+    "entity_id": "Q5338338",
+    "name": "Edirnespor",
+    "aliases": "Edirnespor|edirnespor",
+    "description": "Edirnespor is the football team of Edirne, Turkey and her colours are yellow and red. Founded in 1966 In the beginning of 1990s Edirnespor was playing in the Turkish 2nd League. One season, they became second in their league and qualified for Play-Offs but they didn't manage to play in Turkish Super League. After that the fall of Edirnespor began and they had an economic crisis. Now they are playing in the Edirne Süper Amatör Lig since 2003.",
+    "degree": 15,
+    "player_count": 8,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OWNED_BY"
+    ],
+    "stadium": "edirne 25 kasım stadium",
+    "coach": "Adnan yıldız",
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q2426819",
+    "name": "büyükşehir belediye erzurumspor",
+    "aliases": "büyükşehir belediye erzurumspor|buyuksehir belediye erzurumspor|Erzurum BB|Erzurum Buyuksehir Belediyespor|erzurum büyükşehir belediyespor|Buyuksehir Belediye Erzurumspor|Erzurum Büyükşehir Belediyespor|Büyükşehir Belediye Erzurumspor|bb erzurumspor|BB Erzurumspor|erzurum bb|erzurum buyuksehir belediyespor",
+    "description": "Büyükşehir Belediye Erzurumspor, commonly known as simply BB Erzurumspor or Erzurum BB, is a Turkish football club from Erzurum. The team was founded in 2005 and plays in blue white and blue kits.Currently the club plays in the Süper Lig.",
+    "degree": 14,
+    "player_count": 9,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Cemal Guersel Stadyumu",
+    "coach": "ahmet yıldırım",
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q1788015",
+    "name": "kırıkkalespor",
+    "aliases": "kırıkkalespor|mke kirikkalespor|MKE Kırıkkalespor|Kırıkkalespor|kirikkalespor|MKE Kirikkalespor|Kirikkalespor|mke kırıkkalespor",
+    "description": "MKE Kırıkkalespor is a sports club located in Kırıkkale, Turkey. The football club plays in the Regional Amateur League.",
+    "degree": 13,
+    "player_count": 7,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT"
+    ],
+    "stadium": "Fikret Karabudak Stadium",
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q1842638",
+    "name": "Kırşehirspor",
+    "aliases": "Kırşehirspor|kirsehirspor|yeni kirşehirspor|Yeni Kırşehir S.K.|yeni kırşehirspor|kırşehirspor|Yeni Kirşehirspor|Yeni Kırşehirspor|yeni kırşehir s.k.|Kirsehirspor",
+    "description": "Kırşehirspor is a sports club located in Kirşehir, Turkey. The football club plays in the Turkish Regional Amateur League. It was founded as Kırşehirspor in 1969. It was renamed as PETLAS Kırşehirspor in 1999 and Yeni Kırşehir SK in 2001.",
+    "degree": 13,
+    "player_count": 9,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q1914748",
+    "name": "Arsinspor",
+    "aliases": "Arsinspor|arsinspor",
+    "description": "Arsinspor is a sports club located in Trabzon, Turkey. The football club plays in the Regional Amateur League.",
+    "degree": 13,
+    "player_count": 9,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q389629",
+    "name": "Afyon Khs.",
+    "aliases": "Afyon Khs.|Afyon K.H.S.|afyonkarahisarspor|afyon k.h.s.|afyon khs.|Afyonkarahisarspor",
+    "description": "Afyonkarahisarspor was a sports club located in Afyonkarahisar, Turkey. The football club played in the Regional Amateur League.",
+    "degree": 12,
+    "player_count": 8,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "afyonkarahisar stadi",
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q6085825",
+    "name": "trabzon akçaabat futbol kulübü",
+    "aliases": "trabzon akçaabat futbol kulübü|trabzon akçaabat f.k.|Trabzon Yalıspor|Trabzon Akçaabat FK|Trabzon Kanuni FK|trabzon yalıspor|Trabzon Akçaabat F.K.|Trabzon Akçaabat Futbol Kulübü|trabzon kanuni fk|trabzon akçaabat fk",
+    "description": "Haçka SK, formerly Trabzon Akçaabat FK, is a sports club located in Akçaabat near Trabzon, Turkey. The football club plays in white and blue kits, and have done so since their formation in 1980.",
+    "degree": 12,
+    "player_count": 7,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "fatih stadı",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q2927417",
+    "name": "Bucaspor Ladies Football Team",
+    "aliases": "Bucaspor Ladies Football Team|bucaspor ladies football team",
+    "description": "Bucaspor Ladies Football Team (Turkish: Bucaspor Bayan Futbol Takımı) is the women's football team of Bucaspor in Buca, İzmir, Turkey.Established in 2005, Bucaspor is playing in the Turkish Women's Football Premier League since the 2007–09 season. The team was runner-up in the seasons 2007–08 and 2008–09.",
+    "degree": 11,
+    "player_count": 7,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Buca Arena",
+    "coach": null,
+    "league": "turkish women's first football league"
+  },
+  {
+    "entity_id": "Q302263",
+    "name": "menemen belediyespor",
+    "aliases": "menemen belediyespor|Menemen Belediyespor",
+    "description": "Menemenspor, formerly Menemen Belediyespor, is a professional Turkish football club located in the Menemen district of İzmir. The club colours are blue and yellow and they play their home matches at Menemen İlçe Stadium.",
+    "degree": 10,
+    "player_count": 6,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "Suat Kaya",
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q734769",
+    "name": "Usakspor",
+    "aliases": "Usakspor|Uşakspor|usakspor|uşakspor",
+    "description": "Uşakspor was a Turkish football club located in Uşak. They play their home games at 1 Eylül Stadium in Uşak. The club was founded in 1967 and played in Second League between 1967–1968, 1970–1975, 1982–1983, 1987–1988, 2005–2007. It suffered financial problems and the team was relegated to the Third League over two seasons. It finally withdrew after 18 matches and will be played in Amateur League at next season. Uşakspor gave its competitive rights to Uşak Belediyespor (now known as Utaş Uşakspor",
+    "degree": 10,
+    "player_count": 6,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q6062228",
+    "name": "Ümraniyespor",
+    "aliases": "Ümraniyespor|Umraniyespor|umraniyespor|ümraniyespor",
+    "description": "Ümraniyespor is a professional Turkish football club located in Ümraniye, Istanbul.The clubs plays in red and white kits, and have done so since their formation in 1938.",
+    "degree": 9,
+    "player_count": 5,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEAD_COACH",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": "erkan sozeri",
+    "league": "Bank Asya 1.League"
+  },
+  {
+    "entity_id": "Q6651354",
+    "name": "Kahramanmaras Buyuksehir Belediyespor",
+    "aliases": "Kahramanmaras Buyuksehir Belediyespor|kahramanmaraş büyükşehir belediyespor|kahramanmaras buyuksehir belediyespor|Kahramanmaraş Büyükşehir Belediyespor|kahramanmaraş belediyespor|Kahramanmaraş Belediyespor",
+    "description": "1920 Maraşspor, formerly Kahramanmaraş Büyükşehir Belediyespor, is a football club located in Kahramanmaraş, Turkey. The team competes in TFF Third League, having been promoted in the 2011–12 season.",
+    "degree": 9,
+    "player_count": 5,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "12 subat stadium",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q1467574",
+    "name": "5 ocak stadium",
+    "aliases": "5 ocak stadium|adana 5 ocak stadı|5 Ocak Stadium|Adana 5 Ocak Stadı|adana 5 ocak stadium|Adana 5 Ocak Stadium",
+    "description": "The Adana 5 Ocak Stadium (Turkish: Adana 5 Ocak Stadı) is a multi-purpose stadium in Adana, Turkey.  The stadium holds 16,095 and was built in 1973. It abides UEFA standards for hosting Europa League games and TFF standards for hosting Super Lig games.The stadium is currently used mostly for football matches, and is the home ground of Adana Demirspor and Adanaspor. National football team of Turkey also played games at this stadium. It is also the venue for the celebrations of national days and p",
+    "degree": 8,
+    "player_count": 0,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "SPORT",
+      "OCCUPANT",
+      "HOME_VENUE"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q9183480",
+    "name": "Taksimspor",
+    "aliases": "Taksimspor|Taksim S.K.|taksim spor kulübü|taksimspor|taksim sk|taksim s.k.|Taksim SK|Taksim Spor Kulübü",
+    "description": "Taksim Spor Kulübü is a sports club located in Beyoğlu, Istanbul, Turkey. The football team of the club plays in the Istanbul Super Amateur League. The club was founded in 1940 by mostly members of the Armenian community of Istanbul when Ateş-Güneş, Nor Şişli and Kalespor clubs merged. The club has had  players of Armenian, Jewish and Greek descent as well as other Turkish players in its history.",
+    "degree": 8,
+    "player_count": 4,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HEADQUARTERS_LOCATION",
+      "CHAIRPERSON",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q15859822",
+    "name": "Kızılcabölükspor",
+    "aliases": "Kızılcabölükspor|kizilcabolukspor|kızılcabölükspor|Kizilcabolukspor",
+    "description": "Kızılcabölükspor is a football club located in Denizli, Turkey. The team competes in TFF Third League. The club was promoted to the TFF Third League after 2012–13 season.",
+    "degree": 8,
+    "player_count": 3,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Dogan Seyfi Atli Stadium",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q6041238",
+    "name": "yeni salihlispor",
+    "aliases": "yeni salihlispor|Yeni Salihlispor",
+    "description": "Yeni Salihlispor (also known as Salihlispor) is a Turkish football club based in Salihli, Manisa. It was founded in 1980 and its colors are green and white.The club played in the Turkish Second Football League (second tier) from the 1984–85 season to the 2000–01 season.In the 2012–13 season, Yeni Salihlispor participated in the Turkish Regional Amateur League.",
+    "degree": 8,
+    "player_count": 4,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q15060070",
+    "name": "Tuzlaspor",
+    "aliases": "Tuzlaspor|tuzlaspor",
+    "description": "Tuzlaspor is a Turkish football club from Istanbul which plays in TFF Second League. The clubs plays in white and blue kits, and have done so since their formation in 1954.",
+    "degree": 8,
+    "player_count": 4,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Second League/doc"
+  },
+  {
+    "entity_id": "Q12810711",
+    "name": "Manavgatspor",
+    "aliases": "Manavgatspor|manavgatspor|manavgat evrensekispor|Manavgat Evrensekispor",
+    "description": "Manavgatspor is a football club located in Antalya, Turkey. The team competes in the Turkish Regional Amateur League.",
+    "degree": 7,
+    "player_count": 3,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q1016967",
+    "name": "Bursa Atatuerk stadium",
+    "aliases": "Bursa Atatuerk stadium|bursa atatuerk stadium|Bursa Atatuerk Stadyumu|Bursa Ataturk stadium|bursa atatürk stadyumu|Bursa Atatuerk Stadium|new bursa stadium for euro 2016|bursa ataturk stadyumu|bursa atatuerk stadyumu|Bursa Atatürk Stadyumu|new bursa euro 2016 stadium|New Bursa EURO 2016 Stadium|Bursa Ataturk Stadyumu|bursa atatürk stadium|Bursa Atatürk stadium|bursa ataturk stadium|Bursa Ataturk Stadium|Bursa Atatürk Stadium|New Bursa Stadium for EURO 2016",
+    "description": "Bursa Atatürk Stadium (Turkish: Bursa Atatürk Stadyumu) was a multi-purpose stadium in Bursa, Turkey.  It was currently used mostly for football matches and was the home ground of Bursaspor. The stadium holds 25,213 and was built in 1979. A stadium has existed on this site since 1930 when a stand with a capacity of 300 was built for an amateur football club. The stadium was demolished in 2016.",
+    "degree": 7,
+    "player_count": 0,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "SPORT",
+      "OCCUPANT",
+      "HOME_VENUE",
+      "LOCATION"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q2541078",
+    "name": "Araklispor",
+    "aliases": "Araklispor|araklispor|araklıspor|Araklıspor",
+    "description": "Araklıspor is a professional Turkish football club located in the Araklı district of Trabzon. The club was formed in 1961. The club colours are black and green. Araklıspor play their home matches at Araklı Stadium.",
+    "degree": 7,
+    "player_count": 3,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q12808733",
+    "name": "balçova belediyespor",
+    "aliases": "balçova belediyespor|Balçova Belediyespor|FBM Yasamspor|FBM Yaşamspor|fbm yasamspor|fbm yaşamspor",
+    "description": "FBM Yaşamspor is a football club located in İzmir, Turkey. The team competes in TFF Third League. The club was promoted to the TFF Third League after 2012–13 season.",
+    "degree": 7,
+    "player_count": 2,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "Buca Arena",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q5398173",
+    "name": "Eskişehir Demirspor",
+    "aliases": "Eskişehir Demirspor|eskisehir demirspor|Eskisehir Demirspor|eskişehir demirspor",
+    "description": "Eskişehir Demirspor is a Turkish sports club from Eskişehir, Turkey. They are the oldest football club in Eskişehir. The club has many departments including football, basketball, volleyball, athletic, swimming, fencing, wrestling, and karate. They are famous with their football department and have won the Turkish Football Championship in 1940.",
+    "degree": 6,
+    "player_count": 2,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q1356248",
+    "name": "Erzincanspor",
+    "aliases": "Erzincanspor|erzincanspor",
+    "description": "Erzincanspor was a sports club located in Erzincan, Turkey. The football club played in the Iddaa League B in 2007–2008 season and relegated to Third League in 2008 and Erzincan Amateur League in 2008–2009 season.",
+    "degree": 6,
+    "player_count": 2,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "bölgesel amatör lig"
+  },
+  {
+    "entity_id": "Q15060047",
+    "name": "Payas Belediyespor 1975",
+    "aliases": "Payas Belediyespor 1975|payas belediyespor 1975",
+    "description": "Payasspor, formerly Payas Belediyespor 1975, is a football club located in Payas near Hatay, southern Turkey. The team competes in TFF Third League.",
+    "degree": 6,
+    "player_count": 1,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "iskenderun 5 temmuz stadium",
+    "coach": null,
+    "league": "TFF Third League"
+  },
+  {
+    "entity_id": "Q1070800",
+    "name": "ali sami yen stadı",
+    "aliases": "ali sami yen stadı|Ali Sami Yen Stadı|ali sami yen stadium|Ali Sami Yen Stadium",
+    "description": "Ali Sami Yen Stadium (Turkish: Ali Sami Yen Stadyumu) was the home of the football club Galatasaray S.K. in Istanbul, Turkey, from 1964 to 2010. It is named after the founder of the club, Ali Sami Yen. The stadium had a capacity of 23,477 (all-seater) and was situated in the Mecidiyeköy quarter of the Şişli district, at the center of the European side of the city.",
+    "degree": 6,
+    "player_count": 0,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "SPORT",
+      "OWNED_BY",
+      "OCCUPANT"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q1947496",
+    "name": "Bulancak",
+    "aliases": "Bulancak|bulancak",
+    "description": "Bulancak is a town and a district of Giresun Province on the Black Sea coast of Turkey, near to the city of Giresun.With a population of 38,546 Bulancak is the largest town in the province apart from Giresun itself. It is only a short drive from Giresun, is easily reached by public transport and has thus become part of Giresun's urban area.The football club Bulancakspor is from the area.",
+    "degree": 6,
+    "player_count": 0,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "LOCATED_IN_TIME_ZONE",
+      "PLACE_OF_BIRTH"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q259830",
+    "name": "i̇zmir atatürk stadı",
+    "aliases": "i̇zmir atatürk stadı|izmir atatuerk stadyumu|İzmir Atatürk Stadı|Kemal Atatürk Stadium|Izmir Atatuerk Stadi|İzmir Ataturk Stadyumu|Izmir Ataturk Stadi|i̇zmir atatürk stadium|Atatürk Stadyumu|Izmir Ataturk Stadium|Izmir Atatuerk Stadyumu|atatürk stadium (old)|atatürk stadyumu|i̇zmir atatürk stadyumu|kemal atatürk stadium|Atatürk Stadium (old)|Izmir Atatürk Stadi|İzmir Atatürk Stadium|izmir atatuerk stadium|izmir atatuerk stadi|i̇zmir ataturk stadyumu|izmir atatürk stadi|izmir ataturk stadi|izmir ataturk stadium|İzmir Atatürk Stadyumu|Izmir Atatuerk Stadium",
+    "description": "İzmir Atatürk Stadium (Turkish: İzmir Atatürk Stadyumu) is a multi-purpose stadium in İzmir, Turkey. It is currently used mostly for football matches. The stadium holds 51,295 people. It was built in 1964, and most recently refurbished in 2005. İzmir football teams Karşıyaka S.K. and Göztepe A.Ş. occasionally use the stadium for high attendance matches.The stadium hosted the 1971 Mediterranean Games and the 2005 Summer Universiade. The stadium also hosted the Fortis Turkey Cup Final in 2009 in w",
+    "degree": 6,
+    "player_count": 0,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "SPORT",
+      "OCCUPANT",
+      "HOME_VENUE"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q5338331",
+    "name": "edirne 25 kasım stadium",
+    "aliases": "edirne 25 kasım stadium|Edirne 25 Kasım Stadium|edirne 25 kasim stadium|Edirne 25 Kasim Stadium",
+    "description": "Edirne 25 Kasım Stadium (Turkish: Edirne 25 Kasım Stadyumu) is a football stadium in Edirne, Turkey and is the home ground of the football club Edirnespor. The stadium has an all-seated capacity of 3,500.",
+    "degree": 5,
+    "player_count": 0,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "OWNED_BY",
+      "HOME_VENUE"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q4450209",
+    "name": "taksim stadı",
+    "aliases": "taksim stadı|taksim stadium|Taksim Stadium|taksim stadi|Taksim Stadi|Taksim Stadı",
+    "description": "Taksim Stadium (Turkish: Taksim Stadı) was the first football stadium in Istanbul, Turkey. Originally the 19th century Taksim Artillery Barracks (Taksim Topçu Kışlası) it was transformed into a stadium in 1921 and was located next to today's Taksim Square. The ground was the home of all major football clubs in Istanbul, including Galatasaray, Fenerbahçe and Beşiktaş. The stadium had a seating capacity of around 8,000. It was closed in 1939 and demolished in 1940, during the formation of Taksim S",
+    "degree": 5,
+    "player_count": 0,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "OCCUPANT",
+      "HOME_VENUE"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q4680624",
+    "name": "Adanaspor Basketbol",
+    "aliases": "Adanaspor Basketbol|adanaspor basketbol",
+    "description": "Adanaspor Basketbol is a Turkish basketball club based in Adana, Turkey that plays in Turkish Basketball League (TBL). They were founded in 2006 and the municipality of Adana started to support the team in 2010. They played in the Regional League for 3 years and they promoted to the Turkish Basketball League (TBL) in 2010-2011 season. Their colors are orange and white. They also have a football team.",
+    "degree": 5,
+    "player_count": 1,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "HOME_VENUE",
+      "LEAGUE",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": "menderes sports hall",
+    "coach": null,
+    "league": "Ormanspor"
+  },
+  {
+    "entity_id": "Q7831114",
+    "name": "trabzonspor a2",
+    "aliases": "trabzonspor a2|Trabzonspor A2",
+    "description": "Trabzonspor A2 is a youth football team from Trabzonspor. The club competes in the A2 league, against other A2 clubs in Turkey. An A2 team is made up of players between the ages of 18 and 20, and it is the last level of amateur play before a footballer reaches professional status in Turkey. The club was founded by former Trabzonspor footballer and manager Özkan Sümer in 1972. They were the first youth team in Turkey, and became an official branch of Trabzonspor in 1975. The club has won two leag",
+    "degree": 5,
+    "player_count": 1,
+    "relations": [
+      "COUNTRY",
+      "SPORT",
+      "LEAGUE",
+      "HEADQUARTERS_LOCATION",
+      "MEMBER_OF_SPORTS_TEAM"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": "a2 ligi"
+  },
+  {
+    "entity_id": "Q4853221",
+    "name": "balıkesir atatürk stadium",
+    "aliases": "balıkesir atatürk stadium|Balıkesir Atatürk Stadium|Balikesir Ataturk Stadium|Balıkesir Atatürk Stadyumu|balıkesir atatürk stadyumu|Balıkesir Atatürk Stadı|balikesir ataturk stadium|balıkesir atatürk stadı",
+    "description": "Balıkesir Atatürk Stadium (Turkish: Balıkesir Atatürk Stadyumu) is a multi-purpose stadium in Balıkesir, Turkey.  The stadium holds 15,800 all-seater and was built in 1973 and re-built in 2010. It abides UEFA standards for TFF standards for hosting TFF Second League, TFF First League and also Super Lig games.The stadium is currently used mostly for football matches, and is the home ground of Balıkesirspor. Turkey national under-21 football team also played games at this stadium. It is also the v",
+    "degree": 5,
+    "player_count": 0,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "OCCUPANT",
+      "HOME_VENUE"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  },
+  {
+    "entity_id": "Q751820",
+    "name": "inonu stadium",
+    "aliases": "inonu stadium|Mithat Paşa Stadium|bjk inonu stadium|Inonu Stadium|vodafone turkey stadium|bjk inoenue stadium|Inönü Stadi|i̇nönü stadı|mithat paşa stadium|Beşiktaş İnönü Stadium|BJK İnönü Stadyumu|İsmet İnönü Stadium|beşiktaş i̇nönü stadium|Vodafone Turkey Stadium|Mithatpaşa Stadium|bjk i̇nönü stadyumu|BJK Inönü Stadium|Besiktas Inonu Stadium|BJK Inoenue Stadium|Dolmabahçe Stadium|i̇smet i̇nönü stadium|dolmabahçe stadium|inoenue stadium|besiktas inonu stadium|İnönü Stadium|bjk inönü stadium|İnönü Stadı|Inoenue Stadium|inönü stadi|BJK İnönü Stadium|mithatpaşa stadium|bjk i̇nönü stadium|BJK Inonu Stadium|i̇nönü stadium",
+    "description": "İnönü Stadium (Turkish: İnönü Stadyumu) was a football stadium in Istanbul, Turkey and the home ground of the football club Beşiktaş J.K.. Previously, the ground had also been shared with Galatasaray S.K. and Fenerbahçe S.K.. The ground was located in Dolmabahçe, close to Dolmabahçe Palace in the district of Beşiktaş, on the European side of Istanbul. The stadium was demolished except for the walls of the Eski Açık stand and its historical towers in order to build a new stadium for Beşiktaş J.K.",
+    "degree": 5,
+    "player_count": 0,
+    "relations": [
+      "INSTANCE_OF",
+      "COUNTRY",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "SPORT",
+      "OCCUPANT"
+    ],
+    "stadium": null,
+    "coach": null,
+    "league": null
+  }
+]

@@ -1,0 +1,1304 @@
+{
+  "seed_counts": {
+    "cinema": 300,
+    "football": 22,
+    "academia": 137
+  },
+  "outgoing_relations": {
+    "cinema": {
+      "COUNTRY_OF_ORIGIN": 325,
+      "CAST_MEMBER": 321,
+      "INSTANCE_OF": 261,
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW": 166,
+      "GENRE": 89,
+      "DIRECTOR": 82,
+      "SUBCLASS_OF": 39,
+      "ORIGINAL_NETWORK": 36,
+      "HAS_PART": 32,
+      "PART_OF": 31,
+      "PRODUCER": 20,
+      "NARRATIVE_LOCATION": 18,
+      "SCREENWRITER": 18,
+      "LANGUAGE_OF_WORK_OR_NAME": 17,
+      "FILMING_LOCATION": 13,
+      "MATERIAL_USED": 11,
+      "DIRECTOR_OF_PHOTOGRAPHY": 8,
+      "SAID_TO_BE_THE_SAME_AS": 8,
+      "VOICE_ACTOR": 8,
+      "CREATOR": 7,
+      "AUTHOR": 7,
+      "MANUFACTURER": 7,
+      "LOCATION": 7,
+      "COMPOSER": 6,
+      "MAIN_SUBJECT": 5,
+      "PERFORMER": 5,
+      "DISTRIBUTOR": 5,
+      "PRODUCTION_COMPANY": 3,
+      "PUBLISHER": 3,
+      "PARTICIPANT_OF": 2,
+      "COUNTRY": 2,
+      "AWARD_RECEIVED": 2,
+      "OPERATOR": 2,
+      "NAMED_AFTER": 2,
+      "COLOR": 2,
+      "FOLLOWED_BY": 2,
+      "FILM_EDITOR": 2,
+      "AMMUNITION": 2,
+      "BASED_ON": 2,
+      "EXECUTIVE_PRODUCER": 1
+    },
+    "football": {
+      "SPORT": 31,
+      "INSTANCE_OF": 22,
+      "COUNTRY": 22,
+      "LEAGUE": 12,
+      "HOME_VENUE": 11,
+      "HEADQUARTERS_LOCATION": 6,
+      "CHAIRPERSON": 3,
+      "LOCATION": 2,
+      "HEAD_COACH": 2,
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY": 2,
+      "DIFFERENT_FROM": 1
+    },
+    "academia": {
+      "INSTANCE_OF": 155,
+      "COUNTRY": 138,
+      "HEADQUARTERS_LOCATION": 96,
+      "LANGUAGE_USED": 88,
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY": 51,
+      "SEPARATED_FROM": 42,
+      "NAMED_AFTER": 20,
+      "LOCATION": 6,
+      "FOUNDED_BY": 4,
+      "HAS_PART": 3,
+      "PART_OF": 3,
+      "MEMBER_OF": 2,
+      "PARENT_ORGANIZATION": 2,
+      "LOCATED_IN_TIME_ZONE": 1,
+      "DESCRIBED_BY_SOURCE": 1
+    }
+  },
+  "2hop_patterns": {
+    "cinema": [
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "CONTAINS_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+        "count": 24876
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "DIPLOMATIC_RELATION",
+        "count": 20004
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "MEMBER_OF",
+        "count": 7153
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "SHARES_BORDER_WITH",
+        "count": 3868
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "HEAD_OF_GOVERNMENT",
+        "count": 3158
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "HEAD_OF_STATE",
+        "count": 1718
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "INSTANCE_OF",
+        "count": 1054
+      },
+      {
+        "rel1": "FILMING_LOCATION",
+        "rel2": "TWINNED_ADMINISTRATIVE_BODY",
+        "count": 737
+      },
+      {
+        "rel1": "NARRATIVE_LOCATION",
+        "rel2": "TWINNED_ADMINISTRATIVE_BODY",
+        "count": 670
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "ETHNIC_GROUP",
+        "count": 644
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "CONTINENT",
+        "count": 643
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "ELECTRICAL_PLUG_TYPE",
+        "count": 637
+      },
+      {
+        "rel1": "INSTANCE_OF",
+        "rel2": "HAS_PART",
+        "count": 508
+      },
+      {
+        "rel1": "CAST_MEMBER",
+        "rel2": "OCCUPATION",
+        "count": 497
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "LOCATED_IN_TIME_ZONE",
+        "count": 450
+      },
+      {
+        "rel1": "INSTANCE_OF",
+        "rel2": "SUBCLASS_OF",
+        "count": 375
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "CURRENCY",
+        "count": 360
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "TOP-LEVEL_INTERNET_DOMAIN",
+        "count": 359
+      },
+      {
+        "rel1": "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+        "rel2": "LINGUISTIC_TYPOLOGY",
+        "count": 352
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "DESCRIBED_BY_SOURCE",
+        "count": 337
+      },
+      {
+        "rel1": "CAST_MEMBER",
+        "rel2": "COUNTRY_OF_CITIZENSHIP",
+        "count": 334
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "BASIC_FORM_OF_GOVERNMENT",
+        "count": 334
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "LEGISLATIVE_BODY",
+        "count": 333
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "CAPITAL",
+        "count": 332
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "HIGHEST_POINT",
+        "count": 330
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "EMERGENCY_PHONE_NUMBER",
+        "count": 330
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "OFFICIAL_LANGUAGE",
+        "count": 329
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "HISTORY_OF_TOPIC",
+        "count": 328
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "ANTHEM",
+        "count": 327
+      },
+      {
+        "rel1": "COUNTRY_OF_ORIGIN",
+        "rel2": "FLAG",
+        "count": 325
+      }
+    ],
+    "football": [
+      {
+        "rel1": "COUNTRY",
+        "rel2": "CONTAINS_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+        "count": 1782
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "DIPLOMATIC_RELATION",
+        "count": 1298
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "MEMBER_OF",
+        "count": 462
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "SHARES_BORDER_WITH",
+        "count": 264
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "HEAD_OF_GOVERNMENT",
+        "count": 220
+      },
+      {
+        "rel1": "HEADQUARTERS_LOCATION",
+        "rel2": "TWINNED_ADMINISTRATIVE_BODY",
+        "count": 209
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "HEAD_OF_STATE",
+        "count": 110
+      },
+      {
+        "rel1": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+        "rel2": "TWINNED_ADMINISTRATIVE_BODY",
+        "count": 96
+      },
+      {
+        "rel1": "LOCATION",
+        "rel2": "TWINNED_ADMINISTRATIVE_BODY",
+        "count": 67
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "INSTANCE_OF",
+        "count": 66
+      },
+      {
+        "rel1": "SPORT",
+        "rel2": "SUBCLASS_OF",
+        "count": 49
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "CONTINENT",
+        "count": 44
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "ELECTRICAL_PLUG_TYPE",
+        "count": 44
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "ETHNIC_GROUP",
+        "count": 44
+      },
+      {
+        "rel1": "SPORT",
+        "rel2": "DESCRIBED_BY_SOURCE",
+        "count": 23
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "TOP-LEVEL_INTERNET_DOMAIN",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "EMERGENCY_PHONE_NUMBER",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "HIGHEST_POINT",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "CURRENCY",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "DESCRIBED_BY_SOURCE",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "CAPITAL",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "COAT_OF_ARMS",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "ANTHEM",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "HISTORY_OF_TOPIC",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "EXECUTIVE_BODY",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "OFFICE_HELD_BY_HEAD_OF_STATE",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "BASIC_FORM_OF_GOVERNMENT",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "LOWEST_POINT",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "FLAG",
+        "count": 22
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "OFFICIAL_LANGUAGE",
+        "count": 22
+      }
+    ],
+    "academia": [
+      {
+        "rel1": "COUNTRY",
+        "rel2": "CONTAINS_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+        "count": 11097
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "DIPLOMATIC_RELATION",
+        "count": 8083
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "MEMBER_OF",
+        "count": 2877
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "SHARES_BORDER_WITH",
+        "count": 1644
+      },
+      {
+        "rel1": "HEADQUARTERS_LOCATION",
+        "rel2": "TWINNED_ADMINISTRATIVE_BODY",
+        "count": 1420
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "HEAD_OF_GOVERNMENT",
+        "count": 1370
+      },
+      {
+        "rel1": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+        "rel2": "TWINNED_ADMINISTRATIVE_BODY",
+        "count": 1284
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "HEAD_OF_STATE",
+        "count": 685
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "INSTANCE_OF",
+        "count": 412
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "CONTINENT",
+        "count": 274
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "ELECTRICAL_PLUG_TYPE",
+        "count": 274
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "ETHNIC_GROUP",
+        "count": 274
+      },
+      {
+        "rel1": "LANGUAGE_USED",
+        "rel2": "LINGUISTIC_TYPOLOGY",
+        "count": 188
+      },
+      {
+        "rel1": "LANGUAGE_USED",
+        "rel2": "WRITING_SYSTEM",
+        "count": 167
+      },
+      {
+        "rel1": "INSTANCE_OF",
+        "rel2": "SUBCLASS_OF",
+        "count": 155
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "CAPITAL",
+        "count": 141
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "CURRENCY",
+        "count": 140
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "BASIC_FORM_OF_GOVERNMENT",
+        "count": 139
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "ANTHEM",
+        "count": 138
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "DESCRIBED_BY_SOURCE",
+        "count": 138
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "COAT_OF_ARMS",
+        "count": 138
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "OFFICIAL_LANGUAGE",
+        "count": 138
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "FLAG",
+        "count": 138
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "TOPIC'S_MAIN_WIKIMEDIA_PORTAL",
+        "count": 138
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "COUNTRY",
+        "count": 138
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "LEGISLATIVE_BODY",
+        "count": 138
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "TOP-LEVEL_INTERNET_DOMAIN",
+        "count": 137
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "EMERGENCY_PHONE_NUMBER",
+        "count": 137
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "OFFICE_HELD_BY_HEAD_OF_STATE",
+        "count": 137
+      },
+      {
+        "rel1": "COUNTRY",
+        "rel2": "EXECUTIVE_BODY",
+        "count": 137
+      }
+    ]
+  },
+  "person_to_seed_chains": {
+    "cinema": [],
+    "football": [
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "SPORT",
+        "count": 3807
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "INSTANCE_OF",
+        "count": 1406
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "COUNTRY",
+        "count": 1406
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "HOME_VENUE",
+        "count": 1270
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "LEAGUE",
+        "count": 1236
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "HEADQUARTERS_LOCATION",
+        "count": 1014
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "CHAIRPERSON",
+        "count": 602
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "HEAD_COACH",
+        "count": 421
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+        "count": 267
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "DIFFERENT_FROM",
+        "count": 58
+      },
+      {
+        "incoming": "MEMBER_OF_SPORTS_TEAM",
+        "outgoing": "LOCATION",
+        "count": 8
+      }
+    ],
+    "academia": [
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "INSTANCE_OF",
+        "count": 776
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "COUNTRY",
+        "count": 602
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "LANGUAGE_USED",
+        "count": 568
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+        "count": 357
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "FOUNDED_BY",
+        "count": 337
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "HAS_PART",
+        "count": 324
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "HEADQUARTERS_LOCATION",
+        "count": 245
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "MEMBER_OF",
+        "count": 71
+      },
+      {
+        "incoming": "EMPLOYER",
+        "outgoing": "INSTANCE_OF",
+        "count": 25
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "NAMED_AFTER",
+        "count": 22
+      },
+      {
+        "incoming": "EMPLOYER",
+        "outgoing": "COUNTRY",
+        "count": 20
+      },
+      {
+        "incoming": "EMPLOYER",
+        "outgoing": "LANGUAGE_USED",
+        "count": 19
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "SEPARATED_FROM",
+        "count": 12
+      },
+      {
+        "incoming": "EMPLOYER",
+        "outgoing": "FOUNDED_BY",
+        "count": 10
+      },
+      {
+        "incoming": "EMPLOYER",
+        "outgoing": "HEADQUARTERS_LOCATION",
+        "count": 10
+      },
+      {
+        "incoming": "EMPLOYER",
+        "outgoing": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+        "count": 9
+      },
+      {
+        "incoming": "EMPLOYER",
+        "outgoing": "HAS_PART",
+        "count": 9
+      },
+      {
+        "incoming": "EMPLOYER",
+        "outgoing": "MEMBER_OF",
+        "count": 3
+      },
+      {
+        "incoming": "EMPLOYER",
+        "outgoing": "SEPARATED_FROM",
+        "count": 2
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "DESCRIBED_BY_SOURCE",
+        "count": 2
+      },
+      {
+        "incoming": "EDUCATED_AT",
+        "outgoing": "PART_OF",
+        "count": 2
+      }
+    ]
+  },
+  "sample_triples": {
+    "cinema": {
+      "COUNTRY_OF_ORIGIN": [
+        [
+          "love in another language",
+          "turkiye"
+        ],
+        [
+          "Tornistan",
+          "turkiye"
+        ]
+      ],
+      "CAST_MEMBER": [
+        [
+          "love in another language",
+          "Mert Fırat"
+        ],
+        [
+          "love in another language",
+          "lale mansur"
+        ]
+      ],
+      "INSTANCE_OF": [
+        [
+          "love in another language",
+          "movie"
+        ],
+        [
+          "Tornistan",
+          "animation film"
+        ]
+      ],
+      "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW": [
+        [
+          "love in another language",
+          "turcophone"
+        ],
+        [
+          "sev kardeşim",
+          "turcophone"
+        ]
+      ],
+      "GENRE": [
+        [
+          "love in another language",
+          "Romantic movie"
+        ],
+        [
+          "love in another language",
+          "drama movie"
+        ]
+      ],
+      "DIRECTOR": [
+        [
+          "sev kardeşim",
+          "Ertem Egilmez"
+        ],
+        [
+          "ali cengiz oyunu",
+          "halit refiğ"
+        ]
+      ],
+      "SUBCLASS_OF": [
+        [
+          "keşkül",
+          "food product"
+        ],
+        [
+          "dap drums",
+          "orchestral instrument"
+        ]
+      ],
+      "ORIGINAL_NETWORK": [
+        [
+          "Adini Feriha Koydum",
+          "Show TV"
+        ],
+        [
+          "kınalı kar",
+          "Kanal D"
+        ]
+      ],
+      "HAS_PART": [
+        [
+          "keşkül",
+          "Almond/Comments"
+        ],
+        [
+          "Palow",
+          "Rice"
+        ]
+      ],
+      "PART_OF": [
+        [
+          "keşkül",
+          "Turkish Cuisine"
+        ],
+        [
+          "Palow",
+          "Turkish Cuisine"
+        ]
+      ],
+      "PRODUCER": [
+        [
+          "cok filim hareketler bunlar",
+          "Yilmaz erdogan"
+        ],
+        [
+          "kurtar beni",
+          "Turker Inanoglu"
+        ]
+      ],
+      "NARRATIVE_LOCATION": [
+        [
+          "love in another language",
+          "istanbul (turkey)"
+        ],
+        [
+          "Beynelmilel (film)",
+          "adıyaman i̇li province"
+        ]
+      ]
+    },
+    "football": {
+      "SPORT": [
+        [
+          "Beyoğlu SK",
+          "futebol"
+        ],
+        [
+          "Fenerbahçe women's volleyball",
+          "🏐"
+        ]
+      ],
+      "INSTANCE_OF": [
+        [
+          "Beyoğlu SK",
+          "Multisport club"
+        ],
+        [
+          "Fenerbahçe women's volleyball",
+          "Multisport club"
+        ]
+      ],
+      "COUNTRY": [
+        [
+          "Beyoğlu SK",
+          "turkiye"
+        ],
+        [
+          "Fenerbahçe women's volleyball",
+          "turkiye"
+        ]
+      ],
+      "LEAGUE": [
+        [
+          "Manavgatspor",
+          "TFF Third League"
+        ],
+        [
+          "gençlerbirligi sk",
+          "turkish super league"
+        ]
+      ],
+      "HOME_VENUE": [
+        [
+          "gençlerbirligi sk",
+          "new ankara stadium"
+        ],
+        [
+          "Kütahyaspor",
+          "Dumlupınar Stadium"
+        ]
+      ],
+      "HEADQUARTERS_LOCATION": [
+        [
+          "gençlerbirligi sk",
+          "Angora, Turkey"
+        ],
+        [
+          "Kütahyaspor",
+          "Cotiæum"
+        ]
+      ],
+      "CHAIRPERSON": [
+        [
+          "gençlerbirligi sk",
+          "i̇lhan cavcav"
+        ],
+        [
+          "Besiktas Jk",
+          "fikret orman"
+        ]
+      ],
+      "LOCATION": [
+        [
+          "Beyoğlu SK",
+          "istanbul (turkey)"
+        ],
+        [
+          "i̇stanbul üniversitesi b.g.d.",
+          "Avcılar, Istanbul"
+        ]
+      ],
+      "HEAD_COACH": [
+        [
+          "gençlerbirligi sk",
+          "fuat capa"
+        ],
+        [
+          "Kardemir Karabukspor",
+          "tony popović"
+        ]
+      ],
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY": [
+        [
+          "bursaspor kulübü derneği",
+          "Bursa, Turkey"
+        ],
+        [
+          "Vakıfbank Spor Kulübü",
+          "istanbul (turkey)"
+        ]
+      ],
+      "DIFFERENT_FROM": [
+        [
+          "Galatasaray S. K.",
+          "Galatasaray F.C."
+        ]
+      ]
+    },
+    "academia": {
+      "INSTANCE_OF": [
+        [
+          "Karadeniz Technical University",
+          "Polytechnic College"
+        ],
+        [
+          "Karadeniz Technical University",
+          "Public college"
+        ]
+      ],
+      "COUNTRY": [
+        [
+          "Karadeniz Technical University",
+          "turkiye"
+        ],
+        [
+          "Universite Galatasaray",
+          "turkiye"
+        ]
+      ],
+      "HEADQUARTERS_LOCATION": [
+        [
+          "Karadeniz Technical University",
+          "Trabzon Province"
+        ],
+        [
+          "Universite Galatasaray",
+          "istanbul (turkey)"
+        ]
+      ],
+      "LANGUAGE_USED": [
+        [
+          "Universite Galatasaray",
+          "turcophone"
+        ],
+        [
+          "university of karatekin",
+          "turcophone"
+        ]
+      ],
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY": [
+        [
+          "anadolu university",
+          "Eski-Shehr"
+        ],
+        [
+          "ankara üniversitesi",
+          "Angora, Turkey"
+        ]
+      ],
+      "SEPARATED_FROM": [
+        [
+          "çanakkale onsekiz mart university",
+          "Trakya Üniversitesi"
+        ],
+        [
+          "Afyon Kocatepe University",
+          "anadolu university"
+        ]
+      ],
+      "NAMED_AFTER": [
+        [
+          "kutahya dumlupinar university",
+          "battle of dumlupinar"
+        ],
+        [
+          "Adnan Menderes Üniversitesi",
+          "menderes, adnan"
+        ]
+      ],
+      "LOCATION": [
+        [
+          "ITU School of Electrical and Electronic Engineerin",
+          "Maslak"
+        ],
+        [
+          "ITU School of Civil Engineering",
+          "Maslak"
+        ]
+      ],
+      "FOUNDED_BY": [
+        [
+          "ankara üniversitesi",
+          "mustapha kemal pasha"
+        ],
+        [
+          "bogazici university",
+          "christopher rhinelander robert"
+        ]
+      ],
+      "HAS_PART": [
+        [
+          "ankara üniversitesi",
+          "Mekteb-i Mulkiye"
+        ],
+        [
+          "ankara üniversitesi",
+          "Ankara University Medical School"
+        ]
+      ],
+      "PART_OF": [
+        [
+          "turkish naval academy",
+          "National Security College (Turkey)"
+        ],
+        [
+          "dârülelhan",
+          "Daruelfuenun"
+        ]
+      ],
+      "MEMBER_OF": [
+        [
+          "Tekirdağ Namık Kemal University",
+          "baunas"
+        ],
+        [
+          "i̇tü",
+          "time network"
+        ]
+      ]
+    }
+  },
+  "turkey_outgoing": [
+    {
+      "rel": "CONTAINS_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "count": 81
+    },
+    {
+      "rel": "DIPLOMATIC_RELATION",
+      "count": 59
+    },
+    {
+      "rel": "MEMBER_OF",
+      "count": 21
+    },
+    {
+      "rel": "SHARES_BORDER_WITH",
+      "count": 12
+    },
+    {
+      "rel": "HEAD_OF_GOVERNMENT",
+      "count": 10
+    },
+    {
+      "rel": "HEAD_OF_STATE",
+      "count": 5
+    },
+    {
+      "rel": "INSTANCE_OF",
+      "count": 3
+    },
+    {
+      "rel": "ELECTRICAL_PLUG_TYPE",
+      "count": 2
+    },
+    {
+      "rel": "ETHNIC_GROUP",
+      "count": 2
+    },
+    {
+      "rel": "CONTINENT",
+      "count": 2
+    },
+    {
+      "rel": "TOP-LEVEL_INTERNET_DOMAIN",
+      "count": 1
+    },
+    {
+      "rel": "OFFICE_HELD_BY_HEAD_OF_STATE",
+      "count": 1
+    },
+    {
+      "rel": "HISTORY_OF_TOPIC",
+      "count": 1
+    },
+    {
+      "rel": "LEGISLATIVE_BODY",
+      "count": 1
+    },
+    {
+      "rel": "HIGHEST_POINT",
+      "count": 1
+    },
+    {
+      "rel": "LOCATED_IN_TIME_ZONE",
+      "count": 1
+    },
+    {
+      "rel": "CURRENCY",
+      "count": 1
+    },
+    {
+      "rel": "COAT_OF_ARMS",
+      "count": 1
+    },
+    {
+      "rel": "LOWEST_POINT",
+      "count": 1
+    },
+    {
+      "rel": "BASIC_FORM_OF_GOVERNMENT",
+      "count": 1
+    },
+    {
+      "rel": "DESCRIBED_BY_SOURCE",
+      "count": 1
+    },
+    {
+      "rel": "ANTHEM",
+      "count": 1
+    },
+    {
+      "rel": "FLAG",
+      "count": 1
+    },
+    {
+      "rel": "EXECUTIVE_BODY",
+      "count": 1
+    },
+    {
+      "rel": "TOPIC'S_MAIN_WIKIMEDIA_PORTAL",
+      "count": 1
+    },
+    {
+      "rel": "EMERGENCY_PHONE_NUMBER",
+      "count": 1
+    },
+    {
+      "rel": "OFFICIAL_LANGUAGE",
+      "count": 1
+    },
+    {
+      "rel": "GEOGRAPHY_OF_TOPIC",
+      "count": 1
+    },
+    {
+      "rel": "COUNTRY",
+      "count": 1
+    },
+    {
+      "rel": "OFFICE_HELD_BY_HEAD_OF_GOVERNMENT",
+      "count": 1
+    }
+  ],
+  "turkey_incoming": [
+    {
+      "rel": "COUNTRY",
+      "count": 14132
+    },
+    {
+      "rel": "COUNTRY_OF_CITIZENSHIP",
+      "count": 6252
+    },
+    {
+      "rel": "COUNTRY_OF_ORIGIN",
+      "count": 759
+    },
+    {
+      "rel": "NARRATIVE_LOCATION",
+      "count": 237
+    },
+    {
+      "rel": "PLACE_OF_BIRTH",
+      "count": 101
+    },
+    {
+      "rel": "FACET_OF",
+      "count": 96
+    },
+    {
+      "rel": "FILMING_LOCATION",
+      "count": 63
+    },
+    {
+      "rel": "DIPLOMATIC_RELATION",
+      "count": 59
+    },
+    {
+      "rel": "PLACE_OF_DEATH",
+      "count": 39
+    },
+    {
+      "rel": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "count": 38
+    },
+    {
+      "rel": "HEADQUARTERS_LOCATION",
+      "count": 17
+    },
+    {
+      "rel": "SHARES_BORDER_WITH",
+      "count": 13
+    },
+    {
+      "rel": "PARTICIPANT",
+      "count": 12
+    },
+    {
+      "rel": "COUNTRY_FOR_SPORT",
+      "count": 10
+    },
+    {
+      "rel": "OPERATING_AREA",
+      "count": 7
+    },
+    {
+      "rel": "LOCATION",
+      "count": 6
+    },
+    {
+      "rel": "OPERATOR",
+      "count": 6
+    },
+    {
+      "rel": "LOCATION_OF_FORMATION",
+      "count": 4
+    },
+    {
+      "rel": "RESIDENCE",
+      "count": 4
+    },
+    {
+      "rel": "BASIN_COUNTRY",
+      "count": 4
+    },
+    {
+      "rel": "HAS_PART",
+      "count": 4
+    },
+    {
+      "rel": "APPLIES_TO_JURISDICTION",
+      "count": 3
+    },
+    {
+      "rel": "DESIGNATED_AS_TERRORIST_BY",
+      "count": 3
+    },
+    {
+      "rel": "MAIN_SUBJECT",
+      "count": 3
+    },
+    {
+      "rel": "LEGAL_FORM",
+      "count": 2
+    },
+    {
+      "rel": "ALLEGIANCE",
+      "count": 2
+    },
+    {
+      "rel": "SIGNATORY",
+      "count": 1
+    },
+    {
+      "rel": "ENDEMIC_TO",
+      "count": 1
+    },
+    {
+      "rel": "PLACE_OF_BURIAL",
+      "count": 1
+    },
+    {
+      "rel": "TERRITORY_OVERLAPS",
+      "count": 1
+    }
+  ]
+}

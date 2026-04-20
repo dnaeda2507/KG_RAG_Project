@@ -1,20 +1,3 @@
-"""
-Phase 6 - Case Study and Error Analysis  (Gözlem Tabanlı)
-============================================================
-Mevcut pipeline çıktılarını okuyarak başarılı / başarısız örnekler için
-kapsamlı vaka analizleri üretir.  Module 1 yeniden çalıştırılmaz;
-analiz tamamen kaydedilmiş cevap, reasoning_path ve passage verilerine
-dayanır (observation-based).
-
-Kullanım:
-    python phase6_case_study.py
-
-Çıktılar:
-    outputs/phase6/case_studies.json
-    outputs/phase6/error_analysis.json
-    outputs/phase6/phase6_report.txt
-"""
-
 import os
 import json
 import collections
@@ -24,8 +7,9 @@ ROOT_DIR   = os.path.normpath(os.path.join(THIS_DIR, "..", ".."))
 OUTPUT_DIR = os.path.join(ROOT_DIR, "outputs", "phase6")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-CINEMA_RESULTS   = os.path.join(ROOT_DIR, "outputs", "phase4_cinema",   "pipeline_results.json")
-FOOTBALL_RESULTS = os.path.join(ROOT_DIR, "outputs", "phase4_football", "pipeline_results.json")
+CINEMA_RESULTS   = os.path.join(ROOT_DIR, "outputs", "phase4_kg_infused_rag", "cinema",   "pipeline_results.json")
+FOOTBALL_RESULTS = os.path.join(ROOT_DIR, "outputs", "phase4_kg_infused_rag", "football", "pipeline_results.json")
+ACADEMIA_RESULTS = os.path.join(ROOT_DIR, "outputs", "phase4_kg_infused_rag", "academia", "pipeline_results.json")
 
 # ── helpers ─────────────────────────────────────────────────────────────────
 
@@ -40,7 +24,7 @@ def _soft_accuracy(pred: str, gold: str) -> bool:
 
 
 def _is_comparison(gold: str) -> bool:
-    return _normalize(gold).startswith("comparison::")
+    return False  # comparison soruları da değerlendirmeye dahil
 
 
 def _load_results(path: str, domain: str) -> list:
@@ -201,7 +185,8 @@ print("=" * 70)
 # Veri yükle
 cinema_data   = _load_results(CINEMA_RESULTS,   "cinema")
 football_data = _load_results(FOOTBALL_RESULTS, "football")
-all_data      = cinema_data + football_data
+academia_data = _load_results(ACADEMIA_RESULTS, "academia")
+all_data      = cinema_data + football_data + academia_data
 
 if not all_data:
     print("\n❌ Sonuç verisi yok. Önce pipeline çalıştırın.")

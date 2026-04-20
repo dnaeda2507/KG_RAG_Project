@@ -11,3 +11,4 @@ matplotlib==3.10.8
 networkx==3.6.1
 wikipedia==1.4.0
 python-dotenv==1.2.2
+flask>=3.0.0

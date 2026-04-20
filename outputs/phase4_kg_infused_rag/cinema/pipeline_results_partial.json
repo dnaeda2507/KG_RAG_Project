@@ -1,0 +1,512 @@
+[
+  {
+    "question_id": "TR_001",
+    "question_text": "Where was the director of \"The Nameless Knight\" born?",
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "The Nameless Knight",
+      "DIRECTOR",
+      "halit refiğ",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "answers": {
+      "no_retrieval": "I couldn't find any information about the director of \"The Nameless Knight\".",
+      "vanilla_rag": "There is no information available.",
+      "vanilla_qe": "There is no information available.",
+      "kg_rag": "Halit Refiğ was born in İzmir, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [
+        {
+          "title": "List of films with live action and animation",
+          "content": "This is a list of films with live-action and animation, films that combine live-action and animation elements, typically interacting.\n\n\n== Short films by decade ==\n\n\n=== 1900s ===\n1900 – The Enchanted Drawing\n\n\n=== 1910s ===\n1914 – Gertie the Dinosaur\n1917 – När Kapten Grogg skulle porträtteras (\"When Captain Grogg was to be painted\")\n1918 – Out of the Inkwell series (animated characters in live-action surroundings: series between 1918 and 1929)\n\n\n=== 1920s ===\n1923 – Alice Comedies series (live"
+        },
+        {
+          "title": "List of films: N–O",
+          "content": "This is an alphabetical list of film articles (or sections within articles about films). It includes made for television films. See the talk page for the method of indexing used.\n\n\n== N ==\n\n\n=== Na ===\n\n\n==== Naa ====\n\n\n==== Nab–Naf ====\n\n\n==== Nag ====\n\n\n==== Nah–Naj ====\n\n\n==== Nak ====\n\n\n==== Nal ====\n\n\n==== Nam ====\n\n\n==== Nan ====\n\n\n==== Nao–Naq ====\n\n\n==== Nar ====\n\n\n==== Nas ====\n\n\n==== Nat ====\n\n\n==== Nau ====\n\n\n==== Nav ====\n\n\n==== Naw–Nay ====\n\n\n==== Naz ====\n\n\n=== Nd ===\n\n\n=== Ne ==="
+        }
+      ],
+      "vanilla_qe": [
+        {
+          "title": "List of films with live action and animation",
+          "content": "This is a list of films with live-action and animation, films that combine live-action and animation elements, typically interacting.\n\n\n== Short films by decade ==\n\n\n=== 1900s ===\n1900 – The Enchanted Drawing\n\n\n=== 1910s ===\n1914 – Gertie the Dinosaur\n1917 – När Kapten Grogg skulle porträtteras (\"When Captain Grogg was to be painted\")\n1918 – Out of the Inkwell series (animated characters in live-action surroundings: series between 1918 and 1929)\n\n\n=== 1920s ===\n1923 – Alice Comedies series (live"
+        },
+        {
+          "title": "List of films: N–O",
+          "content": "This is an alphabetical list of film articles (or sections within articles about films). It includes made for television films. See the talk page for the method of indexing used.\n\n\n== N ==\n\n\n=== Na ===\n\n\n==== Naa ====\n\n\n==== Nab–Naf ====\n\n\n==== Nag ====\n\n\n==== Nah–Naj ====\n\n\n==== Nak ====\n\n\n==== Nal ====\n\n\n==== Nam ====\n\n\n==== Nan ====\n\n\n==== Nao–Naq ====\n\n\n==== Nar ====\n\n\n==== Nas ====\n\n\n==== Nat ====\n\n\n==== Nau ====\n\n\n==== Nav ====\n\n\n==== Naw–Nay ====\n\n\n==== Naz ====\n\n\n=== Nd ===\n\n\n=== Ne ==="
+        }
+      ],
+      "kg_rag": [
+        {
+          "title": "Easygoing Territory Defense by the Optimistic Lord",
+          "content": "Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City (Japanese: お気楽領主の楽しい領地防衛 ～生産系魔術で名もなき村を最強の城塞都市に～, Hepburn: Okiraku Ryōshu no Tanoshii Ryōchi Bōei: Seisan-kei Majutsu de Na mo Nakimura o Saikyō no Jōsai Toshi ni) is a Japanese light novel series written by Sou Akaike and illustrated by Kururi. It began serialization on the user-generated novel publishing website Shōsetsuka ni Narō in May 2020. It was later acquired by Overlap who began publishing it under their Overlap Novels imprint in September 2021. A manga adaptation illustrated by Maro Aoiro began serialization on Overlap's Comic Gardo manga service in August",
+          "url": "https://en.wikipedia.org/wiki/Easygoing_Territory_Defense_by_the_Optimistic_Lord",
+          "query_source": "Where was the director of The Nameless Knight born"
+        },
+        {
+          "title": "2022 in film",
+          "content": "2022 in film is an overview of events, including the highest-grossing films, award ceremonies, critics' lists of the best films of 2022, festivals, a list of country-specific lists of films released, and notable deaths. Universal Pictures and Paramount Pictures celebrated their 110th anniversary, Motion Picture Association celebrated their 100th anniversary, Aardman celebrated its 50th anniversary and Illumination celebrated its 15th anniversary.\n\n\n== Evaluation of the year ==\nIn his article highlighting the best movies of 2022, Richard Brody of The New Yorker said, \"This year, it's all the more important to offer a widely inclusive list, because a wide range of American filmmakers have caug",
+          "url": "https://en.wikipedia.org/wiki/2022_in_film",
+          "query_source": "Where was the director of The Nameless Knight born"
+        },
+        {
+          "title": "Jeff Goldblum",
+          "content": "Jeffrey Lynn Goldblum ( GOHLD-bloom; born October 22, 1952) is an American actor and musician. He has starred in some of the highest-grossing films of all time, such as Jurassic Park (1993) and Independence Day (1996), as well as their sequels. \nGoldblum made his acting film debut in Death Wish (1974) with early small roles in California Split (1974), Nashville (1975), and Annie Hall (1977). He gained wider attention for his roles in Invasion of the Body Snatchers (1978), The Big Chill (1983), and The Fly (1986). Since then, he has been best-known for his roles in several blockbuster franchises, such as Ian Malcolm in the Jurassic Park franchise, David Levinson in the Independence Day films,",
+          "url": "https://en.wikipedia.org/wiki/Jeff_Goldblum",
+          "query_source": "Where was the director of The Nameless Knight born"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "TR_002",
+    "question_text": "Where was the director of \"mustang (film)\" born?",
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "mustang (film)",
+      "DIRECTOR",
+      "deniz gamze erguven",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey"
+    ],
+    "answers": {
+      "no_retrieval": "Deniz Gamze Ergüven was born in Strasbourg, France.",
+      "vanilla_rag": "Deniz Gamze Ergüven was born in 1978 in Strasbourg, France.",
+      "vanilla_qe": "There is no information available.",
+      "kg_rag": "Deniz Gamze Ergüven, the director of \"Mustang (film)\", was born in Ankara, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [
+        {
+          "title": "List of Jewish actors",
+          "content": "This is a list of notable Jewish actors. Some of these may have had some Jewish ancestry, and are ethnically considered Jewish, but did not practice Judaism (e.g. Douglas Fairbanks).\n\n\n== Born in the 1990s–2000s ==\n\n\n== Born in the 1980s ==\n\n\n== Born in the 1970s ==\n\n\n== Born in the 1960s ==\n\n\n== Born in the 1950s ==\n\n\n== Born in the 1940s ==\n\n\n== Born in the 1930s ==\n\n\n== Born in the 1920s ==\n\n\n== Born in the 1910s ==\n\n\n== Born in the 1900s ==\n\n\n== Born in the 1890s ==\n\n\n== Born in the 1880s =="
+        },
+        {
+          "title": "William Gibson",
+          "content": "William Ford Gibson (born March 17, 1948) is a speculative fiction writer and essayist widely credited with pioneering the science fiction subgenre known as cyberpunk, a category from which he has repeatedly distanced himself. Beginning his writing career in the late 1970s, his early works were noir, near-future stories that explored the effects of technology, cybernetics, and computer networks on humans, a \"combination of lowlife and high tech\"—and helped to create an iconography for the Inform"
+        },
+        {
+          "title": "Auschwitz bombing debate",
+          "content": "The issue of why the Allies did not act on early reports of atrocities in the Auschwitz concentration camp by destroying it or its railways by air during World War II has been a subject of controversy since the late 1970s. Brought to public attention by a 1978 article from historian David Wyman, it has been described by Michael Berenbaum as \"a moral question emblematic of the Allied response to the plight of the Jews during the Holocaust\", and whether or not the Allies had the requisite knowledg"
+        }
+      ],
+      "kg_rag": [
+        {
+          "title": "Deniz Gamze Ergüven",
+          "content": "Deniz Gamze Ergüven (born  4 June 1978) is a Turkish-French film director best known for her debut feature film Mustang.\n\n\n== Early life and education ==\nErgüven was born in Ankara, Turkey but moved to France in the 1980s. She grew up and went to school in France. She attended La Fémis and graduated in 2008.\n\n\n== Career ==\nIn 2011 Ergüven was invited to attend the Cannes Film Festivals Atelier to help develop her project, The Kings. While there she met fellow director Alice Winocour who was there to develop her first feature film Augustine. After Ergüven was unable to find financing for her film, Winocour suggested she write a more intimate piece leading the two to begin work on the script f",
+          "url": "https://en.wikipedia.org/wiki/Deniz_Gamze_Erg%C3%BCven",
+          "query_source": "Where was the director of mustang film born"
+        },
+        {
+          "title": "Alice Winocour",
+          "content": "Alice Winocour (born 13 January 1976) is a French screenwriter and director.\n\n\n== Life and career ==\nWinocour was born in Paris, France, to a Jewish family. After studying screenwriting at La Fémis, Winocour made three short films and wrote the script for Vladimir Perisic's film Ordinary People (released in 2009).\nWinocour's first feature film, Augustine, based on the relationship between Professor Charcot and his patient Augustine, was presented at the Cannes Film Festival in 2012 as part of the Critics' Week. Her second directorial film Maryland was selected to be screened in the Un Certain Regard section at the 2015 Cannes Film Festival.\nWinocour also co-wrote the film Mustang with Deniz",
+          "url": "https://en.wikipedia.org/wiki/Alice_Winocour",
+          "query_source": "Where was the director of mustang film born"
+        },
+        {
+          "title": "Black Beauty (2020 film)",
+          "content": "Black Beauty is a 2020 adventure drama family film written, edited and directed by Ashley Avis and based on the 1877 novel of the same name by Anna Sewell. A co-production between the United States, the United Kingdom, South Africa, France and Germany, it stars Kate Winslet, Mackenzie Foy, Claire Forlani, Iain Glen and Fern Deacon and is the sixth cinematic adaptation. In the film, Black Beauty is portrayed as a mare instead of a stallion and is brought to Birtwick Park where she forges a bond with a spirited teenager that carries through different chapters, challenges and adventures. Originally scheduled for a theatrical release, it was unable to be released in cinemas due to the negative e",
+          "url": "https://en.wikipedia.org/wiki/Black_Beauty_(2020_film)",
+          "query_source": "Where was the director of mustang film born"
+        },
+        {
+          "title": "Knowledge Graph (Google)",
+          "content": "The Knowledge Graph is a knowledge base from which Google serves relevant information in an infobox beside its search results. This allows the user to see the answer in a glance, as an instant answer. The data is generated automatically from a variety of sources, covering places, people, businesses, and more.\nThe information covered by Google's Knowledge Graph grew quickly after launch, tripling its data size within seven months (covering 570 million entities and 18 billion facts). By mid-2016, Google reported that it held 70 billion facts and answered \"roughly one-third\" of the 100 billion monthly searches they handled. By May 2020, this had grown to 500 billion facts on 5 billion entities.",
+          "url": "https://en.wikipedia.org/wiki/Knowledge_Graph_(Google)",
+          "query_source": "According To The Knowledge Graph"
+        },
+        {
+          "title": "Knowledge graph embedding",
+          "content": "In representation learning, knowledge graph embedding (KGE), also called knowledge representation learning (KRL), or multi-relation learning, is a machine learning task of learning a low-dimensional representation of a knowledge graph's entities and relations while preserving their semantic meaning.  Leveraging their embedded representation, knowledge graphs (KGs) can be used for various applications such as link prediction, triple classification, entity recognition, clustering, and relation extraction.\n\n\n== Definition ==\nA knowledge graph \n  \n    \n      \n        \n          \n            G\n          \n        \n        =\n        {\n        E\n        ,\n        R\n        ,\n        F\n        }",
+          "url": "https://en.wikipedia.org/wiki/Knowledge_graph_embedding",
+          "query_source": "According To The Knowledge Graph"
+        },
+        {
+          "title": "Personal knowledge base",
+          "content": "A personal knowledge base (PKB) is an electronic tool used by an individual to express, capture, and later retrieve personal knowledge. It differs from a traditional database in that it contains subjective material particular to the owner, that others may not agree with nor care about. Importantly, a PKB consists primarily of knowledge, rather than information; in other words, it is not a collection of documents or other sources an individual has encountered, but rather an expression of the distilled knowledge the owner has extracted from those sources or from elsewhere.\nThe term personal knowledge base was mentioned as early as the 1980s, but the term came to prominence in the 2000s when it",
+          "url": "https://en.wikipedia.org/wiki/Personal_knowledge_base",
+          "query_source": "According To The Knowledge Graph"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "TR_003",
+    "question_text": "Where was the director of \"For Love and Honor\" born?",
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "For Love and Honor",
+      "DIRECTOR",
+      "Ömer Vargı",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "answers": {
+      "no_retrieval": "I couldn't find any information about the director of \"For Love and Honor\".",
+      "vanilla_rag": "I cannot answer the question as the director of \"For Love and Honor\" is not mentioned in the provided document content.",
+      "vanilla_qe": "There is no information available.",
+      "kg_rag": "Saad Khan is an Indian film director, but there is no direct information linking him to the film \"For Love and Honor\"."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [
+        {
+          "title": "Keenen Ivory Wayans",
+          "content": "Keenen Ivory Desuma Wayans ( WAY-ənz; born June 8, 1958) is an American actor, comedian, and filmmaker. He is a member of the Wayans family of entertainers. Wayans first came to prominence as the host and creator of the 1990–1994 Fox sketch comedy series In Living Color. He has produced, directed or written several films, starting with Hollywood Shuffle, which he cowrote, in 1987. Most of his films have included him and one or more of his siblings in the cast.\nOne of these films, Scary Movie (20"
+        },
+        {
+          "title": "Andy Garcia",
+          "content": "Andrés Arturo García Menéndez (born April 12, 1956) is an American actor, director, producer, and musician. He first rose to prominence acting in Brian De Palma's The Untouchables (1987) alongside Kevin Costner, Sean Connery, and Robert De Niro. He continued to act in films such as Stand and Deliver (1988), and Internal Affairs (1990). He then co-starred in Francis Ford Coppola's The Godfather Part III (1990) as Vincent Mancini, earning nomination for the Academy Award for Best Supporting Actor"
+        },
+        {
+          "title": "Rachel Ticotin",
+          "content": "Rachel Ticotin Strauss (born November 1, 1958) is an American actress. She has appeared in films such as Fort Apache, The Bronx, Total Recall, Falling Down, and Con Air. She has appeared in the NBC legal drama Law & Order: LA as Lieutenant Arleen Gonzales, and guest starred in the \"Warriors\" episode of Blue Bloods in 2013 (Season 3, Episode 15), appearing as \"Carmen Castillo\". She also played Dr. Marie Cerone on the ABC medical drama television series Grey's Anatomy in 2018.\n\n\n== Early life ==\nT"
+        },
+        {
+          "title": "Mark Metcalf",
+          "content": "Mark Metcalf (born March 11, 1946) is an American television and film actor often playing the role of an antagonistic and aggrieved authority figure.\nHe is best known for his role as sadistic ROTC officer Douglas C. Neidermeyer in the 1978 American comedy film Animal House, a character he later emulated in the 1984 music videos for the songs \"We're Not Gonna Take It\" and \"I Wanna Rock\" by the heavy metal band Twisted Sister.\nHe is also known for playing the role of The Maestro on two episodes of"
+        },
+        {
+          "title": "Yaphet Kotto",
+          "content": "Yaphet Frederick Kotto (November 15, 1939 – March 15, 2021) was an American actor for film and television. His films include the neo-noir action thriller Across 110th Street (1972), the James Bond film Live and Let Die (1973), the science-fiction horror film Alien (1979), the science-fiction action film The Running Man (1987), and the action comedy Midnight Run (1988). He also starred in the NBC television series Homicide: Life on the Street (1993–1999) as Lieutenant Al Giardello.\n\n\n== Early lif"
+        },
+        {
+          "title": "Kelly Preston",
+          "content": "Kelly Kamalelehua Smith (October 13, 1962 – July 12, 2020), known professionally as Kelly Preston, was an American actress. She appeared in more than 60 television and film productions, including Mischief (1985), Twins (1988), Jerry Maguire (1996), and For Love of the Game (1999). She married John Travolta in 1991, and collaborated with him on the comedy film The Experts (1989) and the biographical film Gotti (2018). She also starred in the films SpaceCamp (1986), The Cat in the Hat (2003), What"
+        }
+      ],
+      "vanilla_qe": [
+        {
+          "title": "Keenen Ivory Wayans",
+          "content": "Keenen Ivory Desuma Wayans ( WAY-ənz; born June 8, 1958) is an American actor, comedian, and filmmaker. He is a member of the Wayans family of entertainers. Wayans first came to prominence as the host and creator of the 1990–1994 Fox sketch comedy series In Living Color. He has produced, directed or written several films, starting with Hollywood Shuffle, which he cowrote, in 1987. Most of his films have included him and one or more of his siblings in the cast.\nOne of these films, Scary Movie (20"
+        },
+        {
+          "title": "Andy Garcia",
+          "content": "Andrés Arturo García Menéndez (born April 12, 1956) is an American actor, director, producer, and musician. He first rose to prominence acting in Brian De Palma's The Untouchables (1987) alongside Kevin Costner, Sean Connery, and Robert De Niro. He continued to act in films such as Stand and Deliver (1988), and Internal Affairs (1990). He then co-starred in Francis Ford Coppola's The Godfather Part III (1990) as Vincent Mancini, earning nomination for the Academy Award for Best Supporting Actor"
+        },
+        {
+          "title": "Rachel Ticotin",
+          "content": "Rachel Ticotin Strauss (born November 1, 1958) is an American actress. She has appeared in films such as Fort Apache, The Bronx, Total Recall, Falling Down, and Con Air. She has appeared in the NBC legal drama Law & Order: LA as Lieutenant Arleen Gonzales, and guest starred in the \"Warriors\" episode of Blue Bloods in 2013 (Season 3, Episode 15), appearing as \"Carmen Castillo\". She also played Dr. Marie Cerone on the ABC medical drama television series Grey's Anatomy in 2018.\n\n\n== Early life ==\nT"
+        }
+      ],
+      "kg_rag": [
+        {
+          "title": "Taylor Hackford",
+          "content": "Taylor Edwin Hackford (born December 31, 1944) is an American film director and former president of the Directors Guild of America. He won the Academy Award for Best Live Action Short Film for Teenage Father (1979). Hackford went on to direct a number of highly regarded feature films, including An Officer and a Gentleman (1982), The Devil's Advocate (1997) and Ray (2004), the latter of which he was nominated for an Academy Award for Best Director and Academy Award for Best Picture.\n\n\n== Early life ==\nHackford was born on December 31, 1944, in Santa Barbara, California. His mother is Mary E. (née Taylor), a waitress, and his father is Joseph Hackford. He graduated from the University of South",
+          "url": "https://en.wikipedia.org/wiki/Taylor_Hackford",
+          "query_source": "Where was the director of For Love and Honor born"
+        },
+        {
+          "title": "Andy Garcia",
+          "content": "Andrés Arturo García Menéndez (born April 12, 1956) is an American actor, director, producer, and musician. He first rose to prominence acting in Brian De Palma's The Untouchables (1987) alongside Kevin Costner, Sean Connery, and Robert De Niro. He continued to act in films such as Stand and Deliver (1988), and Internal Affairs (1990). He then co-starred in Francis Ford Coppola's The Godfather Part III (1990) as Vincent Mancini, earning nomination for the Academy Award for Best Supporting Actor and becoming the first Cuban to be nominated for an acting Oscar.\nHe continued to act in Hollywood films such as Stephen Frears' Hero (1992), the romantic drama When a Man Loves a Woman (1994), and th",
+          "url": "https://en.wikipedia.org/wiki/Andy_Garcia",
+          "query_source": "Where was the director of For Love and Honor born"
+        },
+        {
+          "title": "Abdullahpur Ka Devdas",
+          "content": "Abdullahpur Ka Devdas is a 2024 Pakistani Urdu-language romantic drama television series produced by Shailja Kejriwal for Zee Zindagi. Directed by Anjum Shahzad and written by Shahid Dogar, the series is a modern adaptation of Sarat Chandra Chattopadhyay’s 1917 Bengali novel Devdas. It premiered on February 26, 2024, on Zee Zindagi and is available for streaming on Zindagi’s YouTube channel. It stars Bilal Abbas Khan, Sarah Khan, and Raza Talish in the lead roles and has been noted for its poetic narrative, cinematography, and performances, though it has received mixed reviews for its pacing and storytelling.\n\n\n== Plot ==\nSet in the fictional small town of Abdullahpur and parts of Lahore, th",
+          "url": "https://en.wikipedia.org/wiki/Abdullahpur_Ka_Devdas",
+          "query_source": "saad khan is an indian film director"
+        },
+        {
+          "title": "Pataudi family",
+          "content": "The Pataudi family is an Indian show business family, primarily working in India's Hindi film industry, commonly known as 'Bollywood'.\nThey are also noted as the family of erstwhile nawabs of the former princely state of Pataudi, from which they take their name. Faiz Talab Khan, an ethnic Pashtun from the Barech tribe of Kandahar, Afghanistan, became the first Nawab of Pataudi State in 1804, after he aided the British East India Company in their battle against the Maratha Empire, during the Second Anglo-Maratha War.\nHis descendants subsequently ruled the state until 1949, when it was merged with East Punjab and acceded to Dominion of India. The Pataudis retained their titles and were granted",
+          "url": "https://en.wikipedia.org/wiki/Pataudi_family",
+          "query_source": "saad khan is an indian film director"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "TR_004",
+    "question_text": "Where was the director of \"süt kardeşler\" born?",
+    "gold_answer": "history of trabzon",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "süt kardeşler",
+      "DIRECTOR",
+      "Ertem Egilmez",
+      "PLACE_OF_BIRTH",
+      "history of trabzon"
+    ],
+    "answers": {
+      "no_retrieval": "I couldn't find any information about the director of \"süt kardeşler\".",
+      "vanilla_rag": "I don't have the information about the director of \"süt kardeşler\" or the passage about it.",
+      "vanilla_qe": "I don't have the information about the director of \"süt kardeşler\" or the passage about it.",
+      "kg_rag": "Ertem Eğilmez was born in Trabzon, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": [
+        {
+          "title": "List of 21st-century films considered the worst",
+          "content": "The films listed below have been ranked by a number of critics in varying media sources as being among the worst films made in the 21st century. Examples of such sources include Metacritic, Roger Ebert's list of most-hated films, Leonard Maltin's Movie Guide, Rotten Tomatoes, pop culture writer Nathan Rabin's My World of Flops, the Stinkers Bad Movie Awards, the cult TV series Mystery Science Theater 3000 (alongside spinoffs Cinematic Titanic, The Film Crew and RiffTrax), and the Golden Raspberry Awards (aka the \"Razzies\"). Films on these lists are generally feature-length films that are commercial/artistic in nature (intended to turn a profit, express personal statements or both), professio",
+          "url": "https://en.wikipedia.org/wiki/List_of_21st-century_films_considered_the_worst",
+          "query_source": "he is known for directing some of the most popular films in turkish film history"
+        },
+        {
+          "title": "History of aviation",
+          "content": "The history of aviation spans over two millennia, from the earliest innovations like kites and attempts at tower jumping to supersonic and hypersonic flight in powered, heavier-than-air jet aircraft. Kite flying in China, dating back several hundred years BC, is considered the earliest example of man-made flight. In the 15th-century Leonardo da Vinci designed several flying machines incorporating aeronautical concepts, but they were unworkable due to the limitations of contemporary knowledge.\nIn the late 18th century, the Montgolfier brothers invented the hot-air balloon which soon led to manned flights. At almost the same time, the discovery of hydrogen gas led to the invention of the hydro",
+          "url": "https://en.wikipedia.org/wiki/History_of_aviation",
+          "query_source": "he is known for directing some of the most popular films in turkish film history"
+        },
+        {
+          "title": "List of 20th-century films considered the worst",
+          "content": "The films listed below have been ranked by a number of critics in varying media sources as being among the worst films ever made in the 20th century. Examples of such sources include Metacritic, Roger Ebert's list of most-hated films, The Golden Turkey Awards, Leonard Maltin's Movie Guide, Rotten Tomatoes, pop culture writer Nathan Rabin's My World of Flops, the Stinkers Bad Movie Awards, the cult TV series Mystery Science Theater 3000 (alongside spinoffs Cinematic Titanic, The Film Crew and RiffTrax), and the Golden Raspberry Awards (aka the \"Razzies\"). Films on these lists are generally feature-length films that are commercial/artistic in nature (intended to turn a profit, express personal",
+          "url": "https://en.wikipedia.org/wiki/List_of_20th-century_films_considered_the_worst",
+          "query_source": "he is known for directing some of the most popular films in turkish film history"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "TR_005",
+    "question_text": "Where was the director of \"SeMazen\" born?",
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "SeMazen",
+      "DIRECTOR",
+      "Genco Gulan",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "answers": {
+      "no_retrieval": "I couldn't find any information about a movie called \"SeMazen\".",
+      "vanilla_rag": "There is no answer to this question as the director of \"SeMazen\" is not mentioned in the passage.",
+      "vanilla_qe": "There is no answer to this question as the director of \"SeMazen\" is not mentioned in the passage.",
+      "kg_rag": "Eva de Vitray-Meyerovitch was born in Boulogne-Billancourt."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [
+        {
+          "title": "Eva de Vitray-Meyerovitch",
+          "content": "Eva de Vitray-Meyerovitch (5 November 1909 – 24 July 1999) was a French scholar of Islam, a researcher at the Centre national de la recherche scientifique (CNRS), and a translator and writer, who published a total of forty books and numerous articles. She was a disciple of the Sufi master Hamza al Qadiri al Boutchichi.\n\n\n== Life ==\nEva Lamacque de Vitray was born on November 5, 1909, in Boulogne-Billancourt, an affluent Parisian suburb. From a privileged social background, she was educated in Ca"
+        },
+        {
+          "title": "Sufism",
+          "content": "Sufism (Arabic: التصوف‎, romanized: al-Taṣawwuf) is a mystic body of religious practice found within Islam that is characterized by a focus on Islamic purification, spirituality, ritualism, and asceticism.\nPractitioners of Sufism are referred to as \"Sufis\" (from صُوفِيّ, ṣūfīy), and historically typically belonged to \"orders\" known as tariqa (pl. turuq)—congregations formed around a grand wali (saint) who would be the last in a chain of successive teachers linking back to Muhammad, with the goal"
+        }
+      ],
+      "vanilla_qe": [
+        {
+          "title": "Eva de Vitray-Meyerovitch",
+          "content": "Eva de Vitray-Meyerovitch (5 November 1909 – 24 July 1999) was a French scholar of Islam, a researcher at the Centre national de la recherche scientifique (CNRS), and a translator and writer, who published a total of forty books and numerous articles. She was a disciple of the Sufi master Hamza al Qadiri al Boutchichi.\n\n\n== Life ==\nEva Lamacque de Vitray was born on November 5, 1909, in Boulogne-Billancourt, an affluent Parisian suburb. From a privileged social background, she was educated in Ca"
+        },
+        {
+          "title": "Sufism",
+          "content": "Sufism (Arabic: التصوف‎, romanized: al-Taṣawwuf) is a mystic body of religious practice found within Islam that is characterized by a focus on Islamic purification, spirituality, ritualism, and asceticism.\nPractitioners of Sufism are referred to as \"Sufis\" (from صُوفِيّ, ṣūfīy), and historically typically belonged to \"orders\" known as tariqa (pl. turuq)—congregations formed around a grand wali (saint) who would be the last in a chain of successive teachers linking back to Muhammad, with the goal"
+        }
+      ],
+      "kg_rag": [
+        {
+          "title": "Car",
+          "content": "A car, or an automobile, is a motor vehicle with wheels. Most definitions of cars state that they run primarily on roads, seat 1-8 people, have four wheels, and mainly transport people rather than cargo. There are over 1.6 billion cars in use worldwide as of  2025.\nThe French inventor Nicolas-Joseph Cugnot built the first steam-powered road vehicle in 1769, while the Swiss inventor François Isaac de Rivaz designed and constructed the first internal combustion-powered automobile in 1808. The modern car—a practical, marketable automobile for everyday use—was invented in 1886, when the German inventor Carl Benz patented his Benz Patent-Motorwagen. Commercial cars became widely available during",
+          "url": "https://en.wikipedia.org/wiki/Car",
+          "query_source": "Where was the director of SeMazen born"
+        },
+        {
+          "title": "International Booker Prize",
+          "content": "The International Booker Prize (formerly known as the Man Booker International Prize) is an international literary award hosted in the United Kingdom. The introduction of the International Prize to complement the Man Booker Prize, as the Booker Prize was then known, was announced in June 2004. Sponsored by the Man Group, from 2005 until 2015 the award was given every two years to a living author of any nationality for a body of work published in English or generally available in English translation. It rewarded one author's \"continued creativity, development and overall contribution to fiction on the world stage\", and was a recognition of the writer's body of work rather than any one title.",
+          "url": "https://en.wikipedia.org/wiki/International_Booker_Prize",
+          "query_source": "Where was the director of SeMazen born"
+        },
+        {
+          "title": "Sufism",
+          "content": "Sufism (Arabic: التصوف‎, romanized: al-Taṣawwuf) is a mystic body of religious practice found within Islam that is characterized by a focus on Islamic purification, spirituality, ritualism, and asceticism.\nPractitioners of Sufism are referred to as \"Sufis\" (from صُوفِيّ, ṣūfīy), and historically typically belonged to \"orders\" known as tariqa (pl. turuq)—congregations formed around a grand wali (saint) who would be the last in a chain of successive teachers linking back to Muhammad, with the goal of undergoing tazkiyah (self-purification) and the hope of reaching the spiritual station of ihsan. The ultimate aim of Sufis is to seek the pleasure of God by endeavoring to return to their original",
+          "url": "https://en.wikipedia.org/wiki/Sufism",
+          "query_source": "Where was the director of SeMazen born"
+        },
+        {
+          "title": "Eva de Vitray-Meyerovitch",
+          "content": "Eva de Vitray-Meyerovitch (5 November 1909 – 24 July 1999) was a French scholar of Islam, a researcher at the Centre national de la recherche scientifique (CNRS), and a translator and writer, who published a total of forty books and numerous articles. She was a disciple of the Sufi master Hamza al Qadiri al Boutchichi.\n\n\n== Life ==\nEva Lamacque de Vitray was born on November 5, 1909, in Boulogne-Billancourt, an affluent Parisian suburb. From a privileged social background, she was educated in Catholic schools before studying for a law degree. She began a doctorate in philosophy on the subject of \"Symbolism in Plato.\"\nAt the age of 22, Eva married Lazare Meyerovitch, of Latvian Jewish origins",
+          "url": "https://en.wikipedia.org/wiki/Eva_de_Vitray-Meyerovitch",
+          "query_source": "the director of semazen"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "TR_006",
+    "question_text": "Where was kenan i̇mirzalıoğlu from \"For Love and Honor\" born?",
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "For Love and Honor",
+      "CAST_MEMBER",
+      "kenan i̇mirzalıoğlu",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey"
+    ],
+    "answers": {
+      "no_retrieval": "Turkey",
+      "vanilla_rag": "Istanbul, Turkey",
+      "vanilla_qe": "Istanbul, Turkey",
+      "kg_rag": "Kenan İmirzalıoğlu was born in Ankara, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": [
+        {
+          "title": "Block of Wikipedia in Turkey",
+          "content": "From 29 April 2017 to 15 January 2020, the online encyclopedia Wikipedia was blocked in Turkey. On 29 April 2017, Turkish authorities blocked online access to all its language editions throughout the country. The restrictions were imposed by Turkish Law No. 5651, due to the English version's article on state-sponsored terrorism (in the version of 29 April 2017), where Turkey was described as a sponsor country for the Islamic State and al-Qaeda. The Turkish Information and Communication Technologies Authority (ICTA) released a statement on its website that after technical analysis and legal consideration based on the Law Nr. 5651, measures have been taken for the website. Turkish courts viewe",
+          "url": "https://en.wikipedia.org/wiki/Block_of_Wikipedia_in_Turkey",
+          "query_source": "Ankara In The Provided Knowledge Graph"
+        },
+        {
+          "title": "Software testing",
+          "content": "Software testing is the act of checking whether software meets its intended objectives and satisfies expectations.\nSoftware testing can provide objective, independent information about the quality of software and the risk of its failure to a user or sponsor or any other stakeholder.\nSoftware testing can determine the correctness of software for specific scenarios but cannot determine correctness for all scenarios. It cannot find all bugs.\nBased on the criteria for measuring correctness from an oracle, software testing employs principles and mechanisms that might recognize a problem. Examples of oracles include specifications, contracts, comparable products, past versions of the same product,",
+          "url": "https://en.wikipedia.org/wiki/Software_testing",
+          "query_source": "Ankara In The Provided Knowledge Graph"
+        },
+        {
+          "title": "Thessaloniki",
+          "content": "Thessaloniki (; Greek: Θεσσαλονίκη [θesaloˈnici] ; also known by various spellings and names) is a city in northern Greece. The nation's second-largest, with slightly over one million inhabitants in its metropolitan area, it is the capital of the geographic region of Macedonia, the administrative region of Central Macedonia and the Decentralized Administration of Macedonia and Thrace. It is also known in Greek as i Symprotévousa, literally \"the co-capital\", a reference to its historical status as the \"co-reigning\" city (Symvasilévousa) of the Byzantine Empire alongside Constantinople.\nThessaloniki is located on the Thermaic Gulf, at the northwest corner of the Aegean Sea. It is bounded on th",
+          "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+          "query_source": "Ankara In The Provided Knowledge Graph"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "TR_007",
+    "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "the canal (1979 film)",
+      "CAST_MEMBER",
+      "Kamran Usluer",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "answers": {
+      "no_retrieval": "Istanbul, Turkey",
+      "vanilla_rag": "I couldn't find any information about the film \"the canal (1979 film)\" or its actor Kamran Usluer.",
+      "vanilla_qe": "I couldn't find any information about the film \"the canal (1979 film)\" or its actor Kamran Usluer.",
+      "kg_rag": "Kamran Usluer was born in Izmir, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": [
+        {
+          "title": "The Canal (1979 film)",
+          "content": "The Canal (Turkish: Kanal) is a 1979 Turkish drama film directed by Erden Kıral. It was entered into the 11th Moscow International Film Festival.\n\n\n== Cast ==\nTarik Akan as The lieutenant governor\nMeral Orhonsay as Zeynep, the physician\nKamran Usluer as Haþim Aga\nTuncel Kurtiz as Abuzer\nAli Demir\nMenderes Samancilar\n\n\n== References ==\n\n\n== External links ==\nThe Canal at IMDb",
+          "url": "https://en.wikipedia.org/wiki/The_Canal_(1979_film)",
+          "query_source": "Turkish Drama Film Directed By Erden Kıral"
+        },
+        {
+          "title": "The Blue Exile",
+          "content": "The Blue Exile (Turkish: Mavi Sürgün) is a 1993 Turkish drama film directed by Erden Kıral. The film was selected as the Turkish entry for the Best Foreign Language Film at the 66th Academy Awards, but was not accepted as a nominee.\nThe film is inspired by the autobiographical memoir, also titled Mavi Sürgün, of Cevat Şakir Kabaağaçlı, who wrote under the pen name Halikarnas Balıkçısı – the Fisherman of Halicarnassus.\n\n\n== Cast ==\nCan Togay as Cevat Şakir\nHanna Schygulla as The Actress\nÖzay Fecht\nTatiana Papamoschou\nAyse Romey as Hatice\n\n\n== See also ==\nList of submissions to the 66th Academy Awards for Best Foreign Language Film\nList of Turkish submissions for the Academy Award for Best For",
+          "url": "https://en.wikipedia.org/wiki/The_Blue_Exile",
+          "query_source": "Turkish Drama Film Directed By Erden Kıral"
+        },
+        {
+          "title": "On Fertile Lands",
+          "content": "On Fertile Lands (Turkish: Bereketli Topraklar Üzerinde) is a 1980 Turkish drama film, directed by Erden Kıral based on a story by Orhan Kemal, featuring Tuncel Kurtiz as the head of a group of day labourers looking for work in the Çukurova region. \"The story,\" according to Rekin Teksoy, \"became a legend about village farm labourers, their merciless conditions, their hopes, their pain and their goldenhearts.\" It won Grand Jury Prize for Best Screenplay at the Strasbourg Film Festival and two Golden Oranges at the 18th Antalya Golden Orange Film Festival.\n\n\n== Awards ==\nStrasbourg Film Festival\nGrand Jury Prize for Best Screenplay: Erden Kıral (won)\n18th Antalya Golden Orange Film Festival\nGo",
+          "url": "https://en.wikipedia.org/wiki/On_Fertile_Lands",
+          "query_source": "Turkish Drama Film Directed By Erden Kıral"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "TR_008",
+    "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+    "gold_answer": "History of Akhisar",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "Beş Vakit",
+      "CAST_MEMBER",
+      "taner birsel",
+      "PLACE_OF_BIRTH",
+      "History of Akhisar"
+    ],
+    "answers": {
+      "no_retrieval": "Turkey",
+      "vanilla_rag": "Istanbul, Turkey",
+      "vanilla_qe": "Istanbul, Turkey",
+      "kg_rag": "Taner Birsel was born in Akhisar, Turkey."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": [
+        {
+          "title": "Akhisar",
+          "content": "Akhisar (Ottoman Turkish: آق حصار) is a municipality and district of Manisa Province, Turkey. Its area is 1,645 km2, and its population is 177,419 (2022). It is the site of the ancient city of Thyatira.\nWith archaeological findings that are proving settlements going back to 3000 BC, Akhisar has been a busy trade center with its strategic location at the intersection of important roads during ancient and medieval ages.  Akhisar also hosted one of the Seven churches of Asia: Thyatira, which is mentioned in the Bible. Akhisar maintained its importance as a regional trade center during the Ottoman period.\nToday's Akhisar is still the trade and business center in its region. Akhisar's name is int",
+          "url": "https://en.wikipedia.org/wiki/Akhisar",
+          "query_source": "akhisar is a county district and town center in manisa province in the aegean region of western turkey"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "TR_009",
+    "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+    "gold_answer": "history of almelo",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "reasoning_path": [
+      "istanbul tales",
+      "CAST_MEMBER",
+      "Azra Akın",
+      "PLACE_OF_BIRTH",
+      "history of almelo"
+    ],
+    "answers": {
+      "no_retrieval": "Istanbul, Turkey",
+      "vanilla_rag": "Istanbul, Turkey",
+      "vanilla_qe": "Istanbul, Turkey",
+      "kg_rag": "Azra Akın was born in Almelo, Netherlands."
+    },
+    "passages": {
+      "no_retrieval": [],
+      "vanilla_rag": [],
+      "vanilla_qe": [],
+      "kg_rag": [
+        {
+          "title": "Azra Akın",
+          "content": "Azra Akın (born 8 December 1981) is a Turkish-Dutch actress, dancer, model and beauty queen who was crowned Miss World 2002 in London on 7 December 2002. She is best known for series Yağmur Zamanı.\n\n\n== Biography ==\nAkın was born in Almelo, Netherlands, to Turkish parents. Her father (Nazım) and mother (Ayda) emigrated from Turkey to the Netherlands in 1971. Akın has one younger sister named Doruk. In 1998, at the age of 17, Akın was selected Elite Model of Turkey; she then participated in the Europe Elite Model competition in Nice, France, where she reached the final 15. She continued modelling in Germany for the German catalogue Otto.\nIn 2002, Azra won Star TV's Miss Turkey. Thus, she repr",
+          "url": "https://en.wikipedia.org/wiki/Azra_Ak%C4%B1n",
+          "query_source": "azra akın"
+        },
+        {
+          "title": "Azra (name)",
+          "content": "Azra is a female given name. In Turkish, Azra means untouched. The female name Azra comes from the Arabic language, from the word \"ʿazrā\" which means \"virgin\" or \"pure\". \nNotable people with the name include:\n\n\n== People ==\nAzra Aftab (born 1958), Pakistani actress\nAzra Akın (born 1981), Dutch-Turkish beauty pageant titleholder\nAzra Akıncı (born 2003), Turkish rhythmic gymnast\nAzra Aksamija, Bosnian-Austrian artist\nAzra Ali, Bangladeshi politician\nAzra Avdic (born 1998), Peruvian swimmer\nAzra Bašić (born 1959), Bosnian camp guard and war criminal\nAzra Bihorac (born 1965), Bosnian-American nephrologist and medical AI researcher\nAzra Dewan (born 2003), South African rhythmic gymnast\nAzra Dulim",
+          "url": "https://en.wikipedia.org/wiki/Azra_(name)",
+          "query_source": "azra akın"
+        },
+        {
+          "title": "Agbani Darego",
+          "content": "Chief Ibiagbanidokibubo Asenite 'Agbani' Darego, MFR (born 22 December 1982) is a Nigerian model and beauty queen who was crowned Miss World 2001. She was the first black African, the fourth African overall, and the third one to win the title outright (i.e. without benefitting from resignations of higher-ranked contestants, and without dethronements).\n\n\n== Early life ==\nAbonnema-native, Darego was born in Lagos to a family as the sixth of eight children. At age two, her family relocated to Port Harcourt where she was raised in D-Line. Darego attended Bereton Montessori Nursery and Primary School, and at ten was sent to boarding school in a bid to shield her from her mother who battled breast",
+          "url": "https://en.wikipedia.org/wiki/Agbani_Darego",
+          "query_source": "azra akın"
+        }
+      ]
+    }
+  }
+]

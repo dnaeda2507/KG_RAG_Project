@@ -1,0 +1,92 @@
+{
+  "required_relation_usage": {
+    "country": 14132,
+    "place_of_birth": 5811,
+    "headquarters_location": 708,
+    "member_of_sports_team": 4192,
+    "director": 71,
+    "educated_at": 781
+  },
+  "top_relation_types": [
+    {
+      "relation_type": "COUNTRY",
+      "frequency": 14138
+    },
+    {
+      "relation_type": "MEMBER_OF_SPORTS_TEAM",
+      "frequency": 11404
+    },
+    {
+      "relation_type": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "frequency": 8665
+    },
+    {
+      "relation_type": "COUNTRY_OF_CITIZENSHIP",
+      "frequency": 6266
+    },
+    {
+      "relation_type": "PLACE_OF_BIRTH",
+      "frequency": 5888
+    },
+    {
+      "relation_type": "INSTANCE_OF",
+      "frequency": 4291
+    },
+    {
+      "relation_type": "PLACE_OF_DEATH",
+      "frequency": 1814
+    },
+    {
+      "relation_type": "ETHNIC_GROUP",
+      "frequency": 1225
+    },
+    {
+      "relation_type": "LANGUAGES_SPOKEN_WRITTEN_OR_SIGNED",
+      "frequency": 984
+    },
+    {
+      "relation_type": "EDUCATED_AT",
+      "frequency": 850
+    },
+    {
+      "relation_type": "COUNTRY_OF_ORIGIN",
+      "frequency": 765
+    },
+    {
+      "relation_type": "HEADQUARTERS_LOCATION",
+      "frequency": 711
+    },
+    {
+      "relation_type": "LANGUAGE_OF_WORK_OR_NAME",
+      "frequency": 565
+    },
+    {
+      "relation_type": "TWINNED_ADMINISTRATIVE_BODY",
+      "frequency": 515
+    },
+    {
+      "relation_type": "ORIGINAL_LANGUAGE_OF_FILM_OR_TV_SHOW",
+      "frequency": 513
+    },
+    {
+      "relation_type": "MEMBER_OF_POLITICAL_PARTY",
+      "frequency": 459
+    },
+    {
+      "relation_type": "LOCATION",
+      "frequency": 428
+    },
+    {
+      "relation_type": "NARRATIVE_LOCATION",
+      "frequency": 359
+    },
+    {
+      "relation_type": "PLACE_OF_BURIAL",
+      "frequency": 320
+    },
+    {
+      "relation_type": "HIGHWAY_SYSTEM",
+      "frequency": 272
+    }
+  ]
+}

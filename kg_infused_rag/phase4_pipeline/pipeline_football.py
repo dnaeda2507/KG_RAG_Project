@@ -1,20 +1,3 @@
-"""
-Pipeline Football - KG-Infused RAG Football Domain
-===================================================
-Football (futbol) QA dataseti üzerinde pipeline'ı çalıştırır.
-Tüm 4 yöntemi karşılaştırmalı test eder:
-  1. no_retrieval   (NoR)
-  2. vanilla_rag
-  3. vanilla_qe
-  4. kg_rag         (Ana yöntem)
-
-Kullanım:
-    python pipeline_football.py
-    python pipeline_football.py --method kg_rag
-    python pipeline_football.py --method all --max_q 100
-    python pipeline_football.py --query "Galatasaray'ın teknik direktörünün doğum yeri neresidir?"
-"""
-
 import os
 import sys
 import argparse
@@ -24,11 +7,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 FOOTBALL_DATASET = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
-    "..", "..", "outputs", "phase3_football", "qa_dataset.json"
+    "..", "..", "outputs", "phase3_question_generation", "football", "qa_dataset.json"
 )
 FOOTBALL_OUTPUT = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
-    "..", "..", "outputs", "phase4_football"
+    "..", "..", "outputs", "phase4_kg_infused_rag", "football"
 )
 
 
@@ -40,8 +23,8 @@ if __name__ == "__main__":
                         choices=["no_retrieval", "vanilla_rag",
                                  "vanilla_qe", "kg_rag", "all"],
                         help="Kullanılacak yöntem (varsayılan: all)")
-    parser.add_argument("--max_q",  type=int, default=50,
-                        help="Dataset modunda max soru sayısı (varsayılan: 50)")
+    parser.add_argument("--max_q",  type=int, default=54,
+                        help="Dataset modunda max soru sayısı (varsayılan: 54)")
     parser.add_argument("--output", type=str, default=FOOTBALL_OUTPUT,
                         help="Çıktı klasörü")
     args = parser.parse_args()

@@ -1,0 +1,10 @@
+{
+  "domain_counts": {
+    "sports": 4192,
+    "cinema": 759,
+    "business": 708,
+    "academia": 781,
+    "music": 445
+  },
+  "most_dense_domain": "sports"
+}

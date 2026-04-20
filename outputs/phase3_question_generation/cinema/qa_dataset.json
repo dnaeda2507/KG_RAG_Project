@@ -1,0 +1,976 @@
+[
+  {
+    "question_id": "TR_001",
+    "question_text": "Where was the director of \"The Nameless Knight\" born?",
+    "reasoning_path": [
+      "The Nameless Knight",
+      "DIRECTOR",
+      "halit refiğ",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_002",
+    "question_text": "Where was the director of \"mustang (film)\" born?",
+    "reasoning_path": [
+      "mustang (film)",
+      "DIRECTOR",
+      "deniz gamze erguven",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey"
+    ],
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_003",
+    "question_text": "Where was the director of \"For Love and Honor\" born?",
+    "reasoning_path": [
+      "For Love and Honor",
+      "DIRECTOR",
+      "Ömer Vargı",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_004",
+    "question_text": "Where was the director of \"süt kardeşler\" born?",
+    "reasoning_path": [
+      "süt kardeşler",
+      "DIRECTOR",
+      "Ertem Egilmez",
+      "PLACE_OF_BIRTH",
+      "history of trabzon"
+    ],
+    "gold_answer": "history of trabzon",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_005",
+    "question_text": "Where was the director of \"SeMazen\" born?",
+    "reasoning_path": [
+      "SeMazen",
+      "DIRECTOR",
+      "Genco Gulan",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_006",
+    "question_text": "Where was kenan i̇mirzalıoğlu from \"For Love and Honor\" born?",
+    "reasoning_path": [
+      "For Love and Honor",
+      "CAST_MEMBER",
+      "kenan i̇mirzalıoğlu",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey"
+    ],
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_007",
+    "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+    "reasoning_path": [
+      "the canal (1979 film)",
+      "CAST_MEMBER",
+      "Kamran Usluer",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey"
+    ],
+    "gold_answer": "ismir, turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_008",
+    "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+    "reasoning_path": [
+      "Beş Vakit",
+      "CAST_MEMBER",
+      "taner birsel",
+      "PLACE_OF_BIRTH",
+      "History of Akhisar"
+    ],
+    "gold_answer": "History of Akhisar",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_009",
+    "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+    "reasoning_path": [
+      "istanbul tales",
+      "CAST_MEMBER",
+      "Azra Akın",
+      "PLACE_OF_BIRTH",
+      "history of almelo"
+    ],
+    "gold_answer": "history of almelo",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_010",
+    "question_text": "Where was kartal tibet from \"Ask Firtinasi\" born?",
+    "reasoning_path": [
+      "Ask Firtinasi",
+      "CAST_MEMBER",
+      "kartal tibet",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey"
+    ],
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_011",
+    "question_text": "Where was Adile Nasit from \"namuslu\" born?",
+    "reasoning_path": [
+      "namuslu",
+      "CAST_MEMBER",
+      "Adile Nasit",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH",
+    "verified": true
+  },
+  {
+    "question_id": "TR_012",
+    "question_text": "Which award was won by Zeki Okten, the director of \"Çöpçüler krali\"?",
+    "reasoning_path": [
+      "Çöpçüler krali",
+      "DIRECTOR",
+      "Zeki Okten",
+      "AWARD_RECEIVED",
+      "Sutherland Award"
+    ],
+    "gold_answer": "Sutherland Award",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_013",
+    "question_text": "Which country is çetin tekindor from \"istanbul tales\" a citizen of?",
+    "reasoning_path": [
+      "istanbul tales",
+      "CAST_MEMBER",
+      "çetin tekindor",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->COUNTRY_OF_CITIZENSHIP",
+    "verified": true
+  },
+  {
+    "question_id": "TR_014",
+    "question_text": "Which country is Selma Ergeç from \"Beş Vakit\" a citizen of?",
+    "reasoning_path": [
+      "Beş Vakit",
+      "CAST_MEMBER",
+      "Selma Ergeç",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->COUNTRY_OF_CITIZENSHIP",
+    "verified": true
+  },
+  {
+    "question_id": "TR_015",
+    "question_text": "Which country is aynur dogan from \"lovelorn (film)\" a citizen of?",
+    "reasoning_path": [
+      "lovelorn (film)",
+      "CAST_MEMBER",
+      "aynur dogan",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->COUNTRY_OF_CITIZENSHIP",
+    "verified": true
+  },
+  {
+    "question_id": "TR_016",
+    "question_text": "Which country is reb brown from \"yor, the hunter from the future\" a citizen of?",
+    "reasoning_path": [
+      "yor, the hunter from the future",
+      "CAST_MEMBER",
+      "reb brown",
+      "COUNTRY_OF_CITIZENSHIP",
+      "united stated"
+    ],
+    "gold_answer": "united stated",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->COUNTRY_OF_CITIZENSHIP",
+    "verified": true
+  },
+  {
+    "question_id": "TR_017",
+    "question_text": "Which country is Serif Sezer from \"the lamb (2014 film)\" a citizen of?",
+    "reasoning_path": [
+      "the lamb (2014 film)",
+      "CAST_MEMBER",
+      "Serif Sezer",
+      "COUNTRY_OF_CITIZENSHIP",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->COUNTRY_OF_CITIZENSHIP",
+    "verified": true
+  },
+  {
+    "question_id": "TR_018",
+    "question_text": "Which country is Gulliver (band) from \"greatest ears in town: the arif mardin story\" a citizen of?",
+    "reasoning_path": [
+      "greatest ears in town: the arif mardin story",
+      "CAST_MEMBER",
+      "Gulliver (band)",
+      "COUNTRY_OF_CITIZENSHIP",
+      "united stated"
+    ],
+    "gold_answer": "united stated",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->COUNTRY_OF_CITIZENSHIP",
+    "verified": true
+  },
+  {
+    "question_id": "TR_019",
+    "question_text": "Where did Eric Nazarian, the director of \"do not forget me istanbul\", study?",
+    "reasoning_path": [
+      "do not forget me istanbul",
+      "DIRECTOR",
+      "Eric Nazarian",
+      "EDUCATED_AT",
+      "scions"
+    ],
+    "gold_answer": "scions",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->EDUCATED_AT",
+    "verified": true
+  },
+  {
+    "question_id": "TR_020",
+    "question_text": "Which award was won by the film \"sivas (film)\"?",
+    "reasoning_path": [
+      "sivas (film)",
+      "AWARD_RECEIVED",
+      "Gran premio della giuria",
+      "<-DIRECTOR-",
+      "Kaan Müjdeci"
+    ],
+    "gold_answer": "Gran premio della giuria",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->AWARD_RECEIVED (with DIRECTOR)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_021",
+    "question_text": "Where did cem yilmaz from \"G O R A\" study?",
+    "reasoning_path": [
+      "G O R A",
+      "CAST_MEMBER",
+      "cem yilmaz",
+      "EDUCATED_AT",
+      "bogazici university"
+    ],
+    "gold_answer": "bogazici university",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->EDUCATED_AT",
+    "verified": true
+  },
+  {
+    "question_id": "TR_022",
+    "question_text": "Where did Haluk Bilginer from \"son of the sun\" study?",
+    "reasoning_path": [
+      "son of the sun",
+      "CAST_MEMBER",
+      "Haluk Bilginer",
+      "EDUCATED_AT",
+      "the london academy of music and dramatic art"
+    ],
+    "gold_answer": "the london academy of music and dramatic art",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->EDUCATED_AT",
+    "verified": true
+  },
+  {
+    "question_id": "TR_023",
+    "question_text": "Where did Nejat İşler from \"10 to 11\" study?",
+    "reasoning_path": [
+      "10 to 11",
+      "CAST_MEMBER",
+      "Nejat İşler",
+      "EDUCATED_AT",
+      "ytü"
+    ],
+    "gold_answer": "ytü",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->EDUCATED_AT",
+    "verified": true
+  },
+  {
+    "question_id": "TR_024",
+    "question_text": "Where did tarik akan from \"alev alev\" study?",
+    "reasoning_path": [
+      "alev alev",
+      "CAST_MEMBER",
+      "tarik akan",
+      "EDUCATED_AT",
+      "ytü"
+    ],
+    "gold_answer": "ytü",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->EDUCATED_AT",
+    "verified": true
+  },
+  {
+    "question_id": "TR_025",
+    "question_text": "Where did cansu dere from \"mother (turkish tv series)\" study?",
+    "reasoning_path": [
+      "mother (turkish tv series)",
+      "CAST_MEMBER",
+      "cansu dere",
+      "EDUCATED_AT",
+      "Daruelfuenun"
+    ],
+    "gold_answer": "Daruelfuenun",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->EDUCATED_AT",
+    "verified": true
+  },
+  {
+    "question_id": "TR_026",
+    "question_text": "Which award was won by Fecri Ebcioglu Sunar from \"şaka ile karışık\"?",
+    "reasoning_path": [
+      "şaka ile karışık",
+      "CAST_MEMBER",
+      "Fecri Ebcioglu Sunar",
+      "AWARD_RECEIVED",
+      "state artist"
+    ],
+    "gold_answer": "state artist",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_027",
+    "question_text": "Which award was won by Münir Özkul from \"banker bilo\"?",
+    "reasoning_path": [
+      "banker bilo",
+      "CAST_MEMBER",
+      "Münir Özkul",
+      "AWARD_RECEIVED",
+      "state artist"
+    ],
+    "gold_answer": "state artist",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_028",
+    "question_text": "Which award was won by Azra Akın from \"istanbul tales\"?",
+    "reasoning_path": [
+      "istanbul tales",
+      "CAST_MEMBER",
+      "Azra Akın",
+      "AWARD_RECEIVED",
+      "miss turkey"
+    ],
+    "gold_answer": "miss turkey",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_029",
+    "question_text": "Which award was won by quincy delight jones from \"greatest ears in town: the arif mardin story\"?",
+    "reasoning_path": [
+      "greatest ears in town: the arif mardin story",
+      "CAST_MEMBER",
+      "quincy delight jones",
+      "AWARD_RECEIVED",
+      "musicares person of the year"
+    ],
+    "gold_answer": "musicares person of the year",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_030",
+    "question_text": "Which award was won by kemal sunal from \"ortadirek şaban\"?",
+    "reasoning_path": [
+      "ortadirek şaban",
+      "CAST_MEMBER",
+      "kemal sunal",
+      "AWARD_RECEIVED",
+      "Antalya Golden Orange Film Festival"
+    ],
+    "gold_answer": "Antalya Golden Orange Film Festival",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_031",
+    "question_text": "Which award was won by sener sen from \"sabanoglu saban\"?",
+    "reasoning_path": [
+      "sabanoglu saban",
+      "CAST_MEMBER",
+      "sener sen",
+      "AWARD_RECEIVED",
+      "state artist"
+    ],
+    "gold_answer": "state artist",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_032",
+    "question_text": "Which award was won by sener sen from \"selamsiz bandosu\"?",
+    "reasoning_path": [
+      "selamsiz bandosu",
+      "CAST_MEMBER",
+      "sener sen",
+      "AWARD_RECEIVED",
+      "state artist"
+    ],
+    "gold_answer": "state artist",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_033",
+    "question_text": "Which award was won by kemal sunal from \"Köyden İndim Şehire\"?",
+    "reasoning_path": [
+      "Köyden İndim Şehire",
+      "CAST_MEMBER",
+      "kemal sunal",
+      "AWARD_RECEIVED",
+      "Antalya Golden Orange Film Festival"
+    ],
+    "gold_answer": "Antalya Golden Orange Film Festival",
+    "difficulty": "2-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->AWARD_RECEIVED",
+    "verified": true
+  },
+  {
+    "question_id": "TR_034",
+    "question_text": "Which country is the birth city of Aida Begic, the director of \"children of sarajevo\", in?",
+    "reasoning_path": [
+      "children of sarajevo",
+      "DIRECTOR",
+      "Aida Begic",
+      "PLACE_OF_BIRTH",
+      "Rajvosa",
+      "COUNTRY",
+      "History of The Kingdom of Yugoslavia"
+    ],
+    "gold_answer": "History of The Kingdom of Yugoslavia",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->PLACE_OF_BIRTH->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_035",
+    "question_text": "Which country is the birth city of Orhan Aksoy, the director of \"Ah Nerede\", in?",
+    "reasoning_path": [
+      "Ah Nerede",
+      "DIRECTOR",
+      "Orhan Aksoy",
+      "PLACE_OF_BIRTH",
+      "mustafakemalpaşa",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->PLACE_OF_BIRTH->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_036",
+    "question_text": "Which country is the birth city of halit refiğ, the director of \"sevmek ve ölmek zamanı\", in?",
+    "reasoning_path": [
+      "sevmek ve ölmek zamanı",
+      "DIRECTOR",
+      "halit refiğ",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey",
+      "COUNTRY",
+      "Ottoman empire"
+    ],
+    "gold_answer": "Ottoman empire",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->PLACE_OF_BIRTH->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_037",
+    "question_text": "Which country is the birth city of Anno Saul, the director of \"Kebab Connection\", in?",
+    "reasoning_path": [
+      "Kebab Connection",
+      "DIRECTOR",
+      "Anno Saul",
+      "PLACE_OF_BIRTH",
+      "Bonn",
+      "COUNTRY",
+      "The Kingdom of Prussia"
+    ],
+    "gold_answer": "The Kingdom of Prussia",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->PLACE_OF_BIRTH->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_038",
+    "question_text": "Which country is Galatasaray Lyceum, where lütfi akad studied, in for the film \"Katil (film)\"?",
+    "reasoning_path": [
+      "Katil (film)",
+      "DIRECTOR",
+      "lütfi akad",
+      "EDUCATED_AT",
+      "Galatasaray Lyceum",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->DIRECTOR->EDUCATED_AT->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_039",
+    "question_text": "Which country is the birth city of serdar orçin from \"yazgı\" in?",
+    "reasoning_path": [
+      "yazgı",
+      "CAST_MEMBER",
+      "serdar orçin",
+      "PLACE_OF_BIRTH",
+      "history of bayburt",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_040",
+    "question_text": "Which country is the birth city of Özçivit from \"kara sevda (tv series)\" in?",
+    "reasoning_path": [
+      "kara sevda (tv series)",
+      "CAST_MEMBER",
+      "Özçivit",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_041",
+    "question_text": "Which country is the birth city of Saadet Aksoy from \"love in another language\" in?",
+    "reasoning_path": [
+      "love in another language",
+      "CAST_MEMBER",
+      "Saadet Aksoy",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_042",
+    "question_text": "Which country is the birth city of halit akçatepe from \"Köprüalti çocuklari\" in?",
+    "reasoning_path": [
+      "Köprüalti çocuklari",
+      "CAST_MEMBER",
+      "halit akçatepe",
+      "PLACE_OF_BIRTH",
+      "Üsküdar",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_043",
+    "question_text": "Which country is the american academy of dramatic arts, where baldwin, stephen studied in \"Magi (film)\", in?",
+    "reasoning_path": [
+      "Magi (film)",
+      "CAST_MEMBER",
+      "baldwin, stephen",
+      "EDUCATED_AT",
+      "the american academy of dramatic arts",
+      "COUNTRY",
+      "united stated"
+    ],
+    "gold_answer": "united stated",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->EDUCATED_AT->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_044",
+    "question_text": "Which country is Ankara State Conservatory, where i̇lyas salman studied in \"kibar feyzo\", in?",
+    "reasoning_path": [
+      "kibar feyzo",
+      "CAST_MEMBER",
+      "i̇lyas salman",
+      "EDUCATED_AT",
+      "Ankara State Conservatory",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->EDUCATED_AT->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_045",
+    "question_text": "Which country is ankara üniversitesi, where Serif Sezer studied in \"babam and oğlum\", in?",
+    "reasoning_path": [
+      "babam and oğlum",
+      "CAST_MEMBER",
+      "Serif Sezer",
+      "EDUCATED_AT",
+      "ankara üniversitesi",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->EDUCATED_AT->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_046",
+    "question_text": "Which country is ytü, where Nejat İşler studied in \"Black and White (2010 film)\", in?",
+    "reasoning_path": [
+      "Black and White (2010 film)",
+      "CAST_MEMBER",
+      "Nejat İşler",
+      "EDUCATED_AT",
+      "ytü",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->EDUCATED_AT->COUNTRY",
+    "verified": true
+  },
+  {
+    "question_id": "TR_047",
+    "question_text": "Which province or administrative area contains ismir, turkey, where ayhan işık from \"kanli para\" was born?",
+    "reasoning_path": [
+      "kanli para",
+      "CAST_MEMBER",
+      "ayhan işık",
+      "PLACE_OF_BIRTH",
+      "ismir, turkey",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "Vilayet of İzmir"
+    ],
+    "gold_answer": "Vilayet of İzmir",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH->LOCATED_IN",
+    "verified": true
+  },
+  {
+    "question_id": "TR_048",
+    "question_text": "Which province or administrative area contains Angora, Turkey, where Mazhar Alanson from \"devil, my friend\" was born?",
+    "reasoning_path": [
+      "devil, my friend",
+      "CAST_MEMBER",
+      "Mazhar Alanson",
+      "PLACE_OF_BIRTH",
+      "Angora, Turkey",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "vilayet of angora"
+    ],
+    "gold_answer": "vilayet of angora",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH->LOCATED_IN",
+    "verified": true
+  },
+  {
+    "question_id": "TR_049",
+    "question_text": "Which province or administrative area contains samsun, turkey, where Nebahat Çehre from \"Bitter Life (film)\" was born?",
+    "reasoning_path": [
+      "Bitter Life (film)",
+      "CAST_MEMBER",
+      "Nebahat Çehre",
+      "PLACE_OF_BIRTH",
+      "samsun, turkey",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "Samsun Province"
+    ],
+    "gold_answer": "Samsun Province",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH->LOCATED_IN",
+    "verified": true
+  },
+  {
+    "question_id": "TR_050",
+    "question_text": "Which province or administrative area contains Budapest (Hungary), where Can Togay from \"The Blue Exile\" was born?",
+    "reasoning_path": [
+      "The Blue Exile",
+      "CAST_MEMBER",
+      "Can Togay",
+      "PLACE_OF_BIRTH",
+      "Budapest (Hungary)",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "közép-magyarország"
+    ],
+    "gold_answer": "közép-magyarország",
+    "difficulty": "3-hop",
+    "domain": "cinema",
+    "template": "Film->CAST_MEMBER->PLACE_OF_BIRTH->LOCATED_IN",
+    "verified": true
+  },
+  {
+    "question_id": "TR_051",
+    "question_text": "Which actor in \"istanbul tales\" is Turkish, erkan can or İdil Üner?",
+    "reasoning_path": [
+      "istanbul tales",
+      "CAST_MEMBER",
+      "erkan can",
+      "COUNTRY_OF_CITIZENSHIP",
+      "Turkiye",
+      "vs",
+      "istanbul tales",
+      "CAST_MEMBER",
+      "İdil Üner"
+    ],
+    "gold_answer": "erkan can",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "template": "Film.CastMember(Turkish) vs Film.CastMember(Foreign)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_052",
+    "question_text": "Which actor in \"istanbul tales\" is Turkish, çetin tekindor or İdil Üner?",
+    "reasoning_path": [
+      "istanbul tales",
+      "CAST_MEMBER",
+      "çetin tekindor",
+      "COUNTRY_OF_CITIZENSHIP",
+      "Turkiye",
+      "vs",
+      "istanbul tales",
+      "CAST_MEMBER",
+      "İdil Üner"
+    ],
+    "gold_answer": "çetin tekindor",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "template": "Film.CastMember(Turkish) vs Film.CastMember(Foreign)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_053",
+    "question_text": "Which actor in \"istanbul tales\" is Turkish, Ahmet Mümtaz Taylan or yelda kaymakçı reynaud?",
+    "reasoning_path": [
+      "istanbul tales",
+      "CAST_MEMBER",
+      "Ahmet Mümtaz Taylan",
+      "COUNTRY_OF_CITIZENSHIP",
+      "Turkiye",
+      "vs",
+      "istanbul tales",
+      "CAST_MEMBER",
+      "yelda kaymakçı reynaud"
+    ],
+    "gold_answer": "Ahmet Mümtaz Taylan",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "template": "Film.CastMember(Turkish) vs Film.CastMember(Foreign)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_054",
+    "question_text": "Which actor in \"istanbul tales\" is Turkish, fikret kuskan or İdil Üner?",
+    "reasoning_path": [
+      "istanbul tales",
+      "CAST_MEMBER",
+      "fikret kuskan",
+      "COUNTRY_OF_CITIZENSHIP",
+      "Turkiye",
+      "vs",
+      "istanbul tales",
+      "CAST_MEMBER",
+      "İdil Üner"
+    ],
+    "gold_answer": "fikret kuskan",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "template": "Film.CastMember(Turkish) vs Film.CastMember(Foreign)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_055",
+    "question_text": "Which actor in \"istanbul tales\" is Turkish, Mazlum Cimen or İdil Üner?",
+    "reasoning_path": [
+      "istanbul tales",
+      "CAST_MEMBER",
+      "Mazlum Cimen",
+      "COUNTRY_OF_CITIZENSHIP",
+      "Turkiye",
+      "vs",
+      "istanbul tales",
+      "CAST_MEMBER",
+      "İdil Üner"
+    ],
+    "gold_answer": "Mazlum Cimen",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "template": "Film.CastMember(Turkish) vs Film.CastMember(Foreign)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_056",
+    "question_text": "Which director is Turkish, Ertem Egilmez from \"sev kardeşim\" or Orestis Laskos from \"Beauty from Peran\"?",
+    "reasoning_path": [
+      "sev kardeşim",
+      "DIRECTOR",
+      "Ertem Egilmez",
+      "COUNTRY_OF_CITIZENSHIP",
+      "Turkiye",
+      "vs",
+      "Beauty from Peran",
+      "DIRECTOR",
+      "Orestis Laskos"
+    ],
+    "gold_answer": "Ertem Egilmez",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "template": "Film1.Director(Turkish) vs Film2.Director(Foreign)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_057",
+    "question_text": "Which director is Turkish, halit refiğ from \"ali cengiz oyunu\" or Hamid tamjidi from \"Playing with Death\"?",
+    "reasoning_path": [
+      "ali cengiz oyunu",
+      "DIRECTOR",
+      "halit refiğ",
+      "COUNTRY_OF_CITIZENSHIP",
+      "Turkiye",
+      "vs",
+      "Playing with Death",
+      "DIRECTOR",
+      "Hamid tamjidi"
+    ],
+    "gold_answer": "halit refiğ",
+    "difficulty": "comparison",
+    "domain": "cinema",
+    "template": "Film1.Director(Turkish) vs Film2.Director(Foreign)",
+    "verified": true
+  }
+]

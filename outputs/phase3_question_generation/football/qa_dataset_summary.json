@@ -1,0 +1,111 @@
+{
+  "domain": "football",
+  "total_questions": 54,
+  "filtered_noisy": 0,
+  "by_difficulty": {
+    "2-hop": 33,
+    "3-hop": 16,
+    "comparison": 5
+  },
+  "criteria_met": {
+    "2hop_ok": true,
+    "3hop_ok": true,
+    "comp_ok": true,
+    "total_ok": true
+  },
+  "template_distribution": {
+    "Club<-MEMBER_OF_SPORTS_TEAM-Player->PLACE_OF_BIRTH->City": 6,
+    "Club->HOME_VENUE->Stadium->LOCATED_IN->Place": 6,
+    "Player->MEMBER_OF_SPORTS_TEAM->Club->COUNTRY->Country": 6,
+    "Player->MEMBER_OF_SPORTS_TEAM->Club->LEAGUE->League": 6,
+    "Player->PLACE_OF_BIRTH->City->COUNTRY->Country": 6,
+    "Club->LEAGUE->League->COUNTRY->Country": 3,
+    "Player->Club->HOME_VENUE->Stadium->LOCATED_IN->Place": 4,
+    "Player->Club (Player->PLACE_OF_BIRTH->City->COUNTRY->Country)": 4,
+    "Player->Club->LEAGUE->League->COUNTRY->Country": 4,
+    "Player->Club->HOME_VENUE->Stadium->COUNTRY->Country": 4,
+    "Club.Player(BornTurkey) vs Club.Player(BornForeign)": 1,
+    "Player(TurkishClub) vs Player(ForeignClub)": 4
+  },
+  "phase2_pipeline": {
+    "source_report": "outputs\\phase2_domain_selection\\football\\football_path_density_report.json",
+    "seed_entity_count": 111,
+    "verified_club_rels": [
+      "CHAIRPERSON",
+      "COLOR",
+      "COMPETITION_CLASS",
+      "COUNTRY",
+      "DIFFERENT_FROM",
+      "EMPLOYER",
+      "HEADQUARTERS_LOCATION",
+      "HEAD_COACH",
+      "HOME_VENUE",
+      "INSTANCE_OF",
+      "IS_A_LIST_OF",
+      "LEAGUE",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "LOCATED_IN_TIME_ZONE",
+      "LOCATION",
+      "MEMBER_OF",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OCCUPANT",
+      "OWNED_BY",
+      "PARTICIPANT",
+      "PARTICIPANT_OF",
+      "PARTICIPATING_TEAM",
+      "PART_OF",
+      "PLACE_OF_BIRTH",
+      "SPONSOR",
+      "SPORT",
+      "SPORTS_SEASON_OF_LEAGUE_OR_COMPETITION",
+      "SUBCLASS_OF"
+    ],
+    "zero_path_templates": {
+      "2hop": [
+        "C_coach_club_city"
+      ],
+      "3hop": [
+        "3C_coach_club_stadium_city",
+        "3F_coach_club_league_country"
+      ]
+    },
+    "phase2_path_counts": {
+      "2hop": {
+        "A_player_club_city": 200,
+        "B_club_stadium_place": 200,
+        "C_coach_club_city": 0,
+        "D_player_club_country": 200,
+        "E_player_club_league": 200,
+        "F_player_city_country": 200,
+        "G_club_league_country": 98
+      },
+      "3hop": {
+        "3A_player_club_stadium_place": 200,
+        "3B_player_club_city_country": 200,
+        "3C_coach_club_stadium_city": 0,
+        "3D_player_club_league_country": 200,
+        "3E_player_club_stadium_country": 200,
+        "3F_coach_club_league_country": 0
+      }
+    },
+    "derived_limits": {
+      "2hop": {
+        "A_player_club_city": 6,
+        "B_club_stadium_place": 6,
+        "C_coach_club_city": 0,
+        "D_player_club_country": 6,
+        "E_player_club_league": 6,
+        "F_player_city_country": 6,
+        "G_club_league_country": 3
+      },
+      "3hop": {
+        "3A_player_club_stadium_place": 4,
+        "3B_player_club_city_country": 4,
+        "3C_coach_club_stadium_city": 0,
+        "3D_player_club_league_country": 4,
+        "3E_player_club_stadium_country": 4,
+        "3F_coach_club_league_country": 0
+      }
+    }
+  }
+}

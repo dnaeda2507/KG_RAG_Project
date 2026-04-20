@@ -1,81 +1,275 @@
 {
   "seed_entities": [
     {
-      "id": "Q5518018",
-      "desc": "galatasaray sk marsi",
-      "similarity": 0.5920861959457397
+      "id": "Q3138474",
+      "desc": "Galatasaray S.K. in European football|galatasaray s.k. in european football|Galatasaray S.K. in Europe|galatasaray s.k. in europe | Galatasaray S.K. in European football | Galatasaray SK, a Turkish professional association football club, is Turkey's most successful team in Union of European Football Associations (UEFA) competitions.",
+      "similarity": 0.42095017433166504
     },
     {
-      "id": "Q2525887",
-      "desc": "Galatasaray Yurtici Kargo",
-      "similarity": 0.5780321955680847
+      "id": "Q15057775",
+      "desc": "doğanay kılıç|doganay kilic|Doganay Kilic|Doğanay Kılıç | doğanay kılıç | Doğanay Kılıç (born 8 June 1996) is a Turkish footballer who plays as a midfielder for Adanaspor on loan from Göztepe SK.",
+      "similarity": 0.41792118549346924
     },
     {
-      "id": "Q5864650",
-      "desc": "history of galatasaray s.k.",
-      "similarity": 0.5733397603034973
+      "id": "Q1138348",
+      "desc": "coskun özari|Coşkun Özarı|coskun ozari|coşkun özari|Coskun Ozari|Coskun Özari|Coşkun Özari|coşkun özarı | coskun özari | Coşkun Özarı (January 4, 1931 – June 22, 2011) was a Turkish football player and coach.Born 1931 in Istanbul, Coşkun Özarı joined Galatasaray as a very young student. After graduating from Galatasaray Lycee, he first appeared in the Galatasaray starting line-up at the age of 17. The backbone of Galatasaray, as well as the national team defense for the next 13 years, Özarı was known for his hard tackling, but mild manners.His leadership in defense led the team with Gündüz Kılıç as coach, Turgay Ş",
+      "similarity": 0.41413062810897827
     }
   ],
   "activated_triples": [
     {
-      "source_id": "Q2525887",
-      "source_desc": "Galatasaray Yurtici Kargo",
+      "source_id": "Q3138474",
+      "source_desc": "Galatasaray S.K. in European football|galatasaray s.k. in european football|Galatasaray S.K. in Europe|galatasaray s.k. in europe | Galatasaray S.K. in European football | Galatasaray SK, a Turkish professional association football club, is Turkey's most successful team in Union of European Football Associations (UEFA) competitions.",
       "relation": "COUNTRY",
       "target_id": "Q43",
-      "target_desc": "turkiye",
+      "target_desc": "turkiye|The Republic of Turkey|tuerkiye|Republic of turkey|türkei|p:tr|Turkey (nation)|Turquie|turkey (country)|tuerkiye cumhuriyeti|Turkey|State of Turkey|terky|Türkiye Devleti|turquie|Turkish State|Türkiye Respublikasi|tr|iso 3166-1:tr|Turkish republic|turkia|Turkish Republic|türkiye respublikasi|tuerkei|Etymology of Turkey|Republic of Turkiye|P:TR|the republic of turkey|Turkiye|turkei|Turkiye Cumhuriyeti|Turkie|Turkei|republic of turkey|türkiye cumhuriyeti|Tuerkei|turky|Turkye|turkey (state)|state of turkey|ISO 3166-1:TR|🇹🇷|turkiye cumhuriyeti|türkiye respublikası|turkey|Tuerkiye Cumhuriyeti|TURKEY|Turky|turkie|Turkey (country)|TurkeY|turkye|turkish republic|luna santin/temp/turkey|türkiye|Türkiye Respublikası|turkey (nation)|Turkey (Country)|Turkey (state)|Turquia|türkiye devleti|Tuerkiye|Turkia|Türkei|Terky|Türkiye Cumhuriyeti|etymology of turkey|turquia|republic of turkiye|Republic of Turkey|turkish state|Luna Santin/Temp/Turkey|Türkiye | turkiye | Turkey (Turkish: Türkiye [ˈtyɾcije]), officially the Republic of Turkey (Turkish: Türkiye Cumhuriyeti [ˈtyɾcije dʒumˈhuɾijeti] (listen)), is a transcontinental country located mainly in Western Asia, with a smaller portion on the Balkan Peninsula in Southeast Europe. East Thrace, located in Europe, is separated from Anatolia by the Sea of Marmara, the Bosphorous strait and the Dardanelles (collectively called the Turkish Straits). Turkey is bordered by Greece and Bulgaria to its northwest; Georg",
+      "round": 1
+    },
+    {
+      "source_id": "Q15057775",
+      "source_desc": "doğanay kılıç|doganay kilic|Doganay Kilic|Doğanay Kılıç | doğanay kılıç | Doğanay Kılıç (born 8 June 1996) is a Turkish footballer who plays as a midfielder for Adanaspor on loan from Göztepe SK.",
+      "relation": "PLACE_OF_BIRTH",
+      "target_id": "Q799805",
+      "target_desc": "bafra|Bafra | bafra | Bafra is a district in the Samsun Province of Turkey.",
+      "round": 1
+    },
+    {
+      "source_id": "Q1138348",
+      "source_desc": "coskun özari|Coşkun Özarı|coskun ozari|coşkun özari|Coskun Ozari|Coskun Özari|Coşkun Özari|coşkun özarı | coskun özari | Coşkun Özarı (January 4, 1931 – June 22, 2011) was a Turkish football player and coach.Born 1931 in Istanbul, Coşkun Özarı joined Galatasaray as a very young student. After graduating from Galatasaray Lycee, he first appeared in the Galatasaray starting line-up at the age of 17. The backbone of Galatasaray, as well as the national team defense for the next 13 years, Özarı was known for his hard tackling, but mild manners.His leadership in defense led the team with Gündüz Kılıç as coach, Turgay Ş",
+      "relation": "PLACE_OF_BIRTH",
+      "target_id": "Q406",
+      "target_desc": "istanbul (turkey)|Constantinopole|Historic Areas of İstanbul|Topboğazi|Ligos|Instabul|Konstantiniye|UN/LOCODE:TRIST|tzarigrad|Istanbul (Turkey)|City of Istanbul|micklegard|i̇stanbul, turkey|i̇slambol|topboğazi|Constantinople (modern city)|stambol|istanbul, turkey|ligos|constantinople (modern city)|Ottoman Constantinople|kushta|instanbul|Islambol|geography of istanbul|Istanbul, Turkey|istambul|constantinople (turkey)|instabul|i̇slambul|istanbull|Kushta|Stambol|istamboul|Micklegard|Instanbul|İstanbul|İslambul|Istanbuler|istanbul|istanbul metropolitan municipality|konstantiniye|İstanbul, Turkey|city of istanbul|Tzarigrad|Constantinople (Turkey)|Geography of Istanbul|Istamboul|stambul|Stambulu|i̇stanbul|Constantinopole, Turkey|Istanbul|ottoman constantinople|İslambol|historic areas of i̇stanbul|constantinopole|Istanbul Metropolitan Municipality|constantinopole, turkey|islambol|islambul|un/locode:trist|Istambul|Dersaâdet|stambulu|istanbuler|dersaâdet|Islambul|استانبول|Stambul|Istanbull | istanbul (turkey) | Istanbul (, also US: ; Turkish: İstanbul [isˈtanbuɫ] (listen)), formerly known as Byzantium and Constantinople, is the most populous city in Turkey and the country's economic, cultural and historic center. Istanbul is a transcontinental city in Eurasia, straddling the Bosporus strait (which separates Europe and Asia) between the Sea of Marmara and the Black Sea. Its commercial and historical center lies on the European side and about a third of its population lives in suburbs on the Asian side o",
       "round": 1
     },
     {
       "source_id": "Q43",
-      "source_desc": "turkiye",
+      "source_desc": "turkiye|The Republic of Turkey|tuerkiye|Republic of turkey|türkei|p:tr|Turkey (nation)|Turquie|turkey (country)|tuerkiye cumhuriyeti|Turkey|State of Turkey|terky|Türkiye Devleti|turquie|Turkish State|Türkiye Respublikasi|tr|iso 3166-1:tr|Turkish republic|turkia|Turkish Republic|türkiye respublikasi|tuerkei|Etymology of Turkey|Republic of Turkiye|P:TR|the republic of turkey|Turkiye|turkei|Turkiye Cumhuriyeti|Turkie|Turkei|republic of turkey|türkiye cumhuriyeti|Tuerkei|turky|Turkye|turkey (state)|state of turkey|ISO 3166-1:TR|🇹🇷|turkiye cumhuriyeti|türkiye respublikası|turkey|Tuerkiye Cumhuriyeti|TURKEY|Turky|turkie|Turkey (country)|TurkeY|turkye|turkish republic|luna santin/temp/turkey|türkiye|Türkiye Respublikası|turkey (nation)|Turkey (Country)|Turkey (state)|Turquia|türkiye devleti|Tuerkiye|Turkia|Türkei|Terky|Türkiye Cumhuriyeti|etymology of turkey|turquia|republic of turkiye|Republic of Turkey|turkish state|Luna Santin/Temp/Turkey|Türkiye | turkiye | Turkey (Turkish: Türkiye [ˈtyɾcije]), officially the Republic of Turkey (Turkish: Türkiye Cumhuriyeti [ˈtyɾcije dʒumˈhuɾijeti] (listen)), is a transcontinental country located mainly in Western Asia, with a smaller portion on the Balkan Peninsula in Southeast Europe. East Thrace, located in Europe, is separated from Anatolia by the Sea of Marmara, the Bosphorous strait and the Dardanelles (collectively called the Turkish Straits). Turkey is bordered by Greece and Bulgaria to its northwest; Georg",
       "relation": "CAPITAL",
       "target_id": "Q3640",
-      "target_desc": "Angora, Turkey",
+      "target_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "round": 2
+    },
+    {
+      "source_id": "Q799805",
+      "source_desc": "bafra|Bafra | bafra | Bafra is a district in the Samsun Province of Turkey.",
+      "relation": "INSTANCE_OF",
+      "target_id": "Q1147395",
+      "target_desc": "ilçe|i̇lçe|ilçeler|İlçe | ilçe | ",
+      "round": 2
+    },
+    {
+      "source_id": "Q799805",
+      "source_desc": "bafra|Bafra | bafra | Bafra is a district in the Samsun Province of Turkey.",
+      "relation": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "target_id": "Q483040",
+      "target_desc": "Samsun Province|samsun province | Samsun Province | Samsun Province (Turkish: Samsun ili) is a province of Turkey on the Black Sea coast with a population of 1,252,693 (2010). Its adjacent provinces are Sinop on the northwest, Çorum on the west, Amasya on the south, Tokat on the southeast on the east. Its traffic code is 55. The provincial capital is Samsun, one of the most populated cities in Turkey.",
+      "round": 2
+    },
+    {
+      "source_id": "Q406",
+      "source_desc": "istanbul (turkey)|Constantinopole|Historic Areas of İstanbul|Topboğazi|Ligos|Instabul|Konstantiniye|UN/LOCODE:TRIST|tzarigrad|Istanbul (Turkey)|City of Istanbul|micklegard|i̇stanbul, turkey|i̇slambol|topboğazi|Constantinople (modern city)|stambol|istanbul, turkey|ligos|constantinople (modern city)|Ottoman Constantinople|kushta|instanbul|Islambol|geography of istanbul|Istanbul, Turkey|istambul|constantinople (turkey)|instabul|i̇slambul|istanbull|Kushta|Stambol|istamboul|Micklegard|Instanbul|İstanbul|İslambul|Istanbuler|istanbul|istanbul metropolitan municipality|konstantiniye|İstanbul, Turkey|city of istanbul|Tzarigrad|Constantinople (Turkey)|Geography of Istanbul|Istamboul|stambul|Stambulu|i̇stanbul|Constantinopole, Turkey|Istanbul|ottoman constantinople|İslambol|historic areas of i̇stanbul|constantinopole|Istanbul Metropolitan Municipality|constantinopole, turkey|islambol|islambul|un/locode:trist|Istambul|Dersaâdet|stambulu|istanbuler|dersaâdet|Islambul|استانبول|Stambul|Istanbull | istanbul (turkey) | Istanbul (, also US: ; Turkish: İstanbul [isˈtanbuɫ] (listen)), formerly known as Byzantium and Constantinople, is the most populous city in Turkey and the country's economic, cultural and historic center. Istanbul is a transcontinental city in Eurasia, straddling the Bosporus strait (which separates Europe and Asia) between the Sea of Marmara and the Black Sea. Its commercial and historical center lies on the European side and about a third of its population lives in suburbs on the Asian side o",
+      "relation": "FOLLOWS",
+      "target_id": "Q16869",
+      "target_desc": "constantinopolis|konstantinopel|Mikligarðr|Constantinoupolis|constantinople, greece|Constantinople, Greece|κωνσταντινούπολη|Constantinopol|the patriarchal city|konstantiniyye|constantinoupolis|Konstantinopel|Miklagarðr|Istanbul in the middle ages|Konstantinoupolis|mickelgard|قسطنطينيه|asitane|mikligarðr|Constantinopoli|The patriarchal city|konstantinoupolis|Κωνσταντινούπολη|miklagarð|Mickelgard|Medieval constantinople|Constantinople|qustantiniyye|Constantinopel|istanbul in the middle ages|constantinopol|Qustantiniyye|Constantinopolis|konstantinoupoli|medieval constantinople|constantinopolitan|constantinopel|Asitane|constantinople|Constantinopolitan|Konstantinoupoli|constantinople in the middle ages|Medieval istanbul|Konstantiniyye|medieval istanbul|miklagarðr|Constantinople in the middle ages|constantinopoli|Miklagarð | constantinopolis | Constantinople  (Greek: Κωνσταντινούπολις, translit. Kōnstantinoúpolis; Latin: Cōnstantīnopolis) was the capital city of the Roman Empire (330–395), of the Eastern Roman (Byzantine) Empire (395–1204 and 1261–1453), of the brief Crusader state known as the Latin Empire (1204–1261) and of the Ottoman Empire (1453–1923). In 1923 the capital of Turkey, the successor state of the Ottoman Empire, was moved to Ankara and the name Constantinople was officially changed to Istanbul. The city is located in",
       "round": 2
     },
     {
       "source_id": "Q3640",
-      "source_desc": "Angora, Turkey",
-      "relation": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
-      "target_id": "Q1249412",
-      "target_desc": "Galatia Salutaris",
+      "source_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "relation": "INSTANCE_OF",
+      "target_id": "Q515",
+      "target_desc": "city (kentucky)|City work|city topics|Cities|City (Oklahoma)|ancient cities|insular cities|city work|City employment|city (south carolina)|Sat (Romania)|shahr|Cittie|Desert cities|cittie|citties|citie|ancient city|city (minnesota)|insular city|city (oklahoma)|sat (romania)|cities|desert cities|Bleuilly|City/Comments|City (United States)|Shahr|City (Idaho)|stand alone city|Citie|Citties|Ancient cities|Ancient city|Stand alone city|City (South Carolina)|City (Minnesota)|Città|City (Oregon)|Insular city|City (Kentucky)|City topics|island cities|city employment|bleuilly|city (oregon)|Insular cities|city/comments|city (united states)|città|city (idaho)|Island cities | city (kentucky) | A city is a large human settlement. Cities generally have extensive systems for housing, transportation, sanitation, utilities, land use, and communication. Their density facilitates interaction between people, government organizations and businesses, sometimes benefiting different parties in the process.Historically, city-dwellers have been a small proportion of humanity overall, but following two centuries of unprecedented and rapid urbanization, roughly half of the world population now lives ",
       "round": 3
     },
     {
       "source_id": "Q3640",
-      "source_desc": "Angora, Turkey",
-      "relation": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
-      "target_id": "Q2297724",
-      "target_desc": "Ankara Province",
+      "source_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "relation": "COUNTRY",
+      "target_id": "Q43",
+      "target_desc": "turkiye|The Republic of Turkey|tuerkiye|Republic of turkey|türkei|p:tr|Turkey (nation)|Turquie|turkey (country)|tuerkiye cumhuriyeti|Turkey|State of Turkey|terky|Türkiye Devleti|turquie|Turkish State|Türkiye Respublikasi|tr|iso 3166-1:tr|Turkish republic|turkia|Turkish Republic|türkiye respublikasi|tuerkei|Etymology of Turkey|Republic of Turkiye|P:TR|the republic of turkey|Turkiye|turkei|Turkiye Cumhuriyeti|Turkie|Turkei|republic of turkey|türkiye cumhuriyeti|Tuerkei|turky|Turkye|turkey (state)|state of turkey|ISO 3166-1:TR|🇹🇷|turkiye cumhuriyeti|türkiye respublikası|turkey|Tuerkiye Cumhuriyeti|TURKEY|Turky|turkie|Turkey (country)|TurkeY|turkye|turkish republic|luna santin/temp/turkey|türkiye|Türkiye Respublikası|turkey (nation)|Turkey (Country)|Turkey (state)|Turquia|türkiye devleti|Tuerkiye|Turkia|Türkei|Terky|Türkiye Cumhuriyeti|etymology of turkey|turquia|republic of turkiye|Republic of Turkey|turkish state|Luna Santin/Temp/Turkey|Türkiye | turkiye | Turkey (Turkish: Türkiye [ˈtyɾcije]), officially the Republic of Turkey (Turkish: Türkiye Cumhuriyeti [ˈtyɾcije dʒumˈhuɾijeti] (listen)), is a transcontinental country located mainly in Western Asia, with a smaller portion on the Balkan Peninsula in Southeast Europe. East Thrace, located in Europe, is separated from Anatolia by the Sea of Marmara, the Bosphorous strait and the Dardanelles (collectively called the Turkish Straits). Turkey is bordered by Greece and Bulgaria to its northwest; Georg",
       "round": 3
     },
     {
-      "source_id": "Q1249412",
-      "source_desc": "Galatia Salutaris",
+      "source_id": "Q3640",
+      "source_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "relation": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "target_id": "Q2297724",
+      "target_desc": "Ankara Province|ankara province | Ankara Province | Ankara Province (Turkish: Ankara ili, pronounced [ˈaŋkaɾa iˈli]) is the capital province of Turkey.",
+      "round": 3
+    },
+    {
+      "source_id": "Q3640",
+      "source_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "relation": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "target_id": "Q1345660",
+      "target_desc": "vilayet of angora|ankara vilayet|Vilayet of Angora|Ankara Vilayet | vilayet of angora | The Vilayet of Ankara or Angora was a first-level administrative division (vilayet) of the Ottoman Empire, centered on the city of Angora (Ankara) in north-central Anatolia, which included most of ancient Galatia.",
+      "round": 3
+    },
+    {
+      "source_id": "Q3640",
+      "source_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "relation": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "target_id": "Q1249412",
+      "target_desc": "Galatia Salutaris|Galatia I|list of roman governors of galatia|Roman Galatia|Galatia Prima|galatia (roman province)|galatia secunda|galatia i|Province of Galatia|galatia salutaris|List of Roman governors of Galatia|province of galatia|roman galatia|Galatia Secunda|Galatia II Salutaris|galatia ii salutaris|galatia prima|Galatia (Roman province) | Galatia Salutaris | Galatia () was the name of a province of the Roman Empire in Anatolia (modern central Turkey). It was established by the first emperor, Augustus (sole rule 30 BC – 14 AD), in 25 BC, covering most of formerly independent Celtic Galatia, with its capital at Ancyra.Under the tetrarchy reforms of Diocletian, its northern and southern parts were split to form the southern part of the province of Paphlagonia and the province of Lycaonia, respectively.In c. 398 AD, during the reign of Arcadius, it was ",
+      "round": 3
+    },
+    {
+      "source_id": "Q3640",
+      "source_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "relation": "LOCATED_IN_TIME_ZONE",
+      "target_id": "Q6760",
+      "target_desc": "UTC+3:00|Kaliningrad Time|utc+3:00|utc+03:00|GMT+3|Further-eastern European Time|east africa time|turkish time|UTC+3|Turkish Time|Turkey Time|turkey time|further-eastern european time|UTC+03|arabia standard time|East Africa Time|utc+3|utc3|Arabia Standard Time|gmt+3|UTC3|utc+03|UTC+03:00|kaliningrad time | UTC+3:00 | UTC+03:00 is an identifier for a time offset from UTC of +03:00. In areas using this time offset, the time is three hours later than the Coordinated Universal Time (UTC).Following the ISO 8601 standard, a time with this offset would be written as, for example, 2019-02-08T23:36:06+03:00.Some areas in the world use UTC+03:00 all year.",
+      "round": 3
+    },
+    {
+      "source_id": "Q3640",
+      "source_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "relation": "DESCRIBED_BY_SOURCE",
+      "target_id": "Q302556",
+      "target_desc": "Catholic Encyclopedia (1913)|catholic encyclopædia|Catholic Encyclopedia/testcases|1910 catholic encyclopedia|original catholic encyclopedia|Catholic Encyclopedia|Encyclopedia Press|The Catholic Encyclopaedia|catholicencyclopedia|Catholic Encyclpedia|catholic encyclopedia (1913)|Original Catholic Encyclopedia|the catholic encyclopedia|Catholic encyclopedia|catholic encyclopedia/doc|CE1913|ce1913|CatholicEncyclopedia|Catholic Encyclopedia/sandbox|old catholic encyclopedia|Catholic encyclopaedia|encyclopedia press|Catholic Encyclopaedia|catholic encyclopedia/testcases|Catholic Encyclopedia/doc|catholic encyclopedia|the encyclopedia press|The Catholic Encyclopedia|1910 Catholic Encyclopedia|1913 catholic encyclopedia|catholic encyclopedia/sandbox|catholic encyclpedia|1913 Catholic Encyclopedia|1913catholic|1913Catholic|Old Catholic Encyclopedia|the catholic encyclopaedia|catholic encylopaedia|Catholic Encylopaedia|Catholic Encyclopædia|catholic encyclopaedia|The Encyclopedia Press | Catholic Encyclopedia (1913) | The Catholic Encyclopedia: An International Work of Reference on the Constitution, Doctrine, Discipline, and History of the Catholic Church, also referred to as the Old Catholic Encyclopedia and the Original Catholic Encyclopedia, is an English-language encyclopedia published in the United States and designed to serve the Roman Catholic Church. The first volume appeared in March 1907 and the last three volumes appeared in 1912, followed by a master index volume in 1914 and later supplementary vo",
+      "round": 3
+    },
+    {
+      "source_id": "Q3640",
+      "source_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "relation": "HEAD_OF_GOVERNMENT",
+      "target_id": "Q366274",
+      "target_desc": "Melih Gokcek|Ibrahim Melih Gokcek|Melih Goekcek|I. Melih Gokcek|melih gökçek|İ. Melih Gökçek|Ibrahim Melih Gökçek|İbrahim Melih Gökçek|Ibrahim Melih Goekcek|melih gokcek|ibrahim melih goekcek|ibrahim melih gokcek|i̇. melih gökçek|melih goekcek|i̇brahim melih gökçek|Melih Gökçek|I. Melih Goekcek|i. melih gokcek|ibrahim melih gökçek|i. melih goekcek | Melih Gokcek | İbrahim Melih Gökçek (born 20 October 1948) is a Turkish politician who served as the Mayor of Ankara from 1994 to 2017. From 1991 to 1994, he was an MP. Gökçek has won municipal elections in 1994, 1999, 2004, 2009, and was controversially also declared the winner in 2014. He is a member of the governing Justice and Development Party.",
+      "round": 3
+    },
+    {
+      "source_id": "Q3640",
+      "source_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "relation": "TWINNED_ADMINISTRATIVE_BODY",
+      "target_id": "Q2762100",
+      "target_desc": "Nicosia del Norte|north nicosia|Nicosia Norte|Northern Nicosia, TRNC|North Nicosia|northern nicosia|northern nicosia, trnc|nicosia del norte|capital of northern cyprus|nicosia norte|Capital of Northern Cyprus|Northern Nicosia | Nicosia del Norte | North Nicosia or Northern Nicosia (Turkish: [Kuzey] Lefkoşa [kuˈzej lefˈkoʃa]) is the capital and largest city of the de facto state of Northern Cyprus. It is the northern part of the divided city of Nicosia and is governed by the Nicosia Turkish Municipality. As of 2011, North Nicosia had a population of 61,378 and a metropolitan area with a population of 82,539.Following the intercommunal violence of the 1960s, the capital of Republic of Cyprus was divided between the island's Greek Cypriot an",
+      "round": 3
+    },
+    {
+      "source_id": "Q1147395",
+      "source_desc": "ilçe|i̇lçe|ilçeler|İlçe | ilçe | ",
       "relation": "COUNTRY",
-      "target_id": "Q2277",
-      "target_desc": "Imperial Roman",
+      "target_id": "Q43",
+      "target_desc": "turkiye|The Republic of Turkey|tuerkiye|Republic of turkey|türkei|p:tr|Turkey (nation)|Turquie|turkey (country)|tuerkiye cumhuriyeti|Turkey|State of Turkey|terky|Türkiye Devleti|turquie|Turkish State|Türkiye Respublikasi|tr|iso 3166-1:tr|Turkish republic|turkia|Turkish Republic|türkiye respublikasi|tuerkei|Etymology of Turkey|Republic of Turkiye|P:TR|the republic of turkey|Turkiye|turkei|Turkiye Cumhuriyeti|Turkie|Turkei|republic of turkey|türkiye cumhuriyeti|Tuerkei|turky|Turkye|turkey (state)|state of turkey|ISO 3166-1:TR|🇹🇷|turkiye cumhuriyeti|türkiye respublikası|turkey|Tuerkiye Cumhuriyeti|TURKEY|Turky|turkie|Turkey (country)|TurkeY|turkye|turkish republic|luna santin/temp/turkey|türkiye|Türkiye Respublikası|turkey (nation)|Turkey (Country)|Turkey (state)|Turquia|türkiye devleti|Tuerkiye|Turkia|Türkei|Terky|Türkiye Cumhuriyeti|etymology of turkey|turquia|republic of turkiye|Republic of Turkey|turkish state|Luna Santin/Temp/Turkey|Türkiye | turkiye | Turkey (Turkish: Türkiye [ˈtyɾcije]), officially the Republic of Turkey (Turkish: Türkiye Cumhuriyeti [ˈtyɾcije dʒumˈhuɾijeti] (listen)), is a transcontinental country located mainly in Western Asia, with a smaller portion on the Balkan Peninsula in Southeast Europe. East Thrace, located in Europe, is separated from Anatolia by the Sea of Marmara, the Bosphorous strait and the Dardanelles (collectively called the Turkish Straits). Turkey is bordered by Greece and Bulgaria to its northwest; Georg",
+      "round": 3
+    },
+    {
+      "source_id": "Q1147395",
+      "source_desc": "ilçe|i̇lçe|ilçeler|İlçe | ilçe | ",
+      "relation": "SUBCLASS_OF",
+      "target_id": "Q2916486",
+      "target_desc": "Subdivisions of Turkey|administrative divisions of turkey|Administrative divisions of Turkey|subdivisions of turkey | Subdivisions of Turkey | Turkey has a unitary structure in terms of administration and this aspect is one of the most important factors shaping the Turkish public administration. When three powers (executive, legislative and judiciary) are taken into account as the main functions of the state, local administrations have little power. Turkey is a unitary not a federal system, and the provinces are subordinated to the centre. Local administrations were established to provide services in place and the government is represe",
+      "round": 3
+    },
+    {
+      "source_id": "Q483040",
+      "source_desc": "Samsun Province|samsun province | Samsun Province | Samsun Province (Turkish: Samsun ili) is a province of Turkey on the Black Sea coast with a population of 1,252,693 (2010). Its adjacent provinces are Sinop on the northwest, Çorum on the west, Amasya on the south, Tokat on the southeast on the east. Its traffic code is 55. The provincial capital is Samsun, one of the most populated cities in Turkey.",
+      "relation": "INSTANCE_OF",
+      "target_id": "Q48336",
+      "target_desc": "turkish provinces|Provinces in Turkey|Provinces of turkey|provinces of turkey|Provinces in turkey|Province of Turkey|provinces in turkey|Turkish Provinces|Turkish provinces|Provinces of Turkey|province of turkey | turkish provinces | Turkey is divided into 81 provinces (Turkish: il). Each province is divided into a number of different districts (ilçe). Each provincial government is seated in the central district (merkez ilçe).  The central district usually bears the name of the province (e.g. the city of Van is the central district of Van Province).  There are only three exceptions to this naming scheme: Adapazarı of Sakarya ProvinceAntakya of Hatay Provinceİzmit of Kocaeli ProvinceEach province is administered by an appoint",
+      "round": 3
+    },
+    {
+      "source_id": "Q483040",
+      "source_desc": "Samsun Province|samsun province | Samsun Province | Samsun Province (Turkish: Samsun ili) is a province of Turkey on the Black Sea coast with a population of 1,252,693 (2010). Its adjacent provinces are Sinop on the northwest, Çorum on the west, Amasya on the south, Tokat on the southeast on the east. Its traffic code is 55. The provincial capital is Samsun, one of the most populated cities in Turkey.",
+      "relation": "CAPITAL",
+      "target_id": "Q160450",
+      "target_desc": "samsun, turkey|Samsoun|sampsounta|Amisos|samsun|Amisus|Samson, Turkey|amisos|Samsun, Turkey|Samsun|amisus|samson, turkey|Sampsounta|samsoun | samsun, turkey | Samsun (Pontic Greek: Σαμψούντα, Ottoman Turkish: صامسون) is a city on the north coast of Turkey with a population over half a million people. It is the provincial capital of Samsun Province and a major Black Sea port. The growing city has two universities, several hospitals, shopping malls, a lot of light manufacturing industry, sports facilities and an opera.Mustafa Kemal Atatürk began the Turkish War of Independence here in 1919.",
+      "round": 3
+    },
+    {
+      "source_id": "Q515",
+      "source_desc": "city (kentucky)|City work|city topics|Cities|City (Oklahoma)|ancient cities|insular cities|city work|City employment|city (south carolina)|Sat (Romania)|shahr|Cittie|Desert cities|cittie|citties|citie|ancient city|city (minnesota)|insular city|city (oklahoma)|sat (romania)|cities|desert cities|Bleuilly|City/Comments|City (United States)|Shahr|City (Idaho)|stand alone city|Citie|Citties|Ancient cities|Ancient city|Stand alone city|City (South Carolina)|City (Minnesota)|Città|City (Oregon)|Insular city|City (Kentucky)|City topics|island cities|city employment|bleuilly|city (oregon)|Insular cities|city/comments|city (united states)|città|city (idaho)|Island cities | city (kentucky) | A city is a large human settlement. Cities generally have extensive systems for housing, transportation, sanitation, utilities, land use, and communication. Their density facilitates interaction between people, government organizations and businesses, sometimes benefiting different parties in the process.Historically, city-dwellers have been a small proportion of humanity overall, but following two centuries of unprecedented and rapid urbanization, roughly half of the world population now lives ",
+      "relation": "SUBCLASS_OF",
+      "target_id": "Q486972",
+      "target_desc": "community|Populated places|human community|inhabited place|Inhabited locality|locality (settlement)|Populated Place|towns and villages|settlement|inhabited locality|populated place|Towns and Villages|human settlements|settlement (community)|human settlement/archive 1|Human settlements|Populated place|Settlement (community)|Inhabited localities|human settlement|Human settlement/Archive 1|populated places|inhabited localities|Locality (settlement)|Human settlement | community | In geography, statistics and archaeology, a settlement, locality or populated place is a community in which people live. The complexity of a settlement can range from a small number of dwellings grouped together to the largest of cities with surrounding urbanized areas. Settlements may include hamlets, villages, towns and cities.  A settlement may have known historical properties such as the date or era in which it was first settled, or first settled by  particular people.In the field of geospat",
+      "round": 4
+    },
+    {
+      "source_id": "Q515",
+      "source_desc": "city (kentucky)|City work|city topics|Cities|City (Oklahoma)|ancient cities|insular cities|city work|City employment|city (south carolina)|Sat (Romania)|shahr|Cittie|Desert cities|cittie|citties|citie|ancient city|city (minnesota)|insular city|city (oklahoma)|sat (romania)|cities|desert cities|Bleuilly|City/Comments|City (United States)|Shahr|City (Idaho)|stand alone city|Citie|Citties|Ancient cities|Ancient city|Stand alone city|City (South Carolina)|City (Minnesota)|Città|City (Oregon)|Insular city|City (Kentucky)|City topics|island cities|city employment|bleuilly|city (oregon)|Insular cities|city/comments|city (united states)|città|city (idaho)|Island cities | city (kentucky) | A city is a large human settlement. Cities generally have extensive systems for housing, transportation, sanitation, utilities, land use, and communication. Their density facilitates interaction between people, government organizations and businesses, sometimes benefiting different parties in the process.Historically, city-dwellers have been a small proportion of humanity overall, but following two centuries of unprecedented and rapid urbanization, roughly half of the world population now lives ",
+      "relation": "SUBCLASS_OF",
+      "target_id": "Q177634",
+      "target_desc": "Communities|Community|commuities|communities|Books/Community|Commuities|books/community|COMMUNITY | Communities | A community is a small or large social unit (a group of living things) that has something in common, such as norms, religion, values, customs, or identity.  Communities often share a sense of place that is situated in a given geographical area (e.g. a country, village, town, or neighbourhood) or in virtual space through communication platforms. Durable relations that extend beyond immediate genealogical ties also define a sense of community. People tend to define those social ties as important t",
       "round": 4
     },
     {
       "source_id": "Q2297724",
-      "source_desc": "Ankara Province",
+      "source_desc": "Ankara Province|ankara province | Ankara Province | Ankara Province (Turkish: Ankara ili, pronounced [ˈaŋkaɾa iˈli]) is the capital province of Turkey.",
+      "relation": "INSTANCE_OF",
+      "target_id": "Q48336",
+      "target_desc": "turkish provinces|Provinces in Turkey|Provinces of turkey|provinces of turkey|Provinces in turkey|Province of Turkey|provinces in turkey|Turkish Provinces|Turkish provinces|Provinces of Turkey|province of turkey | turkish provinces | Turkey is divided into 81 provinces (Turkish: il). Each province is divided into a number of different districts (ilçe). Each provincial government is seated in the central district (merkez ilçe).  The central district usually bears the name of the province (e.g. the city of Van is the central district of Van Province).  There are only three exceptions to this naming scheme: Adapazarı of Sakarya ProvinceAntakya of Hatay Provinceİzmit of Kocaeli ProvinceEach province is administered by an appoint",
+      "round": 4
+    },
+    {
+      "source_id": "Q2297724",
+      "source_desc": "Ankara Province|ankara province | Ankara Province | Ankara Province (Turkish: Ankara ili, pronounced [ˈaŋkaɾa iˈli]) is the capital province of Turkey.",
+      "relation": "CAPITAL",
+      "target_id": "Q3640",
+      "target_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "round": 4
+    },
+    {
+      "source_id": "Q1345660",
+      "source_desc": "vilayet of angora|ankara vilayet|Vilayet of Angora|Ankara Vilayet | vilayet of angora | The Vilayet of Ankara or Angora was a first-level administrative division (vilayet) of the Ottoman Empire, centered on the city of Angora (Ankara) in north-central Anatolia, which included most of ancient Galatia.",
+      "relation": "CAPITAL",
+      "target_id": "Q3640",
+      "target_desc": "Angora, Turkey|Ankara Metropolitan Municipality|ancyra of the armenians|Engürü|ancyra of the romans|enguru|Ancyra of the Romans|Ankara|ego ankara|engürü|ankara, turkey|angora, turkey|ankara, tur.|Geography of Ankara|Capital of Turkey|ankara|Enguru|Ankara, Tur.|EGO Ankara|Ánkyra|un/locode:trank|UN/LOCODE:TRANK|capital of turkey|ánkyra|ankara metropolitan municipality|geography of ankara|Ankara, Turkey|Ancyra of the Armenians | Angora, Turkey | Ankara (, also US: , Turkish: [ˈaŋkaɾa] (listen)), historically known as Ancyra () and Angora (, also US: ), is the capital of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.On 23 April 1920 the Grand National Assembly of Turkey was established in Ankara, which became the headquarters of Atatürk and the Turkish Nation",
+      "round": 4
+    },
+    {
+      "source_id": "Q486972",
+      "source_desc": "community|Populated places|human community|inhabited place|Inhabited locality|locality (settlement)|Populated Place|towns and villages|settlement|inhabited locality|populated place|Towns and Villages|human settlements|settlement (community)|human settlement/archive 1|Human settlements|Populated place|Settlement (community)|Inhabited localities|human settlement|Human settlement/Archive 1|populated places|inhabited localities|Locality (settlement)|Human settlement | community | In geography, statistics and archaeology, a settlement, locality or populated place is a community in which people live. The complexity of a settlement can range from a small number of dwellings grouped together to the largest of cities with surrounding urbanized areas. Settlements may include hamlets, villages, towns and cities.  A settlement may have known historical properties such as the date or era in which it was first settled, or first settled by  particular people.In the field of geospat",
+      "relation": "SUBCLASS_OF",
+      "target_id": "Q2221906",
+      "target_desc": "geographic place|Locating|location|Geographic place|locating|Located|Geographical place|location (topography)|location (geography)|Place (geography)|Location (topography)|location (geogrpahy)|Absolute location|geographical place|place (geography)|coordinates|absolute location|geographical location|located|Geographical location|Location (geogrpahy)|Location (geography) | geographic place | In geography, location and place are used to identify a point or an area on the Earth's surface or elsewhere. The term location generally implies a higher degree of certainty than place, the latter often indicating an entity with an ambiguous boundary, relying more on human or social attributes of place identity and sense of place than on geometry.",
+      "round": 5
+    },
+    {
+      "source_id": "Q48336",
+      "source_desc": "turkish provinces|Provinces in Turkey|Provinces of turkey|provinces of turkey|Provinces in turkey|Province of Turkey|provinces in turkey|Turkish Provinces|Turkish provinces|Provinces of Turkey|province of turkey | turkish provinces | Turkey is divided into 81 provinces (Turkish: il). Each province is divided into a number of different districts (ilçe). Each provincial government is seated in the central district (merkez ilçe).  The central district usually bears the name of the province (e.g. the city of Van is the central district of Van Province).  There are only three exceptions to this naming scheme: Adapazarı of Sakarya ProvinceAntakya of Hatay Provinceİzmit of Kocaeli ProvinceEach province is administered by an appoint",
       "relation": "COUNTRY",
       "target_id": "Q43",
-      "target_desc": "turkiye",
-      "round": 4
+      "target_desc": "turkiye|The Republic of Turkey|tuerkiye|Republic of turkey|türkei|p:tr|Turkey (nation)|Turquie|turkey (country)|tuerkiye cumhuriyeti|Turkey|State of Turkey|terky|Türkiye Devleti|turquie|Turkish State|Türkiye Respublikasi|tr|iso 3166-1:tr|Turkish republic|turkia|Turkish Republic|türkiye respublikasi|tuerkei|Etymology of Turkey|Republic of Turkiye|P:TR|the republic of turkey|Turkiye|turkei|Turkiye Cumhuriyeti|Turkie|Turkei|republic of turkey|türkiye cumhuriyeti|Tuerkei|turky|Turkye|turkey (state)|state of turkey|ISO 3166-1:TR|🇹🇷|turkiye cumhuriyeti|türkiye respublikası|turkey|Tuerkiye Cumhuriyeti|TURKEY|Turky|turkie|Turkey (country)|TurkeY|turkye|turkish republic|luna santin/temp/turkey|türkiye|Türkiye Respublikası|turkey (nation)|Turkey (Country)|Turkey (state)|Turquia|türkiye devleti|Tuerkiye|Turkia|Türkei|Terky|Türkiye Cumhuriyeti|etymology of turkey|turquia|republic of turkiye|Republic of Turkey|turkish state|Luna Santin/Temp/Turkey|Türkiye | turkiye | Turkey (Turkish: Türkiye [ˈtyɾcije]), officially the Republic of Turkey (Turkish: Türkiye Cumhuriyeti [ˈtyɾcije dʒumˈhuɾijeti] (listen)), is a transcontinental country located mainly in Western Asia, with a smaller portion on the Balkan Peninsula in Southeast Europe. East Thrace, located in Europe, is separated from Anatolia by the Sea of Marmara, the Bosphorous strait and the Dardanelles (collectively called the Turkish Straits). Turkey is bordered by Greece and Bulgaria to its northwest; Georg",
+      "round": 5
+    },
+    {
+      "source_id": "Q2221906",
+      "source_desc": "geographic place|Locating|location|Geographic place|locating|Located|Geographical place|location (topography)|location (geography)|Place (geography)|Location (topography)|location (geogrpahy)|Absolute location|geographical place|place (geography)|coordinates|absolute location|geographical location|located|Geographical location|Location (geogrpahy)|Location (geography) | geographic place | In geography, location and place are used to identify a point or an area on the Earth's surface or elsewhere. The term location generally implies a higher degree of certainty than place, the latter often indicating an entity with an ambiguous boundary, relying more on human or social attributes of place identity and sense of place than on geometry.",
+      "relation": "DIFFERENT_FROM",
+      "target_id": "Q618123",
+      "target_desc": "geographic features|Geographical feature|Geographic features|geographical feature|Feature (geography)|geographic feature|feature (geography)|Geographic feature | geographic features | Geographical features are naturally-created features of the Earth. Natural geographical features consist of landforms and ecosystems. For example, terrain types,  (physical factors of the environment) are natural geographical features. Conversely, human settlements or other engineered forms are considered types of artificial geographical features.",
+      "round": 6
+    },
+    {
+      "source_id": "Q2221906",
+      "source_desc": "geographic place|Locating|location|Geographic place|locating|Located|Geographical place|location (topography)|location (geography)|Place (geography)|Location (topography)|location (geogrpahy)|Absolute location|geographical place|place (geography)|coordinates|absolute location|geographical location|located|Geographical location|Location (geogrpahy)|Location (geography) | geographic place | In geography, location and place are used to identify a point or an area on the Earth's surface or elsewhere. The term location generally implies a higher degree of certainty than place, the latter often indicating an entity with an ambiguous boundary, relying more on human or social attributes of place identity and sense of place than on geometry.",
+      "relation": "STUDIED_BY",
+      "target_id": "Q1071",
+      "target_desc": "P:G|p:g|P:GEO|geog.|Geography of the earth|Planetary geography|geographical|Geographically|Geographics|Geographical|Books/Geography|geographics|geography of earth|Geographic|geography|geographical science|books/geography|Geography portal|geography portal|Geography|Jography|Geog.|Geographies|geography of the earth|geograpy|geographic|p:geo|geographically|Geography of Earth|planetary geography|Geograpy|jography|geographies | P:G | Geography (from Greek: γεωγραφία, geographia, literally \"earth description\") is a field of science devoted to the study of the lands, features, inhabitants, and phenomena of the Earth and planets. The first person to use the word γεωγραφία was Eratosthenes (276–194 BC). Geography is an all-encompassing discipline that seeks an understanding of Earth and its human and natural complexities—not merely where objects are, but also how they have changed and come to be.Geography is often defined in ter",
+      "round": 6
     }
   ],
-  "kg_summary": "Galatasaray'ın teknik direktörünün doğum yeri ile ilgili bilgi bulunamadı. Ancak, Galatasaray'ın Türkiye'den geldiği bilinmektedir.",
+  "kg_summary": "The technical director of Galatasaray is not explicitly mentioned in the provided knowledge graph. However, it is mentioned that Coşkun Özarı, a former Turkish football player and coach, joined Galatasaray as a young student and later became a coach. He was born in Istanbul, Turkey.",
   "visited_entities": [
+    "Q515",
     "Q2297724",
+    "Q2221906",
+    "Q618123",
     "Q43",
+    "Q3138474",
+    "Q177634",
+    "Q1071",
+    "Q15057775",
+    "Q1345660",
+    "Q486972",
+    "Q48336",
+    "Q799805",
+    "Q483040",
+    "Q1147395",
+    "Q1138348",
     "Q3640",
-    "Q2525887",
-    "Q1249412",
-    "Q2277",
-    "Q5864650",
-    "Q5518018"
+    "Q406"
   ],
-  "rounds_completed": 5
+  "rounds_completed": 6
 }

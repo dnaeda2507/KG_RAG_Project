@@ -1,0 +1,910 @@
+[
+  {
+    "question_id": "TR_001",
+    "question_text": "Where was Sueleyman Seba born?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "Sueleyman Seba",
+      "PLACE_OF_BIRTH",
+      "sakarya province"
+    ],
+    "gold_answer": "sakarya province",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club<-MEMBER_OF_SPORTS_TEAM-Player->PLACE_OF_BIRTH->City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_002",
+    "question_text": "Where was kadri aytaç born?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "kadri aytaç",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club<-MEMBER_OF_SPORTS_TEAM-Player->PLACE_OF_BIRTH->City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_003",
+    "question_text": "Where was Naci Erdem born?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "Naci Erdem",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club<-MEMBER_OF_SPORTS_TEAM-Player->PLACE_OF_BIRTH->City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_004",
+    "question_text": "Where was arif erdem born?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "arif erdem",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club<-MEMBER_OF_SPORTS_TEAM-Player->PLACE_OF_BIRTH->City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_005",
+    "question_text": "Where was Seref Has born?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "Seref Has",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "istanbul (turkey)",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club<-MEMBER_OF_SPORTS_TEAM-Player->PLACE_OF_BIRTH->City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_006",
+    "question_text": "Where was hamdi aslan born?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "hamdi aslan",
+      "PLACE_OF_BIRTH",
+      "Trabzon Province"
+    ],
+    "gold_answer": "Trabzon Province",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club<-MEMBER_OF_SPORTS_TEAM-Player->PLACE_OF_BIRTH->City",
+    "verified": true
+  },
+  {
+    "question_id": "TR_007",
+    "question_text": "In which city or region is the stadium of ankara demirspor located?",
+    "reasoning_path": [
+      "ankara demirspor",
+      "HOME_VENUE",
+      "Cebeci İnönü Stadı",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "Angora, Turkey"
+    ],
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_008",
+    "question_text": "In which city or region is the stadium of Fatih Karagumruk SK located?",
+    "reasoning_path": [
+      "Fatih Karagumruk SK",
+      "HOME_VENUE",
+      "Vefa Stadium",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "Karagumruk"
+    ],
+    "gold_answer": "Karagumruk",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_009",
+    "question_text": "In which city or region is the stadium of Kahramanmarasspor located?",
+    "reasoning_path": [
+      "Kahramanmarasspor",
+      "HOME_VENUE",
+      "12 subat stadium",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "maraş, turkey"
+    ],
+    "gold_answer": "maraş, turkey",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_010",
+    "question_text": "In which city or region is the stadium of i̇stanbul büyükşehir belediyespor (football team) located?",
+    "reasoning_path": [
+      "i̇stanbul büyükşehir belediyespor (football team)",
+      "HOME_VENUE",
+      "atatuerk olimpiyat stadi",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "Basaksehir"
+    ],
+    "gold_answer": "Basaksehir",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_011",
+    "question_text": "In which city or region is the stadium of trabzon karadeniz s.k. located?",
+    "reasoning_path": [
+      "trabzon karadeniz s.k.",
+      "HOME_VENUE",
+      "huseyin avni aker stadium",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "history of trabzon"
+    ],
+    "gold_answer": "history of trabzon",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_012",
+    "question_text": "In which city or region is the stadium of hacettepe sk located?",
+    "reasoning_path": [
+      "hacettepe sk",
+      "HOME_VENUE",
+      "new ankara stadium",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "Angora, Turkey"
+    ],
+    "gold_answer": "Angora, Turkey",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_013",
+    "question_text": "Which country is the club of Naci Ozkaya in?",
+    "reasoning_path": [
+      "Naci Ozkaya",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_014",
+    "question_text": "Which country is the club of Tuncay Şanlı in?",
+    "reasoning_path": [
+      "Tuncay Şanlı",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_015",
+    "question_text": "Which country is the club of yasin celik in?",
+    "reasoning_path": [
+      "yasin celik",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_016",
+    "question_text": "Which country is the club of egemen korkmaz in?",
+    "reasoning_path": [
+      "egemen korkmaz",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_017",
+    "question_text": "Which country is the club of Ceyhun Guelselam in?",
+    "reasoning_path": [
+      "Ceyhun Guelselam",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_018",
+    "question_text": "Which country is the club of ali kemal denizci in?",
+    "reasoning_path": [
+      "ali kemal denizci",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_019",
+    "question_text": "Which league does the club fenerbahçe s.k. (football), where Gokhan Unal played, belong to?",
+    "reasoning_path": [
+      "Gokhan Unal",
+      "MEMBER_OF_SPORTS_TEAM",
+      "fenerbahçe s.k. (football)",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->LEAGUE->League",
+    "verified": true
+  },
+  {
+    "question_id": "TR_020",
+    "question_text": "Which league does the club Galatasaray F.C., where mike marsh (footballer) played, belong to?",
+    "reasoning_path": [
+      "mike marsh (footballer)",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->LEAGUE->League",
+    "verified": true
+  },
+  {
+    "question_id": "TR_021",
+    "question_text": "Which league does the club Galatasaray F.C., where Buruk Okan played, belong to?",
+    "reasoning_path": [
+      "Buruk Okan",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->LEAGUE->League",
+    "verified": true
+  },
+  {
+    "question_id": "TR_022",
+    "question_text": "Which league does the club Galatasaray F.C., where ismael bouzid played, belong to?",
+    "reasoning_path": [
+      "ismael bouzid",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->LEAGUE->League",
+    "verified": true
+  },
+  {
+    "question_id": "TR_023",
+    "question_text": "Which league does the club Galatasaray F.C., where Erkin Caner played, belong to?",
+    "reasoning_path": [
+      "Erkin Caner",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->LEAGUE->League",
+    "verified": true
+  },
+  {
+    "question_id": "TR_024",
+    "question_text": "Which league does the club Galatasaray F.C., where turan arda played, belong to?",
+    "reasoning_path": [
+      "turan arda",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "LEAGUE",
+      "turkish super league"
+    ],
+    "gold_answer": "turkish super league",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->MEMBER_OF_SPORTS_TEAM->Club->LEAGUE->League",
+    "verified": true
+  },
+  {
+    "question_id": "TR_025",
+    "question_text": "Which country is Berlim, the birthplace of Aydin Karabulut, in?",
+    "reasoning_path": [
+      "Aydin Karabulut",
+      "PLACE_OF_BIRTH",
+      "Berlim",
+      "COUNTRY",
+      "march of brandenburg"
+    ],
+    "gold_answer": "march of brandenburg",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->PLACE_OF_BIRTH->City->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_026",
+    "question_text": "Which country is Manisa Ili Province, the birthplace of zeki önatlı, in?",
+    "reasoning_path": [
+      "zeki önatlı",
+      "PLACE_OF_BIRTH",
+      "Manisa Ili Province",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->PLACE_OF_BIRTH->City->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_027",
+    "question_text": "Which country is Salonika, the birthplace of Ulvi Yenal, in?",
+    "reasoning_path": [
+      "Ulvi Yenal",
+      "PLACE_OF_BIRTH",
+      "Salonika",
+      "COUNTRY",
+      "Venetian golden era"
+    ],
+    "gold_answer": "Venetian golden era",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->PLACE_OF_BIRTH->City->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_028",
+    "question_text": "Which country is Tacheny, the birthplace of Ugur Inceman, in?",
+    "reasoning_path": [
+      "Ugur Inceman",
+      "PLACE_OF_BIRTH",
+      "Tacheny",
+      "COUNTRY",
+      "deutsches kaiserreich"
+    ],
+    "gold_answer": "deutsches kaiserreich",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->PLACE_OF_BIRTH->City->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_029",
+    "question_text": "Which country is Aydın İli Province, Turkey, the birthplace of Aydin Toscali, in?",
+    "reasoning_path": [
+      "Aydin Toscali",
+      "PLACE_OF_BIRTH",
+      "Aydın İli Province, Turkey",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->PLACE_OF_BIRTH->City->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_030",
+    "question_text": "Which country is monaco of bavaria, the birthplace of Mehmet Ekici, in?",
+    "reasoning_path": [
+      "Mehmet Ekici",
+      "PLACE_OF_BIRTH",
+      "monaco of bavaria",
+      "COUNTRY",
+      "Germanz"
+    ],
+    "gold_answer": "Germanz",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Player->PLACE_OF_BIRTH->City->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_031",
+    "question_text": "Which country is the league of Vestel Manisaspor in?",
+    "reasoning_path": [
+      "Vestel Manisaspor",
+      "LEAGUE",
+      "Bank Asya 1.League",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club->LEAGUE->League->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_032",
+    "question_text": "Which country is the league of Goztepe S.K. in?",
+    "reasoning_path": [
+      "Goztepe S.K.",
+      "LEAGUE",
+      "Bank Asya 1.League",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club->LEAGUE->League->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_033",
+    "question_text": "Which country is the league of Arsinspor in?",
+    "reasoning_path": [
+      "Arsinspor",
+      "LEAGUE",
+      "TFF Third League",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "2-hop",
+    "domain": "football",
+    "template": "Club->LEAGUE->League->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_034",
+    "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F.C. where brad friedel played, located?",
+    "reasoning_path": [
+      "brad friedel",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "HOME_VENUE",
+      "Türk Telekom Arena",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "sisli"
+    ],
+    "gold_answer": "sisli",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_035",
+    "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F.C. where muslih peykoğlu played, located?",
+    "reasoning_path": [
+      "muslih peykoğlu",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "HOME_VENUE",
+      "Türk Telekom Arena",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "sisli"
+    ],
+    "gold_answer": "sisli",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_036",
+    "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F.C. where Erguen Penbe played, located?",
+    "reasoning_path": [
+      "Erguen Penbe",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "HOME_VENUE",
+      "Türk Telekom Arena",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "sisli"
+    ],
+    "gold_answer": "sisli",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_037",
+    "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F.C. where Kadir Ozcan played, located?",
+    "reasoning_path": [
+      "Kadir Ozcan",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "HOME_VENUE",
+      "Türk Telekom Arena",
+      "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "sisli"
+    ],
+    "gold_answer": "sisli",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->HOME_VENUE->Stadium->LOCATED_IN->Place",
+    "verified": true
+  },
+  {
+    "question_id": "TR_038",
+    "question_text": "Which country is fischbach unrra displaced persons camp, the birthplace of sercan sararer osuna from Türkiye millî futbol takımı, in?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "sercan sararer osuna",
+      "PLACE_OF_BIRTH",
+      "fischbach unrra displaced persons camp",
+      "COUNTRY",
+      "Weimar regime"
+    ],
+    "gold_answer": "Weimar regime",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club (Player->PLACE_OF_BIRTH->City->COUNTRY->Country)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_039",
+    "question_text": "Which country is istanbul (turkey), the birthplace of Ercan Aktuna from Türkiye millî futbol takımı, in?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "Ercan Aktuna",
+      "PLACE_OF_BIRTH",
+      "istanbul (turkey)",
+      "COUNTRY",
+      "Ottoman empire"
+    ],
+    "gold_answer": "Ottoman empire",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club (Player->PLACE_OF_BIRTH->City->COUNTRY->Country)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_040",
+    "question_text": "Which country is mush of the armenians, the birthplace of Kürşat Duymuş from Türkiye millî futbol takımı, in?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "Kürşat Duymuş",
+      "PLACE_OF_BIRTH",
+      "mush of the armenians",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club (Player->PLACE_OF_BIRTH->City->COUNTRY->Country)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_041",
+    "question_text": "Which country is united kingdom/london, the birthplace of Kazim Richards from Türkiye millî futbol takımı, in?",
+    "reasoning_path": [
+      "Türkiye millî futbol takımı",
+      "<-MEMBER_OF_SPORTS_TEAM-",
+      "Kazim Richards",
+      "PLACE_OF_BIRTH",
+      "united kingdom/london",
+      "COUNTRY",
+      "Imperial Roman"
+    ],
+    "gold_answer": "Imperial Roman",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club (Player->PLACE_OF_BIRTH->City->COUNTRY->Country)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_042",
+    "question_text": "Which country is the league of fenerbahçe s.k. (football), where Muhammed Türkmen played, in?",
+    "reasoning_path": [
+      "Muhammed Türkmen",
+      "MEMBER_OF_SPORTS_TEAM",
+      "fenerbahçe s.k. (football)",
+      "LEAGUE",
+      "turkish super league",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->LEAGUE->League->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_043",
+    "question_text": "Which country is the league of Galatasaray F.C., where Gheorghe Popescu played, in?",
+    "reasoning_path": [
+      "Gheorghe Popescu",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "LEAGUE",
+      "turkish super league",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->LEAGUE->League->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_044",
+    "question_text": "Which country is the league of Galatasaray F.C., where Burhan Atak played, in?",
+    "reasoning_path": [
+      "Burhan Atak",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "LEAGUE",
+      "turkish super league",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->LEAGUE->League->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_045",
+    "question_text": "Which country is the league of Galatasaray F.C., where gokmen ozdenak played, in?",
+    "reasoning_path": [
+      "gokmen ozdenak",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "LEAGUE",
+      "turkish super league",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->LEAGUE->League->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_046",
+    "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where İbrahim Yavuz played, in?",
+    "reasoning_path": [
+      "İbrahim Yavuz",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "HOME_VENUE",
+      "Türk Telekom Arena",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->HOME_VENUE->Stadium->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_047",
+    "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where Angel Antar played, in?",
+    "reasoning_path": [
+      "Angel Antar",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "HOME_VENUE",
+      "Türk Telekom Arena",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->HOME_VENUE->Stadium->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_048",
+    "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where serkan kurtulus played, in?",
+    "reasoning_path": [
+      "serkan kurtulus",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "HOME_VENUE",
+      "Türk Telekom Arena",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->HOME_VENUE->Stadium->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_049",
+    "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where felipe jorge loureiro played, in?",
+    "reasoning_path": [
+      "felipe jorge loureiro",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Galatasaray F.C.",
+      "HOME_VENUE",
+      "Türk Telekom Arena",
+      "COUNTRY",
+      "turkiye"
+    ],
+    "gold_answer": "turkiye",
+    "difficulty": "3-hop",
+    "domain": "football",
+    "template": "Player->Club->HOME_VENUE->Stadium->COUNTRY->Country",
+    "verified": true
+  },
+  {
+    "question_id": "TR_050",
+    "question_text": "Which player from caykur rizespor was born in Turkey, Cumali Bisi or gökhan öztürk?",
+    "reasoning_path": [
+      "Cumali Bisi",
+      "MEMBER_OF_SPORTS_TEAM",
+      "caykur rizespor",
+      "PLACE_OF_BIRTH",
+      "Turkey",
+      "vs",
+      "gökhan öztürk",
+      "MEMBER_OF_SPORTS_TEAM",
+      "caykur rizespor"
+    ],
+    "gold_answer": "Cumali Bisi",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Club.Player(BornTurkey) vs Club.Player(BornForeign)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_051",
+    "question_text": "Which player plays for a Turkish football club, Hami Mandirali or dmitri nikolayevich ulyanov?",
+    "reasoning_path": [
+      "Hami Mandirali",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "vs",
+      "dmitri nikolayevich ulyanov",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Ahi Bnei Nazareth F.C."
+    ],
+    "gold_answer": "Hami Mandirali",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Player(TurkishClub) vs Player(ForeignClub)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_052",
+    "question_text": "Which player plays for a Turkish football club, fatih sonkaya or dmitri nikolayevich ulyanov?",
+    "reasoning_path": [
+      "fatih sonkaya",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "vs",
+      "dmitri nikolayevich ulyanov",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Real Racing Club de Santander S.A.D."
+    ],
+    "gold_answer": "fatih sonkaya",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Player(TurkishClub) vs Player(ForeignClub)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_053",
+    "question_text": "Which player plays for a Turkish football club, tarık daşgün or Gigi Meroni?",
+    "reasoning_path": [
+      "tarık daşgün",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "vs",
+      "Gigi Meroni",
+      "MEMBER_OF_SPORTS_TEAM",
+      "como f.c."
+    ],
+    "gold_answer": "tarık daşgün",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Player(TurkishClub) vs Player(ForeignClub)",
+    "verified": true
+  },
+  {
+    "question_id": "TR_054",
+    "question_text": "Which player plays for a Turkish football club, volkan arslan or dmitri nikolayevich ulyanov?",
+    "reasoning_path": [
+      "volkan arslan",
+      "MEMBER_OF_SPORTS_TEAM",
+      "Türkiye millî futbol takımı",
+      "vs",
+      "dmitri nikolayevich ulyanov",
+      "MEMBER_OF_SPORTS_TEAM",
+      "OPPV Moscow"
+    ],
+    "gold_answer": "volkan arslan",
+    "difficulty": "comparison",
+    "domain": "football",
+    "template": "Player(TurkishClub) vs Player(ForeignClub)",
+    "verified": true
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "turkey_entity_id": "Q43",
+  "direct_connected_entity_count": 21885,
+  "direct_outgoing_entity_count": 219,
+  "total_incoming_entities": 21885,
+  "total_outgoing_entities": 219,
+  "total_direct_incoming_triples": 21885,
+  "total_direct_outgoing_triples": 219,
+  "top_10_turkey_related_categories": [
+    {
+      "category_name": "Huamn",
+      "entity_count": 6401
+    },
+    {
+      "category_name": "community",
+      "entity_count": 5123
+    },
+    {
+      "category_name": "mahalle",
+      "entity_count": 1884
+    },
+    {
+      "category_name": "uncategorized",
+      "entity_count": 1744
+    },
+    {
+      "category_name": "koy",
+      "entity_count": 876
+    },
+    {
+      "category_name": "ilçe",
+      "entity_count": 845
+    },
+    {
+      "category_name": "movie",
+      "entity_count": 582
+    },
+    {
+      "category_name": "Belde",
+      "entity_count": 417
+    },
+    {
+      "category_name": "Flood Control Dam",
+      "entity_count": 297
+    },
+    {
+      "category_name": "city (kentucky)",
+      "entity_count": 223
+    }
+  ],
+  "number_of_detected_cities": 200,
+  "top_10_cities_by_connected_entities": [
+    {
+      "city_id": "Q406",
+      "city_name": "istanbul (turkey)",
+      "connected_entities": 3210
+    },
+    {
+      "city_id": "Q3640",
+      "city_name": "Angora, Turkey",
+      "connected_entities": 882
+    },
+    {
+      "city_id": "Q40738",
+      "city_name": "Bursa, Turkey",
+      "connected_entities": 214
+    },
+    {
+      "city_id": "Q155915",
+      "city_name": "kastamon",
+      "connected_entities": 192
+    },
+    {
+      "city_id": "Q6487",
+      "city_name": "attalea in pamphylia",
+      "connected_entities": 168
+    },
+    {
+      "city_id": "Q45301",
+      "city_name": "history of trabzon",
+      "connected_entities": 165
+    },
+    {
+      "city_id": "Q170532",
+      "city_name": "titular archbishop of amasea",
+      "connected_entities": 162
+    },
+    {
+      "city_id": "Q38545",
+      "city_name": "adanija",
+      "connected_entities": 158
+    },
+    {
+      "city_id": "Q211805",
+      "city_name": "History of Bartın",
+      "connected_entities": 147
+    },
+    {
+      "city_id": "Q211828",
+      "city_name": "history of bayburt",
+      "connected_entities": 141
+    }
+  ],
+  "top_10_relation_types": [
+    {
+      "relation_type": "COUNTRY",
+      "frequency": 14138
+    },
+    {
+      "relation_type": "MEMBER_OF_SPORTS_TEAM",
+      "frequency": 11404
+    },
+    {
+      "relation_type": "LOCATED_IN_THE_ADMINISTRATIVE_TERRITORIAL_ENTITY",
+      "frequency": 8665
+    },
+    {
+      "relation_type": "COUNTRY_OF_CITIZENSHIP",
+      "frequency": 6266
+    },
+    {
+      "relation_type": "PLACE_OF_BIRTH",
+      "frequency": 5888
+    },
+    {
+      "relation_type": "INSTANCE_OF",
+      "frequency": 4291
+    },
+    {
+      "relation_type": "PLACE_OF_DEATH",
+      "frequency": 1814
+    },
+    {
+      "relation_type": "ETHNIC_GROUP",
+      "frequency": 1225
+    },
+    {
+      "relation_type": "LANGUAGES_SPOKEN_WRITTEN_OR_SIGNED",
+      "frequency": 984
+    },
+    {
+      "relation_type": "EDUCATED_AT",
+      "frequency": 850
+    }
+  ],
+  "domain_counts": {
+    "sports": 4192,
+    "cinema": 759,
+    "business": 708,
+    "academia": 781,
+    "music": 445
+  },
+  "most_dense_domain": "sports"
+}

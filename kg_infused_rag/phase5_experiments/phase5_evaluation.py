@@ -1,26 +1,3 @@
-"""
-Phase 5 - Experiments and Evaluation
-======================================
-Pipeline sonuçlarını okuyup 4 yöntemi karşılaştırır.
-
-Önce pipeline'ı çalıştırın:
-    cd kg_infused_rag/phase4_pipeline
-    python pipeline_football.py --method all --max_q 50
-    python pipeline_cinema.py   --method all --max_q 50
-
-Sonra bu scripti çalıştırın:
-    cd kg_infused_rag/phase5_experiments
-    python phase5_evaluation.py
-
-Çıktılar:
-    outputs/phase5/experiment1_method_comparison.json
-    outputs/phase5/experiment2_domain_analysis.json
-    outputs/phase5/experiment3_questiontype_analysis.json
-    outputs/phase5/error_analysis.json
-    outputs/phase5/phase5_charts.png
-    outputs/phase5/phase5_report.txt
-"""
-
 import os
 import sys
 import json
@@ -36,14 +13,16 @@ OUTPUT_DIR = os.path.join(
 )
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+
 FOOTBALL_RESULTS = os.path.normpath(os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
-    "..", "..", "outputs", "phase4_football", "pipeline_results.json"
+    "..", "..", "outputs", "phase4_kg_infused_rag", "football", "pipeline_results.json"
 ))
 CINEMA_RESULTS = os.path.normpath(os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
-    "..", "..", "outputs", "phase4_cinema", "pipeline_results.json"
+    "..", "..", "outputs", "phase4_kg_infused_rag", "cinema", "pipeline_results.json"
 ))
+
 
 METHODS = ["no_retrieval", "vanilla_rag", "vanilla_qe", "kg_rag"]
 METHOD_LABELS = {
@@ -93,7 +72,7 @@ def _soft_accuracy(pred: str, gold: str) -> bool:
 
 
 def _is_comparison(gold: str) -> bool:
-    return gold.strip().lower().startswith("comparison::")
+    return False  # comparison soruları da değerlendirmeye dahil
 
 
 def _retrieval_recall(passages: list, gold: str) -> bool:
@@ -198,20 +177,22 @@ def _compute_metrics(results: list, method: str) -> dict:
 # ─────────────────────────────────────────────────────────────────────────────
 # VERİ YÜKLEME
 # ─────────────────────────────────────────────────────────────────────────────
+
 print("\n" + "=" * 70)
 print("  PHASE 5 — Experiments & Evaluation")
 print("=" * 70)
+
 
 football_data = _load_results(FOOTBALL_RESULTS, "football")
 cinema_data   = _load_results(CINEMA_RESULTS,   "cinema")
 all_data      = football_data + cinema_data
 
 if not all_data:
-    print("\n❌ Hiç sonuç verisi yok. Önce pipeline çalıştırın.")
+    print("\n\u274c Hiç sonuç verisi yok. Önce pipeline çalıştırın.")
     sys.exit(1)
 
-print(f"\n  Toplam soru: {len(all_data)} "
-      f"(football: {len(football_data)}, cinema: {len(cinema_data)})")
+
+print(f"\n  Toplam soru: {len(all_data)} (football: {len(football_data)}, cinema: {len(cinema_data)})")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -251,6 +232,7 @@ save_json(exp1, "experiment1_method_comparison.json")
 print("\n" + "=" * 70)
 print("  DENEY 2: Domain Bazlı Analiz")
 print("=" * 70)
+
 
 exp2 = {}
 for domain, data in [("football", football_data), ("cinema", cinema_data)]:
@@ -293,10 +275,10 @@ print("\n" + "=" * 70)
 print("  DENEY 3: Soru Tipi Analizi")
 print("=" * 70)
 
+
 exp3 = {}
 for diff in ["2-hop", "3-hop", "comparison"]:
-    subset = [r for r in all_data
-              if r.get("difficulty") == diff]
+    subset = [r for r in all_data if r.get("difficulty") == diff]
     if not subset:
         continue
     exp3[diff] = {}
@@ -355,8 +337,9 @@ for cat, cnt in cat_counts.most_common():
     bar = "█" * min(cnt, 20)
     print(f"    {cat:20} : {cnt:>4}  ({pct:5.1f}%)  {bar}")
 
-# Domain bazlı hatalar
-domain_errors = collections.Counter(e["domain"] for e in kg_errors)
+
+# Domain bazlı hatalar (sadece football ve cinema)
+domain_errors = collections.Counter(e["domain"] for e in kg_errors if e["domain"] in ("football", "cinema"))
 print(f"\n  Domain bazlı hatalar (KG-RAG):")
 for domain, cnt in domain_errors.most_common():
     print(f"    {domain:15} : {cnt}")
