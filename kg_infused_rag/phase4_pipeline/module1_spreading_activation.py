@@ -381,6 +381,14 @@ class SpreadingActivation:
         if not triples:
             return []
 
+        # Öncelikle triple'larda doğrudan cevap çıkarımı (örn. doğum yeri)
+        for t in triples:
+            # Relation doğrudan PLACE_OF_BIRTH veya benzeri ise ve target_desc anlamlıysa öncelik ver
+            if t.get("relation", "").upper() in {"PLACE_OF_BIRTH", "BIRTHPLACE"} and t.get("target_desc"):
+                # Eğer target_desc çok genel değilse (örn. 'Turkey' gibi tek kelime değilse)
+                if len(t["target_desc"]) > 3:
+                    return [t]
+
         if target_relations:
             triples = _rerank_triples_by_relation(triples, target_relations)
 
@@ -401,10 +409,11 @@ class SpreadingActivation:
                 f"that players belong to). "
                 f"If any triple with these relation types (or their INV_ variants) "
                 f"exists, prioritize them. "
+                f"If you see a phrase like 'was born in X' or a location in the triple, return that location as the answer. "
                 f"Include ALL matching triples of these types — do not skip them."
             )
         else:
-            preference_hint = "Prioritize relations that directly match the queried attribute."
+            preference_hint = "Prioritize relations that directly match the queried attribute. If you see a phrase like 'was born in X' or a location in the triple, return that location as the answer."
 
         prompt = f"""You are a knowledge graph reasoning assistant.
 
@@ -432,10 +441,22 @@ Return ONLY the JSON list, nothing else."""
             indices   = json.loads(raw_clean)
             selected  = [triples[int(i)-1] for i in indices
                          if 1 <= int(i) <= len(triples)]
+            # Eğer LLM hiç triple seçemediyse, relation ve target_desc ile fallback uygula
+            if not selected:
+                for t in triples:
+                    if t.get("relation", "").upper() in {"PLACE_OF_BIRTH", "BIRTHPLACE"} and t.get("target_desc"):
+                        if len(t["target_desc"]) > 3:
+                            return [t]
+                # Son fallback: ilk triple
+                return triples[:1]
             return selected
         except (json.JSONDecodeError, ValueError, TypeError):
-            print(f"  [LLM] JSON parse hatası: '{raw}' — ilk 3 triple alınıyor.")
-            return triples[:3]
+            print(f"  [LLM] JSON parse hatası: '{raw}' — relation ve target_desc ile fallback.")
+            for t in triples:
+                if t.get("relation", "").upper() in {"PLACE_OF_BIRTH", "BIRTHPLACE"} and t.get("target_desc"):
+                    if len(t["target_desc"]) > 3:
+                        return [t]
+            return triples[:1]
 
     def iterative_spreading(
         self, query: str, seeds: list

@@ -1,0 +1,177 @@
+{
+  "total_questions": 56,
+  "methods": {
+    "no_retrieval": {
+      "total": 56,
+      "noisy_gold_count": 0,
+      "accuracy": 0.1607,
+      "exact_match": 0.0893,
+      "f1": 0.1694,
+      "retrieval_recall": null,
+      "by_difficulty": {
+        "2-hop": {
+          "accuracy": 0.0909,
+          "exact_match": 0.0,
+          "f1": 0.1057,
+          "retrieval_recall": null,
+          "acc_correct": 3,
+          "em_correct": 0,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 33
+        },
+        "3-hop": {
+          "accuracy": 0.1176,
+          "exact_match": 0.0588,
+          "f1": 0.1176,
+          "retrieval_recall": null,
+          "acc_correct": 2,
+          "em_correct": 1,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 17
+        },
+        "comparison": {
+          "accuracy": 0.6667,
+          "exact_match": 0.6667,
+          "f1": 0.6667,
+          "retrieval_recall": null,
+          "acc_correct": 4,
+          "em_correct": 4,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 6
+        }
+      }
+    },
+    "vanilla_rag": {
+      "total": 56,
+      "noisy_gold_count": 0,
+      "accuracy": 0.0714,
+      "exact_match": 0.0714,
+      "f1": 0.102,
+      "retrieval_recall": 0.25,
+      "by_difficulty": {
+        "2-hop": {
+          "accuracy": 0.0303,
+          "exact_match": 0.0303,
+          "f1": 0.0577,
+          "retrieval_recall": 0.3,
+          "acc_correct": 1,
+          "em_correct": 1,
+          "recall_correct": 3,
+          "recall_total": 10,
+          "total": 33
+        },
+        "3-hop": {
+          "accuracy": 0.0588,
+          "exact_match": 0.0588,
+          "f1": 0.1063,
+          "retrieval_recall": 0.0,
+          "acc_correct": 1,
+          "em_correct": 1,
+          "recall_correct": 0,
+          "recall_total": 2,
+          "total": 17
+        },
+        "comparison": {
+          "accuracy": 0.3333,
+          "exact_match": 0.3333,
+          "f1": 0.3333,
+          "retrieval_recall": null,
+          "acc_correct": 2,
+          "em_correct": 2,
+          "recall_correct": 0,
+          "recall_total": 0,
+          "total": 6
+        }
+      }
+    },
+    "vanilla_qe": {
+      "total": 56,
+      "noisy_gold_count": 0,
+      "accuracy": 0.0714,
+      "exact_match": 0.0536,
+      "f1": 0.0891,
+      "retrieval_recall": 0.3077,
+      "by_difficulty": {
+        "2-hop": {
+          "accuracy": 0.0,
+          "exact_match": 0.0,
+          "f1": 0.0274,
+          "retrieval_recall": 0.2778,
+          "acc_correct": 0,
+          "em_correct": 0,
+          "recall_correct": 5,
+          "recall_total": 18,
+          "total": 33
+        },
+        "3-hop": {
+          "accuracy": 0.0588,
+          "exact_match": 0.0,
+          "f1": 0.0639,
+          "retrieval_recall": 0.4286,
+          "acc_correct": 1,
+          "em_correct": 0,
+          "recall_correct": 3,
+          "recall_total": 7,
+          "total": 17
+        },
+        "comparison": {
+          "accuracy": 0.5,
+          "exact_match": 0.5,
+          "f1": 0.5,
+          "retrieval_recall": 0.0,
+          "acc_correct": 3,
+          "em_correct": 3,
+          "recall_correct": 0,
+          "recall_total": 1,
+          "total": 6
+        }
+      }
+    },
+    "kg_rag": {
+      "total": 56,
+      "noisy_gold_count": 0,
+      "accuracy": 0.1429,
+      "exact_match": 0.0,
+      "f1": 0.0844,
+      "retrieval_recall": 0.3393,
+      "by_difficulty": {
+        "2-hop": {
+          "accuracy": 0.0909,
+          "exact_match": 0.0,
+          "f1": 0.0795,
+          "retrieval_recall": 0.4848,
+          "acc_correct": 3,
+          "em_correct": 0,
+          "recall_correct": 16,
+          "recall_total": 33,
+          "total": 33
+        },
+        "3-hop": {
+          "accuracy": 0.0588,
+          "exact_match": 0.0,
+          "f1": 0.0471,
+          "retrieval_recall": 0.1176,
+          "acc_correct": 1,
+          "em_correct": 0,
+          "recall_correct": 2,
+          "recall_total": 17,
+          "total": 17
+        },
+        "comparison": {
+          "accuracy": 0.6667,
+          "exact_match": 0.0,
+          "f1": 0.2171,
+          "retrieval_recall": 0.1667,
+          "acc_correct": 4,
+          "em_correct": 0,
+          "recall_correct": 1,
+          "recall_total": 6,
+          "total": 6
+        }
+      }
+    }
+  }
+}

@@ -1,18 +1,3 @@
-"""
-Pipeline - KG-Infused RAG Ana Orchestrator
-==========================================
-Düzeltmeler:
-  - _soft_accuracy(): Wikidata artifact gold answer'ları için ek kontrol.
-    "Archbishopric of Adrianopolis", "List of people from Malatya" gibi
-    tarihi/kirli gold answer'larda sistem mantıklı bir şehir cevabı
-    ürettiğinde doğru sayılır.
-    Strateji: prediction'daki anlamlı token'lar gold içinde geçmiyorsa
-    ama gold prediction içindeki bir şehir/entity adını kapsıyorsa
-    (veya prediction gold'un coğrafi üst birimi ise) doğru kabul edilir.
-  - retrieval_recall: comparison soruları (COMPARISON:: prefix) doğru atlanıyor.
-  - Lazy initialization, F1/EM metrikleri, retry korundu.
-"""
-
 import os
 import json
 import time

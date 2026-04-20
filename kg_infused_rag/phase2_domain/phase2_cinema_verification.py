@@ -542,9 +542,13 @@ nx.draw_networkx_edges(G, pos, ax=ax, edge_color="#aaaaaa", alpha=0.5,
                        arrows=True, arrowsize=15,
                        connectionstyle="arc3,rad=0.1")
 edge_labels = nx.get_edge_attributes(G, 'label')
-nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, ax=ax,
-                              font_size=5.5, font_color="#f0e68c", alpha=0.85)
-
+nx.draw_networkx_edge_labels(
+    G, pos, edge_labels=edge_labels, ax=ax,
+    font_size=5.5,
+    font_color="#f0e68c",
+    alpha=0.85,
+    bbox=dict(boxstyle="round,pad=0.15", fc="#181824", ec="none", alpha=0.85)
+)
 legend_items = [
     mpatches.Patch(color=COLOR["turkey"],   label="Turkey"),
     mpatches.Patch(color=COLOR["film"],     label="Film"),
