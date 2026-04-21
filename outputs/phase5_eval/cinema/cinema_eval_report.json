@@ -1,0 +1,1763 @@
+{
+  "method_comparison": {
+    "no_retrieval": {
+      "total": 56,
+      "accuracy": 0.1429,
+      "f1": 0.1359,
+      "exact_match": 0.0536,
+      "retrieval_recall": null,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 33,
+          "accuracy": 0.0909,
+          "em": 0.0,
+          "f1": 0.0791
+        },
+        "3-hop": {
+          "total": 17,
+          "accuracy": 0.1176,
+          "em": 0.0,
+          "f1": 0.0882
+        },
+        "comparison": {
+          "total": 6,
+          "accuracy": 0.5,
+          "em": 0.5,
+          "f1": 0.5833
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was the director of \"The Nameless Knight\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "I couldn't find any information about the director of \"The Nameless Knight\".",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was the director of \"mustang (film)\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Deniz Gamze Ergüven was born in Strasbourg, France.",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was the director of \"For Love and Honor\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I couldn't find any information about the director of \"For Love and Honor\".",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was the director of \"süt kardeşler\" born?",
+          "gold": "history of trabzon",
+          "predicted": "I couldn't find any information about the director of \"süt kardeşler\".",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was the director of \"SeMazen\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I couldn't find any information about a movie called \"SeMazen\".",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+          "gold": "History of Akhisar",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+          "gold": "history of almelo",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "Where was kartal tibet from \"Ask Firtinasi\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Kartal Tibet was born in Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "Which award was won by Zeki Okten, the director of \"Çöpçüler krali\"?",
+          "gold": "Sutherland Award",
+          "predicted": "Golden Bear",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is çetin tekindor from \"istanbul tales\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is Selma Ergeç from \"Beş Vakit\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is aynur dogan from \"lovelorn (film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is reb brown from \"yor, the hunter from the future\" a citizen of?",
+          "gold": "united stated",
+          "predicted": "Canada",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is Serif Sezer from \"the lamb (2014 film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is Gulliver (band) from \"greatest ears in town: the arif mardin st",
+          "gold": "united stated",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Where did Eric Nazarian, the director of \"do not forget me istanbul\", study?",
+          "gold": "scions",
+          "predicted": "California Institute of the Arts.",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which award was won by the film \"sivas (film)\"?",
+          "gold": "Gran premio della giuria",
+          "predicted": "Jussi Award for Best Foreign Film of the Year",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Where did cem yilmaz from \"G O R A\" study?",
+          "gold": "bogazici university",
+          "predicted": "Istanbul University",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Where did Haluk Bilginer from \"son of the sun\" study?",
+          "gold": "the london academy of music and dramatic art",
+          "predicted": "Istanbul State Conservatory.",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Where did Nejat İşler from \"10 to 11\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Where did tarik akan from \"alev alev\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul Technical University",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Where did cansu dere from \"mother (turkish tv series)\" study?",
+          "gold": "Daruelfuenun",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which award was won by Fecri Ebcioglu Sunar from \"şaka ile karışık\"?",
+          "gold": "state artist",
+          "predicted": "Golden Orange Award for Best New Actor",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which award was won by Münir Özkul from \"banker bilo\"?",
+          "gold": "state artist",
+          "predicted": "Golden Orange Award for Best Actor",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which award was won by quincy delight jones from \"greatest ears in town: the ari",
+          "gold": "musicares person of the year",
+          "predicted": "Grammy Lifetime Achievement Award",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which award was won by kemal sunal from \"ortadirek şaban\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Altan Erkekli Award",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which award was won by sener sen from \"sabanoglu saban\"?",
+          "gold": "state artist",
+          "predicted": "Golden Orange Award for Best Actor",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which award was won by sener sen from \"selamsiz bandosu\"?",
+          "gold": "state artist",
+          "predicted": "Golden Butterfly Award",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which award was won by kemal sunal from \"Köyden İndim Şehire\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Altan Erkekli Award",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "Which country is the birth city of Aida Begic, the director of \"children of sara",
+          "gold": "History of The Kingdom of Yugoslavia",
+          "predicted": "Bosnia and Herzegovina.",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "Which country is the birth city of Orhan Aksoy, the director of \"Ah Nerede\", in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "Which country is the birth city of halit refiğ, the director of \"sevmek ve ölmek",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "Which country is the birth city of Anno Saul, the director of \"Kebab Connection\"",
+          "gold": "The Kingdom of Prussia",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is Galatasaray Lyceum, where lütfi akad studied, in for the film \"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is the birth city of serdar orçin from \"yazgı\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is the birth city of Özçivit from \"kara sevda (tv series)\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is the birth city of Saadet Aksoy from \"love in another language\" ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the birth city of halit akçatepe from \"Köprüalti çocuklari\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the american academy of dramatic arts, where baldwin, stephen s",
+          "gold": "united stated",
+          "predicted": "United Kingdom",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is Ankara State Conservatory, where i̇lyas salman studied in \"kiba",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is ankara üniversitesi, where Serif Sezer studied in \"babam and oğ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is ytü, where Nejat İşler studied in \"Black and White (2010 film)\"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which province or administrative area contains Angora, Turkey, where Mazhar Alan",
+          "gold": "vilayet of angora",
+          "predicted": "Ankara",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which province or administrative area contains Budapest (Hungary), where Can Tog",
+          "gold": "közép-magyarország",
+          "predicted": "Pest.",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, çetin tekindor or İdil Üner?",
+          "gold": "çetin tekindor",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_054",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, fikret kuskan or İdil Üner?",
+          "gold": "fikret kuskan",
+          "predicted": "Fikret Kuşkan",
+          "difficulty": "comparison",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_056",
+          "question_text": "Which director is Turkish, Ertem Egilmez from \"sev kardeşim\" or Orestis Laskos f",
+          "gold": "Ertem Egilmez",
+          "predicted": "Orestis Laskos",
+          "difficulty": "comparison",
+          "method": "no_retrieval"
+        }
+      ]
+    },
+    "vanilla_rag": {
+      "total": 56,
+      "accuracy": 0.0536,
+      "f1": 0.0754,
+      "exact_match": 0.0357,
+      "retrieval_recall": 0.25,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 33,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0278
+        },
+        "3-hop": {
+          "total": 17,
+          "accuracy": 0.0588,
+          "em": 0.0,
+          "f1": 0.0769
+        },
+        "comparison": {
+          "total": 6,
+          "accuracy": 0.3333,
+          "em": 0.3333,
+          "f1": 0.3333
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was the director of \"The Nameless Knight\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was the director of \"mustang (film)\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Deniz Gamze Ergüven was born in 1978 in Strasbourg, France.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was the director of \"For Love and Honor\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I cannot answer the question as the director of \"For Love and Honor\" is not mentioned in the provided document content.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was the director of \"süt kardeşler\" born?",
+          "gold": "history of trabzon",
+          "predicted": "I don't have the information about the director of \"süt kardeşler\" or the passage about it.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was the director of \"SeMazen\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no answer to this question as the director of \"SeMazen\" is not mentioned in the passage.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was kenan i̇mirzalıoğlu from \"For Love and Honor\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "I couldn't find any information about the film \"the canal (1979 film)\" or its actor Kamran Usluer.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+          "gold": "History of Akhisar",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+          "gold": "history of almelo",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "Where was kartal tibet from \"Ask Firtinasi\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "I couldn't find any information about the passages provided.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "Where was Adile Nasit from \"namuslu\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "Which award was won by Zeki Okten, the director of \"Çöpçüler krali\"?",
+          "gold": "Sutherland Award",
+          "predicted": "There is no information about Zeki Ökten winning any award in the given passage.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is çetin tekindor from \"istanbul tales\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is Selma Ergeç from \"Beş Vakit\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is aynur dogan from \"lovelorn (film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is reb brown from \"yor, the hunter from the future\" a citizen of?",
+          "gold": "united stated",
+          "predicted": "Canada",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is Serif Sezer from \"the lamb (2014 film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is Gulliver (band) from \"greatest ears in town: the arif mardin st",
+          "gold": "united stated",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Where did Eric Nazarian, the director of \"do not forget me istanbul\", study?",
+          "gold": "scions",
+          "predicted": "University of Southern California",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which award was won by the film \"sivas (film)\"?",
+          "gold": "Gran premio della giuria",
+          "predicted": "Jury Prize",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Where did cem yilmaz from \"G O R A\" study?",
+          "gold": "bogazici university",
+          "predicted": "There is no information about Cem Yilmaz from \"G O R A\" in the passages.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Where did Haluk Bilginer from \"son of the sun\" study?",
+          "gold": "the london academy of music and dramatic art",
+          "predicted": "I couldn't find any information about a character named \"Haluk Bilginer from 'son of the sun'\".",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Where did Nejat İşler from \"10 to 11\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Where did tarik akan from \"alev alev\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul State Conservatory",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Where did cansu dere from \"mother (turkish tv series)\" study?",
+          "gold": "Daruelfuenun",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which award was won by Fecri Ebcioglu Sunar from \"şaka ile karışık\"?",
+          "gold": "state artist",
+          "predicted": "There is no information about Fecri Ebcioglu Sunar or the award \"şaka ile karışık\" in the provided document content.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which award was won by Münir Özkul from \"banker bilo\"?",
+          "gold": "state artist",
+          "predicted": "I couldn't find any information about the award won by Münir Özkul from \"banker bilo\".",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which award was won by Azra Akın from \"istanbul tales\"?",
+          "gold": "miss turkey",
+          "predicted": "There is no information.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which award was won by quincy delight jones from \"greatest ears in town: the ari",
+          "gold": "musicares person of the year",
+          "predicted": "Grammy Lifetime Achievement Award",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which award was won by kemal sunal from \"ortadirek şaban\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "There is no information.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which award was won by sener sen from \"sabanoglu saban\"?",
+          "gold": "state artist",
+          "predicted": "There is no information about Şener Şen winning an award from \"Sabanoglu Saban\" in the given passage.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which award was won by sener sen from \"selamsiz bandosu\"?",
+          "gold": "state artist",
+          "predicted": "There is no information in the provided document content about an award won by Şener Şen from \"Selamsız Bandosu\".",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which award was won by kemal sunal from \"Köyden İndim Şehire\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Altan Erkekli Award",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "Which country is the birth city of Aida Begic, the director of \"children of sara",
+          "gold": "History of The Kingdom of Yugoslavia",
+          "predicted": "Bosnia and Herzegovina.",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "Which country is the birth city of Orhan Aksoy, the director of \"Ah Nerede\", in?",
+          "gold": "turkiye",
+          "predicted": "There is no information about Orhan Aksoy or the film \"Ah Nerede\" in the passages.",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "Which country is the birth city of halit refiğ, the director of \"sevmek ve ölmek",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "Which country is the birth city of Anno Saul, the director of \"Kebab Connection\"",
+          "gold": "The Kingdom of Prussia",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is Galatasaray Lyceum, where lütfi akad studied, in for the film \"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is the birth city of serdar orçin from \"yazgı\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is the birth city of Özçivit from \"kara sevda (tv series)\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is the birth city of Saadet Aksoy from \"love in another language\" ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the birth city of halit akçatepe from \"Köprüalti çocuklari\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the american academy of dramatic arts, where baldwin, stephen s",
+          "gold": "united stated",
+          "predicted": "United Kingdom",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is Ankara State Conservatory, where i̇lyas salman studied in \"kiba",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is ankara üniversitesi, where Serif Sezer studied in \"babam and oğ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is ytü, where Nejat İşler studied in \"Black and White (2010 film)\"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which province or administrative area contains ismir, turkey, where ayhan işık f",
+          "gold": "Vilayet of İzmir",
+          "predicted": "İzmir is a city in the Aegean Region of Turkey.",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which province or administrative area contains Angora, Turkey, where Mazhar Alan",
+          "gold": "vilayet of angora",
+          "predicted": "Anatolia",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which province or administrative area contains Budapest (Hungary), where Can Tog",
+          "gold": "közép-magyarország",
+          "predicted": "Central Hungary",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, çetin tekindor or İdil Üner?",
+          "gold": "çetin tekindor",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_054",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, fikret kuskan or İdil Üner?",
+          "gold": "fikret kuskan",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_055",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, Mazlum Cimen or İdil Üner?",
+          "gold": "Mazlum Cimen",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_056",
+          "question_text": "Which director is Turkish, Ertem Egilmez from \"sev kardeşim\" or Orestis Laskos f",
+          "gold": "Ertem Egilmez",
+          "predicted": "Orestis Laskos",
+          "difficulty": "comparison",
+          "method": "vanilla_rag"
+        }
+      ]
+    },
+    "vanilla_qe": {
+      "total": 56,
+      "accuracy": 0.0714,
+      "f1": 0.0873,
+      "exact_match": 0.0536,
+      "retrieval_recall": 0.2692,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 33,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0278
+        },
+        "3-hop": {
+          "total": 17,
+          "accuracy": 0.0588,
+          "em": 0.0,
+          "f1": 0.0573
+        },
+        "comparison": {
+          "total": 6,
+          "accuracy": 0.5,
+          "em": 0.5,
+          "f1": 0.5
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was the director of \"The Nameless Knight\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was the director of \"mustang (film)\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was the director of \"For Love and Honor\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was the director of \"süt kardeşler\" born?",
+          "gold": "history of trabzon",
+          "predicted": "I don't have the information about the director of \"süt kardeşler\" or the passage about it.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was the director of \"SeMazen\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no answer to this question as the director of \"SeMazen\" is not mentioned in the passage.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was kenan i̇mirzalıoğlu from \"For Love and Honor\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "I couldn't find any information about the film \"the canal (1979 film)\" or its actor Kamran Usluer.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+          "gold": "History of Akhisar",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+          "gold": "history of almelo",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "Where was kartal tibet from \"Ask Firtinasi\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "I couldn't find any information about the passages provided.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "Where was Adile Nasit from \"namuslu\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I couldn't find any information about the passage of \"namuslu\" or Adile Nasit's birthplace.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "Which award was won by Zeki Okten, the director of \"Çöpçüler krali\"?",
+          "gold": "Sutherland Award",
+          "predicted": "There is no information about Zeki Ökten winning any award in the given passage.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is çetin tekindor from \"istanbul tales\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is Selma Ergeç from \"Beş Vakit\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is aynur dogan from \"lovelorn (film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "There is no answer.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is reb brown from \"yor, the hunter from the future\" a citizen of?",
+          "gold": "united stated",
+          "predicted": "Canada",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is Serif Sezer from \"the lamb (2014 film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "I don't have enough information to answer that question.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is Gulliver (band) from \"greatest ears in town: the arif mardin st",
+          "gold": "united stated",
+          "predicted": "There is no information about the band \"Gulliver\" in the provided passages.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Where did Eric Nazarian, the director of \"do not forget me istanbul\", study?",
+          "gold": "scions",
+          "predicted": "There is no information about Eric Nazarian in the passages.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which award was won by the film \"sivas (film)\"?",
+          "gold": "Gran premio della giuria",
+          "predicted": "Jury Prize",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Where did cem yilmaz from \"G O R A\" study?",
+          "gold": "bogazici university",
+          "predicted": "Unknown",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Where did Haluk Bilginer from \"son of the sun\" study?",
+          "gold": "the london academy of music and dramatic art",
+          "predicted": "I couldn't find any information about a character named \"Haluk Bilginer from 'son of the sun'\".",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Where did Nejat İşler from \"10 to 11\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Where did tarik akan from \"alev alev\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul State Conservatory",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Where did cansu dere from \"mother (turkish tv series)\" study?",
+          "gold": "Daruelfuenun",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which award was won by Fecri Ebcioglu Sunar from \"şaka ile karışık\"?",
+          "gold": "state artist",
+          "predicted": "There is no answer.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which award was won by Münir Özkul from \"banker bilo\"?",
+          "gold": "state artist",
+          "predicted": "There is no answer.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which award was won by Azra Akın from \"istanbul tales\"?",
+          "gold": "miss turkey",
+          "predicted": "There is no information.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which award was won by quincy delight jones from \"greatest ears in town: the ari",
+          "gold": "musicares person of the year",
+          "predicted": "Grammy Lifetime Achievement Award",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which award was won by kemal sunal from \"ortadirek şaban\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "There is no answer.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which award was won by sener sen from \"sabanoglu saban\"?",
+          "gold": "state artist",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which award was won by sener sen from \"selamsiz bandosu\"?",
+          "gold": "state artist",
+          "predicted": "There is no information about an award won by Şener Şen from \"Selamsız Bandosu\".",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which award was won by kemal sunal from \"Köyden İndim Şehire\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "There is no answer to this question as the passage states that there is no information about the award.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "Which country is the birth city of Aida Begic, the director of \"children of sara",
+          "gold": "History of The Kingdom of Yugoslavia",
+          "predicted": "Bosnia and Herzegovina.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "Which country is the birth city of Orhan Aksoy, the director of \"Ah Nerede\", in?",
+          "gold": "turkiye",
+          "predicted": "There is no information about Orhan Aksoy or the film \"Ah Nerede\" in the passages.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "Which country is the birth city of halit refiğ, the director of \"sevmek ve ölmek",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "Which country is the birth city of Anno Saul, the director of \"Kebab Connection\"",
+          "gold": "The Kingdom of Prussia",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is Galatasaray Lyceum, where lütfi akad studied, in for the film \"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is the birth city of serdar orçin from \"yazgı\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is the birth city of Özçivit from \"kara sevda (tv series)\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is the birth city of Saadet Aksoy from \"love in another language\" ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the birth city of halit akçatepe from \"Köprüalti çocuklari\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the american academy of dramatic arts, where baldwin, stephen s",
+          "gold": "united stated",
+          "predicted": "There is no information about the American Academy of Dramatic Arts or Stephen Baldwin in the provided document content.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is Ankara State Conservatory, where i̇lyas salman studied in \"kiba",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is ankara üniversitesi, where Serif Sezer studied in \"babam and oğ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is ytü, where Nejat İşler studied in \"Black and White (2010 film)\"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which province or administrative area contains ismir, turkey, where ayhan işık f",
+          "gold": "Vilayet of İzmir",
+          "predicted": "İzmir is a city in the Aegean Region of Turkey.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which province or administrative area contains Angora, Turkey, where Mazhar Alan",
+          "gold": "vilayet of angora",
+          "predicted": "I cannot verify the information about Angora, Turkey, or Mazhar Alanson from \"devil, my friend\".",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which province or administrative area contains Budapest (Hungary), where Can Tog",
+          "gold": "közép-magyarország",
+          "predicted": "I don't have enough information to answer the question.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, çetin tekindor or İdil Üner?",
+          "gold": "çetin tekindor",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_054",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, fikret kuskan or İdil Üner?",
+          "gold": "fikret kuskan",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_055",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, Mazlum Cimen or İdil Üner?",
+          "gold": "Mazlum Cimen",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "method": "vanilla_qe"
+        }
+      ]
+    },
+    "kg_rag": {
+      "total": 56,
+      "accuracy": 0.0893,
+      "f1": 0.0324,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.3036,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 33,
+          "accuracy": 0.0606,
+          "em": 0.0,
+          "f1": 0.01
+        },
+        "3-hop": {
+          "total": 17,
+          "accuracy": 0.0588,
+          "em": 0.0,
+          "f1": 0.0366
+        },
+        "comparison": {
+          "total": 6,
+          "accuracy": 0.3333,
+          "em": 0.0,
+          "f1": 0.1438
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was the director of \"The Nameless Knight\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "Halit Refiğ was born in İzmir, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was the director of \"mustang (film)\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Deniz Gamze Ergüven, the director of \"Mustang (film)\", was born in Ankara, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was the director of \"For Love and Honor\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Saad Khan is an Indian film director, but there is no direct information linking him to the film \"For Love and Honor\".",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was the director of \"süt kardeşler\" born?",
+          "gold": "history of trabzon",
+          "predicted": "Ertem Eğilmez was born in Trabzon, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was the director of \"SeMazen\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Eva de Vitray-Meyerovitch was born in Boulogne-Billancourt.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was kenan i̇mirzalıoğlu from \"For Love and Honor\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Kenan İmirzalıoğlu was born in Ankara, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "Kamran Usluer was born in Izmir, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+          "gold": "History of Akhisar",
+          "predicted": "Taner Birsel was born in Akhisar, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+          "gold": "history of almelo",
+          "predicted": "Azra Akın was born in Almelo, Netherlands.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "Where was kartal tibet from \"Ask Firtinasi\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Kartal Tibet was born in Ankara, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "Where was Adile Nasit from \"namuslu\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Adile Nasit was born in Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is çetin tekindor from \"istanbul tales\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Çetin Tekindor is a citizen of Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is Selma Ergeç from \"Beş Vakit\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Selma Ergeç is a citizen of both Turkey and Germany.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is aynur dogan from \"lovelorn (film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Aynur Doğan is a citizen of Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is reb brown from \"yor, the hunter from the future\" a citizen of?",
+          "gold": "united stated",
+          "predicted": "Reb Brown is a citizen of the United States.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is Serif Sezer from \"the lamb (2014 film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Serif Sezer is a Turkish citizen. Her country of citizenship is Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is Gulliver (band) from \"greatest ears in town: the arif mardin st",
+          "gold": "united stated",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Where did Eric Nazarian, the director of \"do not forget me istanbul\", study?",
+          "gold": "scions",
+          "predicted": "Eric Nazarian studied at the University of Southern California School of Cinematic Arts.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which award was won by the film \"sivas (film)\"?",
+          "gold": "Gran premio della giuria",
+          "predicted": "The film \"Sivas\" won the Special Jury Prize, also known as the Grand Jury Prize, at the 71st Venice International Film Festival. This award is the Special Jury Prize.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Where did cem yilmaz from \"G O R A\" study?",
+          "gold": "bogazici university",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Where did Haluk Bilginer from \"son of the sun\" study?",
+          "gold": "the london academy of music and dramatic art",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Where did Nejat İşler from \"10 to 11\" study?",
+          "gold": "ytü",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Where did cansu dere from \"mother (turkish tv series)\" study?",
+          "gold": "Daruelfuenun",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which award was won by Fecri Ebcioglu Sunar from \"şaka ile karışık\"?",
+          "gold": "state artist",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which award was won by Münir Özkul from \"banker bilo\"?",
+          "gold": "state artist",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which award was won by Azra Akın from \"istanbul tales\"?",
+          "gold": "miss turkey",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which award was won by quincy delight jones from \"greatest ears in town: the ari",
+          "gold": "musicares person of the year",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which award was won by kemal sunal from \"ortadirek şaban\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which award was won by sener sen from \"sabanoglu saban\"?",
+          "gold": "state artist",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which award was won by sener sen from \"selamsiz bandosu\"?",
+          "gold": "state artist",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which award was won by kemal sunal from \"Köyden İndim Şehire\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "Which country is the birth city of Aida Begic, the director of \"children of sara",
+          "gold": "History of The Kingdom of Yugoslavia",
+          "predicted": "Aida Begic was born in Bosnia and Herzegovina.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "Which country is the birth city of Orhan Aksoy, the director of \"Ah Nerede\", in?",
+          "gold": "turkiye",
+          "predicted": "The country of Orhan Aksoy's birth city is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "Which country is the birth city of halit refiğ, the director of \"sevmek ve ölmek",
+          "gold": "Ottoman empire",
+          "predicted": "Halit Refiğ was born in İzmir, Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "Which country is the birth city of Anno Saul, the director of \"Kebab Connection\"",
+          "gold": "The Kingdom of Prussia",
+          "predicted": "Anno Saul was born in Bonn, West Germany. The birth city is located in Germany.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is Galatasaray Lyceum, where lütfi akad studied, in for the film \"",
+          "gold": "turkiye",
+          "predicted": "The country associated with Galatasaray Lyceum is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is the birth city of serdar orçin from \"yazgı\" in?",
+          "gold": "turkiye",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is the birth city of Özçivit from \"kara sevda (tv series)\" in?",
+          "gold": "turkiye",
+          "predicted": "Istanbul, Turkey is the birth city of Özçivit.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is the birth city of Saadet Aksoy from \"love in another language\" ",
+          "gold": "turkiye",
+          "predicted": "Saadet Aksoy was born in Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the birth city of halit akçatepe from \"Köprüalti çocuklari\" in?",
+          "gold": "turkiye",
+          "predicted": "The birth city of Halit Akçatepe is Üsküdar. Üsküdar is a district in Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the american academy of dramatic arts, where baldwin, stephen s",
+          "gold": "united stated",
+          "predicted": "The country associated with the film \"Magi\" is Turkey. This confirms that the country where Stephen Baldwin studied in the context of the film \"Magi\" is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is Ankara State Conservatory, where i̇lyas salman studied in \"kiba",
+          "gold": "turkiye",
+          "predicted": "Ankara State Conservatory is located in Ankara, Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is ankara üniversitesi, where Serif Sezer studied in \"babam and oğ",
+          "gold": "turkiye",
+          "predicted": "Ankara Üniversitesi is located in Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is ytü, where Nejat İşler studied in \"Black and White (2010 film)\"",
+          "gold": "turkiye",
+          "predicted": "The country associated with Istanbul, where Nejat İşler studied in the film \"Black and White\" (2010), is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which province or administrative area contains ismir, turkey, where ayhan işık f",
+          "gold": "Vilayet of İzmir",
+          "predicted": "İzmir is located in the Aegean Region of Turkey. The Aegean Region is one of the 7 administrative regions of Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which province or administrative area contains Angora, Turkey, where Mazhar Alan",
+          "gold": "vilayet of angora",
+          "predicted": "The province containing Şarkışla, where Mazhar Alanson was born, is the Sivas Province in the Central Anatolian region of Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which province or administrative area contains Budapest (Hungary), where Can Tog",
+          "gold": "közép-magyarország",
+          "predicted": "Budapest is located in the Central Hungary region, specifically in Pest and Buda counties.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_051",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, erkan can or İdil Üner?",
+          "gold": "erkan can",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "comparison",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, çetin tekindor or İdil Üner?",
+          "gold": "çetin tekindor",
+          "predicted": "Cetin Tekindor is a Turkish actor. He is the Turkish actor in \"Istanbul Tales.\"",
+          "difficulty": "comparison",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_054",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, fikret kuskan or İdil Üner?",
+          "gold": "fikret kuskan",
+          "predicted": "Fikret Kuşkan is the Turkish actor in \"Istanbul Tales\". He is a Turkish actor born in Istanbul, Turkey.",
+          "difficulty": "comparison",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_055",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, Mazlum Cimen or İdil Üner?",
+          "gold": "Mazlum Cimen",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "comparison",
+          "method": "kg_rag"
+        }
+      ]
+    }
+  },
+  "error_categories": {
+    "partial_match": 14,
+    "wrong_entity": 30,
+    "hallucination": 7
+  },
+  "difficulty_errors": {
+    "2-hop": 31,
+    "3-hop": 16,
+    "comparison": 4
+  },
+  "total_errors": 51
+}

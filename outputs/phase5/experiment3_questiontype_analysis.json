@@ -1,0 +1,3830 @@
+{
+  "2-hop": {
+    "no_retrieval": {
+      "total": 66,
+      "accuracy": 0.0758,
+      "f1": 0.0709,
+      "exact_match": 0.0,
+      "retrieval_recall": null,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 66,
+          "accuracy": 0.0758,
+          "em": 0.0,
+          "f1": 0.0709
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was Sueleyman Seba born?",
+          "gold": "sakarya province",
+          "predicted": "Istanbul, Ottoman Empire (now Turkey)",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was kadri aytaç born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was Seref Has born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was hamdi aslan born?",
+          "gold": "Trabzon Province",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "In which city or region is the stadium of ankara demirspor located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "In which city or region is the stadium of Fatih Karagumruk SK located?",
+          "gold": "Karagumruk",
+          "predicted": "Istanbul",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "In which city or region is the stadium of Kahramanmarasspor located?",
+          "gold": "maraş, turkey",
+          "predicted": "Kahramanmaraş",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "In which city or region is the stadium of i̇stanbul büyükşehir belediyespor (foo",
+          "gold": "Basaksehir",
+          "predicted": "Istanbul",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "In which city or region is the stadium of trabzon karadeniz s.k. located?",
+          "gold": "history of trabzon",
+          "predicted": "Trabzon.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "In which city or region is the stadium of hacettepe sk located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is the club of Naci Ozkaya in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is the club of Tuncay Şanlı in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is the club of yasin celik in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is the club of egemen korkmaz in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is the club of Ceyhun Guelselam in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is the club of ali kemal denizci in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Which league does the club fenerbahçe s.k. (football), where Gokhan Unal played,",
+          "gold": "turkish super league",
+          "predicted": "Super Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which league does the club Galatasaray F.C., where mike marsh (footballer) playe",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Which league does the club Galatasaray F.C., where Buruk Okan played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Which league does the club Galatasaray F.C., where ismael bouzid played, belong ",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Which league does the club Galatasaray F.C., where Erkin Caner played, belong to",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Which league does the club Galatasaray F.C., where turan arda played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Which country is Berlim, the birthplace of Aydin Karabulut, in?",
+          "gold": "march of brandenburg",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which country is Manisa Ili Province, the birthplace of zeki önatlı, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which country is Salonika, the birthplace of Ulvi Yenal, in?",
+          "gold": "Venetian golden era",
+          "predicted": "Greece",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which country is Tacheny, the birthplace of Ugur Inceman, in?",
+          "gold": "deutsches kaiserreich",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which country is Aydın İli Province, Turkey, the birthplace of Aydin Toscali, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which country is monaco of bavaria, the birthplace of Mehmet Ekici, in?",
+          "gold": "Germanz",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which country is the league of Vestel Manisaspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which country is the league of Goztepe S.K. in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which country is the league of Arsinspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was the director of \"The Nameless Knight\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "I couldn't find any information about the director of \"The Nameless Knight\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was the director of \"mustang (film)\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Deniz Gamze Ergüven was born in Strasbourg, France.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was the director of \"For Love and Honor\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I couldn't find any information about the director of \"For Love and Honor\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was the director of \"süt kardeşler\" born?",
+          "gold": "history of trabzon",
+          "predicted": "I couldn't find any information about the director of \"süt kardeşler\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was the director of \"SeMazen\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I couldn't find any information about a movie called \"SeMazen\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+          "gold": "History of Akhisar",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+          "gold": "history of almelo",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "Where was kartal tibet from \"Ask Firtinasi\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Kartal Tibet was born in Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "Which award was won by Zeki Okten, the director of \"Çöpçüler krali\"?",
+          "gold": "Sutherland Award",
+          "predicted": "Golden Bear",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is çetin tekindor from \"istanbul tales\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is Selma Ergeç from \"Beş Vakit\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is aynur dogan from \"lovelorn (film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is reb brown from \"yor, the hunter from the future\" a citizen of?",
+          "gold": "united stated",
+          "predicted": "Canada",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is Serif Sezer from \"the lamb (2014 film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is Gulliver (band) from \"greatest ears in town: the arif mardin st",
+          "gold": "united stated",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Where did Eric Nazarian, the director of \"do not forget me istanbul\", study?",
+          "gold": "scions",
+          "predicted": "California Institute of the Arts.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which award was won by the film \"sivas (film)\"?",
+          "gold": "Gran premio della giuria",
+          "predicted": "Jussi Award for Best Foreign Film of the Year",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Where did cem yilmaz from \"G O R A\" study?",
+          "gold": "bogazici university",
+          "predicted": "Istanbul University",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Where did Haluk Bilginer from \"son of the sun\" study?",
+          "gold": "the london academy of music and dramatic art",
+          "predicted": "Istanbul State Conservatory.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Where did Nejat İşler from \"10 to 11\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Where did tarik akan from \"alev alev\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul Technical University",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Where did cansu dere from \"mother (turkish tv series)\" study?",
+          "gold": "Daruelfuenun",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which award was won by Fecri Ebcioglu Sunar from \"şaka ile karışık\"?",
+          "gold": "state artist",
+          "predicted": "Golden Orange Award for Best New Actor",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which award was won by Münir Özkul from \"banker bilo\"?",
+          "gold": "state artist",
+          "predicted": "Golden Orange Award for Best Actor",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which award was won by quincy delight jones from \"greatest ears in town: the ari",
+          "gold": "musicares person of the year",
+          "predicted": "Grammy Lifetime Achievement Award",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which award was won by kemal sunal from \"ortadirek şaban\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Altan Erkekli Award",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which award was won by sener sen from \"sabanoglu saban\"?",
+          "gold": "state artist",
+          "predicted": "Golden Orange Award for Best Actor",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which award was won by sener sen from \"selamsiz bandosu\"?",
+          "gold": "state artist",
+          "predicted": "Golden Butterfly Award",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which award was won by kemal sunal from \"Köyden İndim Şehire\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Altan Erkekli Award",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        }
+      ]
+    },
+    "vanilla_rag": {
+      "total": 66,
+      "accuracy": 0.0,
+      "f1": 0.0351,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.3438,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 66,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0351
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was Sueleyman Seba born?",
+          "gold": "sakarya province",
+          "predicted": "5 April 1926",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was kadri aytaç born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I couldn't find any information about Kadri Aytaç.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was Naci Erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I cannot verify the birthplace of Naci Erdem.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was arif erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no information about Arif Erdem's birthplace in the provided document content.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was Seref Has born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "1874",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was hamdi aslan born?",
+          "gold": "Trabzon Province",
+          "predicted": "6 September 1967 is the birthdate, but the birthplace is not mentioned.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "In which city or region is the stadium of ankara demirspor located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "In which city or region is the stadium of Fatih Karagumruk SK located?",
+          "gold": "Karagumruk",
+          "predicted": "Istanbul",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "In which city or region is the stadium of Kahramanmarasspor located?",
+          "gold": "maraş, turkey",
+          "predicted": "Kahramanmaraş, a city in southern Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "In which city or region is the stadium of i̇stanbul büyükşehir belediyespor (foo",
+          "gold": "Basaksehir",
+          "predicted": "Istanbul.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "In which city or region is the stadium of trabzon karadeniz s.k. located?",
+          "gold": "history of trabzon",
+          "predicted": "Trabzon.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "In which city or region is the stadium of hacettepe sk located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is the club of Naci Ozkaya in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is the club of Tuncay Şanlı in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is the club of yasin celik in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is the club of egemen korkmaz in?",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is the club of Ceyhun Guelselam in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is the club of ali kemal denizci in?",
+          "gold": "turkiye",
+          "predicted": "I cannot verify which country the club of Ali Kemal Denizci is in.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Which league does the club fenerbahçe s.k. (football), where Gokhan Unal played,",
+          "gold": "turkish super league",
+          "predicted": "Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which league does the club Galatasaray F.C., where mike marsh (footballer) playe",
+          "gold": "turkish super league",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Which league does the club Galatasaray F.C., where Buruk Okan played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Which league does the club Galatasaray F.C., where ismael bouzid played, belong ",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Which league does the club Galatasaray F.C., where Erkin Caner played, belong to",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Which league does the club Galatasaray F.C., where turan arda played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Super Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Which country is Berlim, the birthplace of Aydin Karabulut, in?",
+          "gold": "march of brandenburg",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which country is Manisa Ili Province, the birthplace of zeki önatlı, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which country is Salonika, the birthplace of Ulvi Yenal, in?",
+          "gold": "Venetian golden era",
+          "predicted": "Greece",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which country is Tacheny, the birthplace of Ugur Inceman, in?",
+          "gold": "deutsches kaiserreich",
+          "predicted": "I couldn't find any information about Ugur Inceman or Tacheny in the given passages.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which country is Aydın İli Province, Turkey, the birthplace of Aydin Toscali, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which country is monaco of bavaria, the birthplace of Mehmet Ekici, in?",
+          "gold": "Germanz",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which country is the league of Vestel Manisaspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which country is the league of Goztepe S.K. in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which country is the league of Arsinspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was the director of \"The Nameless Knight\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was the director of \"mustang (film)\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Deniz Gamze Ergüven was born in 1978 in Strasbourg, France.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was the director of \"For Love and Honor\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I cannot answer the question as the director of \"For Love and Honor\" is not mentioned in the provided document content.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was the director of \"süt kardeşler\" born?",
+          "gold": "history of trabzon",
+          "predicted": "I don't have the information about the director of \"süt kardeşler\" or the passage about it.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was the director of \"SeMazen\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no answer to this question as the director of \"SeMazen\" is not mentioned in the passage.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was kenan i̇mirzalıoğlu from \"For Love and Honor\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "I couldn't find any information about the film \"the canal (1979 film)\" or its actor Kamran Usluer.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+          "gold": "History of Akhisar",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+          "gold": "history of almelo",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "Where was kartal tibet from \"Ask Firtinasi\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "I couldn't find any information about the passages provided.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "Where was Adile Nasit from \"namuslu\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "Which award was won by Zeki Okten, the director of \"Çöpçüler krali\"?",
+          "gold": "Sutherland Award",
+          "predicted": "There is no information about Zeki Ökten winning any award in the given passage.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is çetin tekindor from \"istanbul tales\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is Selma Ergeç from \"Beş Vakit\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is aynur dogan from \"lovelorn (film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is reb brown from \"yor, the hunter from the future\" a citizen of?",
+          "gold": "united stated",
+          "predicted": "Canada",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is Serif Sezer from \"the lamb (2014 film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is Gulliver (band) from \"greatest ears in town: the arif mardin st",
+          "gold": "united stated",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Where did Eric Nazarian, the director of \"do not forget me istanbul\", study?",
+          "gold": "scions",
+          "predicted": "University of Southern California",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which award was won by the film \"sivas (film)\"?",
+          "gold": "Gran premio della giuria",
+          "predicted": "Jury Prize",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Where did cem yilmaz from \"G O R A\" study?",
+          "gold": "bogazici university",
+          "predicted": "There is no information about Cem Yilmaz from \"G O R A\" in the passages.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Where did Haluk Bilginer from \"son of the sun\" study?",
+          "gold": "the london academy of music and dramatic art",
+          "predicted": "I couldn't find any information about a character named \"Haluk Bilginer from 'son of the sun'\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Where did Nejat İşler from \"10 to 11\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Where did tarik akan from \"alev alev\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul State Conservatory",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Where did cansu dere from \"mother (turkish tv series)\" study?",
+          "gold": "Daruelfuenun",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which award was won by Fecri Ebcioglu Sunar from \"şaka ile karışık\"?",
+          "gold": "state artist",
+          "predicted": "There is no information about Fecri Ebcioglu Sunar or the award \"şaka ile karışık\" in the provided document content.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which award was won by Münir Özkul from \"banker bilo\"?",
+          "gold": "state artist",
+          "predicted": "I couldn't find any information about the award won by Münir Özkul from \"banker bilo\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which award was won by Azra Akın from \"istanbul tales\"?",
+          "gold": "miss turkey",
+          "predicted": "There is no information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which award was won by quincy delight jones from \"greatest ears in town: the ari",
+          "gold": "musicares person of the year",
+          "predicted": "Grammy Lifetime Achievement Award",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which award was won by kemal sunal from \"ortadirek şaban\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "There is no information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which award was won by sener sen from \"sabanoglu saban\"?",
+          "gold": "state artist",
+          "predicted": "There is no information about Şener Şen winning an award from \"Sabanoglu Saban\" in the given passage.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which award was won by sener sen from \"selamsiz bandosu\"?",
+          "gold": "state artist",
+          "predicted": "There is no information in the provided document content about an award won by Şener Şen from \"Selamsız Bandosu\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which award was won by kemal sunal from \"Köyden İndim Şehire\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Altan Erkekli Award",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        }
+      ]
+    },
+    "vanilla_qe": {
+      "total": 66,
+      "accuracy": 0.0,
+      "f1": 0.0165,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.3617,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 66,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0165
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was Sueleyman Seba born?",
+          "gold": "sakarya province",
+          "predicted": "5 April 1926",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was kadri aytaç born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I don't have enough information to answer that question.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was Naci Erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was arif erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Unfortunately, the document does not provide information about his birthplace.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was Seref Has born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no information about Seref Has in the given text.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was hamdi aslan born?",
+          "gold": "Trabzon Province",
+          "predicted": "Unfortunately, the document does not provide information about his birthplace.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "In which city or region is the stadium of ankara demirspor located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "In which city or region is the stadium of Fatih Karagumruk SK located?",
+          "gold": "Karagumruk",
+          "predicted": "Istanbul",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "In which city or region is the stadium of Kahramanmarasspor located?",
+          "gold": "maraş, turkey",
+          "predicted": "Kahramanmaraş, a city in southern Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "In which city or region is the stadium of i̇stanbul büyükşehir belediyespor (foo",
+          "gold": "Basaksehir",
+          "predicted": "I don't have enough information to answer the question.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "In which city or region is the stadium of trabzon karadeniz s.k. located?",
+          "gold": "history of trabzon",
+          "predicted": "I'm unable to answer that question as I do not have any information about the location of Trabzon Karadeniz S.K.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "In which city or region is the stadium of hacettepe sk located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is the club of Naci Ozkaya in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is the club of Tuncay Şanlı in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is the club of yasin celik in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is the club of egemen korkmaz in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is the club of Ceyhun Guelselam in?",
+          "gold": "turkiye",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is the club of ali kemal denizci in?",
+          "gold": "turkiye",
+          "predicted": "I cannot verify which country the club of Ali Kemal Denizci is in.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Which league does the club fenerbahçe s.k. (football), where Gokhan Unal played,",
+          "gold": "turkish super league",
+          "predicted": "Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which league does the club Galatasaray F.C., where mike marsh (footballer) playe",
+          "gold": "turkish super league",
+          "predicted": "Süper Lig",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Which league does the club Galatasaray F.C., where Buruk Okan played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "I don't have enough information to answer the question.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Which league does the club Galatasaray F.C., where ismael bouzid played, belong ",
+          "gold": "turkish super league",
+          "predicted": "I don't have enough information to answer the question.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Which league does the club Galatasaray F.C., where Erkin Caner played, belong to",
+          "gold": "turkish super league",
+          "predicted": "The Süper Lig.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Which league does the club Galatasaray F.C., where turan arda played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "There is no information about Galatasaray F.C. in the provided document content.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Which country is Berlim, the birthplace of Aydin Karabulut, in?",
+          "gold": "march of brandenburg",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which country is Manisa Ili Province, the birthplace of zeki önatlı, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which country is Salonika, the birthplace of Ulvi Yenal, in?",
+          "gold": "Venetian golden era",
+          "predicted": "I'm unable to answer that question based on the provided information.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which country is Tacheny, the birthplace of Ugur Inceman, in?",
+          "gold": "deutsches kaiserreich",
+          "predicted": "I couldn't find any information about Ugur Inceman or Tacheny in the given passages.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which country is Aydın İli Province, Turkey, the birthplace of Aydin Toscali, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which country is monaco of bavaria, the birthplace of Mehmet Ekici, in?",
+          "gold": "Germanz",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which country is the league of Vestel Manisaspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which country is the league of Goztepe S.K. in?",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which country is the league of Arsinspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was the director of \"The Nameless Knight\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was the director of \"mustang (film)\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was the director of \"For Love and Honor\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was the director of \"süt kardeşler\" born?",
+          "gold": "history of trabzon",
+          "predicted": "I don't have the information about the director of \"süt kardeşler\" or the passage about it.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was the director of \"SeMazen\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no answer to this question as the director of \"SeMazen\" is not mentioned in the passage.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was kenan i̇mirzalıoğlu from \"For Love and Honor\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "I couldn't find any information about the film \"the canal (1979 film)\" or its actor Kamran Usluer.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+          "gold": "History of Akhisar",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+          "gold": "history of almelo",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "Where was kartal tibet from \"Ask Firtinasi\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "I couldn't find any information about the passages provided.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "Where was Adile Nasit from \"namuslu\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I couldn't find any information about the passage of \"namuslu\" or Adile Nasit's birthplace.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "Which award was won by Zeki Okten, the director of \"Çöpçüler krali\"?",
+          "gold": "Sutherland Award",
+          "predicted": "There is no information about Zeki Ökten winning any award in the given passage.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is çetin tekindor from \"istanbul tales\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is Selma Ergeç from \"Beş Vakit\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is aynur dogan from \"lovelorn (film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "There is no answer.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is reb brown from \"yor, the hunter from the future\" a citizen of?",
+          "gold": "united stated",
+          "predicted": "Canada",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is Serif Sezer from \"the lamb (2014 film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "I don't have enough information to answer that question.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is Gulliver (band) from \"greatest ears in town: the arif mardin st",
+          "gold": "united stated",
+          "predicted": "There is no information about the band \"Gulliver\" in the provided passages.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Where did Eric Nazarian, the director of \"do not forget me istanbul\", study?",
+          "gold": "scions",
+          "predicted": "There is no information about Eric Nazarian in the passages.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which award was won by the film \"sivas (film)\"?",
+          "gold": "Gran premio della giuria",
+          "predicted": "Jury Prize",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Where did cem yilmaz from \"G O R A\" study?",
+          "gold": "bogazici university",
+          "predicted": "Unknown",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Where did Haluk Bilginer from \"son of the sun\" study?",
+          "gold": "the london academy of music and dramatic art",
+          "predicted": "I couldn't find any information about a character named \"Haluk Bilginer from 'son of the sun'\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Where did Nejat İşler from \"10 to 11\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul University.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Where did tarik akan from \"alev alev\" study?",
+          "gold": "ytü",
+          "predicted": "Istanbul State Conservatory",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Where did cansu dere from \"mother (turkish tv series)\" study?",
+          "gold": "Daruelfuenun",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which award was won by Fecri Ebcioglu Sunar from \"şaka ile karışık\"?",
+          "gold": "state artist",
+          "predicted": "There is no answer.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which award was won by Münir Özkul from \"banker bilo\"?",
+          "gold": "state artist",
+          "predicted": "There is no answer.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which award was won by Azra Akın from \"istanbul tales\"?",
+          "gold": "miss turkey",
+          "predicted": "There is no information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which award was won by quincy delight jones from \"greatest ears in town: the ari",
+          "gold": "musicares person of the year",
+          "predicted": "Grammy Lifetime Achievement Award",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which award was won by kemal sunal from \"ortadirek şaban\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "There is no answer.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which award was won by sener sen from \"sabanoglu saban\"?",
+          "gold": "state artist",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which award was won by sener sen from \"selamsiz bandosu\"?",
+          "gold": "state artist",
+          "predicted": "There is no information about an award won by Şener Şen from \"Selamsız Bandosu\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which award was won by kemal sunal from \"Köyden İndim Şehire\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "There is no answer to this question as the passage states that there is no information about the award.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        }
+      ]
+    },
+    "kg_rag": {
+      "total": 66,
+      "accuracy": 0.1212,
+      "f1": 0.035,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.4545,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 66,
+          "accuracy": 0.1212,
+          "em": 0.0,
+          "f1": 0.035
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was Sueleyman Seba born?",
+          "gold": "sakarya province",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was kadri aytaç born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was Naci Erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Naci Erdem was born in Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was arif erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Arif Erdem was born in Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was Seref Has born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "In which city or region is the stadium of ankara demirspor located?",
+          "gold": "Angora, Turkey",
+          "predicted": "The stadium of Ankara Demirspor is located in Ankara, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "In which city or region is the stadium of i̇stanbul büyükşehir belediyespor (foo",
+          "gold": "Basaksehir",
+          "predicted": "The stadium of Istanbul Büyükşehir Belediyespor is located in the Ümraniye district of Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "In which city or region is the stadium of trabzon karadeniz s.k. located?",
+          "gold": "history of trabzon",
+          "predicted": "The stadium of Trabzon Karadeniz S.K. is located in Trabzon, Turkey. Specifically, it is known as the Hüseyin Avni Aker Stadium.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "In which city or region is the stadium of hacettepe sk located?",
+          "gold": "Angora, Turkey",
+          "predicted": "The stadium of Hacettepe SK is located in Ankara, Turkey. Specifically, it is associated with the New Ankara Stadium.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is the club of Naci Ozkaya in?",
+          "gold": "turkiye",
+          "predicted": "Naci Ozkaya's country of origin is Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is the club of Tuncay Şanlı in?",
+          "gold": "turkiye",
+          "predicted": "The country associated with Tuncay Şanlı's club, VfL Wolfsburg, is Germany.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is the club of yasin celik in?",
+          "gold": "turkiye",
+          "predicted": "The country associated with Yasin Çelik's football club is Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is the club of egemen korkmaz in?",
+          "gold": "turkiye",
+          "predicted": "The country associated with Egemen Korkmaz is Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is the club of Ceyhun Guelselam in?",
+          "gold": "turkiye",
+          "predicted": "Ceyhun Gülselam plays for Alanyaspor, which is a Turkish football club. Therefore, the country of the club is Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is the club of ali kemal denizci in?",
+          "gold": "turkiye",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Which league does the club fenerbahçe s.k. (football), where Gokhan Unal played,",
+          "gold": "turkish super league",
+          "predicted": "Fenerbahçe S.K. belongs to the Turkcell Super League, a top-tier league in Turkish football.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Which league does the club Galatasaray F.C., where Buruk Okan played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Galatasaray F.C. belongs to the Süper Lig. The Süper Lig is the top-tier football league in Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Which league does the club Galatasaray F.C., where Erkin Caner played, belong to",
+          "gold": "turkish super league",
+          "predicted": "Galatasaray F.C. belongs to the top flight of Turkish football. This is the top division of Turkish football.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Which country is Berlim, the birthplace of Aydin Karabulut, in?",
+          "gold": "march of brandenburg",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which country is Manisa Ili Province, the birthplace of zeki önatlı, in?",
+          "gold": "turkiye",
+          "predicted": "Manisa Ili Province is located in western Turkey. It is the birthplace of Zeki Önatlı, a former Turkish footballer and coach.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which country is Salonika, the birthplace of Ulvi Yenal, in?",
+          "gold": "Venetian golden era",
+          "predicted": "Salonika is a city in northern Greece.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which country is Tacheny, the birthplace of Ugur Inceman, in?",
+          "gold": "deutsches kaiserreich",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which country is Aydın İli Province, Turkey, the birthplace of Aydin Toscali, in",
+          "gold": "turkiye",
+          "predicted": "Aydın Toscali, a Turkish international footballer, was born in Aydın İli Province, Turkey. The Aydın İli Province is located in the Aegean Region of southwestern Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which country is monaco of bavaria, the birthplace of Mehmet Ekici, in?",
+          "gold": "Germanz",
+          "predicted": "Monaco of Bavaria is located in Germany.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which country is the league of Vestel Manisaspor in?",
+          "gold": "turkiye",
+          "predicted": "The country where Vestel Manisaspor's league is located is Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which country is the league of Goztepe S.K. in?",
+          "gold": "turkiye",
+          "predicted": "The league of Göztepe S.K. is the Süper Lig. The Süper Lig is the top tier of the Turkish football league system.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which country is the league of Arsinspor in?",
+          "gold": "turkiye",
+          "predicted": "The country where the league of Arsinspor is located is Turkey.",
+          "difficulty": "2-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was the director of \"The Nameless Knight\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "Halit Refiğ was born in İzmir, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was the director of \"mustang (film)\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Deniz Gamze Ergüven, the director of \"Mustang (film)\", was born in Ankara, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was the director of \"For Love and Honor\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Saad Khan is an Indian film director, but there is no direct information linking him to the film \"For Love and Honor\".",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was the director of \"süt kardeşler\" born?",
+          "gold": "history of trabzon",
+          "predicted": "Ertem Eğilmez was born in Trabzon, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was the director of \"SeMazen\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Eva de Vitray-Meyerovitch was born in Boulogne-Billancourt.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was kenan i̇mirzalıoğlu from \"For Love and Honor\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Kenan İmirzalıoğlu was born in Ankara, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "Where was Kamran Usluer from \"the canal (1979 film)\" born?",
+          "gold": "ismir, turkey",
+          "predicted": "Kamran Usluer was born in Izmir, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "Where was taner birsel from \"Beş Vakit\" born?",
+          "gold": "History of Akhisar",
+          "predicted": "Taner Birsel was born in Akhisar, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "Where was Azra Akın from \"istanbul tales\" born?",
+          "gold": "history of almelo",
+          "predicted": "Azra Akın was born in Almelo, Netherlands.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "Where was kartal tibet from \"Ask Firtinasi\" born?",
+          "gold": "Angora, Turkey",
+          "predicted": "Kartal Tibet was born in Ankara, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "Where was Adile Nasit from \"namuslu\" born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Adile Nasit was born in Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is çetin tekindor from \"istanbul tales\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Çetin Tekindor is a citizen of Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is Selma Ergeç from \"Beş Vakit\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Selma Ergeç is a citizen of both Turkey and Germany.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is aynur dogan from \"lovelorn (film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Aynur Doğan is a citizen of Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is reb brown from \"yor, the hunter from the future\" a citizen of?",
+          "gold": "united stated",
+          "predicted": "Reb Brown is a citizen of the United States.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is Serif Sezer from \"the lamb (2014 film)\" a citizen of?",
+          "gold": "turkiye",
+          "predicted": "Serif Sezer is a Turkish citizen. Her country of citizenship is Turkey.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is Gulliver (band) from \"greatest ears in town: the arif mardin st",
+          "gold": "united stated",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Where did Eric Nazarian, the director of \"do not forget me istanbul\", study?",
+          "gold": "scions",
+          "predicted": "Eric Nazarian studied at the University of Southern California School of Cinematic Arts.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which award was won by the film \"sivas (film)\"?",
+          "gold": "Gran premio della giuria",
+          "predicted": "The film \"Sivas\" won the Special Jury Prize, also known as the Grand Jury Prize, at the 71st Venice International Film Festival. This award is the Special Jury Prize.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Where did cem yilmaz from \"G O R A\" study?",
+          "gold": "bogazici university",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Where did Haluk Bilginer from \"son of the sun\" study?",
+          "gold": "the london academy of music and dramatic art",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Where did Nejat İşler from \"10 to 11\" study?",
+          "gold": "ytü",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Where did cansu dere from \"mother (turkish tv series)\" study?",
+          "gold": "Daruelfuenun",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which award was won by Fecri Ebcioglu Sunar from \"şaka ile karışık\"?",
+          "gold": "state artist",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which award was won by Münir Özkul from \"banker bilo\"?",
+          "gold": "state artist",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which award was won by Azra Akın from \"istanbul tales\"?",
+          "gold": "miss turkey",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which award was won by quincy delight jones from \"greatest ears in town: the ari",
+          "gold": "musicares person of the year",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which award was won by kemal sunal from \"ortadirek şaban\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which award was won by sener sen from \"sabanoglu saban\"?",
+          "gold": "state artist",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which award was won by sener sen from \"selamsiz bandosu\"?",
+          "gold": "state artist",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which award was won by kemal sunal from \"Köyden İndim Şehire\"?",
+          "gold": "Antalya Golden Orange Film Festival",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        }
+      ]
+    }
+  },
+  "3-hop": {
+    "no_retrieval": {
+      "total": 33,
+      "accuracy": 0.0606,
+      "f1": 0.0455,
+      "exact_match": 0.0,
+      "retrieval_recall": null,
+      "by_difficulty": {
+        "3-hop": {
+          "total": 33,
+          "accuracy": 0.0606,
+          "em": 0.0,
+          "f1": 0.0455
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_034",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is fischbach unrra displaced persons camp, the birthplace of serca",
+          "gold": "Weimar regime",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is istanbul (turkey), the birthplace of Ercan Aktuna from Türkiye ",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is mush of the armenians, the birthplace of Kürşat Duymuş from Tür",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is united kingdom/london, the birthplace of Kazim Richards from Tü",
+          "gold": "Imperial Roman",
+          "predicted": "Wales",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the league of fenerbahçe s.k. (football), where Muhammed Türkme",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the league of Galatasaray F.C., where Gheorghe Popescu played, ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is the league of Galatasaray F.C., where Burhan Atak played, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is the league of Galatasaray F.C., where gokmen ozdenak played, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where İbrah",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where Angel",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where serka",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_049",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where felip",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "Which country is the birth city of Aida Begic, the director of \"children of sara",
+          "gold": "History of The Kingdom of Yugoslavia",
+          "predicted": "Bosnia and Herzegovina.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "Which country is the birth city of Orhan Aksoy, the director of \"Ah Nerede\", in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "Which country is the birth city of halit refiğ, the director of \"sevmek ve ölmek",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "Which country is the birth city of Anno Saul, the director of \"Kebab Connection\"",
+          "gold": "The Kingdom of Prussia",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is Galatasaray Lyceum, where lütfi akad studied, in for the film \"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is the birth city of serdar orçin from \"yazgı\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is the birth city of Özçivit from \"kara sevda (tv series)\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is the birth city of Saadet Aksoy from \"love in another language\" ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the birth city of halit akçatepe from \"Köprüalti çocuklari\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the american academy of dramatic arts, where baldwin, stephen s",
+          "gold": "united stated",
+          "predicted": "United Kingdom",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is Ankara State Conservatory, where i̇lyas salman studied in \"kiba",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is ankara üniversitesi, where Serif Sezer studied in \"babam and oğ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is ytü, where Nejat İşler studied in \"Black and White (2010 film)\"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which province or administrative area contains Angora, Turkey, where Mazhar Alan",
+          "gold": "vilayet of angora",
+          "predicted": "Ankara",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which province or administrative area contains Budapest (Hungary), where Can Tog",
+          "gold": "közép-magyarország",
+          "predicted": "Pest.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        }
+      ]
+    },
+    "vanilla_rag": {
+      "total": 33,
+      "accuracy": 0.0303,
+      "f1": 0.0396,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.0,
+      "by_difficulty": {
+        "3-hop": {
+          "total": 33,
+          "accuracy": 0.0303,
+          "em": 0.0,
+          "f1": 0.0396
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_034",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is fischbach unrra displaced persons camp, the birthplace of serca",
+          "gold": "Weimar regime",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is istanbul (turkey), the birthplace of Ercan Aktuna from Türkiye ",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is mush of the armenians, the birthplace of Kürşat Duymuş from Tür",
+          "gold": "turkiye",
+          "predicted": "Armenia",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is united kingdom/london, the birthplace of Kazim Richards from Tü",
+          "gold": "Imperial Roman",
+          "predicted": "Wales",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the league of fenerbahçe s.k. (football), where Muhammed Türkme",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the league of Galatasaray F.C., where Gheorghe Popescu played, ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is the league of Galatasaray F.C., where Burhan Atak played, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is the league of Galatasaray F.C., where gokmen ozdenak played, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where İbrah",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where Angel",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where serka",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_049",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where felip",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "Which country is the birth city of Aida Begic, the director of \"children of sara",
+          "gold": "History of The Kingdom of Yugoslavia",
+          "predicted": "Bosnia and Herzegovina.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "Which country is the birth city of Orhan Aksoy, the director of \"Ah Nerede\", in?",
+          "gold": "turkiye",
+          "predicted": "There is no information about Orhan Aksoy or the film \"Ah Nerede\" in the passages.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "Which country is the birth city of halit refiğ, the director of \"sevmek ve ölmek",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "Which country is the birth city of Anno Saul, the director of \"Kebab Connection\"",
+          "gold": "The Kingdom of Prussia",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is Galatasaray Lyceum, where lütfi akad studied, in for the film \"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is the birth city of serdar orçin from \"yazgı\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is the birth city of Özçivit from \"kara sevda (tv series)\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is the birth city of Saadet Aksoy from \"love in another language\" ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the birth city of halit akçatepe from \"Köprüalti çocuklari\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the american academy of dramatic arts, where baldwin, stephen s",
+          "gold": "united stated",
+          "predicted": "United Kingdom",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is Ankara State Conservatory, where i̇lyas salman studied in \"kiba",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is ankara üniversitesi, where Serif Sezer studied in \"babam and oğ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is ytü, where Nejat İşler studied in \"Black and White (2010 film)\"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which province or administrative area contains ismir, turkey, where ayhan işık f",
+          "gold": "Vilayet of İzmir",
+          "predicted": "İzmir is a city in the Aegean Region of Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which province or administrative area contains Angora, Turkey, where Mazhar Alan",
+          "gold": "vilayet of angora",
+          "predicted": "Anatolia",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which province or administrative area contains Budapest (Hungary), where Can Tog",
+          "gold": "közép-magyarország",
+          "predicted": "Central Hungary",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        }
+      ]
+    },
+    "vanilla_qe": {
+      "total": 33,
+      "accuracy": 0.0303,
+      "f1": 0.0295,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.1111,
+      "by_difficulty": {
+        "3-hop": {
+          "total": 33,
+          "accuracy": 0.0303,
+          "em": 0.0,
+          "f1": 0.0295
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_034",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is fischbach unrra displaced persons camp, the birthplace of serca",
+          "gold": "Weimar regime",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is istanbul (turkey), the birthplace of Ercan Aktuna from Türkiye ",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is mush of the armenians, the birthplace of Kürşat Duymuş from Tür",
+          "gold": "turkiye",
+          "predicted": "Armenia",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is united kingdom/london, the birthplace of Kazim Richards from Tü",
+          "gold": "Imperial Roman",
+          "predicted": "Wales",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the league of fenerbahçe s.k. (football), where Muhammed Türkme",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the league of Galatasaray F.C., where Gheorghe Popescu played, ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is the league of Galatasaray F.C., where Burhan Atak played, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is the league of Galatasaray F.C., where gokmen ozdenak played, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where İbrah",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where Angel",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where serka",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_049",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where felip",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "Which country is the birth city of Aida Begic, the director of \"children of sara",
+          "gold": "History of The Kingdom of Yugoslavia",
+          "predicted": "Bosnia and Herzegovina.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "Which country is the birth city of Orhan Aksoy, the director of \"Ah Nerede\", in?",
+          "gold": "turkiye",
+          "predicted": "There is no information about Orhan Aksoy or the film \"Ah Nerede\" in the passages.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "Which country is the birth city of halit refiğ, the director of \"sevmek ve ölmek",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "Which country is the birth city of Anno Saul, the director of \"Kebab Connection\"",
+          "gold": "The Kingdom of Prussia",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is Galatasaray Lyceum, where lütfi akad studied, in for the film \"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is the birth city of serdar orçin from \"yazgı\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is the birth city of Özçivit from \"kara sevda (tv series)\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is the birth city of Saadet Aksoy from \"love in another language\" ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the birth city of halit akçatepe from \"Köprüalti çocuklari\" in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the american academy of dramatic arts, where baldwin, stephen s",
+          "gold": "united stated",
+          "predicted": "There is no information about the American Academy of Dramatic Arts or Stephen Baldwin in the provided document content.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is Ankara State Conservatory, where i̇lyas salman studied in \"kiba",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is ankara üniversitesi, where Serif Sezer studied in \"babam and oğ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is ytü, where Nejat İşler studied in \"Black and White (2010 film)\"",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which province or administrative area contains ismir, turkey, where ayhan işık f",
+          "gold": "Vilayet of İzmir",
+          "predicted": "İzmir is a city in the Aegean Region of Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which province or administrative area contains Angora, Turkey, where Mazhar Alan",
+          "gold": "vilayet of angora",
+          "predicted": "I cannot verify the information about Angora, Turkey, or Mazhar Alanson from \"devil, my friend\".",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which province or administrative area contains Budapest (Hungary), where Can Tog",
+          "gold": "közép-magyarország",
+          "predicted": "I don't have enough information to answer the question.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        }
+      ]
+    },
+    "kg_rag": {
+      "total": 33,
+      "accuracy": 0.0303,
+      "f1": 0.0188,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.1212,
+      "by_difficulty": {
+        "3-hop": {
+          "total": 33,
+          "accuracy": 0.0303,
+          "em": 0.0,
+          "f1": 0.0188
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_034",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "The Türk Telekom Arena, home stadium of Galatasaray F.C. where Brad Friedel played, is located in Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "The Türk Telekom Arena, home stadium of Galatasaray F.C., is located in the Sarıyer district of Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "The Türk Telekom Arena, home stadium of Galatasaray F.C., is located in the Seyrantepe quarter of the Sarıyer district, on the European side of Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "The Türk Telekom Arena, home stadium of Galatasaray F.C., is located in the Seyrantepe quarter of the Sarıyer district, on the European side of Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is fischbach unrra displaced persons camp, the birthplace of serca",
+          "gold": "Weimar regime",
+          "predicted": "The country associated with the Fischbach UNRRA displaced persons camp, and Sercan Sararer Osuna's birthplace, is Germany.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is istanbul (turkey), the birthplace of Ercan Aktuna from Türkiye ",
+          "gold": "Ottoman empire",
+          "predicted": "Istanbul is the city where Ercan Aktuna was born. Istanbul is located in Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is mush of the armenians, the birthplace of Kürşat Duymuş from Tür",
+          "gold": "turkiye",
+          "predicted": "The country where most Armenians live and Kürşat Duymuş was born is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is united kingdom/london, the birthplace of Kazim Richards from Tü",
+          "gold": "Imperial Roman",
+          "predicted": "The country where Kazim Richards was born is the United Kingdom. Specifically, it is England, a country within the United Kingdom.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the league of fenerbahçe s.k. (football), where Muhammed Türkme",
+          "gold": "turkiye",
+          "predicted": "The country where the league of Fenerbahçe S.K. (football) is located is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the league of Galatasaray F.C., where Gheorghe Popescu played, ",
+          "gold": "turkiye",
+          "predicted": "The country where Galatasaray F.C. is based and competes in is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is the league of Galatasaray F.C., where Burhan Atak played, in?",
+          "gold": "turkiye",
+          "predicted": "Galatasaray F.C. is based in Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is the league of Galatasaray F.C., where gokmen ozdenak played, in",
+          "gold": "turkiye",
+          "predicted": "The country associated with Galatasaray F.C. and Gökmen Özdenak is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where İbrah",
+          "gold": "turkiye",
+          "predicted": "The country where Türk Telekom Arena (also known as Ali Sami Yen Sports Complex) is located is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where Angel",
+          "gold": "turkiye",
+          "predicted": "The country where Türk Telekom Arena, the stadium of Galatasaray F.C., is located is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where serka",
+          "gold": "turkiye",
+          "predicted": "The country where Türk Telekom Arena, the stadium of Galatasaray F.C., is located is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_049",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where felip",
+          "gold": "turkiye",
+          "predicted": "The country where Türk Telekom Arena, the stadium of Galatasaray F.C. where Felipe Jorge Loureiro played, is located in is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "Which country is the birth city of Aida Begic, the director of \"children of sara",
+          "gold": "History of The Kingdom of Yugoslavia",
+          "predicted": "Aida Begic was born in Bosnia and Herzegovina.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "Which country is the birth city of Orhan Aksoy, the director of \"Ah Nerede\", in?",
+          "gold": "turkiye",
+          "predicted": "The country of Orhan Aksoy's birth city is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "Which country is the birth city of halit refiğ, the director of \"sevmek ve ölmek",
+          "gold": "Ottoman empire",
+          "predicted": "Halit Refiğ was born in İzmir, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "Which country is the birth city of Anno Saul, the director of \"Kebab Connection\"",
+          "gold": "The Kingdom of Prussia",
+          "predicted": "Anno Saul was born in Bonn, West Germany. The birth city is located in Germany.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is Galatasaray Lyceum, where lütfi akad studied, in for the film \"",
+          "gold": "turkiye",
+          "predicted": "The country associated with Galatasaray Lyceum is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is the birth city of serdar orçin from \"yazgı\" in?",
+          "gold": "turkiye",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is the birth city of Özçivit from \"kara sevda (tv series)\" in?",
+          "gold": "turkiye",
+          "predicted": "Istanbul, Turkey is the birth city of Özçivit.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is the birth city of Saadet Aksoy from \"love in another language\" ",
+          "gold": "turkiye",
+          "predicted": "Saadet Aksoy was born in Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the birth city of halit akçatepe from \"Köprüalti çocuklari\" in?",
+          "gold": "turkiye",
+          "predicted": "The birth city of Halit Akçatepe is Üsküdar. Üsküdar is a district in Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the american academy of dramatic arts, where baldwin, stephen s",
+          "gold": "united stated",
+          "predicted": "The country associated with the film \"Magi\" is Turkey. This confirms that the country where Stephen Baldwin studied in the context of the film \"Magi\" is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is Ankara State Conservatory, where i̇lyas salman studied in \"kiba",
+          "gold": "turkiye",
+          "predicted": "Ankara State Conservatory is located in Ankara, Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is ankara üniversitesi, where Serif Sezer studied in \"babam and oğ",
+          "gold": "turkiye",
+          "predicted": "Ankara Üniversitesi is located in Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is ytü, where Nejat İşler studied in \"Black and White (2010 film)\"",
+          "gold": "turkiye",
+          "predicted": "The country associated with Istanbul, where Nejat İşler studied in the film \"Black and White\" (2010), is Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which province or administrative area contains ismir, turkey, where ayhan işık f",
+          "gold": "Vilayet of İzmir",
+          "predicted": "İzmir is located in the Aegean Region of Turkey. The Aegean Region is one of the 7 administrative regions of Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which province or administrative area contains Angora, Turkey, where Mazhar Alan",
+          "gold": "vilayet of angora",
+          "predicted": "The province containing Şarkışla, where Mazhar Alanson was born, is the Sivas Province in the Central Anatolian region of Turkey.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which province or administrative area contains Budapest (Hungary), where Can Tog",
+          "gold": "közép-magyarország",
+          "predicted": "Budapest is located in the Central Hungary region, specifically in Pest and Buda counties.",
+          "difficulty": "3-hop",
+          "domain": "cinema",
+          "method": "kg_rag"
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "no_retrieval": {
+      "total": 11,
+      "accuracy": 0.4545,
+      "f1": 0.5,
+      "exact_match": 0.4545,
+      "retrieval_recall": null,
+      "by_difficulty": {
+        "comparison": {
+          "total": 11,
+          "accuracy": 0.4545,
+          "em": 0.4545,
+          "f1": 0.5
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_050",
+          "question_text": "Which player from caykur rizespor was born in Turkey, Cumali Bisi or gökhan öztü",
+          "gold": "Cumali Bisi",
+          "predicted": "Gökhan Öztürk",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which player plays for a Turkish football club, fatih sonkaya or dmitri nikolaye",
+          "gold": "fatih sonkaya",
+          "predicted": "Dmitri Nikolayevich Ulyanov",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_053",
+          "question_text": "Which player plays for a Turkish football club, tarık daşgün or Gigi Meroni?",
+          "gold": "tarık daşgün",
+          "predicted": "Gigi Meroni",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, çetin tekindor or İdil Üner?",
+          "gold": "çetin tekindor",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_054",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, fikret kuskan or İdil Üner?",
+          "gold": "fikret kuskan",
+          "predicted": "Fikret Kuşkan",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_056",
+          "question_text": "Which director is Turkish, Ertem Egilmez from \"sev kardeşim\" or Orestis Laskos f",
+          "gold": "Ertem Egilmez",
+          "predicted": "Orestis Laskos",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "no_retrieval"
+        }
+      ]
+    },
+    "vanilla_rag": {
+      "total": 11,
+      "accuracy": 0.3636,
+      "f1": 0.3636,
+      "exact_match": 0.3636,
+      "retrieval_recall": null,
+      "by_difficulty": {
+        "comparison": {
+          "total": 11,
+          "accuracy": 0.3636,
+          "em": 0.3636,
+          "f1": 0.3636
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_050",
+          "question_text": "Which player from caykur rizespor was born in Turkey, Cumali Bisi or gökhan öztü",
+          "gold": "Cumali Bisi",
+          "predicted": "Gökhan Öztürk",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which player plays for a Turkish football club, fatih sonkaya or dmitri nikolaye",
+          "gold": "fatih sonkaya",
+          "predicted": "Dmitri Nikolayevich Ulyanov",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_053",
+          "question_text": "Which player plays for a Turkish football club, tarık daşgün or Gigi Meroni?",
+          "gold": "tarık daşgün",
+          "predicted": "Gigi Meroni",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, çetin tekindor or İdil Üner?",
+          "gold": "çetin tekindor",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_054",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, fikret kuskan or İdil Üner?",
+          "gold": "fikret kuskan",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_055",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, Mazlum Cimen or İdil Üner?",
+          "gold": "Mazlum Cimen",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_056",
+          "question_text": "Which director is Turkish, Ertem Egilmez from \"sev kardeşim\" or Orestis Laskos f",
+          "gold": "Ertem Egilmez",
+          "predicted": "Orestis Laskos",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "vanilla_rag"
+        }
+      ]
+    },
+    "vanilla_qe": {
+      "total": 11,
+      "accuracy": 0.5455,
+      "f1": 0.3212,
+      "exact_match": 0.2727,
+      "retrieval_recall": 0.0,
+      "by_difficulty": {
+        "comparison": {
+          "total": 11,
+          "accuracy": 0.5455,
+          "em": 0.2727,
+          "f1": 0.3212
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_050",
+          "question_text": "Which player from caykur rizespor was born in Turkey, Cumali Bisi or gökhan öztü",
+          "gold": "Cumali Bisi",
+          "predicted": "Gökhan Öztürk",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_053",
+          "question_text": "Which player plays for a Turkish football club, tarık daşgün or Gigi Meroni?",
+          "gold": "tarık daşgün",
+          "predicted": "It is not possible to determine which player plays for a Turkish football club based on the given information.",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, çetin tekindor or İdil Üner?",
+          "gold": "çetin tekindor",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_054",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, fikret kuskan or İdil Üner?",
+          "gold": "fikret kuskan",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_055",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, Mazlum Cimen or İdil Üner?",
+          "gold": "Mazlum Cimen",
+          "predicted": "İdil Üner",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "vanilla_qe"
+        }
+      ]
+    },
+    "kg_rag": {
+      "total": 11,
+      "accuracy": 0.4545,
+      "f1": 0.1687,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.0909,
+      "by_difficulty": {
+        "comparison": {
+          "total": 11,
+          "accuracy": 0.4545,
+          "em": 0.0,
+          "f1": 0.1687
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_050",
+          "question_text": "Which player from caykur rizespor was born in Turkey, Cumali Bisi or gökhan öztü",
+          "gold": "Cumali Bisi",
+          "predicted": "Gökhan Öztürk is the player from Caykur Rizespor born in Turkey.",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_051",
+          "question_text": "Which player plays for a Turkish football club, Hami Mandirali or dmitri nikolay",
+          "gold": "Hami Mandirali",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "comparison",
+          "domain": "football",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_051",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, erkan can or İdil Üner?",
+          "gold": "erkan can",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, çetin tekindor or İdil Üner?",
+          "gold": "çetin tekindor",
+          "predicted": "Cetin Tekindor is a Turkish actor. He is the Turkish actor in \"Istanbul Tales.\"",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_054",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, fikret kuskan or İdil Üner?",
+          "gold": "fikret kuskan",
+          "predicted": "Fikret Kuşkan is the Turkish actor in \"Istanbul Tales\". He is a Turkish actor born in Istanbul, Turkey.",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_055",
+          "question_text": "Which actor in \"istanbul tales\" is Turkish, Mazlum Cimen or İdil Üner?",
+          "gold": "Mazlum Cimen",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "comparison",
+          "domain": "cinema",
+          "method": "kg_rag"
+        }
+      ]
+    }
+  }
+}

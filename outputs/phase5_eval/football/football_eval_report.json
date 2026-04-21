@@ -1,0 +1,1715 @@
+{
+  "method_comparison": {
+    "no_retrieval": {
+      "total": 54,
+      "accuracy": 0.0741,
+      "f1": 0.0753,
+      "exact_match": 0.037,
+      "retrieval_recall": null,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 33,
+          "accuracy": 0.0606,
+          "em": 0.0,
+          "f1": 0.0626
+        },
+        "3-hop": {
+          "total": 16,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0
+        },
+        "comparison": {
+          "total": 5,
+          "accuracy": 0.4,
+          "em": 0.4,
+          "f1": 0.4
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was Sueleyman Seba born?",
+          "gold": "sakarya province",
+          "predicted": "Istanbul, Ottoman Empire (now Turkey)",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was kadri aytaç born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was Seref Has born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Istanbul, Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was hamdi aslan born?",
+          "gold": "Trabzon Province",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "In which city or region is the stadium of ankara demirspor located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "In which city or region is the stadium of Fatih Karagumruk SK located?",
+          "gold": "Karagumruk",
+          "predicted": "Istanbul",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "In which city or region is the stadium of Kahramanmarasspor located?",
+          "gold": "maraş, turkey",
+          "predicted": "Kahramanmaraş",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "In which city or region is the stadium of i̇stanbul büyükşehir belediyespor (foo",
+          "gold": "Basaksehir",
+          "predicted": "Istanbul",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "In which city or region is the stadium of trabzon karadeniz s.k. located?",
+          "gold": "history of trabzon",
+          "predicted": "Trabzon.",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "In which city or region is the stadium of hacettepe sk located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is the club of Naci Ozkaya in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is the club of Tuncay Şanlı in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is the club of yasin celik in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is the club of egemen korkmaz in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is the club of Ceyhun Guelselam in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is the club of ali kemal denizci in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Which league does the club fenerbahçe s.k. (football), where Gokhan Unal played,",
+          "gold": "turkish super league",
+          "predicted": "Super Lig",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which league does the club Galatasaray F.C., where mike marsh (footballer) playe",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Which league does the club Galatasaray F.C., where Buruk Okan played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Which league does the club Galatasaray F.C., where ismael bouzid played, belong ",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Which league does the club Galatasaray F.C., where Erkin Caner played, belong to",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Which league does the club Galatasaray F.C., where turan arda played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Which country is Berlim, the birthplace of Aydin Karabulut, in?",
+          "gold": "march of brandenburg",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which country is Manisa Ili Province, the birthplace of zeki önatlı, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which country is Salonika, the birthplace of Ulvi Yenal, in?",
+          "gold": "Venetian golden era",
+          "predicted": "Greece",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which country is Tacheny, the birthplace of Ugur Inceman, in?",
+          "gold": "deutsches kaiserreich",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which country is Aydın İli Province, Turkey, the birthplace of Aydin Toscali, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which country is monaco of bavaria, the birthplace of Mehmet Ekici, in?",
+          "gold": "Germanz",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which country is the league of Vestel Manisaspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which country is the league of Goztepe S.K. in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which country is the league of Arsinspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is fischbach unrra displaced persons camp, the birthplace of serca",
+          "gold": "Weimar regime",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is istanbul (turkey), the birthplace of Ercan Aktuna from Türkiye ",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is mush of the armenians, the birthplace of Kürşat Duymuş from Tür",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is united kingdom/london, the birthplace of Kazim Richards from Tü",
+          "gold": "Imperial Roman",
+          "predicted": "Wales",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the league of fenerbahçe s.k. (football), where Muhammed Türkme",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the league of Galatasaray F.C., where Gheorghe Popescu played, ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is the league of Galatasaray F.C., where Burhan Atak played, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is the league of Galatasaray F.C., where gokmen ozdenak played, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where İbrah",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where Angel",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where serka",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_049",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where felip",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which player from caykur rizespor was born in Turkey, Cumali Bisi or gökhan öztü",
+          "gold": "Cumali Bisi",
+          "predicted": "Gökhan Öztürk",
+          "difficulty": "comparison",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which player plays for a Turkish football club, fatih sonkaya or dmitri nikolaye",
+          "gold": "fatih sonkaya",
+          "predicted": "Dmitri Nikolayevich Ulyanov",
+          "difficulty": "comparison",
+          "method": "no_retrieval"
+        },
+        {
+          "question_id": "TR_053",
+          "question_text": "Which player plays for a Turkish football club, tarık daşgün or Gigi Meroni?",
+          "gold": "tarık daşgün",
+          "predicted": "Gigi Meroni",
+          "difficulty": "comparison",
+          "method": "no_retrieval"
+        }
+      ]
+    },
+    "vanilla_rag": {
+      "total": 54,
+      "accuracy": 0.037,
+      "f1": 0.063,
+      "exact_match": 0.037,
+      "retrieval_recall": 0.3077,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 33,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0424
+        },
+        "3-hop": {
+          "total": 16,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0
+        },
+        "comparison": {
+          "total": 5,
+          "accuracy": 0.4,
+          "em": 0.4,
+          "f1": 0.4
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was Sueleyman Seba born?",
+          "gold": "sakarya province",
+          "predicted": "5 April 1926",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was kadri aytaç born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I couldn't find any information about Kadri Aytaç.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was Naci Erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I cannot verify the birthplace of Naci Erdem.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was arif erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no information about Arif Erdem's birthplace in the provided document content.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was Seref Has born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "1874",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was hamdi aslan born?",
+          "gold": "Trabzon Province",
+          "predicted": "6 September 1967 is the birthdate, but the birthplace is not mentioned.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "In which city or region is the stadium of ankara demirspor located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "In which city or region is the stadium of Fatih Karagumruk SK located?",
+          "gold": "Karagumruk",
+          "predicted": "Istanbul",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "In which city or region is the stadium of Kahramanmarasspor located?",
+          "gold": "maraş, turkey",
+          "predicted": "Kahramanmaraş, a city in southern Turkey.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "In which city or region is the stadium of i̇stanbul büyükşehir belediyespor (foo",
+          "gold": "Basaksehir",
+          "predicted": "Istanbul.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "In which city or region is the stadium of trabzon karadeniz s.k. located?",
+          "gold": "history of trabzon",
+          "predicted": "Trabzon.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "In which city or region is the stadium of hacettepe sk located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is the club of Naci Ozkaya in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is the club of Tuncay Şanlı in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is the club of yasin celik in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is the club of egemen korkmaz in?",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is the club of Ceyhun Guelselam in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is the club of ali kemal denizci in?",
+          "gold": "turkiye",
+          "predicted": "I cannot verify which country the club of Ali Kemal Denizci is in.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Which league does the club fenerbahçe s.k. (football), where Gokhan Unal played,",
+          "gold": "turkish super league",
+          "predicted": "Süper Lig",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which league does the club Galatasaray F.C., where mike marsh (footballer) playe",
+          "gold": "turkish super league",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Which league does the club Galatasaray F.C., where Buruk Okan played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Which league does the club Galatasaray F.C., where ismael bouzid played, belong ",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Which league does the club Galatasaray F.C., where Erkin Caner played, belong to",
+          "gold": "turkish super league",
+          "predicted": "Turkish Süper Lig",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Which league does the club Galatasaray F.C., where turan arda played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Super Lig",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Which country is Berlim, the birthplace of Aydin Karabulut, in?",
+          "gold": "march of brandenburg",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which country is Manisa Ili Province, the birthplace of zeki önatlı, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which country is Salonika, the birthplace of Ulvi Yenal, in?",
+          "gold": "Venetian golden era",
+          "predicted": "Greece",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which country is Tacheny, the birthplace of Ugur Inceman, in?",
+          "gold": "deutsches kaiserreich",
+          "predicted": "I couldn't find any information about Ugur Inceman or Tacheny in the given passages.",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which country is Aydın İli Province, Turkey, the birthplace of Aydin Toscali, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which country is monaco of bavaria, the birthplace of Mehmet Ekici, in?",
+          "gold": "Germanz",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which country is the league of Vestel Manisaspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which country is the league of Goztepe S.K. in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which country is the league of Arsinspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul.",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul.",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul.",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is fischbach unrra displaced persons camp, the birthplace of serca",
+          "gold": "Weimar regime",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is istanbul (turkey), the birthplace of Ercan Aktuna from Türkiye ",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is mush of the armenians, the birthplace of Kürşat Duymuş from Tür",
+          "gold": "turkiye",
+          "predicted": "Armenia",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is united kingdom/london, the birthplace of Kazim Richards from Tü",
+          "gold": "Imperial Roman",
+          "predicted": "Wales",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the league of fenerbahçe s.k. (football), where Muhammed Türkme",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the league of Galatasaray F.C., where Gheorghe Popescu played, ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is the league of Galatasaray F.C., where Burhan Atak played, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is the league of Galatasaray F.C., where gokmen ozdenak played, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where İbrah",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where Angel",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where serka",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_049",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where felip",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which player from caykur rizespor was born in Turkey, Cumali Bisi or gökhan öztü",
+          "gold": "Cumali Bisi",
+          "predicted": "Gökhan Öztürk",
+          "difficulty": "comparison",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_052",
+          "question_text": "Which player plays for a Turkish football club, fatih sonkaya or dmitri nikolaye",
+          "gold": "fatih sonkaya",
+          "predicted": "Dmitri Nikolayevich Ulyanov",
+          "difficulty": "comparison",
+          "method": "vanilla_rag"
+        },
+        {
+          "question_id": "TR_053",
+          "question_text": "Which player plays for a Turkish football club, tarık daşgün or Gigi Meroni?",
+          "gold": "tarık daşgün",
+          "predicted": "Gigi Meroni",
+          "difficulty": "comparison",
+          "method": "vanilla_rag"
+        }
+      ]
+    },
+    "vanilla_qe": {
+      "total": 54,
+      "accuracy": 0.0556,
+      "f1": 0.0131,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.2727,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 33,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0053
+        },
+        "3-hop": {
+          "total": 16,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0
+        },
+        "comparison": {
+          "total": 5,
+          "accuracy": 0.6,
+          "em": 0.0,
+          "f1": 0.1067
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was Sueleyman Seba born?",
+          "gold": "sakarya province",
+          "predicted": "5 April 1926",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was kadri aytaç born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "I don't have enough information to answer that question.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was Naci Erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no information available.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was arif erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Unfortunately, the document does not provide information about his birthplace.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was Seref Has born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "There is no information about Seref Has in the given text.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_006",
+          "question_text": "Where was hamdi aslan born?",
+          "gold": "Trabzon Province",
+          "predicted": "Unfortunately, the document does not provide information about his birthplace.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "In which city or region is the stadium of ankara demirspor located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_008",
+          "question_text": "In which city or region is the stadium of Fatih Karagumruk SK located?",
+          "gold": "Karagumruk",
+          "predicted": "Istanbul",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_009",
+          "question_text": "In which city or region is the stadium of Kahramanmarasspor located?",
+          "gold": "maraş, turkey",
+          "predicted": "Kahramanmaraş, a city in southern Turkey.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "In which city or region is the stadium of i̇stanbul büyükşehir belediyespor (foo",
+          "gold": "Basaksehir",
+          "predicted": "I don't have enough information to answer the question.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "In which city or region is the stadium of trabzon karadeniz s.k. located?",
+          "gold": "history of trabzon",
+          "predicted": "I'm unable to answer that question as I do not have any information about the location of Trabzon Karadeniz S.K.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "In which city or region is the stadium of hacettepe sk located?",
+          "gold": "Angora, Turkey",
+          "predicted": "Ankara",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is the club of Naci Ozkaya in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is the club of Tuncay Şanlı in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is the club of yasin celik in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is the club of egemen korkmaz in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is the club of Ceyhun Guelselam in?",
+          "gold": "turkiye",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is the club of ali kemal denizci in?",
+          "gold": "turkiye",
+          "predicted": "I cannot verify which country the club of Ali Kemal Denizci is in.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Which league does the club fenerbahçe s.k. (football), where Gokhan Unal played,",
+          "gold": "turkish super league",
+          "predicted": "Süper Lig",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_020",
+          "question_text": "Which league does the club Galatasaray F.C., where mike marsh (footballer) playe",
+          "gold": "turkish super league",
+          "predicted": "Süper Lig",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Which league does the club Galatasaray F.C., where Buruk Okan played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "I don't have enough information to answer the question.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_022",
+          "question_text": "Which league does the club Galatasaray F.C., where ismael bouzid played, belong ",
+          "gold": "turkish super league",
+          "predicted": "I don't have enough information to answer the question.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Which league does the club Galatasaray F.C., where Erkin Caner played, belong to",
+          "gold": "turkish super league",
+          "predicted": "The Süper Lig.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_024",
+          "question_text": "Which league does the club Galatasaray F.C., where turan arda played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "There is no information about Galatasaray F.C. in the provided document content.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Which country is Berlim, the birthplace of Aydin Karabulut, in?",
+          "gold": "march of brandenburg",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which country is Manisa Ili Province, the birthplace of zeki önatlı, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which country is Salonika, the birthplace of Ulvi Yenal, in?",
+          "gold": "Venetian golden era",
+          "predicted": "I'm unable to answer that question based on the provided information.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which country is Tacheny, the birthplace of Ugur Inceman, in?",
+          "gold": "deutsches kaiserreich",
+          "predicted": "I couldn't find any information about Ugur Inceman or Tacheny in the given passages.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which country is Aydın İli Province, Turkey, the birthplace of Aydin Toscali, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which country is monaco of bavaria, the birthplace of Mehmet Ekici, in?",
+          "gold": "Germanz",
+          "predicted": "Germany",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which country is the league of Vestel Manisaspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which country is the league of Goztepe S.K. in?",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which country is the league of Arsinspor in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "2-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is fischbach unrra displaced persons camp, the birthplace of serca",
+          "gold": "Weimar regime",
+          "predicted": "Germany",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is istanbul (turkey), the birthplace of Ercan Aktuna from Türkiye ",
+          "gold": "Ottoman empire",
+          "predicted": "Turkey.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is mush of the armenians, the birthplace of Kürşat Duymuş from Tür",
+          "gold": "turkiye",
+          "predicted": "Armenia",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is united kingdom/london, the birthplace of Kazim Richards from Tü",
+          "gold": "Imperial Roman",
+          "predicted": "Wales",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the league of fenerbahçe s.k. (football), where Muhammed Türkme",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the league of Galatasaray F.C., where Gheorghe Popescu played, ",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is the league of Galatasaray F.C., where Burhan Atak played, in?",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is the league of Galatasaray F.C., where gokmen ozdenak played, in",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where İbrah",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where Angel",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where serka",
+          "gold": "turkiye",
+          "predicted": "Turkey",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_049",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where felip",
+          "gold": "turkiye",
+          "predicted": "Turkey.",
+          "difficulty": "3-hop",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which player from caykur rizespor was born in Turkey, Cumali Bisi or gökhan öztü",
+          "gold": "Cumali Bisi",
+          "predicted": "Gökhan Öztürk",
+          "difficulty": "comparison",
+          "method": "vanilla_qe"
+        },
+        {
+          "question_id": "TR_053",
+          "question_text": "Which player plays for a Turkish football club, tarık daşgün or Gigi Meroni?",
+          "gold": "tarık daşgün",
+          "predicted": "It is not possible to determine which player plays for a Turkish football club based on the given information.",
+          "difficulty": "comparison",
+          "method": "vanilla_qe"
+        }
+      ]
+    },
+    "kg_rag": {
+      "total": 54,
+      "accuracy": 0.1667,
+      "f1": 0.0551,
+      "exact_match": 0.0,
+      "retrieval_recall": 0.3333,
+      "by_difficulty": {
+        "2-hop": {
+          "total": 33,
+          "accuracy": 0.1818,
+          "em": 0.0,
+          "f1": 0.06
+        },
+        "3-hop": {
+          "total": 16,
+          "accuracy": 0.0,
+          "em": 0.0,
+          "f1": 0.0
+        },
+        "comparison": {
+          "total": 5,
+          "accuracy": 0.6,
+          "em": 0.0,
+          "f1": 0.1987
+        }
+      },
+      "errors": [
+        {
+          "question_id": "TR_001",
+          "question_text": "Where was Sueleyman Seba born?",
+          "gold": "sakarya province",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_002",
+          "question_text": "Where was kadri aytaç born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_003",
+          "question_text": "Where was Naci Erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Naci Erdem was born in Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_004",
+          "question_text": "Where was arif erdem born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Arif Erdem was born in Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_005",
+          "question_text": "Where was Seref Has born?",
+          "gold": "istanbul (turkey)",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_007",
+          "question_text": "In which city or region is the stadium of ankara demirspor located?",
+          "gold": "Angora, Turkey",
+          "predicted": "The stadium of Ankara Demirspor is located in Ankara, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_010",
+          "question_text": "In which city or region is the stadium of i̇stanbul büyükşehir belediyespor (foo",
+          "gold": "Basaksehir",
+          "predicted": "The stadium of Istanbul Büyükşehir Belediyespor is located in the Ümraniye district of Istanbul, Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_011",
+          "question_text": "In which city or region is the stadium of trabzon karadeniz s.k. located?",
+          "gold": "history of trabzon",
+          "predicted": "The stadium of Trabzon Karadeniz S.K. is located in Trabzon, Turkey. Specifically, it is known as the Hüseyin Avni Aker Stadium.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_012",
+          "question_text": "In which city or region is the stadium of hacettepe sk located?",
+          "gold": "Angora, Turkey",
+          "predicted": "The stadium of Hacettepe SK is located in Ankara, Turkey. Specifically, it is associated with the New Ankara Stadium.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_013",
+          "question_text": "Which country is the club of Naci Ozkaya in?",
+          "gold": "turkiye",
+          "predicted": "Naci Ozkaya's country of origin is Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_014",
+          "question_text": "Which country is the club of Tuncay Şanlı in?",
+          "gold": "turkiye",
+          "predicted": "The country associated with Tuncay Şanlı's club, VfL Wolfsburg, is Germany.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_015",
+          "question_text": "Which country is the club of yasin celik in?",
+          "gold": "turkiye",
+          "predicted": "The country associated with Yasin Çelik's football club is Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_016",
+          "question_text": "Which country is the club of egemen korkmaz in?",
+          "gold": "turkiye",
+          "predicted": "The country associated with Egemen Korkmaz is Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_017",
+          "question_text": "Which country is the club of Ceyhun Guelselam in?",
+          "gold": "turkiye",
+          "predicted": "Ceyhun Gülselam plays for Alanyaspor, which is a Turkish football club. Therefore, the country of the club is Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_018",
+          "question_text": "Which country is the club of ali kemal denizci in?",
+          "gold": "turkiye",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_019",
+          "question_text": "Which league does the club fenerbahçe s.k. (football), where Gokhan Unal played,",
+          "gold": "turkish super league",
+          "predicted": "Fenerbahçe S.K. belongs to the Turkcell Super League, a top-tier league in Turkish football.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_021",
+          "question_text": "Which league does the club Galatasaray F.C., where Buruk Okan played, belong to?",
+          "gold": "turkish super league",
+          "predicted": "Galatasaray F.C. belongs to the Süper Lig. The Süper Lig is the top-tier football league in Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_023",
+          "question_text": "Which league does the club Galatasaray F.C., where Erkin Caner played, belong to",
+          "gold": "turkish super league",
+          "predicted": "Galatasaray F.C. belongs to the top flight of Turkish football. This is the top division of Turkish football.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_025",
+          "question_text": "Which country is Berlim, the birthplace of Aydin Karabulut, in?",
+          "gold": "march of brandenburg",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_026",
+          "question_text": "Which country is Manisa Ili Province, the birthplace of zeki önatlı, in?",
+          "gold": "turkiye",
+          "predicted": "Manisa Ili Province is located in western Turkey. It is the birthplace of Zeki Önatlı, a former Turkish footballer and coach.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_027",
+          "question_text": "Which country is Salonika, the birthplace of Ulvi Yenal, in?",
+          "gold": "Venetian golden era",
+          "predicted": "Salonika is a city in northern Greece.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_028",
+          "question_text": "Which country is Tacheny, the birthplace of Ugur Inceman, in?",
+          "gold": "deutsches kaiserreich",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_029",
+          "question_text": "Which country is Aydın İli Province, Turkey, the birthplace of Aydin Toscali, in",
+          "gold": "turkiye",
+          "predicted": "Aydın Toscali, a Turkish international footballer, was born in Aydın İli Province, Turkey. The Aydın İli Province is located in the Aegean Region of southwestern Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_030",
+          "question_text": "Which country is monaco of bavaria, the birthplace of Mehmet Ekici, in?",
+          "gold": "Germanz",
+          "predicted": "Monaco of Bavaria is located in Germany.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_031",
+          "question_text": "Which country is the league of Vestel Manisaspor in?",
+          "gold": "turkiye",
+          "predicted": "The country where Vestel Manisaspor's league is located is Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_032",
+          "question_text": "Which country is the league of Goztepe S.K. in?",
+          "gold": "turkiye",
+          "predicted": "The league of Göztepe S.K. is the Süper Lig. The Süper Lig is the top tier of the Turkish football league system.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_033",
+          "question_text": "Which country is the league of Arsinspor in?",
+          "gold": "turkiye",
+          "predicted": "The country where the league of Arsinspor is located is Turkey.",
+          "difficulty": "2-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_034",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "The Türk Telekom Arena, home stadium of Galatasaray F.C. where Brad Friedel played, is located in Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_035",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "The Türk Telekom Arena, home stadium of Galatasaray F.C., is located in the Sarıyer district of Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_036",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "The Türk Telekom Arena, home stadium of Galatasaray F.C., is located in the Seyrantepe quarter of the Sarıyer district, on the European side of Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_037",
+          "question_text": "In which city or region is Türk Telekom Arena, the home stadium of Galatasaray F",
+          "gold": "sisli",
+          "predicted": "The Türk Telekom Arena, home stadium of Galatasaray F.C., is located in the Seyrantepe quarter of the Sarıyer district, on the European side of Istanbul, Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_038",
+          "question_text": "Which country is fischbach unrra displaced persons camp, the birthplace of serca",
+          "gold": "Weimar regime",
+          "predicted": "The country associated with the Fischbach UNRRA displaced persons camp, and Sercan Sararer Osuna's birthplace, is Germany.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_039",
+          "question_text": "Which country is istanbul (turkey), the birthplace of Ercan Aktuna from Türkiye ",
+          "gold": "Ottoman empire",
+          "predicted": "Istanbul is the city where Ercan Aktuna was born. Istanbul is located in Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_040",
+          "question_text": "Which country is mush of the armenians, the birthplace of Kürşat Duymuş from Tür",
+          "gold": "turkiye",
+          "predicted": "The country where most Armenians live and Kürşat Duymuş was born is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_041",
+          "question_text": "Which country is united kingdom/london, the birthplace of Kazim Richards from Tü",
+          "gold": "Imperial Roman",
+          "predicted": "The country where Kazim Richards was born is the United Kingdom. Specifically, it is England, a country within the United Kingdom.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_042",
+          "question_text": "Which country is the league of fenerbahçe s.k. (football), where Muhammed Türkme",
+          "gold": "turkiye",
+          "predicted": "The country where the league of Fenerbahçe S.K. (football) is located is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_043",
+          "question_text": "Which country is the league of Galatasaray F.C., where Gheorghe Popescu played, ",
+          "gold": "turkiye",
+          "predicted": "The country where Galatasaray F.C. is based and competes in is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_044",
+          "question_text": "Which country is the league of Galatasaray F.C., where Burhan Atak played, in?",
+          "gold": "turkiye",
+          "predicted": "Galatasaray F.C. is based in Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_045",
+          "question_text": "Which country is the league of Galatasaray F.C., where gokmen ozdenak played, in",
+          "gold": "turkiye",
+          "predicted": "The country associated with Galatasaray F.C. and Gökmen Özdenak is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_046",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where İbrah",
+          "gold": "turkiye",
+          "predicted": "The country where Türk Telekom Arena (also known as Ali Sami Yen Sports Complex) is located is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_047",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where Angel",
+          "gold": "turkiye",
+          "predicted": "The country where Türk Telekom Arena, the stadium of Galatasaray F.C., is located is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_048",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where serka",
+          "gold": "turkiye",
+          "predicted": "The country where Türk Telekom Arena, the stadium of Galatasaray F.C., is located is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_049",
+          "question_text": "Which country is Türk Telekom Arena, the stadium of Galatasaray F.C. where felip",
+          "gold": "turkiye",
+          "predicted": "The country where Türk Telekom Arena, the stadium of Galatasaray F.C. where Felipe Jorge Loureiro played, is located in is Turkey.",
+          "difficulty": "3-hop",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_050",
+          "question_text": "Which player from caykur rizespor was born in Turkey, Cumali Bisi or gökhan öztü",
+          "gold": "Cumali Bisi",
+          "predicted": "Gökhan Öztürk is the player from Caykur Rizespor born in Turkey.",
+          "difficulty": "comparison",
+          "method": "kg_rag"
+        },
+        {
+          "question_id": "TR_051",
+          "question_text": "Which player plays for a Turkish football club, Hami Mandirali or dmitri nikolay",
+          "gold": "Hami Mandirali",
+          "predicted": "Cannot be determined from available information.",
+          "difficulty": "comparison",
+          "method": "kg_rag"
+        }
+      ]
+    }
+  },
+  "error_categories": {
+    "wrong_entity": 35,
+    "partial_match": 8,
+    "hallucination": 2
+  },
+  "difficulty_errors": {
+    "2-hop": 27,
+    "3-hop": 16,
+    "comparison": 2
+  },
+  "total_errors": 45
+}

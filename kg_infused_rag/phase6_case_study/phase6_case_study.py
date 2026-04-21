@@ -1,6 +1,7 @@
 import os
 import json
 import collections
+import time
 
 THIS_DIR   = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR   = os.path.normpath(os.path.join(THIS_DIR, "..", ".."))
@@ -161,7 +162,7 @@ def categorize_error(record: dict, m1_detail: dict) -> dict:
 def run_module1(query: str) -> dict:
     """Module 1'i verilen sorgu için çalıştır, detaylı sonuç döndür."""
     try:
-        from module1_spreading_activation import SpreadingActivation
+        from kg_infused_rag.phase4_pipeline.module1_spreading_activation import SpreadingActivation
         m1 = SpreadingActivation()
         result = m1.run(query)
         return result
@@ -211,9 +212,13 @@ for r in all_data:
 print(f"  Başarılı  (kg_rag doğru): {len(successful)}")
 print(f"  Başarısız (kg_rag yanlış): {len(unsuccessful)}")
 
-# 5'er örnek seç
-selected_success = successful[:5]
-selected_fail    = unsuccessful[:5]
+
+# Her domain için 10'ar başarılı örnek seç
+cinema_success_cases = [r for r in successful if str(r.get('domain', '')).lower() == 'cinema'][:10]
+football_success_cases = [r for r in successful if str(r.get('domain', '')).lower() == 'football'][:10]
+selected_success = cinema_success_cases + football_success_cases
+# Başarısızlar aynı şekilde kalsın
+selected_fail = unsuccessful[:5]
 
 # ── CASE STUDY ÜRETİMİ ──────────────────────────────────────────────────────
 

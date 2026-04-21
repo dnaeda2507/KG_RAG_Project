@@ -66,6 +66,7 @@ def detect_turkey_entity():
                type(r) AS relation,
                target.entityId AS target_id,
                target.name AS target_name
+               LIMIT 100
         """,
         {"tid": turkey["entityId"]},
     )
@@ -79,6 +80,7 @@ def detect_turkey_entity():
                type(r) AS relation,
                e.entityId AS target_id,
                e.name AS target_name
+                LIMIT 100
         """,
         {"tid": turkey["entityId"]},
     )

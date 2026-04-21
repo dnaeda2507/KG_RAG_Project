@@ -69,8 +69,8 @@ KEYWORD_CANDIDATE_LIMIT = 150  # Keyword arama aday sınırı
 
 # ── Module 2: Query Expansion & Wikipedia Retrieval ───────────────────────────
 K_P               = 6     # Toplam passage sayısı
-MAX_PASSAGE_CHARS = 500    # 400 → 600
-MAX_PASSAGE_LEN   = 700
+MAX_PASSAGE_CHARS = 600    # 400 → 600
+MAX_PASSAGE_LEN   = 800
 WIKI_SEARCH_DELAY = 0.4   # Wikipedia arama sonrası bekleme (saniye)
 WIKI_PAGE_DELAY   = 0.2   # Wikipedia sayfa çekimi sonrası bekleme (saniye)
 WIKI_LANGUAGE     = "en"  # Sorular İngilizce olduğu için English Wikipedia

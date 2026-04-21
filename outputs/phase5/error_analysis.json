@@ -1,0 +1,132 @@
+{
+  "kg_rag_total_errors": 96,
+  "kg_rag_error_categories": {
+    "wrong_entity": 65,
+    "partial_match": 22,
+    "hallucination": 9
+  },
+  "kg_rag_domain_errors": {
+    "football": 45,
+    "cinema": 51
+  },
+  "kg_rag_difficulty_errors": {
+    "2-hop": 58,
+    "3-hop": 32,
+    "comparison": 6
+  },
+  "sample_errors_by_method": [
+    {
+      "question_id": "TR_001",
+      "question_text": "Where was Sueleyman Seba born?",
+      "gold": "sakarya province",
+      "predicted": "Istanbul, Ottoman Empire (now Turkey)",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "no_retrieval"
+    },
+    {
+      "question_id": "TR_002",
+      "question_text": "Where was kadri aytaç born?",
+      "gold": "istanbul (turkey)",
+      "predicted": "Istanbul, Turkey",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "no_retrieval"
+    },
+    {
+      "question_id": "TR_005",
+      "question_text": "Where was Seref Has born?",
+      "gold": "istanbul (turkey)",
+      "predicted": "Istanbul, Turkey",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "no_retrieval"
+    },
+    {
+      "question_id": "TR_001",
+      "question_text": "Where was Sueleyman Seba born?",
+      "gold": "sakarya province",
+      "predicted": "5 April 1926",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "vanilla_rag"
+    },
+    {
+      "question_id": "TR_002",
+      "question_text": "Where was kadri aytaç born?",
+      "gold": "istanbul (turkey)",
+      "predicted": "I couldn't find any information about Kadri Aytaç.",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "vanilla_rag"
+    },
+    {
+      "question_id": "TR_003",
+      "question_text": "Where was Naci Erdem born?",
+      "gold": "istanbul (turkey)",
+      "predicted": "I cannot verify the birthplace of Naci Erdem.",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "vanilla_rag"
+    },
+    {
+      "question_id": "TR_001",
+      "question_text": "Where was Sueleyman Seba born?",
+      "gold": "sakarya province",
+      "predicted": "5 April 1926",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "vanilla_qe"
+    },
+    {
+      "question_id": "TR_002",
+      "question_text": "Where was kadri aytaç born?",
+      "gold": "istanbul (turkey)",
+      "predicted": "I don't have enough information to answer that question.",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "vanilla_qe"
+    },
+    {
+      "question_id": "TR_003",
+      "question_text": "Where was Naci Erdem born?",
+      "gold": "istanbul (turkey)",
+      "predicted": "There is no information available.",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "vanilla_qe"
+    },
+    {
+      "question_id": "TR_001",
+      "question_text": "Where was Sueleyman Seba born?",
+      "gold": "sakarya province",
+      "predicted": "Cannot be determined from available information.",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "kg_rag"
+    },
+    {
+      "question_id": "TR_002",
+      "question_text": "Where was kadri aytaç born?",
+      "gold": "istanbul (turkey)",
+      "predicted": "Cannot be determined from available information.",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "kg_rag"
+    },
+    {
+      "question_id": "TR_003",
+      "question_text": "Where was Naci Erdem born?",
+      "gold": "istanbul (turkey)",
+      "predicted": "Naci Erdem was born in Istanbul, Turkey.",
+      "difficulty": "2-hop",
+      "domain": "football",
+      "method": "kg_rag"
+    }
+  ],
+  "analysis": {
+    "most_common_error": "wrong_entity",
+    "hardest_difficulty": "2-hop",
+    "weakest_domain": "cinema"
+  }
+}
