@@ -476,11 +476,14 @@ Results saved to:
 
 ## 🌐 Dashboard
 
-![KG Statistics & Spreading Activation](docs/images/ss1.png)
+![KG Statistics](docs/images/ss1.png)
+*20,364 Turkish entities, spreading activation subgraph*
 
-![Seed Entities & Relation Types](docs/images/ss2.png)
+![Seed Entities](docs/images/ss2.png)  
+*Football domain seed entities & relation types*
 
-![Cypher Query Library](docs/images/ss3.png)
+![Cypher Queries](docs/images/ss3.png)
+*Neo4j Cypher query library — 3-hop path example*
 
 ### Running the Dashboard
 
