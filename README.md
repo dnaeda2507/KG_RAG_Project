@@ -416,6 +416,14 @@ results = pipeline.process_dataset(
 
 ## 📊 Output & Results
 
+### Multi-Hop Reasoning Examples
+
+**2-Hop — Cinema Domain**
+![2-hop Case Study](docs/images/case_2hop.png)
+
+**3-Hop — Cinema Domain**
+![3-hop Case Study](docs/images/case_3hop.png)
+
 ### Single Query Result
 
 ```json
@@ -467,6 +475,12 @@ Results saved to:
 ---
 
 ## 🌐 Dashboard
+
+![KG Statistics & Spreading Activation](docs/images/ss1.png)
+
+![Seed Entities & Relation Types](docs/images/ss2.png)
+
+![Cypher Query Library](docs/images/ss3.png)
 
 ### Running the Dashboard
 
