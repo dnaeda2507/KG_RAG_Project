@@ -256,6 +256,26 @@ MAX_PASSAGE_CHARS = 400      # Chars for final answer context
 ### Quick Start: Single Query
 
 ```bash
+python kg_infused_rag/phase4_pipeline/pipeline_football.py \
+  --query "In which country is Fenerbahce S.K.'s home venue located?" \
+  --method all
+```
+
+**Step 1 — Pipeline initialization, all methods queued**
+![Pipeline Start](docs/images/terminal_1.jpeg)
+
+**Step 2 — Module 1: Spreading Activation across 6 rounds, 17,359 entity pool**
+![Module 1 Spreading Activation](docs/images/terminal_2.jpeg)
+
+**Step 3 — Module 2: Query Expansion & Wikipedia Retrieval (6 unique passages)**
+![Module 2 Query Expansion](docs/images/terminal_3.jpeg)
+
+**Step 4 — Module 3: KG-Augmented Answer Generation + all methods comparison**
+![Module 3 Answer Generation](docs/images/terminal_4.jpeg)
+
+
+
+```bash
 python kg_infused_rag/phase4_pipeline/pipeline.py \
   --query "Galatasaray'ın teknik direktörünün doğum yeri neresidir?"
 ```
